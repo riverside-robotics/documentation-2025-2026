@@ -1,687 +1,176 @@
-# About Riverside
 
-Riverside High School is a public high school located in Painesville, Ohio, serving the communities of Painesville Township, Concord, Leroy, and Grand River in Lake County. Part of Riverside Local Schools, the district holds true to its mission of providing *A Pathway to Excellence* by immersing students in educational opportunities that prepare them for success in college, careers, and beyond. Riverside strives to develop well-rounded individuals who are proactive in their communities and equipped with the skills necessary to thrive in a rapidly evolving world.
+Spinlayden Riverside Robotics
+School: Riverside High School
+585 Riverside Dr, Painesville, OH 44077 
 
+Advisors: Jack Carbone, Adam Carbone
+Industry Advisor: JT Mackey
+Team Members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha,John Barrow,Benjamin Mackey,Richard Rowland,Lukas Rico-Palamino.
+
+
+Meet the Robotics team
+Overview: Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four
+months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the robotics team has greatly expanded to 26 students.
+2026 Design:
+
+
+
+Table of Contents
+About Riverside	2
+Our Partners	5
+WEIIII - Riverside Robotics	6
+Design	7
+Influences	8
+Key stats of the bot:	8
+What was changed from the previous design:	8
+Project Overview	9
+General information:	9
+Sponsors	9
+Advisors:	9
+Manufacturing	9
+Bot Description	9
+Objective	9
+Team Members	10
+Deliverables	10
+Key Milestones	10
+Constraints/Risks	10
+Dependables	10
+Team Meltdown - Tasks Distribution	11
+Project assignments	12
+Meeting Minutes / Meeting Notes	14
+Riverside Robotics Kickoff Meeting (Introduction)	15
+October 1st Meeting (Introduction)	16
+October 8th Meeting (Introduction)	18
+October 15th Meeting (Design)	19
+October 22nd Meeting (Design)	20
+October 29th Meeting (Design)	21
+November 5th Meeting (Design / Documentation)	22
+November 12th Meeting (Design / Documentation)	23
+November 19th Meeting (Design)	25
+December 3rd Meeting	26
+December 10th Meeting	27
+December 17th Meeting	28
+January 7th Meeting	29
+January 14th Meeting	30
+January 27th Meeting	31
+February 3rd Meeting	32
+February 10th Meeting	33
+February 17th Meeting	34
+February 24th Meeting	35
+March 3rd Meeting	36
+March 10th Meeting	37
+March 17th Meeting	38
+March 31st Meeting	39
+April 3rd Meeting	40
+April 7th Meeting	41
+Team Procedures:	46
+Design process	49
+About Riverside
+Riverside High School is a public high school located in Painesville, Ohio, serving the communities of Painesville Township, Concord, Leroy, and Grand River in Lake County. Part of Riverside Local Schools, the district holds true to its mission of providing A Pathway to Excellence by immersing students in educational opportunities that prepare them for success in college, careers, and beyond. Riverside strives to develop well-rounded individuals who are proactive in their communities and equipped with the skills necessary to thrive in a rapidly evolving world.
 Connecting with this commitment to excellence, Riverside Robotics encourages hands-on learning, creative problem-solving, and independent thinking—qualities that are essential both in the arena and in life. Advised by Jack Carbone and Adam Carbone, both Class of 2023 alumni who returned to volunteer their time, Riverside Robotics aims to uphold the school's mission through the range of experiences in which students participate.
-
-Riverside Robotics has a rich history dating back to the 2010s, competing in the AWT RoboBots program at Lakeland Community College—Ohio's largest regional combat robotics competition and a National Robotics League sanctioned event. In 2021, the team earned third place with *Pfizer and Moderna*, a pair of weaponless wedge bots designed around a strategy of control, domination, and superior torque. The following year, the team fielded *Mass and Acceleration*, a non-uniform dual-bot entry featuring both spinner and wedge designs, demonstrating the program's continued commitment to innovation and experimentation.
-
-Following a brief hiatus, Riverside Robotics was revived in 2025 when alumni advisors Jack and Adam Carbone returned to reestablish the program. In just four months, from January to April, not only was a team of eight students formed, but Riverside Robotics also learned to design and manufacture its first robot in years: *Spinlayden*, a 15-pound meltybrain smart spinner. Although competition results were modest, the inaugural revival season proved to be an overwhelming success—a year defined by excitement, growth, and invaluable learning experiences for every member of the new team.
-
+Riverside Robotics has a rich history dating back to the 2010s, competing in the AWT RoboBots program at Lakeland Community College—Ohio's largest regional combat robotics competition and a National Robotics League sanctioned event. In 2021, the team earned third place with Pfizer and Moderna, a pair of weaponless wedge bots designed around a strategy of control, domination, and superior torque. The following year, the team fielded Mass and Acceleration, a non-uniform dual-bot entry featuring both spinner and wedge designs, demonstrating the program's continued commitment to innovation and experimentation.
+Following a brief hiatus, Riverside Robotics was revived in 2025 when alumni advisors Jack and Adam Carbone returned to reestablish the program. In just four months, from January to April, not only was a team of eight students formed, but Riverside Robotics also learned to design and manufacture its first robot in years: Spinlayden, a 15-pound meltybrain smart spinner. Although competition results were modest, the inaugural revival season proved to be an overwhelming success—a year defined by excitement, growth, and invaluable learning experiences for every member of the new team.
 At Riverside, the robotics program has achieved significant success beyond the arena. Alumni of the program have gone on to pursue degrees in mechanical engineering, software engineering, and other engineering disciplines at colleges and universities. Through robotics, students gain exposure to real-world manufacturing skills, CAD design, electronics, and the iterative process of engineering—experiences that have shaped their academic and professional futures.
-
-The 2025-2026 season marks a historic expansion for Riverside Robotics. The high school program has grown to approximately 30 students across two competition teams: **Team Meltdown**, fielding *Spinlayden 2.0*, an evolved iteration of the meltybrain spinner; and **Team Stark**, debuting *Jarvis*, a hammer bot. Additionally, the JuniorBots program was revived from scratch this year, with two middle school teams—**Team Pickle Pirates** competing with *The Pickler*, a horizontal spinner, and **Team Tornados** bringing *The Tempest* to the arena. Each JuniorBots team boasts 15 to 20 students, a testament to the growing enthusiasm for robotics throughout the district.
-
+The 2025-2026 season marks a historic expansion for Riverside Robotics. The high school program has grown to approximately 30 students across two competition teams: Team Meltdown, fielding Spinlayden 2.0, an evolved iteration of the meltybrain spinner; and Team Stark, debuting Jarvis, a hammer bot. Additionally, the JuniorBots program was revived from scratch this year, with two middle school teams—Team Pickle Pirates competing with The Pickler, a horizontal spinner, and Team Tornados bringing The Tempest to the arena. Each JuniorBots team boasts 15 to 20 students, a testament to the growing enthusiasm for robotics throughout the district.
 The goal of Riverside Robotics is not only to compete at the highest level, but also to spread the joy of engineering and instill valuable skills applicable in the real world. Through teamwork and collaboration, students learn how to support each other, solve complex problems under pressure, and transform ideas into reality. This aligns closely with Riverside's mission of providing a pathway to excellence, and embodies a spirit of innovation, leadership, and perseverance.
 
----
 
-# Our Partners
-
+Our Partners
 Riverside Robotics is proud to partner with local businesses and organizations that share our commitment to inspiring the next generation of engineers and innovators. Their generous support makes our program possible.
-
-### Monode Marking Products
-
 Monode Marking Products is a world-leading manufacturer of industrial marking equipment, headquartered in Mentor, Ohio. Founded in 1956, Monode specializes in electrochemical etching, dot peen, laser marking, and machine vision systems, serving industries including aerospace, automotive, defense, and medical manufacturing. Monode provides Riverside Robotics with shop access for machining, mentorship from professional engineers, and funding for materials. JT Mackey, President of Monode Marking Products, is our Industry Advisor.
-
-### Arc Technology LLC
-
 Arc Technology LLC is an electronics and engineering company founded in 2025 by Riverside Robotics advisor Adam Carbone. Based in Cleveland, Ohio, Arc Technology designs, develops, and delivers innovative products across engineering, electronics, and emerging technologies. Their flagship product, the FPV Sim Link, is a patent-pending device that converts HDMI to 5.8GHz RF for FPV drone simulator training. Arc Technology provides financial support to help sustain and grow the robotics program.
-
-### Show Studio LLC
-
 Show Studio LLC is a software company founded in 2025 by Riverside Robotics advisor Jack Carbone. Inspired by Riverside High School's own Riverside Regiment marching band, Show Studio develops marching band drill design software delivered as a Software-as-a-Service platform. The software features 3D visualization and coordinate generation tools to help band directors and designers bring their creative visions to life. Currently in beta, Show Studio provides Riverside Robotics with funding, 3D printers, portable CNC mills, and other materials essential for robot fabrication.
-
 Through the combined support of our partners, Riverside Robotics is able to offer students access to professional-grade resources, real-world manufacturing experience, and mentorship that prepares them for careers in engineering and technology.
 
----
 
-# WEIIII - Riverside Robotics
+WEIIII - Riverside Robotics
+Placeholder for formatting reasons
+Design
+
+There is something big coming here, I think. To Future Tom: Please remember to talk to Adam and the design team about the table from the example doc on pages 14-15 
+
+This is what we have so far: 
+
+Previous Bot:
+Influences
+This year's Riverside Robotics Bot is, of course, inspired by the previous years' Spinlayden bot. It’s similar to this year’s bot, going by the same name, with some improvements that have been implemented in this new version. We also hopefully improved on… (Waiting for answer as I wasn’t a part of last year's team)
+
+
+Key stats of the bot:
+Weight: 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz)
+Weapon Speed: 645.6 RPM (~26.9 mph tip speed)
+Motor Power: ~0.75 hp (drive and weapon combined)
+Translational Speed: 1–2 ft/s while spinning
+Material: 6061 aluminum chassis, A516 carbon steel blades
+Blade Count: 6 blades, 6.33 oz each, ~4” long (estimated)
+Torque: ~5 Nm per drive motor (estimated, 21:1 reduction)
+What was changed from the previous design:
+Weight reduction that goes part of the way through the bot without sacrificing durability(No weight reduction holes)
+Changes the style of weight reduction
+Everything was pushed away from the walls to reduce the risk of damage
+Housing for the Raspberry Pi
+Changed tips of blades to make them sharper (improves puncture)
+Changed blades from claw to spike 
+Maintained its length and increased lethality
+
+Project Overview
+General information:
+Name: Spinlayden 
+Project Number
+5 
+Start of Session:
+9/24/2025 
+Date of Completion
+4/25/2026
+Sponsors 
+Monode Marking Products, Inc., Show Studio LLC, Arc Technology LLC
+Advisors:
+ Jack Carbone Adam Carbone
+Manufacturing
+This is also a placeholder
+Bot Description
+Spinlayden is a 15-pound combat robot to compete in the Regional RoboBots
+Contest organized by Alliance for Working Together (AWT). Spinlayden goes into V2 this year; this year's focus isn’t to reinvent the Riverside Bot, but instead to look at what failed last year, and where the team ran out of time. This year, Riverside robotics has a much bigger team than last year, and we are keen on using this extra help to hopefully win the AWT competition.
+The High School Robotics Club is also an opportunity for Riverside Students to learn about manufacturing, engineering, teamwork, design, software, and documentation
+used in the engineering process.
+Objective
+Metric
+Baseline
+Project Goal
+Software 
+Software that allows us not only to control the spinning of our bot, but also its movements. 
+Writing a robust Python script that does the Physics needed to move and spin at the same time. 
+Robustness
+Withstanding damage from other bots and even getting flipped over. 
+Keeping the bot drivable and protecting the bot's “Brain” at all costs. 
+Offensive Output
+Spinlayden's ability to harm other teams' bots. 
+Making sure that Spinlayden is the most powerful bot at the Competition. 
+Team Members
+ Jayden Craig Lukas Dauksa Dustin Hance Alexander Holmes Yash Jain Sultan Kazeem Tom Kramer Ayden Moore Robert Rateno Vincent Riha Adam Pakeltis  Jason Kellhofer Xayden Minch Mher Poghosyan Daniel George
+Deliverables
+Company sponsor information:
+Statement of robot design intent:
+Robot design specification and assembly:
+Research and robot design ideas:
+Manufacturing procedure of robot design:
+Quality control specifications and testing:
+Possible robot design changes:
+Key Milestones
+Milestones 
+Target Date
+Introduction
+Sep 24 - Oct 8
+Design
+Oct 9 - Dec 7
+Build
+Jan 5 - Mar 17
+Prepare
+Mar 18 - Apr 25
+Battle
+Apr 26
+Constraints/Risks
+/Dependables
+Since Riverside Robotics has designed, manufactured, and built a bot like Spinlayden before, it isn’t too much of a challenge to do the same for a new version. However, the manufacturing part needs to be figured out again this year, since we don’t have a clear manufacturing partner at the time of writing this documentation. Luckily, we can rely on our experienced advisors to help with this task. 
 
-*Placeholder for formatting reasons*
 
-## Design
-
-> There is something big coming here, I think. To Future Tom: Please remember to talk to Adam and the design team about the table from the example doc on pages 14-15.
-
-This is what we have so far:
-
-### Previous Bot: Influences
-
-This year's Riverside Robotics Bot is, of course, inspired by the previous years' Spinlayden bot. It's similar to this year's bot, going by the same name, with some improvements that have been implemented in this new version. We also hopefully improved on... *(Waiting for answer as I wasn't a part of last year's team)*
-
-### Key Stats of the Bot
-
-| Stat | Value |
-|------|-------|
-| **Weight** | 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz) |
-| **Weapon Speed** | 645.6 RPM (~26.9 mph tip speed) |
-| **Motor Power** | ~0.75 hp (drive and weapon combined) |
-| **Translational Speed** | 1-2 ft/s while spinning |
-| **Material** | 6061 aluminum chassis, A516 carbon steel blades |
-| **Blade Count** | 6 blades, 6.33 oz each, ~4" long (estimated) |
-| **Torque** | ~5 Nm per drive motor (estimated, 21:1 reduction) |
-
-### Changes from the Previous Design
-
-- Weight reduction that goes part of the way through the bot without sacrificing durability (no weight reduction holes)
-- Changed the style of weight reduction
-- Everything was pushed away from the walls to reduce the risk of damage
-- Housing for the Raspberry Pi
-- Changed tips of blades to make them sharper (improves puncture)
-- Changed blades from claw to spike — maintained length and increased lethality
-
----
-
-## Project Overview
-
-| Field | Detail |
-|-------|--------|
-| **Name** | Spinlayden |
-| **Project Number** | 5 |
-| **Start of Session** | 9/24/2025 |
-| **Date of Completion** | 4/25/2026 |
-| **Sponsors** | Monode Marking Products, Inc., Show Studio LLC, Arc Technology LLC |
-| **Advisors** | Jack Carbone, Adam Carbone |
-
-### Manufacturing
-
-*This is also a placeholder*
-
-### Bot Description
-
-Spinlayden is a 15-pound combat robot to compete in the Regional RoboBots Contest organized by Alliance for Working Together (AWT). Spinlayden goes into V2 this year; this year's focus isn't to reinvent the Riverside Bot, but instead to look at what failed last year, and where the team ran out of time. This year, Riverside Robotics has a much bigger team than last year, and we are keen on using this extra help to hopefully win the AWT competition.
-
-The High School Robotics Club is also an opportunity for Riverside Students to learn about manufacturing, engineering, teamwork, design, software, and documentation used in the engineering process.
-
-### Objectives
-
-| Objective | Metric | Baseline | Project Goal |
-|-----------|--------|----------|--------------|
-| **Software** | Software that allows us not only to control the spinning of our bot, but also its movements. | — | Writing a robust Python script that does the physics needed to move and spin at the same time. |
-| **Robustness** | Withstanding damage from other bots and even getting flipped over. | — | Keeping the bot drivable and protecting the bot's "Brain" at all costs. |
-| **Offensive Output** | Spinlayden's ability to harm other teams' bots. | — | Making sure that Spinlayden is the most powerful bot at the competition. |
-
-### Team Members
-
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Tom Kramer, Ayden Moore, Robert Rateno, Vincent Riha, Adam Pakeltis, Jason Kellhofer, Xayden Minch, Mher Poghosyan, Daniel George, Lukas Rico-Palomino, Kaydan Kerr, Richard Rowland, John Barrow, Kasey Kurzinger, Benjamin Mackey
-
-### Deliverables
-
-1. Company sponsor information
-2. Statement of robot design intent
-3. Robot design specification and assembly
-4. Research and robot design ideas
-5. Manufacturing procedure of robot design
-6. Quality control specifications and testing
-7. Possible robot design changes
-
-### Key Milestones
-
-| Milestone | Target Date |
-|-----------|------------|
-| Introduction | Sep 24 - Oct 8 |
-| Design | Oct 9 - Dec 7 |
-| Build | Jan 5 - Mar 17 |
-| Prepare | Mar 18 - Apr 25 |
-| Battle | Apr 26 |
-
-### Constraints / Risks / Dependables
-
-Since Riverside Robotics has designed, manufactured, and built a bot like Spinlayden before, it isn't too much of a challenge to do the same for a new version. However, the manufacturing part needs to be figured out again this year, since we don't have a clear manufacturing partner at the time of writing this documentation. Luckily, we can rely on our experienced advisors to help with this task.
-
----
-
-## Team Meltdown - Tasks Distribution
-
-### Project Assignments
-
-| Name | Role | Grade |
-|------|------|-------|
-| Jack Carbone | Advisor | Advisor |
-| Adam Carbone | Advisor | Advisor |
-| Jayden Craig | Mechanical, Marketing, Electrical | 10th |
-| Lukas Dauksa | Electrical | 11th |
-| Dustin Hance | Software | 11th |
-| Alexander Holmes | — | 11th |
-| Yash Jain | Electrical | 9th |
-| Sultan Kazeem | Management, Finance, Assembler | 11th |
-| Tom Kramer | Software, Documentation | 11th |
-| Ayden Moore | Mechanical | 11th |
-| Robert Rateno | Operator, Mechanical, Assembler | 10th |
-| Vincent Riha | Software | 10th |
-| Adam Pakeltis | Mechanical | 12th |
-| Jason Kellhofer | Documentation | 9th |
-| Xayden Minch | Software | 9th |
-| Mher Poghosyan | Documentation, Mechanical | 11th |
-| Lukas Rico-Palomino | Documentation | 8th |
-| Kaydan Kerr | — | 8th |
-| Daniel George | Documentation | 11th |
-| Richard Rowland | Documentation | 8th |
-| John Barrow | Mechanical | 8th |
-| Kasey Kurzinger | Advisor | 8th |
-| Benjamin Mackey | Documentation | 8th |
-
----
-
-## Meeting Minutes
-
----
-
-### September 24, 2025 — Riverside Robotics Kickoff Meeting (Introduction)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** We talked about robotics and what is going to happen this season. This is very important since we have a lot of new students compared to last year.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Introduce the team to robotics | Started the documentation |
-| Showed competition and dates | Made multiple designs for choosing later |
-| Everybody joined the Google Classroom | |
-| Made ideas for new robots | |
-| Watched old competitions | |
-
----
-
-### October 1, 2025 — October 1st Meeting (Introduction)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** In this meeting, we continued where we left off at the last meeting. With all of the ideas for bot designs, names, etc. flowing, it was time to start analyzing and comparing designs of the past to determine what form factor the teams would lock on to this year. Every team has a maximum of 10 meetings left to design their bot and get the parts list to our sponsors for ordering.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Analyze and compare various bot design ideas (form factors, names, etc.) | The Bot is going to be a meltybrain called Spinlayden |
-| Determine and lock on to the final bot form factor/design for the year | Team setup, showing what will happen in the coming meetings |
-| Continue design work under the constraint of a maximum of 10 remaining meetings | |
-| Prepare and finalize the parts list for the sponsors for ordering | |
-
----
-
-### October 8, 2025 — October 8th Meeting (Introduction)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today's meeting focused on planning and beginning bot modeling. Teams began modeling in Fusion 360 or set up accounts as needed. We also drive-tested old bots if the setup was complete, and included some team-building activities to help everyone connect and have fun.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Focus on planning for the bot | Creation of accounts to start modeling |
-| Begin bot modeling (e.g., in Fusion 360) | Drive testing for earlier bots |
-| Set up Fusion 360 accounts as needed | |
-| Drive-test old bots if the setup is complete | |
-| Conduct team-building activities | |
-
----
-
-### October 15, 2025 — October 15th Meeting (Design)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today we drilled a few holes. We switched the Pi we were using, which resolved our Bluetooth issue. We began setting up the gyroscope and got cables gifted by an Engineering Teacher.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Work on Pi | There will be 2 teams |
-| Solving Bluetooth issues | |
-| Setting up Gyro | |
-| Get the new teams used to Robotics | |
-
----
-
-### October 22, 2025 — October 22nd Meeting (Design)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Our team was split into two tasks today. One group worked on the CAD design and parts list for the bot, while the other focused on the Raspberry Pi, setting it up and writing the Python script to enable the meltybrain to spin.
-
-**Attendees:** Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Robert Rateno
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Worked on Pi | N/A |
-| Updated code | |
-| Work on the CAD design | |
-| Started parts list | |
-
----
-
-### October 29, 2025 — October 29th Meeting (Design)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we continued working on split tasks; both the design and coding teams made progress.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Continued on CAD and parts list | — |
-| Continued Coding | |
-
----
-
-### November 5, 2025 — November 5th Meeting (Design / Documentation)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we took part in AWT's documentation Zoom Call. We spent the rest of the meeting splitting again into a CAD design team, a Coding team, and a documentation team that was newly formed today.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Continued on CAD and parts list | Who would be working on documentation |
-| Continued Coding | |
-
----
-
-### November 12, 2025 — November 12th Meeting (Design / Documentation)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we discussed how we could improve Spinlayden, which included reinforcing weak points from last year's design. We also started fixing our CNC mill and started teaching ourselves how to turn CAM models into finished CNC pieces. This will be used to test the improvements we worked out earlier in this meeting. People from the coding team started electrical work (ESC) for testing our code with the motors.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Tom Kramer, Xayden Minch, Ayden Moore, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Discussed and planned improvements for Spinlayden, focusing on reinforcing weak points from last year's design | — |
-| Started fixing the CNC mill | |
-| Began learning how to turn CAM models into finished CNC pieces (to be used for testing improvements) | |
-| The coding team started electrical work (ESC) for testing code with the motors | |
-
----
-
-### November 19, 2025 — November 19th Meeting (Design)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** In this meeting, we focused on mechanical engineering (the primary design), software integration, and all electrical components.
-
-**Attendees:** Lukas Dauksa, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Focus on mechanical engineering (the primary design) | — |
-| Focus on software integration | |
-| Focus on all electrical components | |
-
----
-
-### December 3, 2025 — December 3rd Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we reviewed the game plan. Following this, we split into groups again, and worked in parallel. One group worked on the CAD design in Fusion 360, focusing and learning about its use and tools. Another group sourced and located necessary electronics and put them into the parts list. A third group worked on the software for the bot using our Raspberry Pi. Finally, we concluded the meeting with a wrap-up, clean-up, and final reminders for the upcoming deadlines.
-
-**Attendees:** Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Work on the CAD design in Fusion 360, focusing on learning its tools and usage | — |
-| Locate necessary electronics and put them into the parts list | |
-| Work on the software for the bot using the Raspberry Pi | |
-
----
-
-### December 10, 2025 — December 10th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we split into groups again. The Coding group implemented code-server (github.com). Got the code running wirelessly on code-server. We can now remote into the Pi and don't need a display anymore. The design team modeled weapons for Spinlayden.
-
-**Attendees:** Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| The coding group implemented code-server | — |
-| Got the code running wirelessly on code-server (enabling remote access to the Pi without a display) | |
-| The design team modeled Spinlayden weapons | |
-
----
-
-### December 17, 2025 — December 17th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we figured out how to implement a battery pack onto the Pi, troubleshooting controls with an Xbox controller, updating code-server, designing part of the main body, and got GitHub Copilot running in code server.
-
-**Attendees:** Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Figured out how to implement a battery pack onto the Pi | — |
-| Troubleshooting controls with an Xbox controller | |
-| Updating code-server | |
-| Designed part of the main body | |
-| Got GitHub Copilot running in code server | |
-
----
-
-### January 7, 2026 — January 7th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we had a big setback in the Coding group. Our Pi with the already set up Code and Software seems to be corrupted and won't turn on anymore. We also figured out that an Xbox first-party controller is not the best controller we could use since Bluetooth often causes problems with the Pi. We ordered a replacement for the Pi and a controller that uses a 2.4GHz USB-A adapter; this will hopefully stop future problems. The design team was working on the CAD design and figuring out weight reduction.
-
-**Attendees:** Alexander Holmes, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Troubleshoot and replace the corrupted Raspberry Pi to restore the code and software setup | Replacing the first-party Xbox Controller |
-| Address Bluetooth issues by ordering and implementing a new 2.4GHz USB-A adapter controller | |
-| Work on the CAD design | |
-| Analyze and implement weight reduction strategies | |
-
----
-
-### January 14, 2026 — January 14th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Worked on choosing between what we could make our bot out of. We worked on meeting notes and coding during this meeting.
-
-**Attendees:** Dustin Hance, Alexander Holmes, Jason Kellhofer, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Vincent Riha
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Carbon fiber or titanium | Using carbon fiber |
-| Batteries | |
-| Parts list as well as pricing | |
-
----
-
-### January 27, 2026 — January 27th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Today, we had a Virtual Meeting since the high school was closed due to weather conditions. We simplified the software; we are now using SSH and Tailscale. The Design team worked more on the design as the deadline is coming up. The big challenge for them today was figuring out how to space out the components so that we have the most amount of possible space for batteries.
-
-**Attendees:** Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Adam Pakeltis, Robert Rateno
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Simplified the software, implementing SSH and Tailscale | How to space out the components |
-| Design team worked more on the design as the deadline is coming up | Switch to SSH, as it's more lightweight than Code-Server |
-| Figured out how to space out the components to have the most amount of possible space for batteries | |
-
----
-
-### February 3, 2026 — February 3rd Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Attendees:** Sultan Kazeem, Dustin Hance, Tom Kramer, Mher Poghosyan, Robert Rateno, Adam Pakeltis, Yash Jain, Xayden Minch, Jason Kellhofer
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Rerolled Software in C# | N/A |
-| Deployed into Pi | |
-
----
-
-### February 10, 2026 — February 10th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** Dustin set up the Raspberry Pi as well as put it on a larger monitor for everyone to see.
-
-**Attendees:** All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Tidying up documentation | N/A |
-| Worked on bot design | |
-
----
-
-### February 17, 2026 — February 17th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** We were inhibited by a lack of equipment and a shortage of SD cards, so we enjoyed each other's company and spent time bonding as a team.
-
-**Attendees:** All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| No significant progress | Remember to bring SD cards |
-
----
-
-### February 24, 2026 — February 24th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** In this meeting the two teams merged into one unified team (8th grade and high school). We analyzed old battle footage. Teaching new 8th grade members about codebase and figuring out why the translation engine keeps logging errors.
-
-**Attendees:** All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George, John Barrow, Benjamin Mackey, Richard Rowland, Lukas Rico-Palomino, Kaydan Kerr
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Analyzed old battle footage | Merging the two teams into one unified team |
-| Teach new members about codebase | |
-| Fixing translation engine | |
-
----
-
-### March 3, 2026 — March 3rd Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Notes:** 8th graders were absent due to a field trip. All productivity went out the window once Dominos arrived.
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Fixed issues with wiring within the bot | N/A |
-
----
-
-### March 10, 2026 — March 10th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Figure out what's causing the gyro's inaccuracies | We bought a Raspberry Pi Pico |
-| Set up the Raspberry Pi Pico to translate between hardware and the software running on the Pi 4B | Decided not to use the Pico |
-
-> **Note:** The Pico was not needed because we realized the receiver we are using can send data packets to the Pi 4 that the Pi can understand and work with on its own without external hardware. This led to us swapping over to just using the main Pi instead of using the Pico to translate.
-
----
-
-### March 17, 2026 — March 17th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| We got the bot to spin, tested with a lower power motor for safety | Add Loctite to the screws to prevent them from flying out due to rotational speed |
-| 3D printing test parts | |
-| Record software data and issues | |
-
----
-
-### March 31, 2026 — March 31st Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Daniel George, Tom Kramer
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Retrofitted the 3D printed parts onto Spinlayden | N/A |
-
----
-
-### April 3, 2026 — April 3rd Meeting (Optional Meeting)
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Attendees:** Dustin Hance, Xayden Minch, Robert Rateno, Daniel George, Jason Kellhofer, Benjamin Mackey, Tom Kramer
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Have a team research the catalog power supply to purchase to fix the CNC mill | Buy a new power supply for the CNC machine |
-| Find super glue | |
-| Redesign battery holder because the old one was too small | |
-| Work on documentation | |
-| Assemble test bot | |
-| Work on software | |
-
----
-
-### April 7, 2026 — April 7th Meeting
-
-**Time:** 5:30 PM - 7:30 PM
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Daniel George, Tom Kramer, Yash Jain
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Work on assembling prototype Spinlayden | Purchase more 10-24 Phillips head screws |
-| Look for 10-24 screws | |
-| Look for a new drill and/or battery | |
-
----
-
-### April 11, 2026 — April 11th Meeting (Optional Meeting)
-
-**Time:** 10:00 AM - 1:00 PM
-
-**Attendees:** Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Daniel George, Yash Jain
-
-| Tasks and Goals | Decisions |
-|----------------|-----------|
-| Connect the new power supply to the CNC machine | — |
-| Finish assembling the prototype bot | |
-| Added screws, battery, and 18V screwdriver to the parts list | |
-| Organize supplies | |
-| Test the prototype bot | |
-
----
-
-## Research
-
-### Configuration: The Structure of the Bot
-
-**Weaknesses:**
-- Raspberry Pi was put in the bot for local controller processing, leading to more points of failure (in previous years, there was only a receiver)
-
-**Strengths:**
-- The bot can still move when flipped over
-
-### Offensive Strategies
-
-- Rush opponents at 1-2 ft/s using ~0.75 hp motors to seize control and force reactive defenses
-- Spin at 645.6 RPM to deflect attacks with a ~26.9 mph blade barrier, priming for counterstrikes
-- Strike with 15-lb spinning mass and six blades (~78 J/rotation) to exploit opponent vulnerabilities
-- Sustain 645.6 RPM spins and agile steering to keep opponents defensive and disoriented
-- Recover from flips in ~2 seconds using double-sided design to resume aggressive maneuvers
-
-### Defensive Strategy
-
-- Spin at 645.6 RPM to create a ~20-30 mph steel barrier, deflecting attacks and protecting internal components
-- Accelerate at 1-2 ft/s to retreat if needed from opponents, gaining time to recover and spin up
-- Utilize weight reduction in 6061 aluminum chassis for airflow during spin sessions
-- Maintain spinning via two-motor drive system while maneuvering, minimizing stationary vulnerabilities
-- Two operators — one for driving and one for operations, modes, etc.
-- Operate effectively when flipped using double-sided design, reducing downtime from impacts
-
-### Key Stats
-
-| Stat | Value |
-|------|-------|
-| **Weight** | 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz) |
-| **Weapon Speed** | 645.6 RPM (~26.9 mph tip speed) |
-| **Motor Power** | ~0.75 hp (drive and weapon combined) |
-| **Translational Speed** | 1-2 ft/s while spinning |
-| **Material** | 6061 aluminum chassis, A516 carbon steel blades |
-| **Blade Count** | 6 blades, 6.33 oz each, ~4" long (estimated) |
-| **Torque** | ~5 Nm per drive motor (estimated, 21:1 reduction) |
-
----
-
-## Analysis and Conceptualization
-
-We started by analyzing the old model of the bot made last year. Using inspiration and some parts from the older bot, it allowed us to build on the mistakes made from our last year. To build a better bot by fixing those mistakes and malfunctions that were present in last year's design.
-
-Since Riverside's Robotic Club expanded vastly in size this year, we have done some restructuring in the fundamentals of our teams. The Robotics club expanded from 8 students to 20 this year. This led our advisors to split robotics into 2 different Riverside teams: the Spinlayden team and the Stark team. Our team, Spinlayden, has 14 members. After forming the teams, we took several measures:
-
-- Watched previous AWT competitions and noted the performance of other bots and on what design they relied on
-- Reviewed the prior Riverside design and analyzed the most significant obstacles and problems
-- Whiteboarded various ideas, as well as comparing their advantages and weaknesses
-- Started a basic CAD design in Fusion 360 that we could build on over the season
-
-## Design Motivation
-
-Spinlayden's design is driven by the goal of delivering maximum damage while maintaining mobility and resilience. The 14" x 12" hexagonal chassis, crafted from 1/8" 6061 aluminum with cutouts on the inner half of the walls to reduce weight, allows us to spin at 645.6 RPM.
-
-The Melty-Brain system, powered by two UltraPlanetary motors, combines high torque with precise control via Raspberry Pi 4B, running a Python script that utilizes the physics from the OpenMelt project on GitHub, allowing Spinlayden to spin as both a weapon and a shield, while still being able to move at the same time.
-
-Six A516 carbon steel blades, totaling 38 oz, are attached to the outer walls of the chassis to maximize damage output (estimated 78J per rotation) without compromising the 15-lb weight limit.
-
-## Team Procedures
-
-**Material Management** is done by keeping an inventory of parts that are left from previous years. We try to reuse as many unused and old parts as possible to save money and time when designing the bot. Some parts need replacement or are new this year compared to what we already have. Listed below is our parts list for Riverside Robotics Team Spinlayden this year, and the Budget.
-
-### Our Component Philosophy
-
-Spinlayden is a bot based on last year's Riverside Meltybrain by the same name. Using the same design as last year gives us some very important benefits over creating a full new design. We can, for example, profit from the knowledge the returning members of Riverside Robotics bring; they know how the bot was designed last year and what is important to think of. We can also use Spinlayden 1.0's performances as a "testing base" for this year's bot, as we know which mistakes to avoid this year.
-
-Another key part to going with a very similar design again is that we can use spare and old parts from last year, and either replace them partially or just reuse them. This allows Riverside Robotics to cut costs. We also save time when creating the CAD design since we know how big the working parts are, and we already have 3D Models for them.
-
-Like last year, Spinlayden uses a custom-fabricated chassis to optimize our performance, space, and weight. While the chassis may look the same from the outside, we have redesigned it from the ground up. This year we are using a different weight reduction that allows us to give better protection to the internal components, especially since the controller inputs are processed on a Raspberry Pi inside the bot itself this year instead of having the computing be done on a laptop that connects to the bot.
-
-Spinlayden's chassis also allows us to benefit from **Hexagonal Strength**. This means that the six-sided shape of the chassis provides inherent structural rigidity and resistance to impact from any angle, essential for a combat robot like Spinlayden, and also allows for mounting the six blades for attack and usage.
-
-All of this combined gives us more control, achieved through weight distribution, custom parts, and machining — allowing our bot to have an equal weight distribution across, which enables precise movements and control throughout.
-
-## Fabrication
-
-Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. These methods of fabrication allow our body to operate as it does:
-
-- **CNC Milling**
-- **3D Printing**
-
-## Design Process
-
-**Research Methods:** We started by analyzing previous AWT competitions and even other competitions/streams online. We analyzed the success, strengths, and weaknesses of our own bots and other teams.
-
-**Refinement:** *(TBD)*
-
-**Structural Analysis:** *(TBD)*
-
-**Engineering Drawing Set:** Don't have these yet.
-
-## Design Process (Continued)
-
-**Weapon System Details:** *(TBD)*
-
-**Drive System Details:** *(TBD)*
-
-**Power System Details:** *(TBD)*
-
-**Wiring Schematic:** *(TBD)*
-
-**Testing Results:** *(TBD)*
-
-**That's a wrap!** *(TBD)*
-
-**Closing Remarks:** *(TBD)*
