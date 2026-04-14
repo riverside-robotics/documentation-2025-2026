@@ -24,6 +24,11 @@
 - Benjamin Mackey
 - Richard Rowland
 - Lukas Rico-Palamino
+- Yash Jain
+- Adam Pakeltis
+- Daniel George
+- Kaydan Kerr
+- Kasey Kurzinger
 
 ---
 
@@ -229,6 +234,35 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 ## Team Meltdown - Tasks Distribution
 
 ### Project Assignments
+
+| Name | Role | Grade |
+|------|------|-------|
+| Jack Carbone | Advisor | Advisor |
+| Adam Carbone | Advisor | Advisor |
+| Jayden Craig | Mechanical, Marketing, Electrical | 10th |
+| Lukas Dauksa | Electrical | 11th |
+| Dustin Hance | Software | 11th |
+| Alexander Holmes | I have not see him work | 11th |
+| Yash Jain | Electrical | 9th |
+| Sultan Kazeem | Management, Finance, Assembler | 11th |
+| Tom Kramer | Software, Documentation | 11th |
+| Ayden Moore | Mechanical | 11th |
+| Robert Rateno | Operator, Mechanical, Assembler | 10th |
+| Vincent Riha | Software | 10th |
+| Adam Pakeltis | Mechanical | 12th |
+| Jason Kellhofer | Documentation | 9th |
+| Xayden Minch | Software | 9th |
+| Mher Poghosyan | Documentation, Mechanical | 11th |
+
+| Name | Role | Grade |
+|------|------|-------|
+| Lukas Rico-Palomino | Documentation | 8th |
+| Kaydan Kerr | | 8th |
+| Daniel George | Documentation | 11th |
+| Richard Rowland | Documentation | 8th |
+| John Barrow | Mechanical | 8th |
+| Kasey Kurzinger | Advisor | 8th |
+| Benjamin Mackey | Documentation | 8th |
 
 ---
 
