@@ -62,9 +62,22 @@
   - [Constraints / Risks / Dependables](#constraints--risks--dependables)
 - [Team Meltdown - Tasks Distribution](#team-meltdown---tasks-distribution)
   - [Project Assignments](#project-assignments)
-- [Meeting Minutes / Meeting Notes](#meeting-minutes--meeting-notes)
 - [Team Procedures](#team-procedures)
+  - [Material Management](#material-management)
+  - [Our Component Philosophy](#our-component-philosophy)
+  - [Fabrication](#fabrication)
 - [Design Process](#design-process)
+  - [Research](#research)
+  - [Strategy](#strategy)
+  - [Analysis and Conceptualization](#analysis-and-conceptualization)
+  - [Design Motivation](#design-motivation)
+  - [Research Methods](#research-methods)
+  - [Weapon System Details](#weapon-system-details)
+  - [Drive System Details](#drive-system-details)
+  - [Power System Details](#power-system-details)
+  - [Wiring Schematic](#wiring-schematic)
+  - [Testing Results](#testing-results)
+- [That's a Wrap!](#thats-a-wrap)
 
 ---
 
@@ -266,205 +279,138 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 
 ---
 
-## Meeting Minutes / Meeting Notes
-
-### Riverside Robotics Kickoff Meeting (Introduction)
-
-### October 1st Meeting (Introduction)
-
-### October 8th Meeting (Introduction)
-
-### October 15th Meeting (Design)
-
-### October 22nd Meeting (Design)
-
-### October 29th Meeting (Design)
-
-### November 5th Meeting (Design / Documentation)
-
-### November 12th Meeting (Design / Documentation)
-
-### November 19th Meeting (Design)
-
-### December 3rd Meeting
-
-### December 10th Meeting
-
-### December 17th Meeting
-
-### January 7th Meeting
-
-### January 14th Meeting
-
-### January 27th Meeting
-
-### February 3rd Meeting
-
-### February 10th Meeting
-
-### February 17th Meeting
-
-### February 24th Meeting
-
-### March 3rd Meeting
-
-### March 10th Meeting
-
-### March 17th Meeting
-
-### March 31st Meeting
-
-### April 3rd Meeting
-
-### April 7th Meeting
-
----
-
 ## Team Procedures
+
+### Material Management
+
+Material Management is done by keeping an inventory of parts that are left from previous years. We try to reuse as many unused and old parts as possible to save money and time when designing the bot. Some parts need replacement or are new this year compared to what we already have. Listed below is our parts list for Riverside Robotics Team Spinlayden this year, and the Budget.
+
+> TODO: Add parts list and budget.
+
+### Our Component Philosophy
+
+Spinlayden is a bot based on last year's Riversides Meltybrain by the same name. Using the same design as last year gives us some very important benefits over creating a full new design. We can, for example, profit from the knowledge the returning members of Riverside Robotics bring; they know how the bot was designed last year and what is important to think of. We can also use Spinlayden 1.0's performances as a "testing base" for this year's bot, as we know which mistakes to avoid this year. Another key part to going with a very similar design again is that we can use spare and old parts from last year, and either replace them partially or just reuse them. This allows Riverside Robotics to cut costs. We also save time when creating the CAD design since we know how big the working parts are, and we already have 3D Models for them.
+
+Like last year, Spinlayden uses a custom-fabricated chassis to optimize our performance, space, and weight. While the chassis may look the same from the outside, we have redesigned it from the ground up. This year we are using a different weight reduction that allows us to give better protection to the internal components, especially since the controller inputs are processed on a Raspberry Pi inside the bot itself this year instead of having the computing be done on a laptop that connects to the bot.
+
+Spinlayden's chassis also allows us to benefit from Hexagonal Strength. This means that the six-sided shape of the chassis provides inherent structural rigidity and resistance to impact from any angle, essential for a combat robot like Spinlayden, and also allows for mounting the six blades for attack and usage. All of this combined gives us more control, achieved through weight distribution, custom parts, and machining, allowing our bot to have an equal weight distribution across, which enables precise movements and control throughout.
+
+### Fabrication
+
+Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. These methods of fabrication allow our bot to operate as it does:
+
+- CNC Milling
+- 3D Printing
 
 ---
 
 ## Design Process
 
+### Research
 
-Research			
+**Configuration:** The structure of the bot
 
+**Strengths:**
 
-Configuration: the structure of the bot
+- The bot can still move when flipped over
 
+**Weaknesses:**
 
+- Raspberry Pi was put in the bot for local controller processing, leading to more points of failure (in previous years, there was only a receiver)
 
-Weaknesses:
-Raspberry Pi was put in the bot, for local controller processing, leading to more points of failure (in previous years, there was only a receiver)
-Strengths:
-The bot can still move when flipped over
-Offensive Strategies:
-Rush opponents at 1–2 ft/s using ~0.75 hp motors to seize control and force reactive defenses.
-● Spin at 645.6 RPM to deflect attacks with a ~26.9 mph blade barrier, priming for counterstrikes.
-● Strike with 15-lb spinning mass and six blades (~78 J/rotation) to exploit opponent vulnerabilities.
-● Sustain 645.6 RPM spins and agile steering to keep opponents defensive and disoriented.
-● Recover from flips in ~2 seconds using double-sided design to resume aggressive maneuvers.
-Overview:
+### Strategy
 
+#### Offensive Strategies
 
-Stats:
-It spins fast, probably
+- Rush opponents at 1-2 ft/s using ~0.75 hp motors to seize control and force reactive defenses
+- Spin at 645.6 RPM to deflect attacks with a ~26.9 mph blade barrier, priming for counterstrikes
+- Strike with 15-lb spinning mass and six blades (~78 J/rotation) to exploit opponent vulnerabilities
+- Sustain 645.6 RPM spins and agile steering to keep opponents defensive and disoriented
+- Recover from flips in ~2 seconds using double-sided design to resume aggressive maneuvers
 
+#### Defensive Strategy
 
+- Spin at 645.6 RPM to create around a 20-30 mph steel barrier, deflecting attacks and protecting internal components
+- Accelerate at 1-2 ft/s to retreat if needed from opponents, gaining time to recover and spin up
+- Utilize weight reduction in 6061 aluminum chassis for airflow during spin sessions
+- Maintain spinning via two-motor drive system while maneuvering, minimizing stationary vulnerabilities. Two operators — one for driving and one for operations, modes, etc.
+- Operate effectively when flipped using double-sided design, reducing downtime from impacts
 
+### Overview
 
+> TODO: Add overview content.
 
+**Stats:** It spins fast, probably
 
-Defensive Strategy:
-Spin at 645.6 RPM to create around a 20-30mph steel barrier, deflecting attacks and protecting
-internal components.
-Accelerate at 1–2 ft/s to retreat if needed from opponents, gaining time to recover and spin up.
-Utilize weight reduction in 6061 aluminum chassis for airflow during spin sessions.
-Maintain spinning via two-motor drive system while maneuvering, minimizing stationary
-vulnerabilities. Two operators-one for driving and one for operations, modes, etc.
-Operate effectively when flipped using double-sided design, reducing downtime from impacts.
+### Key Stats
 
+- **Weight:** 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz)
+- **Weapon Speed:** 645.6 RPM (~26.9 mph tip speed)
+- **Motor Power:** ~0.75 hp (drive and weapon combined)
+- **Translational Speed:** 1-2 ft/s while spinning
+- **Material:** 6061 aluminum chassis, A516 carbon steel blades
+- **Blade Count:** 6 blades, 6.33 oz each, ~4" long (estimated)
+- **Torque:** ~5 Nm per drive motor (estimated, 21:1 reduction)
 
+### Analysis and Conceptualization
 
-
-
-
-
-
-Key stats:
-● Weight: 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz)
-● Weapon Speed: 645.6 RPM (~26.9 mph tip speed)
-● Motor Power: ~0.75 hp (drive and weapon combined)
-● Translational Speed: 1–2 ft/s while spinning
-● Material: 6061 aluminum chassis, A516 carbon steel blades
-● Blade Count: 6 blades, 6.33 oz each, ~4” long (estimated)
-● Torque: ~5 Nm per drive motor (estimated, 21:1 reduction)
-
- 
-Research
-
-Analysis and Conceptualization
 We started by analyzing the old model of the bot made last year. Using inspiration and some parts from the older bot, it allowed us to build on the mistakes made from our last year. To build a better bot by fixing those mistakes, and malfunctions that were present in last year's design.
 
-Since Riverside’s Robotic Club expanded vastly in size this year, we have done some restructuring in the fundamentals of our teams. The Robotics club expanded from 8 students to 20 this year. This led our advisors to split robotics into 2 different Riverside teams. The Spinlayden team and the Stark team. Our team, Spinlayden, has 14 members. After forming the teams, we took several measures:
-● Watched previous AWT competitions and noted the performance of other bots and on what design they relied on.
-● We reviewed the prior Riverside design and analyzed the most significant obstacles and problems.
-● Whiteboarded various ideas, as well as comparing their advantages and weaknesses
-● Started a basic CAD design in Fusion 360 that we could build on over the season.
+Since Riverside's Robotic Club expanded vastly in size this year, we have done some restructuring in the fundamentals of our teams. The Robotics club expanded from 8 students to 20 this year. This led our advisors to split robotics into 2 different Riverside teams. The Spinlayden team and the Stark team. Our team, Spinlayden, has 14 members. After forming the teams, we took several measures:
 
+- Watched previous AWT competitions and noted the performance of other bots and on what design they relied on
+- Reviewed the prior Riverside design and analyzed the most significant obstacles and problems
+- Whiteboarded various ideas, as well as comparing their advantages and weaknesses
+- Started a basic CAD design in Fusion 360 that we could build on over the season
 
+### Design Motivation
 
-Design Motivation
+Spinlayden's design is driven by the goal of delivering maximum damage while maintaining mobility and resilience. The 14" x 12" hexagonal chassis, crafted from 1/8" 6061 aluminum with cutouts on the inner half of the walls to reduce weight, allows us to spin at 645.6 RPM.
 
-Spinlayden’s design is driven by the goal of delivering maximum damage while maintaining mobility and resilience. The 14” × 12” hexagonal chassis, crafted from 1/8” 6061 aluminum with cutouts on the inner half of the walls to reduce weight, allows us to spin at 645.6 RPM. 
 The Melty-Brain system, powered by two UltraPlanetary motors, combines high torque with precise control via Raspberry Pi 4B, running a Python script that utilizes the physics from the OpenMelt project on GitHub, allowing Spinlayden to spin as both a weapon and a shield, while still being able to move at the same time.
+
 Six A516 carbon steel blades, totaling 38 oz, are attached to the outer walls of the chassis to maximize damage output (estimated 78J per rotation) without compromising the 15-lb weight limit.
 
+### Research Methods
 
-Team Procedures:
-Material Management is done by keeping an inventory of parts that are left from previous years. We try to reuse as many unused and old parts as possible to save money and time when designing the bot. Some parts need replacement or are new this year compared to what we already have. Listed below is our parts list for Riverside Robotics Team Spinlayden this year, and the Budget.
+We started by analyzing previous AWT competitions and even other competitions/streams online. We analyzed the success, strengths, and weaknesses of our own bots and other teams.
 
+### Refinement
 
+> TODO: Add refinement details.
 
+### Structural Analysis
 
+> TODO: Add structural analysis.
 
+### Engineering Drawing Set
 
+> TODO: Don't have these yet.
 
-Our Component Philosophy:
+### Weapon System Details
 
-Spinlayden is a bot based on last year's Riversides Meltybrain by the same name. Using the same design as last year gives us some very important benefits over creating a full new design. We can, for example, profit from the knowledge the returning members of Riverside Robotics bring; they know how the bot was designed last year and what is important to think of. We can also use Spinlayden 1.0's performances as a “testing base” for this year's bot, as we know which mistakes to avoid this year. Another key part to going with a very similar design again is that we can use spare and old parts from last year, and either replace them partially or just reuse them. This allows Riverside Robotics to cut costs. We also save time when creating the CAD design since we know how big the working parts are, and we already have 3D Models for them. Like last year spinlayden uses a custom-fabricated chassis to optimize our performance, space, and weight. While the chassis may look the same from the outside we have redesigned it from the ground up, this year we are using a different weight reduction that allows us to give better protection to the internal components, especially since the Controller inputs are processed on a Raspberry Pi inside the Bot itself this year instead of having the computing be done on a laptop that connects to the Bot. Spinlayden's chassis also allows us to benefit from Hexagonal Strength. This means that the six-sided shape of the chassis provides inherent structural rigidity and resistance to impact from any angle, essential for a combat robot like Spinlayden, and also allows for mounting the six blades for attack and usage. All of this combined gives us more control, this achieved through weight distribution, custom parts, and machining. Allowing our bot to have an equal weight distribution across, which enables precise movements and control throughout.
+> TODO: Add weapon system details.
 
+### Drive System Details
 
-Fabrication
-Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. These methods of fabrication allow our bodies to operate as they do: 
+> TODO: Add drive system details.
 
-- CNC Milling
+### Power System Details
 
-- 3D Printing
+> TODO: Add power system details.
 
+### Wiring Schematic
 
+> TODO: Add wiring schematic.
 
+### Testing Results
 
+> TODO: Add testing results.
 
+---
 
+## That's a Wrap!
 
+### Closing Remarks
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Design process
-Research Methods: We started
-by analyzing previous AWT competitions and even other competitions/streams online. We analyzed the success, strengths, and weaknesses of our own bots and other teams.
-Refinement:
-Structural analysis:
-Engineering Drawing Set: Don't have these yet.
-
-Design process(Continued)
-Weapon System Details:
-
-Drive System Details:
-
-Power System Details:
-
-Wiring Schematic:
-
-Testing Results:
-
-That’s a wrap!:
-
-Closing Remarks:
-
-
+> TODO: Add closing remarks.
