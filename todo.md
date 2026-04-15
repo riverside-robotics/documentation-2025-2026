@@ -18,7 +18,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 10. **Bill of Materials (BOM)** — Complete parts list with part numbers, quantities, suppliers, and costs. Different from the missing "parts list" in Material Management.
 11. **Data Management** — How the team manages files, CAD versions, documentation drafts, etc.
 12. **Action Plan** — A structured plan showing what needs to happen, who's responsible, and by when.
-13. **Inventory** — List of all tools, equipment, and materials the team has access to.
+13. ~~**Inventory** — List of all tools, equipment, and materials the team has access to.~~ — Added inventory table under Team Procedures with tools (DeWalt drill/impact, Ryobi drill, hex keys, pliers, bits, wrenches) and equipment
 14. **Configuration** — Detailed bot configuration: electronics layout, component placement, wiring routing. Last year's doc had a Configuration section.
 15. **Positive / Negative Influence Tables** — Example doc had structured tables analyzing what worked and what didn't from influence bots (not just a paragraph).
 16. **Problem / Solution Analysis** — Example doc broke down specific design problems and how they were solved.

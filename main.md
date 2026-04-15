@@ -66,6 +66,7 @@
   - [Material Management](#material-management)
   - [Our Component Philosophy](#our-component-philosophy)
   - [Fabrication](#fabrication)
+  - [Inventory](#inventory)
 - [Design Process](#design-process)
   - [Research](#research)
   - [Strategy](#strategy)
@@ -387,6 +388,25 @@ CNC milling was provided by our industry sponsor, **Monode Marking Products**. M
 #### 3D Printing (FDM)
 
 All internal components were 3D printed using **standard PLA filament**. Prototypes were printed at **15% infill** for rapid iteration, while final internal parts and backup/replacement components were printed at **solid (100%) infill** for maximum strength and durability.
+
+### Inventory
+
+The following table lists the tools and equipment available to Riverside Robotics for fabrication, assembly, and maintenance of Spinlayden. Keeping an accurate inventory ensures the team can plan work sessions effectively and identify when replacements or additional tools are needed.
+
+| Item | Quantity | Type | Condition |
+|------|----------|------|-----------|
+| DeWalt Drill | 1 | Power Tool | Good |
+| DeWalt Impact Driver | 1 | Power Tool | Good |
+| Ryobi Drill | 1 | Power Tool | Functional (bad battery) |
+| Hex Allen Key Set | Multiple | Hand Tool | Good |
+| Pliers (assorted) | Multiple | Hand Tool | Good |
+| Drill/Impact Bit Sets | Multiple | Accessories | Good |
+| Wrench Set (assorted) | Multiple | Hand Tool | Good |
+| Lunyee 3018 Pro Ultra CNC Machine (500W) | 1 | CNC Equipment | Good |
+| 3D Printer (PLA/PETG/TPE capable) | 1 | 3D Printing | Good |
+| Soldering Iron | 1 | Electronics | Good |
+| Polycarbonate Safety Glasses | 12 | Safety | New |
+| ANSI A5 Polyurethane Coated Work Gloves | 12 | Safety | New |
 
 ---
 
