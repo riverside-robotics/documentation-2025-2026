@@ -57,7 +57,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 ## meetingNotes.md - Missing Notes
 
 36. ~~**Line 305** - February 3rd Meeting: **Notes field is empty**~~ — Notes have been filled in
-37. **Line 395** - March 10th Meeting: ~~**Notes field is empty**~~ — Notes have been filled in
+37. ~~**Line 395** - March 10th Meeting: **Notes field is empty**~~ — Notes have been filled in
 38. **Line 414** - March 17th Meeting: **Notes field is empty**
 39. **Line 433** - March 31st Meeting: **Notes field is empty**
 40. **Line 450** - April 3rd Meeting: **Notes field is empty**
