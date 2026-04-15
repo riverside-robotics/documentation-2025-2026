@@ -22,7 +22,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 14. **Configuration** — Detailed bot configuration: electronics layout, component placement, wiring routing. Last year's doc had a Configuration section.
 15. ~~**Positive / Negative Influence Tables** — Example doc had structured tables analyzing what worked and what didn't from influence bots (not just a paragraph).~~ — Added Positive/Negative table and detailed Negative Aspects — Problems and Solutions table to Influences section
 16. ~~**Problem / Solution Analysis** — Example doc broke down specific design problems and how they were solved.~~ — Covered by the Negative Aspects — Problems and Solutions table in Influences section (7 items with detailed Problem/Solution columns)
-17. **Interview Preparation** — Not a doc section, but the team needs to prepare for the 15-minute judge interview. All members should be able to speak to the design, manufacturing, and team process.
+17. ~~**Interview Preparation** — Not a doc section, but the team needs to prepare for the 15-minute judge interview. All members should be able to speak to the design, manufacturing, and team process.~~ — Created `interviewPrep.md` with all 8 scored questions, suggested talking points, delivery tips, and quick reference card. TODOs added inside the file for items needing team input.
 
 ---
 
