@@ -255,7 +255,7 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 | Jayden Craig | Mechanical, Marketing, Electrical | 10th |
 | Lukas Dauksa | Electrical | 11th |
 | Dustin Hance | Software | 11th |
-| Alexander Holmes | I have not see him work | 11th |
+| Alexander Holmes | Mechanical | Marketing | 11th |
 | Yash Jain | Electrical | 9th |
 | Sultan Kazeem | Management, Finance, Assembler | 11th |
 | Tom Kramer | Software, Documentation | 11th |
