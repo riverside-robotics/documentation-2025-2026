@@ -499,3 +499,22 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 | Added screws, battery, and 18V screwdriver to the parts list | |
 | Organize supplies | |
 | Test the prototype bot | |
+
+## April 14th Meeting
+
+**April 14, 2026** | **5:30 PM - 7:30 PM**
+
+---
+
+**Notes:**
+
+**Attendees:**
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Daniel George, Tom Kramer, Yash Jain, Ben Mackey
+
+| Tasks and Goals | Decisions |
+|-----------------|-----------|
+|   Deconstruct prototype bot| |
+|   Work on documentation            | |
+|   Converted documentation to markdown        | |
+|   Created github repo for documentation             | |
+|   Started assembling metal body          | |
