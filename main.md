@@ -16,11 +16,9 @@
 - Dustin Hance
 - Jason Kellhofer
 - Jayden Craig
-- John Barrow
 - Kasey Kurzinger
 - Kaydan Kerr
 - Lukas Dauksa
-- Lukas Rico-Palamino
 - Mher Pogosan
 - Robert Rateno
 - Richard Rowland
@@ -298,11 +296,9 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 | Dustin Hance | Software | 11th |
 | Jason Kellhofer | Documentation | 9th |
 | Jayden Craig | Mechanical, Marketing, Electrical | 10th |
-| John Barrow | Mechanical | 8th |
 | Kasey Kurzinger | Documentation | Mechanical | 8th |
 | Kaydan Kerr | Documentation | Mechanical | 8th |
 | Lukas Dauksa | Electrical | 11th |
-| Lukas Rico-Palomino | Documentation | 8th |
 | Mher Poghosyan | Documentation, Mechanical | 11th |
 | Robert Rateno | Operator, Mechanical, Assembler | 10th |
 | Richard Rowland | Documentation | 8th |

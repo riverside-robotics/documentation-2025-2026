@@ -50,15 +50,11 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **Jayden Craig:** *Bio not yet submitted.*
 
-**John Barrow:** *Bio not yet submitted.*
-
 **Kasey Kurzinger:** *Bio not yet submitted.*
 
 **Kaydan Kerr:** *Bio not yet submitted.*
 
 **Lukas Dauksa:** *Bio not yet submitted.*
-
-**Lukas Rico-Palamino:** *Bio not yet submitted.*
 
 **Mher Pogosan:** *Bio not yet submitted.*
 
