@@ -184,7 +184,7 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 | Objective | Metric | Project Goal |
 |-----------|--------|--------------|
-| Software | Software that allows us not only to control the spinning of our bot, but also its movements. | Writing a robust Python script that does the physics needed to move and spin at the same time. |
+| Software | Software that allows us not only to control the spinning of our bot, but also its movements. | Writing a C# program that does the physics needed to move and spin at the same time. |
 | Robustness | Withstanding damage from other bots and even getting flipped over. | Keeping the bot drivable and protecting the bot's "Brain" at all costs. |
 | Offensive Output | Spinlayden's ability to harm other teams' bots. | Making sure that Spinlayden is the most powerful bot at the competition. |
 
