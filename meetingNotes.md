@@ -393,6 +393,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Krame
 ---
 
 **Notes:**
+The team initially planned to use a Raspberry Pi Pico as a translator between the hardware and the software running on the Pi 4B. However, we realized the receiver can send data packets directly to the Pi 4 in a format it can understand and work with on its own, eliminating the need for external translation hardware. This led to us swapping over to just using the main Pi instead of the Pico.
 
 **Attendees:**
 Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
@@ -400,8 +401,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Krame
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
 | Figure out what's causing the gyro's inaccuracies | We bought a Raspberry Pi Pico |
-| Set up the Raspberry Pi Pico which we are using to translate between hardware and the software running on the Pi 4B | Decided not to use the Pico |
-| This was not needed because we realized the receiver we are using can send data packets to the Pi 4 that the Pi can understand and work with on its own without external hardware. This led to us swapping over to just using the main Pi instead of using the Pico to translate. | |
+| Set up the Raspberry Pi Pico to translate between hardware and the Pi 4B software | Decided not to use the Pico — receiver communicates directly with the Pi 4 |
 
 ---
 
