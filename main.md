@@ -327,6 +327,49 @@ Like last year, Spinlayden uses a custom-fabricated chassis to optimize our perf
 
 Spinlayden's chassis also allows us to benefit from Hexagonal Strength. This means that the six-sided shape of the chassis provides inherent structural rigidity and resistance to impact from any angle, essential for a combat robot like Spinlayden, and also allows for mounting the six blades for attack and usage. All of this combined gives us more control, achieved through weight distribution, custom parts, and machining, allowing our bot to have an equal weight distribution across, which enables precise movements and control throughout.
 
+### Material Selection
+
+Choosing the right materials is critical for a 15 lb combat robot where every ounce matters. Each material on Spinlayden was selected to balance strength, weight, machinability, and cost.
+
+#### Chassis — 6061 Aluminum
+
+The chassis is fabricated from **6061-T6 aluminum** in two thicknesses: 3/8" bar stock for the walls and 1/8" sheet for the top and bottom plates. 6061 was selected for several reasons:
+
+- **Strength-to-weight ratio:** At a density of 0.098 lb/in³ and a tensile strength of ~45 ksi, 6061 provides excellent structural performance without consuming our weight budget. The full chassis comes in at approximately 12.6 lbs, leaving room for electronics and blades.
+- **Machinability:** 6061 is one of the most machinable aluminum alloys, which was essential given our fabrication methods. It cuts cleanly on both the OMAX 5555 waterjet and Monode's CNC mills, reducing fabrication time and cost.
+- **Cost-effectiveness:** 6061 is widely available and affordable compared to aerospace-grade alternatives, keeping us within our budget.
+- **Corrosion resistance:** The T6 temper provides good corrosion resistance without additional surface treatment, reducing post-processing steps.
+
+**Alternatives considered:**
+- **7075 Aluminum** — Roughly 30% stronger than 6061, but significantly harder to machine, more expensive, and less weldable. The added strength was not necessary given our hexagonal design already provides excellent rigidity.
+- **Carbon Fiber** — Discussed early in the season as a potential option. While carbon fiber offers a superior strength-to-weight ratio, it is brittle under point-impact loading (a certainty in combat), difficult to machine into complex shapes, and substantially more expensive. A shattered carbon fiber panel mid-match would be catastrophic.
+- **Titanium** — Excellent strength and low weight, but roughly 5–10× the cost of aluminum and much harder to machine. Our sponsors' equipment is optimized for aluminum and steel, making titanium impractical.
+
+#### Blades — A516 Carbon Steel
+
+Spinlayden's six blades are machined from **A516 Grade 70 carbon steel** at 1" thickness. A516 is a pressure-vessel-grade steel originally designed to withstand repeated high-energy impacts — exactly the loading condition our blades experience at 645.6 RPM (~26.9 mph tip speed, ~78J per rotation).
+
+- **Impact toughness:** A516 has exceptional Charpy impact values, meaning it absorbs energy through deformation rather than fracturing. In a combat robot, a blade that bends is recoverable; a blade that shatters is a safety hazard.
+- **Hardness and wear resistance:** With a tensile strength of ~70 ksi, A516 holds up well against repeated collisions without excessive deformation.
+- **Machinability:** While harder to cut than aluminum, A516 is far more machinable than hardened or tool steels, keeping our fabrication timeline realistic.
+
+**Alternatives considered:**
+- **AR500 Steel** — An abrasion-resistant steel commonly used in combat robots. AR500 is significantly harder than A516, but its high hardness makes it more brittle under point impacts. For a full-body spinner where the blades are the primary point of contact, toughness matters more than hardness.
+- **Tool Steel (e.g., S7, D2)** — Extremely hard and wear-resistant, but expensive, difficult to machine, and requires heat treatment. Overkill for our weight class and budget.
+- **Hardened Stainless Steel** — Heavier than carbon steel with less impact toughness per dollar. The added corrosion resistance is unnecessary for a combat robot.
+
+#### Rotary Shaft — 1045 Carbon Steel
+
+The rotary shafts are **1045 medium carbon steel**, selected for its good balance of strength (tensile strength ~85 ksi) and machinability. 1045 is a standard choice for shafts and axles because it can be easily turned on a lathe while providing adequate fatigue resistance for rotational loads.
+
+#### 3D Printed Components — PLA, PETG, and TPE
+
+All internal, non-structural components are 3D printed using materials chosen for their specific properties:
+
+- **PLA** — Used for rigid internal mounts and brackets. Final parts are printed at 100% infill for maximum strength; prototypes at 15% infill for rapid iteration.
+- **CR PETG** — Used where higher temperature resistance or slight flexibility is needed compared to PLA.
+- **eSUN TPE-83A** — A flexible filament used for vibration-dampening mounts and components that need to absorb shock without cracking.
+
 ### Fabrication
 
 Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. The following methods of fabrication allow our bot to operate as it does:

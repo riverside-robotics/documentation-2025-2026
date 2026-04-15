@@ -12,7 +12,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 4. **CAD Models** — Screenshots/renders of the Fusion 360 model showing the full assembly and individual components. Example doc had multiple views and exploded diagrams.
 5. **Risk Analysis** — Identify risks to the project (schedule, manufacturing, competition) with mitigation strategies. Example doc had a full risk matrix.
 6. **Manufacturing Plan** — Detailed step-by-step manufacturing procedures (not just the current placeholder). Example doc described each fabrication step with photos.
-7. **Material Selection** — Justification for why 6061 aluminum and A516 carbon steel were chosen. Compare alternatives considered.
+7. ~~**Material Selection** — Justification for why 6061 aluminum and A516 carbon steel were chosen. Compare alternatives considered.~~ — Added full material selection section with justifications and alternatives for 6061 aluminum, A516 carbon steel, 1045 carbon steel, and 3D printing materials
 8. ~~**Accounting / Budget** — A budget table or spreadsheet showing costs for materials, parts, registration, etc. Example doc had a detailed budget breakdown.~~ — Added full parts list and budget summary from Excel spreadsheet
 9. **Time Management** — A Gantt chart or detailed timeline showing planned vs. actual progress across the season.
 10. **Bill of Materials (BOM)** — Complete parts list with part numbers, quantities, suppliers, and costs. Different from the missing "parts list" in Material Management.
