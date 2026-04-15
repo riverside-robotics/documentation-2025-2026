@@ -285,10 +285,21 @@ Spinlayden's chassis also allows us to benefit from Hexagonal Strength. This mea
 
 ### Fabrication
 
-Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. These methods of fabrication allow our bot to operate as it does:
+Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. The following methods of fabrication allow our bot to operate as it does:
 
-- CNC Milling
-- 3D Printing
+#### Waterjet Cutting
+
+The top and bottom hexagonal plates were cut using an **OMAX 5555 Waterjet Cutter** at [Case Western Reserve University's think[box]](https://case.edu/thinkbox/equipment/metal-shop/waterjet-cutter). Waterjet cutting allowed us to precisely cut our plates cost-effectively, with a dimensional accuracy of ±0.001 inches (25.4 μm) and a maximum material capacity of 48 × 40 × 8 inches.
+
+The machine runs at **$1 per minute** of run time. Each nest of two hexagons took approximately 27 minutes, costing roughly **$54 per pair** of plates ($27 × 2 nests).
+
+#### CNC Milling
+
+CNC milling was provided by our industry sponsor, **Monode Marking Products**. Monode machined our parts using their in-house CNC equipment, with each part typically taking a couple of hours to complete.
+
+#### 3D Printing (FDM)
+
+All internal components were 3D printed using **standard PLA filament**. Prototypes were printed at **15% infill** for rapid iteration, while final internal parts and backup/replacement components were printed at **solid (100%) infill** for maximum strength and durability.
 
 ---
 

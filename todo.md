@@ -50,7 +50,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 32. ~~**Lines 345-353** - Key Stats in the Design Process section is a **duplicate** of the Key Stats table already in the Design section (lines 142-152) — same exact data in two places~~
 33. **Line 37** - Says team "expanded to 26 students" but line 96 says "approximately 30 students" — inconsistent count
 34. ~~**Line 199** - Objective table says "Writing a robust Python script" but the Feb 3rd meeting note says the software was **rerolled in C#** — contradicts~~
-35. **Line 302-303** - Fabrication methods only lists CNC Milling and 3D Printing with no details
+35. ~~**Line 302-303** - Fabrication methods only lists CNC Milling and 3D Printing with no details~~ — Expanded with Waterjet Cutting, CNC Milling, and 3D Printing details
 
 ---
 
