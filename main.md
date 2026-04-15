@@ -270,7 +270,7 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 | Name | Role | Grade |
 |------|------|-------|
 | Lukas Rico-Palomino | Documentation | 8th |
-| Kaydan Kerr | | 8th |
+| Kaydan Kerr | Documentation | Mechanical | 8th |
 | Daniel George | Documentation | 11th |
 | Richard Rowland | Documentation | 8th |
 | John Barrow | Mechanical | 8th |
