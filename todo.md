@@ -37,7 +37,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 24. ~~**Line 288** - Material Management says "Listed below is our parts list" but there's no list — just a TODO~~ — Added parts list and budget from Excel spreadsheet
 25. **Line 427** - Overview section is a TODO
 26. **Line 429** - `**Stats:** It spins fast, probably` — Clearly a joke placeholder
-27. **Lines 464-494** - Seven consecutive TODO stubs: Refinement, Structural Analysis, Engineering Drawing Set, Weapon System Details, Drive System Details, Power System Details, Wiring Schematic, Testing Results
+27. ~~**Lines 504-534** - Seven consecutive TODO stubs~~ — Filled in Refinement (8 improvements from 1.0→2.0), Structural Analysis (FMEA table with 8 failure modes), Weapon System Details (blades, energy output, full-body spinner), Drive System Details (motors, ESCs, gearboxes, wheels, belts), Power System Details (batteries, kill switches, power distribution), Wiring Schematic (power + control + BEC paths), Testing Results (4 testing phases). **Still TODO:** Engineering Drawing Set (awaiting CAD team exports), wiring diagram image, full-speed testing results update
 28. **Line 502** - Closing Remarks is a TODO
 
 ---

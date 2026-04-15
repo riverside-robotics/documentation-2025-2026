@@ -493,7 +493,7 @@ Since Riverside's Robotic Club expanded vastly in size this year, we have done s
 
 Spinlayden's design is driven by the goal of delivering maximum damage while maintaining mobility and resilience. The 14" x 12" hexagonal chassis, crafted from 1/8" 6061 aluminum with cutouts on the inner half of the walls to reduce weight, allows us to spin at 645.6 RPM.
 
-The Melty-Brain system, powered by two UltraPlanetary motors, combines high torque with precise control via Raspberry Pi 4B, running a Python script that utilizes the physics from the OpenMelt project on GitHub, allowing Spinlayden to spin as both a weapon and a shield, while still being able to move at the same time.
+The Melty-Brain system, powered by two EZRUN 3660 SL G2 motors, combines high torque with precise control via Raspberry Pi 4B, running a C# program that utilizes the physics from the OpenMelt project on GitHub, allowing Spinlayden to spin as both a weapon and a shield, while still being able to move at the same time.
 
 Six A516 carbon steel blades, totaling 38 oz, are attached to the outer walls of the chassis to maximize damage output (estimated 78J per rotation) without compromising the 15-lb weight limit.
 
@@ -503,35 +503,154 @@ We started by analyzing previous AWT competitions and even other competitions/st
 
 ### Refinement
 
-> TODO: Add refinement details.
+Throughout the design process, Spinlayden 2.0 underwent several key refinements based on lessons learned from Spinlayden 1.0:
+
+**Weight Reduction Redesign:** The original weight reduction holes weakened the chassis walls at stress points. For 2.0, we redesigned the cutout geometry to remove material only from the inner half of the walls, preserving structural integrity at the edges where impacts occur.
+
+**Component Repositioning:** In 1.0, internal components (batteries, ESCs, Pi) were mounted too close to the outer walls, making them vulnerable to hits that deformed the chassis inward. The 2.0 layout moves components closer to the center of the bot.
+
+**Blade Geometry Change:** The original claw-style blade tips failed to puncture opponents effectively. We switched to spike-style tips that concentrate force on a smaller contact area for better penetration.
+
+**Dedicated Raspberry Pi Housing:** The Pi was unprotected in 1.0, leaving the control system exposed. A dedicated 3D-printed housing now shields the Pi from impacts and vibration.
+
+**Software Rewrite (Python → C#):** The original Python meltybrain software suffered from input lag due to Python's interpreted execution. The team rewrote the control system in C# for compiled performance and reduced latency.
+
+**Controller Upgrade (Bluetooth → 2.4 GHz):** The Bluetooth controller used in 1.0 experienced frequent connection drops during matches. We switched to a 2.4 GHz radio controller with a USB receiver for more reliable communication.
+
+**Counterweight Removal:** The 1.0 design used counterweights to balance the spinning chassis, adding complexity and weight. The 2.0 design achieves balance through symmetric component placement, eliminating the need for dedicated counterweights.
+
+**3D Printed Prototyping:** Before cutting metal, we 3D printed prototype wall sections and assemblies to verify fit, test the interlocking blade system, and catch design issues early.
 
 ### Structural Analysis
 
-> TODO: Add structural analysis.
+To evaluate the durability and reliability of Spinlayden 2.0, the team conducted a Failure Modes and Effects Analysis (FMEA). This systematic approach identifies potential failure points, assesses their severity and likelihood, and documents the mitigations designed into the bot.
+
+| Component | Failure Mode | Cause | Effect | Severity (1-10) | Likelihood (1-10) | Mitigation |
+|-----------|-------------|-------|--------|-----------------|-------------------|------------|
+| Blades | Detachment during spin | Bolt loosening from vibration | Blade becomes projectile; bot loses weapon mass | 9 | 4 | Loc-Tite thread locker on all blade bolts; interlocking tab system provides mechanical retention beyond bolts alone |
+| Blades | Dulling or fracture | Repeated high-energy impacts | Reduced damage output; potential imbalance | 6 | 5 | A516 Grade 70 carbon steel selected for impact toughness; spike geometry distributes force; spare blades available |
+| Side Walls | Deformation inward | Direct hit from opponent weapon | Internal components damaged; spin impeded | 8 | 6 | 3/8" 6061-T6 aluminum walls; weight reduction cutouts only on inner half to preserve edge strength; components repositioned away from walls |
+| Side Walls | Interlocking joint failure | Repeated impacts at joint seams | Wall separation; structural integrity loss | 7 | 4 | Bolt-reinforced interlocking joints; hexagonal geometry distributes loads across all six panels |
+| Control System | Software crash | Unhandled exception or memory issue | Loss of bot control during match | 9 | 3 | C# rewrite provides compiled stability over interpreted Python; dedicated Pi housing reduces vibration-induced errors |
+| Control System | Radio signal loss | Interference or receiver damage | Bot spins uncontrolled or stops | 9 | 3 | Upgraded from Bluetooth to 2.4 GHz radio with USB receiver; improved range and interference resistance |
+| Drivetrain | Motor burnout | Sustained high-current draw or stall | Loss of drive on one side; bot cannot translate | 7 | 3 | EZRUN MAX10 SCT ESCs rated for 120A continuous / 830A peak; heat dissipation through chassis ventilation |
+| Drivetrain | Gearbox failure | Impact shock transmitted through wheels | Loss of drive; wheel free-spins | 6 | 4 | BaneBots P61 20:1 planetary gearboxes rated for combat loads; 1045 carbon steel output shafts |
 
 ### Engineering Drawing Set
 
-> TODO: Don't have these yet.
+> TODO: Awaiting dimensioned engineering drawings from the CAD team (Ayden, Adam P., Jayden). Requested via designTeamRequest.md — need overall assembly dimensions, individual part drawings, bolt hole patterns, weight reduction geometry, and blade dimensions exported from Fusion 360.
 
 ### Weapon System Details
 
-> TODO: Add weapon system details.
+Spinlayden 2.0 is a full-body spinner — the entire robot is the weapon. The hexagonal chassis spins at 645.6 RPM, creating a steel barrier with a tip speed of approximately 26.9 mph.
+
+**Blades:**
+- **Quantity:** 6 blades mounted on the outer walls of the hexagonal chassis
+- **Material:** A516 Grade 70 Carbon Steel — a pressure vessel grade steel chosen for its exceptional impact toughness
+- **Weight:** 6.33 oz per blade, 38 oz (2.375 lbs) total blade weight
+- **Geometry:** Spike-style tips (redesigned from the claw-style tips used in 1.0) concentrate force on a smaller contact area for improved penetration
+- **Mounting:** Each blade interlocks into machined slots on the chassis walls and is secured with bolts treated with Loc-Tite thread locker to prevent loosening from vibration
+
+**Energy Output:**
+- **Kinetic Energy:** Approximately 78 joules per rotation at full RPM
+- **RPM:** 645.6 RPM at full speed
+- **Tip Speed:** ~26.9 mph at the blade tips
+
+The full-body spinner design means there is no safe angle to approach Spinlayden. Every side of the hexagon carries a blade, and the spinning mass acts as both weapon and shield simultaneously.
 
 ### Drive System Details
 
-> TODO: Add drive system details.
+Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the arena while spinning as a full-body weapon. This is achieved by pulsing the drive motors in sync with the bot's rotation, using gyroscope data to determine orientation.
+
+**Motors:**
+- **Type:** 2x Hobbywing EZRUN 3660 SL G2 brushless motors
+- **Application:** One motor per drive side (tank-style steering)
+
+**Electronic Speed Controllers (ESCs):**
+- **Type:** 2x Hobbywing EZRUN MAX10 SCT ESCs
+- **Rating:** 120A continuous, 830A peak — provides ample headroom for combat stall conditions
+- **BEC Output:** Powers the radio receiver and Raspberry Pi
+
+**Gearboxes:**
+- **Type:** 4x BaneBots P61 20:1 planetary gearboxes (2 per drive side)
+- **Reduction:** 20:1 gear ratio converts high motor RPM to usable torque for the wheels
+
+**Wheels and Hubs:**
+- **Wheels:** BaneBots 3-7/8" diameter compliant wheels — provide grip while absorbing impact
+- **Hubs:** BaneBots T81 hubs — connect wheels to gearbox output shafts
+
+**Shafts and Bearings:**
+- **Shafts:** 1045 carbon steel — good balance of strength and machinability for rotary applications
+- **Bearings:** R8-2RS sealed bearings — sealed design keeps debris out during combat
+
+**Power Transmission:**
+- **Belts:** Dayco V-belts transfer power from motor to gearbox input
+- **Steering:** Tank-style differential steering — varying speed between left and right motors while spinning allows translational movement in any direction
 
 ### Power System Details
 
-> TODO: Add power system details.
+**Batteries:**
+- **Type:** 6x Liperior 2700mAh 4S 30C LiPo batteries
+- **Voltage:** 14.8V per pack (4S configuration)
+- **Connector:** XT60 connectors
+- **Configuration:** Batteries are distributed symmetrically within the chassis to maintain rotational balance — critical for a full-body spinner
+- **Capacity:** 2700mAh per pack provides sufficient runtime for the 3-minute match format with safety margin
+
+**Safety Systems:**
+- **Kill Switches:** 2x MS-05 kill switches mounted on the bot exterior, accessible without reaching into the spinning chassis — required by AWT safety rules for immediate power cutoff
+- **Wiring:** All electrical connections soldered with 63-37 tin-lead solder for reliable joints under vibration
+
+**Power Distribution:**
+- Batteries feed into the two EZRUN MAX10 SCT ESCs
+- Each ESC powers one EZRUN 3660 SL G2 drive motor
+- ESC BEC (Battery Eliminator Circuit) output provides regulated 5V power to the radio receiver and Raspberry Pi 4B
+- Total system draws approximately 0.75 hp combined motor power
 
 ### Wiring Schematic
 
-> TODO: Add wiring schematic.
+The electrical system follows this signal and power flow:
+
+**Power Path:**
+1. 6x Liperior 4S LiPo batteries (14.8V) → MS-05 kill switches (external cutoff)
+2. Kill switches → 2x EZRUN MAX10 SCT ESCs (motor control + power regulation)
+3. ESCs → 2x EZRUN 3660 SL G2 brushless drive motors
+
+**Control Path:**
+1. 2.4 GHz radio controller (operator) → USB radio receiver mounted on the bot
+2. USB receiver → Raspberry Pi 4B (8 GB RAM) — processes controller input
+3. Raspberry Pi runs C# meltybrain control software — reads WT901 IMU/gyroscope data to determine bot orientation during spin
+4. Pi sends motor speed commands → ESCs → motors pulse in sync with rotation to achieve translational movement
+
+**BEC Power Path:**
+- ESC BEC output (regulated 5V) → powers Raspberry Pi and radio receiver — no separate voltage regulator needed
+
+> TODO: Add a wiring diagram image once the electrical team provides one.
 
 ### Testing Results
 
-> TODO: Add testing results.
+Testing for Spinlayden 2.0 has been conducted in phases as components became available:
+
+**3D Printed Prototype Testing (February–March 2026):**
+- Printed prototype wall sections and assemblies to verify fit and interlocking blade geometry before committing to metal fabrication
+- Identified and corrected dimensional issues in the CAD model before waterjet cutting
+
+**Low-Power Spin Testing (March 17, 2026):**
+- Conducted initial spin tests using a lower-power motor to validate the meltybrain control system
+- Verified that the C# software correctly reads gyroscope data and pulses motors in sync with rotation
+- Confirmed translational movement works while spinning
+
+**Assembly and Integration Testing (April 3–11, 2026):**
+- Assembled metal chassis walls with interlocking blade system
+- Verified bolt patterns and component fitment in the final metal assembly
+- Tested kill switch accessibility and power cutoff functionality
+
+**Planned Testing Before Competition (April 14–24, 2026):**
+- Full-speed spin tests with all six A516 carbon steel blades mounted
+- Driving and maneuverability tests in a controlled environment
+- Impact testing against test targets to validate blade penetration with spike-style tips
+- Battery endurance test to confirm runtime exceeds 3-minute match requirement
+
+> TODO: Update this section with results from full-speed testing once completed.
 
 ---
 
