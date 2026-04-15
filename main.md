@@ -8,27 +8,27 @@
 
 **Team Members:**
 
-- Jayden Craig
-- Lukas Dauksa
-- Dustin Hance
+- Adam Pakeltis
 - Alexander Holmes
-- Sultan Kazeem
-- Jason Kellhofer
-- Tom Kramer
-- Xayden Minch
 - Ayden Moore
+- Benjamin Mackey
+- Daniel George
+- Dustin Hance
+- Jason Kellhofer
+- Jayden Craig
+- John Barrow
+- Kasey Kurzinger
+- Kaydan Kerr
+- Lukas Dauksa
+- Lukas Rico-Palamino
 - Mher Pogosan
 - Robert Rateno
-- Vincent Riha
-- John Barrow
-- Benjamin Mackey
 - Richard Rowland
-- Lukas Rico-Palamino
+- Sultan Kazeem
+- Tom Kramer
+- Vincent Riha
+- Xayden Minch
 - Yash Jain
-- Adam Pakeltis
-- Daniel George
-- Kaydan Kerr
-- Kasey Kurzinger
 
 ---
 
@@ -132,9 +132,11 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 ## Team Biographies
 
-**Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
-
 **Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
+
+**Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
+
+**Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
 
 > Remaining team member bios will be added as they are submitted.
 
@@ -237,21 +239,21 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 ### Team Members
 
+- Adam Pakeltis
+- Alexander Holmes
+- Ayden Moore
+- Daniel George
+- Dustin Hance
+- Jason Kellhofer
 - Jayden Craig
 - Lukas Dauksa
-- Dustin Hance
-- Alexander Holmes
-- Yash Jain
+- Mher Poghosyan
+- Robert Rateno
 - Sultan Kazeem
 - Tom Kramer
-- Ayden Moore
-- Robert Rateno
 - Vincent Riha
-- Adam Pakeltis
-- Jason Kellhofer
 - Xayden Minch
-- Mher Poghosyan
-- Daniel George
+- Yash Jain
 
 ### Deliverables
 
@@ -286,29 +288,29 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 
 | Name | Role | Grade |
 |------|------|-------|
-| Jack Carbone | Advisor | Advisor |
 | Adam Carbone | Advisor | Advisor |
-| Jayden Craig | Mechanical, Marketing, Electrical | 10th |
-| Lukas Dauksa | Electrical | 11th |
-| Dustin Hance | Software | 11th |
-| Alexander Holmes | Mechanical | Marketing | 11th |
-| Yash Jain | Electrical | 9th |
-| Sultan Kazeem | Management, Finance, Assembler | 11th |
-| Tom Kramer | Software, Documentation | 11th |
-| Ayden Moore | Mechanical | 11th |
-| Robert Rateno | Operator, Mechanical, Assembler | 10th |
-| Vincent Riha | Software | 10th |
+| Jack Carbone | Advisor | Advisor |
 | Adam Pakeltis | Mechanical | 12th |
-| Jason Kellhofer | Documentation | 9th |
-| Xayden Minch | Software | 9th |
-| Mher Poghosyan | Documentation, Mechanical | 11th |
-| Lukas Rico-Palomino | Documentation | 8th |
-| Kaydan Kerr | Documentation | Mechanical | 8th |
+| Alexander Holmes | Mechanical | Marketing | 11th |
+| Ayden Moore | Mechanical | 11th |
+| Benjamin Mackey | Documentation | 8th |
 | Daniel George | Documentation | 11th |
-| Richard Rowland | Documentation | 8th |
+| Dustin Hance | Software | 11th |
+| Jason Kellhofer | Documentation | 9th |
+| Jayden Craig | Mechanical, Marketing, Electrical | 10th |
 | John Barrow | Mechanical | 8th |
 | Kasey Kurzinger | Documentation | Mechanical | 8th |
-| Benjamin Mackey | Documentation | 8th |
+| Kaydan Kerr | Documentation | Mechanical | 8th |
+| Lukas Dauksa | Electrical | 11th |
+| Lukas Rico-Palomino | Documentation | 8th |
+| Mher Poghosyan | Documentation, Mechanical | 11th |
+| Robert Rateno | Operator, Mechanical, Assembler | 10th |
+| Richard Rowland | Documentation | 8th |
+| Sultan Kazeem | Management, Finance, Assembler | 11th |
+| Tom Kramer | Software, Documentation | 11th |
+| Vincent Riha | Software | 10th |
+| Xayden Minch | Software | 9th |
+| Yash Jain | Electrical | 9th |
 
 ---
 
