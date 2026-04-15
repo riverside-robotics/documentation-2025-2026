@@ -139,18 +139,6 @@ This year's Riverside Robotics Bot is, of course, inspired by the previous years
 
 > TODO: Waiting for answer as I wasn't a part of last year's team.
 
-### Key Stats of the Bot
-
-| Stat | Value |
-|------|-------|
-| Weight | 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz) |
-| Weapon Speed | 645.6 RPM (~26.9 mph tip speed) |
-| Motor Power | ~0.75 hp (drive and weapon combined) |
-| Translational Speed | 1-2 ft/s while spinning |
-| Material | 6061 aluminum chassis, A516 carbon steel blades |
-| Blade Count | 6 blades, 6.33 oz each, ~4" long (estimated) |
-| Torque | ~5 Nm per drive motor (estimated, 21:1 reduction) |
-
 ### What Was Changed from the Previous Design
 
 - Weight reduction that goes part of the way through the bot without sacrificing durability (no weight reduction holes)
