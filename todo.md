@@ -20,8 +20,8 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 12. **Action Plan** — A structured plan showing what needs to happen, who's responsible, and by when.
 13. ~~**Inventory** — List of all tools, equipment, and materials the team has access to.~~ — Added inventory table under Team Procedures with tools (DeWalt drill/impact, Ryobi drill, hex keys, pliers, bits, wrenches) and equipment
 14. **Configuration** — Detailed bot configuration: electronics layout, component placement, wiring routing. Last year's doc had a Configuration section.
-15. **Positive / Negative Influence Tables** — Example doc had structured tables analyzing what worked and what didn't from influence bots (not just a paragraph).
-16. **Problem / Solution Analysis** — Example doc broke down specific design problems and how they were solved.
+15. ~~**Positive / Negative Influence Tables** — Example doc had structured tables analyzing what worked and what didn't from influence bots (not just a paragraph).~~ — Added Positive/Negative table and detailed Negative Aspects — Problems and Solutions table to Influences section
+16. ~~**Problem / Solution Analysis** — Example doc broke down specific design problems and how they were solved.~~ — Covered by the Negative Aspects — Problems and Solutions table in Influences section (7 items with detailed Problem/Solution columns)
 17. **Interview Preparation** — Not a doc section, but the team needs to prepare for the 15-minute judge interview. All members should be able to speak to the design, manufacturing, and team process.
 
 ---
@@ -32,7 +32,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 19. **Line 122-124** - `## WEIIII - Riverside Robotics` — Entire section is just "TODO: Placeholder for formatting reasons." What is WEIIII?
 20. **Line 130** - Design section TODO about talking to Adam about the table from example doc pages 14-15
 21. **Line 134** - `**Previous Bot:**` — Label with nothing after it (no image or description)
-22. **Line 138** - Influences section trails off with "We also hopefully improved on..." then a TODO
+22. ~~**Line 138** - Influences section trails off with "We also hopefully improved on..." then a TODO~~ — Replaced with full intro paragraph and two influence tables
 23. **Line 175** - Manufacturing section is just a placeholder
 24. ~~**Line 288** - Material Management says "Listed below is our parts list" but there's no list — just a TODO~~ — Added parts list and budget from Excel spreadsheet
 25. **Line 427** - Overview section is a TODO

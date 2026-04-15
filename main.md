@@ -136,9 +136,31 @@ This is what we have so far:
 
 ### Influences
 
-This year's Riverside Robotics Bot is, of course, inspired by the previous years' Spinlayden bot. It's similar to this year's bot, going by the same name, with some improvements that have been implemented in this new version. We also hopefully improved on...
+This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, Riverside Robotics' first meltybrain full-body spinner. The original bot proved the viability of the hexagonal meltybrain concept and gave us a strong foundation to build on. By analyzing what worked well and what fell short during the 2025 season, we identified specific areas to carry forward and specific problems to solve in this year's redesign.
 
-> TODO: Waiting for answer as I wasn't a part of last year's team.
+#### Positive and Negative Aspects of Spinlayden 1.0
+
+| Positive | Negative |
+|----------|----------|
+| Hexagonal full-body spinner concept | Weight reduction holes weakened structural integrity |
+| Meltybrain drive system (spin + translate) | Internal components too close to walls, vulnerable to impact damage |
+| Double-sided design (operates when flipped) | Claw-style blades lacked puncture effectiveness |
+| 6061 aluminum chassis (strong, lightweight) | No dedicated housing for the Raspberry Pi |
+| A516 carbon steel blades (impact-tough) | Software written in Python introduced noticeable input lag |
+| Reusable parts and design knowledge from returning members | Bluetooth controller caused frequent connectivity issues with the Pi |
+| Compact hexagonal shape fits well in the arena | Counterweight system added unnecessary complexity and weight |
+
+#### Negative Aspects — Problems and Solutions
+
+| # | Negative | Problem | Solution |
+|---|----------|---------|----------|
+| 1 | Weight reduction holes | The through-holes used for weight reduction in Spinlayden 1.0 compromised the structural integrity of the chassis walls, creating weak points that could fail under repeated impacts. | Redesigned weight reduction to go only part of the way through the walls, preserving structural strength without sacrificing weight savings. No more through-holes. |
+| 2 | Components too close to walls | Internal electronics and drive components were mounted near the outer walls, making them vulnerable to damage when the chassis absorbed hits during combat. | Pushed all components away from the walls toward the center of the bot, creating a buffer zone between the impact surface and sensitive internals. |
+| 3 | Claw-style blades | The original claw-shaped blade tips spread impact force across a wider area, reducing penetration and damage output against armored opponents. | Changed blade tips from claw to spike geometry, concentrating force on a smaller contact point to improve puncture capability while maintaining blade length. |
+| 4 | No Raspberry Pi housing | The Pi was mounted without a dedicated enclosure, leaving it exposed to vibration, debris, and potential impact damage — especially critical since the Pi now handles all onboard processing. | Designed and manufactured a dedicated housing for the Raspberry Pi, protecting the brain of the bot from physical damage during combat. |
+| 5 | Python software lag | The original Python control script introduced noticeable latency in processing controller inputs and gyroscope data, reducing responsiveness during matches. | Rewrote the entire software stack in C#, significantly reducing input lag and improving real-time responsiveness of the meltybrain control system. |
+| 6 | Bluetooth controller issues | The first-party Xbox controller connected via Bluetooth frequently dropped connection with the Raspberry Pi, causing loss of control during critical moments. | Switched to a controller using a 2.4 GHz USB-A adapter, eliminating Bluetooth reliability issues entirely. |
+| 7 | Counterweight complexity | The central counterweight system from the original design added moving parts, weight, and manufacturing complexity without proportional performance benefit. | Removed the counterweight system entirely, reclaiming weight budget for other components and reducing points of failure. |
 
 ### What Was Changed from the Previous Design
 
