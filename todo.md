@@ -13,7 +13,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 5. **Risk Analysis** — Identify risks to the project (schedule, manufacturing, competition) with mitigation strategies. Example doc had a full risk matrix.
 6. **Manufacturing Plan** — Detailed step-by-step manufacturing procedures (not just the current placeholder). Example doc described each fabrication step with photos.
 7. **Material Selection** — Justification for why 6061 aluminum and A516 carbon steel were chosen. Compare alternatives considered.
-8. **Accounting / Budget** — A budget table or spreadsheet showing costs for materials, parts, registration, etc. Example doc had a detailed budget breakdown.
+8. ~~**Accounting / Budget** — A budget table or spreadsheet showing costs for materials, parts, registration, etc. Example doc had a detailed budget breakdown.~~ — Added full parts list and budget summary from Excel spreadsheet
 9. **Time Management** — A Gantt chart or detailed timeline showing planned vs. actual progress across the season.
 10. **Bill of Materials (BOM)** — Complete parts list with part numbers, quantities, suppliers, and costs. Different from the missing "parts list" in Material Management.
 11. **Data Management** — How the team manages files, CAD versions, documentation drafts, etc.
@@ -34,7 +34,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 21. **Line 134** - `**Previous Bot:**` — Label with nothing after it (no image or description)
 22. **Line 138** - Influences section trails off with "We also hopefully improved on..." then a TODO
 23. **Line 187** - Manufacturing section is just a placeholder
-24. **Line 288** - Material Management says "Listed below is our parts list" but there's no list — just a TODO
+24. ~~**Line 288** - Material Management says "Listed below is our parts list" but there's no list — just a TODO~~ — Added parts list and budget from Excel spreadsheet
 25. **Line 341** - Overview section is a TODO
 26. **Line 343** - `**Stats:** It spins fast, probably` — Clearly a joke placeholder
 27. **Lines 380-408** - Seven consecutive TODO stubs: Refinement, Structural Analysis, Engineering Drawing Set, Weapon System Details, Drive System Details, Power System Details, Wiring Schematic, Testing Results

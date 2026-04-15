@@ -273,7 +273,51 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 
 Material Management is done by keeping an inventory of parts that are left from previous years. We try to reuse as many unused and old parts as possible to save money and time when designing the bot. Some parts need replacement or are new this year compared to what we already have. Listed below is our parts list for Riverside Robotics Team Spinlayden this year, and the Budget.
 
-> TODO: Add parts list and budget.
+#### Parts List
+
+| Buyer | Category | Part | Unit Price | Qty | Total Cost |
+|-------|----------|------|------------|-----|------------|
+| AWT | Chassis | Multipurpose 6061 Aluminum Bar, 3/8" Thick × 8" Wide, 2 ft (Wall Metal) | $78.19 | 2 | $156.38 |
+| AWT | Chassis | Multipurpose 6061 Aluminum Sheet, 1/8" Thick, 29" × 25" (Plate Metal) | $232.00 | 1 | $232.00 |
+| AWT | Weapon | Impact-Resistant A516 Carbon Steel, 6" × 6" × 1" (Blade Metal) | $208.35 | 1 | $208.35 |
+| Riverside | Drive | R8-2RS Sealed Ball Bearings, 1/2" × 1-1/8" × 5/16" (20-pack) | $12.99 | 1 | $12.99 |
+| Riverside | Brain | Raspberry Pi 4B, 8 GB RAM | $97.99 | 2 | $195.98 |
+| Riverside | Power | XT60 Connector & Wire Covers (8-pack) | $12.99 | 1 | $12.99 |
+| Riverside | Chassis | Kraken Bond KH 62 Red Threadlocker | $9.99 | 1 | $9.99 |
+| Riverside | Power, Brain | 63-37 Tin Lead Rosin Core Solder Wire (0.8 mm, 100 g) | $11.99 | 1 | $11.99 |
+| Riverside | Brain | ELEGOO 120-pc Multicolored Dupont Wire | $6.98 | 1 | $6.98 |
+| Riverside | Chassis | eSUN TPE-83A Flexible Filament, 1.75 mm | $28.11 | 1 | $28.11 |
+| Riverside | Chassis | CR PETG 3D Printer Filament, 1.75 mm, 1 kg | $12.99 | 1 | $12.99 |
+| Riverside | Drive | 1045 Carbon Steel Rotary Shaft, 3", 1/2" Dia | $9.25 | 4 | $37.00 |
+| Riverside | Drive | Terre Products 1.75" V-Groove Drive Pulley | $16.92 | 6 | $101.52 |
+| Riverside | Drive | Dayco 4L160 Utility V-Belt | $7.29 | 1 | $7.29 |
+| Riverside | Chassis | #10-24 × 3/8" Hex Socket Button Head Cap Screws (100-pack) | $67.00 | 1 | $67.00 |
+| Riverside | Weapon | #10-24 × 3/4" Flat Head Socket Cap Screws, 304 SS (50-pack) | $7.98 | 1 | $7.98 |
+| Riverside | Safety | Polycarbonate Safety Glasses (12-pack) | $23.39 | 1 | $23.39 |
+| Riverside | Safety | ANSI A5 Polyurethane Coated Work Gloves, Medium (12-pack) | $81.43 | 1 | $81.43 |
+| Team (Owned) | Drive | T81 Hub, 1/2" Hex Shaft | $4.50 | 8 | $36.00 |
+| Team (Owned) | Drive | BaneBots Wheel, 3-7/8" × 0.8" | $4.25 | 12 | $51.00 |
+| Team (Owned) | Drive | EZRUN 3660 SL G2 Motor | $81.00 | 4 | $324.00 |
+| Team (Owned) | Drive | EZRUN MAX10 SCT ESC | $119.00 | 4 | $476.00 |
+| Team (Owned) | Drive | LANIAKEA Ball Bearing, 5/8" (16-pack) | $16.99 | 1 | $16.99 |
+| Team (Owned) | Power | Liperior 2700 mAh 4S 30C 14.8V LiPo Battery (XT60) | $28.99 | 6 | $173.94 |
+| Team (Owned) | Power | MS-05 Kill Switch | $75.00 | 2 | $150.00 |
+| Advisors | Chassis, Weapon | Lunyee 3018 Pro Ultra CNC Machine, 500W | $499.00 | 1 | $499.00 |
+| Advisors | Club | Vistaprint Custom Team Shirts | $23.91 | 10 | $239.09 |
+| Advisors | Drive | WT901 9-axis IMU / Gyro (USB, 200 Hz) | $32.65 | 2 | $65.30 |
+| Advisors | Drive | Milwaukee Hex Drill Bit Packs | $8.55 | 4 | $34.20 |
+| Advisors | Chassis | PLA Filament (student-sourced) | $20.00 | 1 | $20.00 |
+| Advisors | Drive | P6S Gearbox: Standard Duty, 20:1 (2 new + 2 owned) | $63.65 | 4 | $254.60 |
+
+#### Budget Summary
+
+| Funding Source | Total Value | New Expenditures (2025-2026) |
+|----------------|-------------|------------------------------|
+| Riverside (Club funds) | $617.63 | $617.63 |
+| Advisors (Carbones) | $1,112.19 | $984.89 |
+| Team (Previously owned) | $1,227.93 | $0.00 |
+| AWT (Grant/Sponsor) | $596.73 | $596.73 |
+| **Total** | **$3,554.48** | **$2,199.25** |
 
 ### Our Component Philosophy
 
