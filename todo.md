@@ -6,9 +6,9 @@
 
 These sections are present in the AWT example documentation (Blue Streak of Death) and/or last year's Spinlayden doc but are **completely missing** from the current `main.md`.
 
-1. **Team Biographies** — Individual bios for each team member (example doc had a paragraph + photo per person). Required for scoring under "member attribution."
-2. **Mentor / Advisor Biographies** — Bios for Jack Carbone, Adam Carbone, and JT Mackey. Example doc had detailed bios with photos.
-3. **Acknowledgements** — A section thanking sponsors, mentors, school administration, etc.
+1. ~~**Team Biographies** — Individual bios for each team member (example doc had a paragraph + photo per person). Required for scoring under "member attribution."~~ — Added Team Biographies section to `main.md` after Our Partners. Tom Kramer's bio added; remaining team bios pending submission.
+2. ~~**Mentor / Advisor Biographies** — Bios for Jack Carbone, Adam Carbone, and JT Mackey. Example doc had detailed bios with photos.~~ — Added Mentor / Advisor Biographies section placeholder to `main.md`. Awaiting bios from advisors.
+3. ~~**Acknowledgements** — A section thanking sponsors, mentors, school administration, etc.~~ — Added Acknowledgements section placeholder to `main.md`. Content pending.
 4. **CAD Models** — Screenshots/renders of the Fusion 360 model showing the full assembly and individual components. Example doc had multiple views and exploded diagrams.
 5. **Risk Analysis** — Identify risks to the project (schedule, manufacturing, competition) with mitigation strategies. Example doc had a full risk matrix.
 6. **Manufacturing Plan** — Detailed step-by-step manufacturing procedures (not just the current placeholder). Example doc described each fabrication step with photos.
@@ -29,7 +29,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 ## main.md - Placeholders / TODOs
 
 18. **Line 39** - `**2026 Design:**` — Empty, no content after it
-19. **Line 122-124** - `## WEIIII - Riverside Robotics` — Entire section is just "TODO: Placeholder for formatting reasons." What is WEIIII?
+19. ~~**Line 122-124** - `## WEIIII - Riverside Robotics` — Entire section is just "TODO: Placeholder for formatting reasons." What is WEIIII?~~ — Replaced with Team Biographies, Mentor / Advisor Biographies, and Acknowledgements sections
 20. **Line 130** - Design section TODO about talking to Adam about the table from example doc pages 14-15 — The tables (Positive/Negative + Problem/Solution) have been added. Remaining Design section content (intro paragraph, Previous Bot write-up, 2026 Design description, CAD renders, engineering drawings) requested from design team via `designTeamRequest.md`
 21. **Line 134** - `**Previous Bot:**` — Label with nothing after it (no image or description)
 22. ~~**Line 138** - Influences section trails off with "We also hopefully improved on..." then a TODO~~ — Replaced with full intro paragraph and two influence tables

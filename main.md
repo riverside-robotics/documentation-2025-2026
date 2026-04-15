@@ -44,7 +44,9 @@
 
 - [About Riverside](#about-riverside)
 - [Our Partners](#our-partners)
-- [WEIIII - Riverside Robotics](#weiiii---riverside-robotics)
+- [Team Biographies](#team-biographies)
+- [Mentor / Advisor Biographies](#mentor--advisor-biographies)
+- [Acknowledgements](#acknowledgements)
 - [Design](#design)
   - [Influences](#influences)
   - [Key Stats of the Bot](#key-stats-of-the-bot)
@@ -120,9 +122,21 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 ---
 
-## WEIIII - Riverside Robotics
+## Team Biographies
 
-> TODO: Placeholder for formatting reasons
+**Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
+
+**Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
+
+> Remaining team member bios will be added as they are submitted.
+
+## Mentor / Advisor Biographies
+
+> TODO: Awaiting bios from advisors Jack Carbone, Adam Carbone, and industry advisor JT Mackey.
+
+## Acknowledgements
+
+> TODO: Add acknowledgements section thanking sponsors, mentors, and school administration.
 
 ---
 
