@@ -375,7 +375,7 @@ All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Ja
 
 ---
 
-**Notes:** 8th graders were absent due to a field trip. All productivity went out the window once Dominos arrived.
+**Notes:** 8th graders were absent due to a field trip. The Students who were present worked on fixing issues with wiring within the bot. We also continued working on the documentation for the design and software.
 
 **Attendees:**
 Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
