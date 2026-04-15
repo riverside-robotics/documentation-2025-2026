@@ -162,7 +162,7 @@ The judges also score your team's delivery on three criteria:
 
 ## Practice Schedule
 
-> TODO: Set up at least 2 practice sessions before competition day (April 26). Have an advisor or parent act as a judge and ask the 8 questions. Time yourselves — you only have 15 minutes.
+> TODO: Set up at least 2 practice sessions before competition day (April 25). Have an advisor or parent act as a judge and ask the 8 questions. Time yourselves — you only have 15 minutes.
 
 ---
 
@@ -188,4 +188,5 @@ Take these stats into the interview so anyone can reference them:
 | Total Budget | $3,554.48 ($2,199.25 new this year) |
 | Team Size | ~16 members (Team Meltdown) |
 | Season | September 2025 – April 2026 |
-| Competition | April 26, 2026 |
+| Documentation Due | April 18, 2026 (11:59 PM) |
+| Competition | April 25, 2026 |

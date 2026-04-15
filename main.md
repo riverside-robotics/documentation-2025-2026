@@ -183,7 +183,7 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 | Name | Spinlayden |
 | Project Number | 5 |
 | Start of Session | 9/24/2025 |
-| Date of Completion | 4/25/2026 |
+| Date of Completion | 4/25/2026 (Documentation due 4/18/2026 at 11:59 PM) |
 
 ### Sponsors
 
@@ -246,8 +246,9 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 | Introduction | Sep 24 - Oct 8 |
 | Design | Oct 9 - Dec 7 |
 | Build | Jan 5 - Mar 17 |
-| Prepare | Mar 18 - Apr 25 |
-| Battle | Apr 26 |
+| Prepare | Mar 18 - Apr 24 |
+| Documentation Due | Apr 18 (11:59 PM) |
+| Battle | Apr 25 |
 
 ### Constraints / Risks / Dependables
 

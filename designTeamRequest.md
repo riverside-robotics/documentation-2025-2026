@@ -2,7 +2,7 @@
 
 **From:** Tom (Documentation)
 **To:** Adam, Ayden, Jayden, Adam P., and the rest of the design team
-**Deadline:** ASAP — documentation must be submitted before competition (April 26)
+**Deadline:** ASAP — documentation is due April 18 at 11:59 PM, competition is April 25
 
 ---
 
