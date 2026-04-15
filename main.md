@@ -277,9 +277,6 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 | Jason Kellhofer | Documentation | 9th |
 | Xayden Minch | Software | 9th |
 | Mher Poghosyan | Documentation, Mechanical | 11th |
-
-| Name | Role | Grade |
-|------|------|-------|
 | Lukas Rico-Palomino | Documentation | 8th |
 | Kaydan Kerr | Documentation | Mechanical | 8th |
 | Daniel George | Documentation | 11th |
