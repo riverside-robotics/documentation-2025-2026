@@ -45,7 +45,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 ## main.md - Weird / Questionable Info
 
 29. ~~**Line 258** - Alexander Holmes's role is listed as **"I have not see him work"** — probably shouldn't be in a final doc~~
-30. ~~**Line 273** - Kaydan Kerr has **no role listed** (blank cell)~~ Added Documentation and Mechanical because of missing info
+30. ~~**Line 273** - Kaydan Kerr has **no role listed** (blank cell)~~ Added Documentation and Mechanical because of missing info Removed Advisor and added Documentation and Mechanical becuause of missing information
 31. **Line 277** - Kasey Kurzinger is listed as "Advisor" but is in **8th grade** — is that right?
 32. **Lines 345-353** - Key Stats in the Design Process section is a **duplicate** of the Key Stats table already in the Design section (lines 142-152) — same exact data in two places
 33. **Line 37** - Says team "expanded to 26 students" but line 96 says "approximately 30 students" — inconsistent count
