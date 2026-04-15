@@ -33,44 +33,44 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 20. **Line 130** - Design section TODO about talking to Adam about the table from example doc pages 14-15
 21. **Line 134** - `**Previous Bot:**` — Label with nothing after it (no image or description)
 22. **Line 138** - Influences section trails off with "We also hopefully improved on..." then a TODO
-23. **Line 187** - Manufacturing section is just a placeholder
+23. **Line 175** - Manufacturing section is just a placeholder
 24. ~~**Line 288** - Material Management says "Listed below is our parts list" but there's no list — just a TODO~~ — Added parts list and budget from Excel spreadsheet
-25. **Line 341** - Overview section is a TODO
-26. **Line 343** - `**Stats:** It spins fast, probably` — Clearly a joke placeholder
-27. **Lines 380-408** - Seven consecutive TODO stubs: Refinement, Structural Analysis, Engineering Drawing Set, Weapon System Details, Drive System Details, Power System Details, Wiring Schematic, Testing Results
-28. **Line 416** - Closing Remarks is a TODO
+25. **Line 427** - Overview section is a TODO
+26. **Line 429** - `**Stats:** It spins fast, probably` — Clearly a joke placeholder
+27. **Lines 464-494** - Seven consecutive TODO stubs: Refinement, Structural Analysis, Engineering Drawing Set, Weapon System Details, Drive System Details, Power System Details, Wiring Schematic, Testing Results
+28. **Line 502** - Closing Remarks is a TODO
 
 ---
 
 ## main.md - Weird / Questionable Info
 
-29. ~~**Line 258** - Alexander Holmes's role is listed as **"I have not see him work"** — probably shouldn't be in a final doc~~
-30. ~~**Line 273** - Kaydan Kerr has **no role listed** (blank cell)~~ Added Documentation and Mechanical because of missing info 
-31. ~~**Line 277** - Kasey Kurzinger is listed as "Advisor" but is in **8th grade**~~ — is that right? Removed Advisor and added Documentation and Mechanical to becuause of missing information
+29. ~~**Line 246** - Alexander Holmes's role is listed as **"I have not see him work"** — probably shouldn't be in a final doc~~ — Fixed, now shows "Mechanical | Marketing"
+30. ~~**Line 261** - Kaydan Kerr has **no role listed** (blank cell)~~ Added Documentation and Mechanical because of missing info 
+31. ~~**Line 265** - Kasey Kurzinger is listed as "Advisor" but is in **8th grade**~~ — is that right? Removed Advisor and added Documentation and Mechanical to becuause of missing information
 32. ~~**Lines 345-353** - Key Stats in the Design Process section is a **duplicate** of the Key Stats table already in the Design section (lines 142-152) — same exact data in two places~~
 33. **Line 37** - Says team "expanded to 26 students" but line 96 says "approximately 30 students" — inconsistent count
-34. ~~**Line 199** - Objective table says "Writing a robust Python script" but the Feb 3rd meeting note says the software was **rerolled in C#** — contradicts~~
-35. ~~**Line 302-303** - Fabrication methods only lists CNC Milling and 3D Printing with no details~~ — Expanded with Waterjet Cutting, CNC Milling, and 3D Printing details
+34. ~~**Line 187** - Objective table says "Writing a robust Python script" but the Feb 3rd meeting note says the software was **rerolled in C#** — contradicts~~ — Fixed, now says "Writing a C# program"
+35. ~~**Lines 383, 387** - Fabrication methods only lists CNC Milling and 3D Printing with no details~~ — Expanded with Waterjet Cutting, CNC Milling, and 3D Printing details
 
 ---
 
 ## meetingNotes.md - Missing Notes
 
-36. **Line 305** - February 3rd Meeting: **Notes field is empty**
-37. **Line 394** - March 10th Meeting: **Notes field is empty**
-38. **Line 413** - March 17th Meeting: **Notes field is empty**
-39. **Line 432** - March 31st Meeting: **Notes field is empty**
-40. **Line 449** - April 3rd Meeting: **Notes field is empty**
-41. **Line 471** - April 7th Meeting: **Notes field is empty**
-42. **Line 490** - April 11th Meeting: **Notes field is empty**
+36. ~~**Line 305** - February 3rd Meeting: **Notes field is empty**~~ — Notes have been filled in
+37. **Line 395** - March 10th Meeting: ~~**Notes field is empty**~~ — Notes have been filled in
+38. **Line 414** - March 17th Meeting: **Notes field is empty**
+39. **Line 433** - March 31st Meeting: **Notes field is empty**
+40. **Line 450** - April 3rd Meeting: **Notes field is empty**
+41. **Line 472** - April 7th Meeting: **Notes field is empty**
+42. **Line 491** - April 11th Meeting: **Notes field is empty**
 
 ---
 
 ## meetingNotes.md - Weird Info
 
-43. ~~**Line 402-403** - March 10th: A full paragraph explanation is crammed into a Tasks and Goals table cell — reads more like a note than a task~~ — Moved explanation into Notes field, cleaned up table rows
-44. ~~**Line 312** - Feb 3rd: "Rerolled Software in C#" — significant pivot from Python with no explanation in the notes (notes are blank)~~
-45. ~~**Line 377** - March 3rd: "All productivity went out the window once Dominos arrived" — funny but might want to rephrase for a formal doc~~
+43. ~~**Lines 403-404** - March 10th: A full paragraph explanation is crammed into a Tasks and Goals table cell — reads more like a note than a task~~ — Moved explanation into Notes field, cleaned up table rows
+44. ~~**Line 313** - Feb 3rd: "Rerolled Software in C#" — significant pivot from Python with no explanation in the notes (notes are blank)~~ — Notes now filled with explanation of the C# pivot
+45. ~~**Line 377** - March 3rd: "All productivity went out the window once Dominos arrived" — funny but might want to rephrase for a formal doc~~ — Dominos reference removed
 
 ---
 
