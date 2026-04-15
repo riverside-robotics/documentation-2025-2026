@@ -303,6 +303,7 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Adam Pakeltis, Robert Rate
 ---
 
 **Notes:**
+Today we made a big pivot in the software. We rerolled the software in C# and deployed it into the Pi. This was a big change, but we are hoping it will be for the better. We are decited to switch to C# since it will reduce lag from software signifintly compared to our old Python Code. The design team continued working on the design and parts list. We also started working on the documentation for the design and software.
 
 **Attendees:**
 Sultan Kazeem, Dustin Hance, Tom Kramer, Mher Poghosyan, Robert Rateno, Adam Pakeltis, Yash Jain, Xayden Minch, Jason Kellhofer

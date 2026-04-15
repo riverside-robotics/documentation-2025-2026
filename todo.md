@@ -69,7 +69,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 ## meetingNotes.md - Weird Info
 
 43. **Line 402-403** - March 10th: A full paragraph explanation is crammed into a Tasks and Goals table cell — reads more like a note than a task
-44. **Line 312** - Feb 3rd: "Rerolled Software in C#" — significant pivot from Python with no explanation in the notes (notes are blank)
+44. ~~**Line 312** - Feb 3rd: "Rerolled Software in C#" — significant pivot from Python with no explanation in the notes (notes are blank)~~
 45. **Line 377** - March 3rd: "All productivity went out the window once Dominos arrived" — funny but might want to rephrase for a formal doc
 
 ---
