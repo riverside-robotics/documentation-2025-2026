@@ -1,4 +1,35 @@
+**Monode Marking Products, Inc.**
+Monode Marking Products, Inc.
+
+
+
+Monode Marking Products, Inc. is an American manufacturer specializing in permanent part-marking and traceability solutions for industrial applications. As a third-generation, family-owned business celebrating 75 years in the marking industry, Monode has built its reputation on delivering practical, reliable solutions that perform in real-world environments.
+
+
+
+Headquartered in Mentor, Ohio, Monode maintains a strong focus on North America while serving customers worldwide across industries including the Department of Defense, aerospace, automotive, medical, and food and drug sectors. The company provides a full range of marking technologies, including laser, dot peen, electro-chemical etching, steel stamp, and high precision die systems, along with integrated machine vision solutions.
+
+
+
+What sets Monode apart is its focus on the complete system—not just the marking device. By combining marking hardware, proprietary software, and system integration with existing customer workflows, Monode delivers solutions that are reliable, scalable, and built for long-term use. Their team works closely with customers to design, implement, and support turnkey systems that meet production demands while ensuring compliance with requirements such as DoD Item Unique Identification (IUID).
+
+
+
+Beyond equipment, Monode provides consulting, system design, installation, training, and ongoing support to ensure customers achieve consistent performance and long-term value. This practical, full-system approach has made Monode a trusted partner for organizations that depend on accurate, repeatable, and fully traceable marking solutions.
+
+
+
+If you would like to learn more about Monode Marking Products, we encourage you to visit:
+https://www.monode.com/
+
 **Advisor and Mentor Bios:**
+
+ Biography – J.T. Mackey
+
+ 
+
+J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on delivering practical, real-world solutions for industrial marking and traceability. A recognized subject matter expert, he has co-authored ANSI, ISO and military standards and currently serves as Chair of MH10.8.2, helping guide industry standards across multiple sectors. J.T. is also a patent holder and works closely with customers to ensure marking systems integrate effectively into production environments with a focus on reliability and long-term performance. Outside of work, he is deeply committed to his family—his wife Jenn and their children, Ben and Abby—and to his community. He is proud to support Monode’s partnership with the Riverside robotics program, where his son Ben is a team member, helping inspire the next generation of engineers.
+
 
 
 **If a Student turens in there Biography it will be pasted here.** 
