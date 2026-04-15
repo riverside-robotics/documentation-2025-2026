@@ -1,11 +1,50 @@
-If you want to help out with the documentation, here are some things to look for:
+# Spinlayden 2.0 — Riverside Robotics Documentation
 
-All Infos are in main.md 
+**Team Meltdown** | Riverside High School | AWT RoboBots 2025-2026
 
-Meeting notes are in meetingNotes.md
+**Documentation Due:** April 18, 2026 (11:59 PM)
+**Competition:** April 25, 2026
 
-If you want to upload your bio, please do that so in aboutStudents.md do not put it in main.md, I will do that myself!
+---
 
-If you have images that should be in the doc, please upload them to the `images` folder and let me know which ones to use and where they should go in the doc.
+## Repository Structure
 
-If you want to help with main look at TODO.md if you are done with some cross it out by putting ~~ infront and at the end of the line. (Look into TODO.md for example)
+| File | Description |
+|------|-------------|
+| `main.md` | Main documentation file — all sections for the AWT submission |
+| `meetingNotes.md` | Meeting minutes from September 2025 to April 2026 |
+| `aboutStudents.md` | Team member biographies (submit yours here) |
+| `todo.md` | Tracks what still needs to be done and what has been completed |
+| `interviewPrep.md` | Interview preparation for the 15-minute judge interview |
+| `designTeamRequest.md` | Checklist of items needed from the design/CAD team |
+| `Images/` | Folder for all photos, CAD renders, and diagrams |
+
+---
+
+## How to Contribute
+
+### Submitting Your Bio
+
+Add your biography to `aboutStudents.md` — **do not** put it directly in `main.md`. Tom will move it into the main doc.
+
+### Uploading Images
+
+Upload images to the `Images/` folder and let Tom know which ones to use and where they should go in the doc.
+
+### Helping with the Documentation
+
+Check `todo.md` for outstanding tasks. When you complete one, mark it as done by wrapping the line with `~~` (strikethrough). See existing completed items in `todo.md` for examples.
+
+### Submitting Design Content
+
+If you are on the design or CAD team, check `designTeamRequest.md` for the specific items needed (CAD renders, engineering drawings, design descriptions). Send completed items to Tom or drop them in Google Classroom.
+
+---
+
+## Quick Links
+
+- **Main Doc:** [main.md](main.md)
+- **Meeting Notes:** [meetingNotes.md](meetingNotes.md)
+- **TODO List:** [todo.md](todo.md)
+- **Interview Prep:** [interviewPrep.md](interviewPrep.md)
+- **Design Team Request:** [designTeamRequest.md](designTeamRequest.md)
