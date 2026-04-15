@@ -274,7 +274,7 @@ Since Riverside Robotics has designed, manufactured, and built a bot like Spinla
 | Daniel George | Documentation | 11th |
 | Richard Rowland | Documentation | 8th |
 | John Barrow | Mechanical | 8th |
-| Kasey Kurzinger | Advisor | 8th |
+| Kasey Kurzinger | Documentation | Mechanical | 8th |
 | Benjamin Mackey | Documentation | 8th |
 
 ---
