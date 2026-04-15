@@ -30,7 +30,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 
 18. **Line 39** - `**2026 Design:**` — Empty, no content after it
 19. **Line 122-124** - `## WEIIII - Riverside Robotics` — Entire section is just "TODO: Placeholder for formatting reasons." What is WEIIII?
-20. **Line 130** - Design section TODO about talking to Adam about the table from example doc pages 14-15
+20. **Line 130** - Design section TODO about talking to Adam about the table from example doc pages 14-15 — The tables (Positive/Negative + Problem/Solution) have been added. Remaining Design section content (intro paragraph, Previous Bot write-up, 2026 Design description, CAD renders, engineering drawings) requested from design team via `designTeamRequest.md`
 21. **Line 134** - `**Previous Bot:**` — Label with nothing after it (no image or description)
 22. ~~**Line 138** - Influences section trails off with "We also hopefully improved on..." then a TODO~~ — Replaced with full intro paragraph and two influence tables
 23. **Line 175** - Manufacturing section is just a placeholder
