@@ -514,6 +514,5 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
 |   Deconstruct prototype bot| Converted documentation to markdown|
-|   |
 |   Work on documentation            |Created github repo for documentation|
 |   Started assembling metal body          | |
