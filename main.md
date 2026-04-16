@@ -32,7 +32,7 @@
 
 ## Meet the Robotics Team
 
-**Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the robotics team has greatly expanded to 26 students.
+**Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the robotics team has greatly expanded to approximately 30 students.
 
 **2026 Design:**
 

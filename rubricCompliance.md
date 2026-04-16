@@ -99,7 +99,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 3. **Get advisor bios** — Jack and Adam Carbone bios are missing.
 4. ~~**Write Acknowledgements**~~ — DONE. Thanks Monode, Arc Technology, Show Studio, advisors, Riverside HS, Case Western think[box], AWT, and families.
 5. **Add table captions** — All 11 tables need "Table X:" labels for rubric compliance.
-6. **Fix team size inconsistency** — Line 34 says "26 students" vs line 96 says "approximately 30 students."
+6. ~~**Fix team size inconsistency**~~ — DONE. Both lines now say "approximately 30 students."
 7. **Write Closing Remarks** — Currently a TODO.
 8. **Fill in Overview section** — Currently a TODO.
 
