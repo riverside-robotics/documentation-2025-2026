@@ -1,0 +1,141 @@
+# AWT Documentation Rubric Compliance Tracker
+
+**Team Meltdown — Spinlayden 2.0**
+**Last Updated:** April 15, 2026
+**Documentation Due:** April 18, 2026 (11:59 PM)
+**Competition:** April 25, 2026
+
+---
+
+## Overall Progress
+
+**Sections Complete:** 21 / 35
+**Sections Partial:** 7 / 35
+**Sections Missing:** 7 / 35
+
+---
+
+## Section-by-Section Compliance
+
+Status key: DONE = complete, PARTIAL = started but needs more content, MISSING = not present, BLOCKED = waiting on team input
+
+### Additional Documentation
+
+| # | Section (from Example Doc) | Status | Notes |
+|---|---------------------------|--------|-------|
+| 1 | Cover Page | MISSING | Need a cover page with team name, school, bot name, team photo, and member names |
+| 2 | Table of Contents | DONE | Present in main.md (lines 41-81) |
+| 3 | Project Charter / General Info | DONE | General Information table, Bot Description, Objective, Deliverables, Key Milestones, Constraints all present |
+| 4 | About Riverside (School Info) | DONE | Thorough write-up covering school history, robotics program history, and program expansion |
+| 5 | Sponsor / Partner Info | DONE | Monode, Arc Technology, and Show Studio all have detailed write-ups |
+| 6 | Team Biographies | PARTIAL | 3 of 19 bios submitted (Ayden Moore, Daniel George, Tom Kramer). 16 still pending — tracked in aboutStudents.md |
+| 7 | Mentor / Advisor Biographies | PARTIAL | J.T. Mackey bio complete. Jack Carbone and Adam Carbone bios still missing |
+| 8 | Acknowledgements | MISSING | Section exists as a TODO placeholder. Needs content thanking sponsors, mentors, school administration |
+
+### Design Motivation / Strategy
+
+| # | Section (from Example Doc) | Status | Notes |
+|---|---------------------------|--------|-------|
+| 9 | Design Motivation | DONE | Covers chassis design, meltybrain system, blade configuration |
+| 10 | Strategy (Offensive + Defensive) | DONE | Both offensive and defensive strategies with specific stats |
+| 11 | Influences | DONE | Full intro paragraph, Positive/Negative table (7 rows), and Problems/Solutions table (7 entries) |
+| 12 | What Was Changed from Previous Design | DONE | 6 bullet points covering all major changes |
+| 13 | Previous Bot Write-Up | PARTIAL | "Previous Bot:" label exists but no content, photo, or description. Requested from design team via designTeamRequest.md |
+| 14 | Design Section Intro Paragraph | MISSING | Requested from design team via designTeamRequest.md |
+| 15 | 2026 Design Description | MISSING | Line 36 is empty after "2026 Design:" label. Requested from design team |
+
+### Team Procedures
+
+| # | Section (from Example Doc) | Status | Notes |
+|---|---------------------------|--------|-------|
+| 16 | Team Management / Task Distribution | DONE | Project Assignments table with all 19 students + 2 advisors, roles, and grades |
+| 17 | Meeting Minutes | DONE | 27 meetings documented (Sep 24 - Apr 14). 5 meetings have empty Notes fields (Mar 17, Mar 31, Apr 3, Apr 7, Apr 11) but have Tasks/Goals tables |
+| 18 | Action Plan | MISSING | No structured plan showing tasks, responsible persons, and deadlines |
+| 19 | Material Selection | DONE | Full section covering 6061 aluminum, A516 carbon steel, 1045 steel, and 3D print materials with alternatives considered |
+| 20 | Material Management | DONE | Intro paragraph explaining parts reuse philosophy + component philosophy section |
+| 21 | Accounting and Budget | DONE | Complete parts list (32 line items) and budget summary table ($3,554.48 total) |
+| 22 | Time Management | MISSING | No Gantt chart or planned-vs-actual timeline. Key Milestones table exists but is not a detailed schedule |
+| 23 | Bill of Materials | DONE | Parts list serves as BOM with part names, quantities, unit prices, totals, and buyer/category |
+| 24 | Data Management | MISSING | No section describing how the team manages files, CAD versions, documentation drafts, or GitHub repo |
+| 25 | Inventory | DONE | Tools and equipment table with quantities, types, and conditions |
+
+### Design Process
+
+| # | Section (from Example Doc) | Status | Notes |
+|---|---------------------------|--------|-------|
+| 26 | Research Methods | DONE | Describes analysis of previous AWT competitions and other streams |
+| 27 | CAD Models | BLOCKED | No CAD renders or screenshots in the doc. Requested from design team (isometric, top-down, side, exploded views) via designTeamRequest.md |
+| 28 | Refinements | DONE | 8 specific refinements from 1.0 to 2.0 documented |
+| 29 | Risk Analysis | MISSING | No formal risk matrix. FMEA table exists under Structural Analysis but does not cover project-level risks (schedule, manufacturing, competition) |
+| 30 | Structural Analysis | DONE | Full FMEA table with 8 failure modes, severity/likelihood ratings, and mitigations |
+| 31 | Engineering Drawing Sets | BLOCKED | TODO — awaiting dimensioned drawings from CAD team (Fusion 360 exports) |
+| 32 | Manufacturing Plan | PARTIAL | Fabrication section covers Waterjet, CNC Milling, and 3D Printing methods. Manufacturing under Project Overview is still a TODO placeholder. Missing step-by-step procedures with photos |
+| 33 | Weapon System Details | DONE | Blade specs, energy output, full-body spinner design explained |
+| 34 | Drive System Details | DONE | Motors, ESCs, gearboxes, wheels, hubs, shafts, bearings, belts, steering |
+| 35 | Power System Details | DONE | Batteries, kill switches, power distribution, solder specs |
+| 36 | Wiring Schematics | PARTIAL | Power path, control path, and BEC path documented in text. Missing a wiring diagram image |
+| 37 | Testing Results | PARTIAL | 4 testing phases documented. Full-speed test results still pending (testing ongoing Apr 14-24) |
+
+### Presentation Quality (from Documentation Details rubric)
+
+| # | Criteria | Status | Notes |
+|---|----------|--------|-------|
+| 38 | Professional presentation | PARTIAL | Clean Markdown formatting. Still contains TODO placeholders and one joke ("It spins fast, probably") that must be removed before submission |
+| 39 | Rubric compliance | PARTIAL | See sections above — 7 sections still missing |
+| 40 | Supporting documents | PARTIAL | Budget spreadsheet data included. Missing: CAD renders, engineering drawings, wiring diagram, photos |
+| 41 | Technical terminology | DONE | Full terminology pass completed on both main.md and meetingNotes.md |
+| 42 | Clear labeling | PARTIAL | 11 tables lack formal "Table X:" captions. No figures exist yet to label |
+| 43 | Original writing | DONE | All content is original to the team |
+| 44 | Team member attribution | PARTIAL | Project Assignments table shows roles. Individual contributions not called out consistently throughout the document |
+
+---
+
+## Priority Actions (Before April 18 Deadline)
+
+### Must Do (High Impact, Team Can Complete)
+
+1. **Remove all TODO placeholders and joke text** — "It spins fast, probably", all `> TODO:` lines. Judges will see these.
+2. **Get remaining team bios submitted** — 16 of 19 are still missing. Even short bios are better than none.
+3. **Get advisor bios** — Jack and Adam Carbone bios are missing.
+4. **Write Acknowledgements** — Thank Monode, Arc Technology, Show Studio, school administration, and advisors.
+5. **Add table captions** — All 11 tables need "Table X:" labels for rubric compliance.
+6. **Fix team size inconsistency** — Line 34 says "26 students" vs line 96 says "approximately 30 students."
+7. **Write Closing Remarks** — Currently a TODO.
+8. **Fill in Overview section** — Currently a TODO.
+
+### Should Do (Rubric Sections, Need Team Input)
+
+9. **CAD Models** — Get renders from design team (requested in designTeamRequest.md).
+10. **Engineering Drawings** — Get dimensioned drawings from CAD team (requested in designTeamRequest.md).
+11. **Previous Bot write-up** — Get Spinlayden 1.0 photo and description from design team.
+12. **2026 Design description** — Get 1-3 sentence design summary from design team.
+13. **Design section intro paragraph** — Get from design team or write from existing content.
+14. **Wiring diagram image** — Get from electrical team.
+15. **Manufacturing Plan** — Expand the placeholder with step-by-step procedures.
+16. **Update Testing Results** — Add full-speed test data once testing is complete (Apr 14-24).
+
+### Nice to Have (Would Strengthen Submission)
+
+17. **Risk Analysis** — Create a project-level risk matrix (schedule, manufacturing, competition risks).
+18. **Action Plan** — Create a structured task plan with owners and deadlines.
+19. **Time Management** — Create a Gantt chart or planned-vs-actual timeline.
+20. **Data Management** — Write a short section about GitHub, Google Classroom, Fusion 360 file management.
+21. **Cover Page** — Create a cover page with team photo, school name, bot name, and member list.
+22. **Build photos** — Add in-progress assembly, waterjet, CNC, and 3D printing photos throughout.
+23. **Fill empty meeting notes** — 5 meetings (Mar 17, Mar 31, Apr 3, Apr 7, Apr 11) have no Notes content.
+
+---
+
+## Summary
+
+| Category | Count |
+|----------|-------|
+| Sections Complete | 21 |
+| Sections Partial | 7 |
+| Sections Missing | 7 |
+| Sections Blocked (waiting on team) | 2 |
+| TODO placeholders remaining in main.md | 7 |
+| Empty meeting notes | 5 |
+| Team bios missing | 16 of 19 |
+| Advisor bios missing | 2 of 3 |
+| Days until deadline | 3 |

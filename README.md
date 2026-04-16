@@ -17,6 +17,7 @@
 | `todo.md` | Tracks what still needs to be done and what has been completed |
 | `interviewPrep.md` | Interview preparation for the 15-minute judge interview |
 | `designTeamRequest.md` | Checklist of items needed from the design/CAD team |
+| `rubricCompliance.md` | Tracks how far we are with AWT rubric compliance |
 | `Images/` | Folder for all photos, CAD renders, and diagrams |
 
 ---
