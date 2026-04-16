@@ -36,7 +36,7 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **Adam Pakeltis:** *Bio not yet submitted.*
 
-**Alexander Holmes:** *Bio not yet submitted.*
+**Alexander Danger Holmes:** Returning for his second year, this sharp junior is ready to take the competition by storm. Bringing his strategic mindset to the team, Alexander takes charge of marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. When he isn't busy promoting the team, he enjoys reading, following F1 racing, and competing in fencing. With a middle name like Danger, this experienced student is definitely prepared to help his team stand out and succeed.
 
 **Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
 
