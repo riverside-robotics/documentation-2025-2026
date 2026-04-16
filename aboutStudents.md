@@ -41,7 +41,7 @@ Jack Carbone is a software developer and the founder and CEO of Show Studio LLC.
 
 **Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
 
-**Benjamin Mackey:** *Bio not yet submitted.*
+**Ben Mackey:** This enthusiastic eighth grader is thrilled to step into the cage for his very first year. At 14 years old, Ben brings a positive attitude and a strong love for math to the team. Always happy to help and ready for a challenge, this cheerful rookie is excited to calculate the team's path to victory and gain valuable experience in his first competition.
 
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
 
