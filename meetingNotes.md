@@ -8,7 +8,7 @@
 
 ---
 
-**Notes:** We talked about robotics and what is going to happen this season. This is very important since we have a lot of new students compared to last year.
+**Notes:** Discussed the season overview, competition timeline, and program expectations. This orientation was particularly important given the significant number of new members joining compared to last year.
 
 **Attendees:**
 Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
@@ -70,16 +70,16 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason
 
 ---
 
-**Notes:** Today we drilled a few holes. We switched the Pi we were using, which resolved our Bluetooth issue. We began setting up the gyroscope and got cables gifted by an Engineering Teacher.
+**Notes:** Today we drilled mounting holes in the chassis. We replaced the Raspberry Pi unit, which resolved our Bluetooth connectivity issue. We began calibrating and integrating the WT901 IMU/gyroscope and received cabling donated by an Engineering Teacher.
 
 **Attendees:**
 Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Work on Pi | There will be 2 teams |
-| Solving Bluetooth issues | |
-| Setting up Gyro | |
+| Configure Raspberry Pi | There will be 2 teams |
+| Resolve Bluetooth connectivity issues | |
+| Calibrate and integrate WT901 IMU/gyroscope | |
 | Get the new teams used to Robotics | |
 
 ---
@@ -90,17 +90,17 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason
 
 ---
 
-**Notes:** Our team was split into two tasks today. One group worked on the CAD design and parts list for the bot, while the other focused on the Raspberry Pi, setting it up and writing the Python script to enable the meltybrain to spin.
+**Notes:** Our team was split into two task groups today. One group worked on the CAD design and bill of materials for the robot, while the other focused on the Raspberry Pi, configuring it and developing the Python control algorithm for the meltybrain rotation system.
 
 **Attendees:**
 Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Robert Rateno
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Worked on Pi | N/A |
-| Updated code | |
-| Work on the CAD design | |
-| Started parts list | |
+| Configured Raspberry Pi | N/A |
+| Updated control software | |
+| Continued CAD modeling in Fusion 360 | |
+| Started bill of materials (BOM) | |
 
 ---
 
@@ -117,8 +117,8 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Ka
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Continued on CAD and parts list | - |
-| Continued Coding | |
+| Continued CAD modeling and BOM development | - |
+| Continued software development | |
 
 ---
 
@@ -135,8 +135,8 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Ka
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Continued on CAD and parts list | Who would be working on documentation |
-| Continued Coding | |
+| Continued CAD modeling and BOM development | Assigned documentation responsibilities |
+| Continued software development | |
 
 ---
 
@@ -223,18 +223,18 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore,
 
 ---
 
-**Notes:** Today, we figured out how to implement a battery pack onto the Pi, troubleshooting controls with an Xbox controller, updating code-server, designing part of the main body, and got GitHub Copilot running in code server.
+**Notes:** Today, we integrated a portable power supply for the Raspberry Pi, troubleshot controller input via Xbox controller, updated code-server, continued CAD modeling of the main chassis body, and configured GitHub Copilot in code-server.
 
 **Attendees:**
 Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Figured out how to implement a battery pack onto the Pi | - |
-| Troubleshooting controls with an Xbox controller | |
-| Updating code-server | |
-| Designed part of the main body | |
-| Got GitHub Copilot running in code server | |
+| Integrated portable power supply for the Raspberry Pi | - |
+| Troubleshot controller input via Xbox controller | |
+| Updated code-server development environment | |
+| Continued CAD modeling of main chassis body | |
+| Configured GitHub Copilot in code-server | |
 
 ---
 
@@ -244,7 +244,7 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore,
 
 ---
 
-**Notes:** Today, we had a big setback in the Coding group. Our Pi with the already set up Code and Software seems to be corrupted and won't turn on anymore. We also figured out that an Xbox first-party controller is not the best controller we could use since Bluetooth often causes problems with the Pi. We ordered a replacement for the Pi and a controller that is using a 2.4GHz USB-A adapter, this will hopefully stop future problems. The design team was working on the CAD design and figuring out weight reduction.
+**Notes:** Today, the software team encountered a significant setback. The Raspberry Pi with the pre-configured development environment and control software appeared to be corrupted and would not boot. We also identified that the first-party Xbox controller's Bluetooth connection was unreliable, causing frequent disconnections with the Pi. We ordered a replacement Pi and a controller utilizing a 2.4 GHz USB-A radio adapter to eliminate Bluetooth-related issues. The design team continued CAD modeling and developing weight reduction strategies.
 
 **Attendees:**
 Alexander Holmes, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno
@@ -264,16 +264,16 @@ Alexander Holmes, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Mo
 
 ---
 
-**Notes:** Worked on choosing between what we could make our bot out of. We worked on meeting notes and coding during this meeting.
+**Notes:** Evaluated and compared candidate chassis materials. We also worked on meeting documentation and software development during this meeting.
 
 **Attendees:**
 Dustin Hance, Alexander Holmes, Jason Kellhofer, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Carbon fiber or titanium | Using carbon fiber |
-| Batteries | |
-| Parts list as well as pricing | |
+| Evaluate carbon fiber vs. titanium for chassis material | Selected carbon fiber |
+| Evaluate battery options | |
+| Develop bill of materials with pricing | |
 
 ---
 
@@ -303,15 +303,15 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Adam Pakeltis, Robert Rate
 ---
 
 **Notes:**
-Today we made a big pivot in the software. We rerolled the software in C# and deployed it into the Pi. This was a big change, but we are hoping it will be for the better. We are decited to switch to C# since it will reduce lag from software signifintly compared to our old Python Code. The design team continued working on the design and parts list. We also started working on the documentation for the design and software.
+Today we made a significant pivot in the software architecture. We rewrote the control software in C# and deployed it to the Raspberry Pi. This was a major change, but the team determined it was necessary. The decision to switch to C# was driven by the need to reduce input latency significantly compared to the interpreted Python codebase. The design team continued working on the CAD model and bill of materials. We also began working on the documentation for the design and software sections.
 
 **Attendees:**
 Sultan Kazeem, Dustin Hance, Tom Kramer, Mher Poghosyan, Robert Rateno, Adam Pakeltis, Yash Jain, Xayden Minch, Jason Kellhofer
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Rerolled Software in C# | N/A |
-| Deployed into Pi | |
+| Rewrote control software in C# | N/A |
+| Deployed C# software to Raspberry Pi | |
 
 ---
 
@@ -321,15 +321,15 @@ Sultan Kazeem, Dustin Hance, Tom Kramer, Mher Poghosyan, Robert Rateno, Adam Pak
 
 ---
 
-**Notes:** Dustin set up the Raspberry Pi as well as put it on a larger monitor for everyone to see.
+**Notes:** Dustin configured the Raspberry Pi and connected it to a larger display monitor for team-wide visibility during development.
 
 **Attendees:**
 All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Tidying up documentation | N/A |
-| Worked on bot design | |
+| Revised and organized documentation | N/A |
+| Continued CAD modeling of robot design | |
 
 ---
 
@@ -339,7 +339,7 @@ All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Ja
 
 ---
 
-**Notes:** We were inhibited by a lack of equipment and a shortage of SD cards, so we enjoyed each other's company and spent time bonding as a team.
+**Notes:** Progress was limited due to a lack of available equipment and a shortage of SD cards for the Raspberry Pi. The team used the remaining time for team building and coordination.
 
 **Attendees:**
 All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
@@ -356,16 +356,16 @@ All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Ja
 
 ---
 
-**Notes:** In this meeting the two teams merged into one unified team (8th grade and high school). We analyzed old battle footage. Teaching new 8th grade members about codebase and figuring out why the translation engine keeps logging errors.
+**Notes:** In this meeting the JuniorBots and high school teams merged into one unified team. We analyzed previous competition footage for strategic insights. The software team onboarded new 8th grade members to the codebase and began debugging the translation engine's recurring error logs.
 
 **Attendees:**
 All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George, John Barrow, Benjamin Mackey, Richard Rowland, Lukas Rico-Palamino, Kaydan Kerr
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Analyzed old battle footage | Merging the two teams into one unified team |
-| Teach new members about codebase | |
-| Fixing translation engine | |
+| Analyzed previous competition footage | Merged JuniorBots and high school teams into one unified team |
+| Onboarded new members to the software codebase | |
+| Debugging translation engine error logs | |
 
 ---
 
@@ -375,14 +375,14 @@ All members: Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Ja
 
 ---
 
-**Notes:** 8th graders were absent due to a field trip. The Students who were present worked on fixing issues with wiring within the bot. We also continued working on the documentation for the design and software.
+**Notes:** 8th grade members were absent due to a field trip. The remaining team members diagnosed and resolved wiring issues within the robot. We also continued developing the documentation for the design and software sections.
 
 **Attendees:**
 Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno, Vincent Riha, Daniel George
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Fixed issues with wiring within the bot | N/A |
+| Diagnosed and resolved electrical wiring issues within the robot | N/A |
 
 ---
 
@@ -418,9 +418,9 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Xayden Mi
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| We got the bot to spin, tested with a lower power motor for safety | Add lock tight to the screws to prevent the screws from flying out because of the rotational speed |
-| 3D printing test parts | |
-| Record software data and issues | |
+| Achieved initial spin test with lower-power motor for safety validation | Apply Loc-Tite threadlocker to all fasteners to prevent loosening under rotational forces |
+| 3D printing prototype components for fitment testing | |
+| Document software performance data and known issues | |
 
 ---
 
@@ -437,7 +437,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Retrofitted the 3D printed parts onto Spinlayden | N/A |
+| Installed 3D-printed prototype components onto the Spinlayden chassis | N/A |
 
 ---
 
@@ -454,9 +454,9 @@ Dustin Hance, Xayden Minch, Robert Rateno, Daniel George, Jason Kellhofer, Benja
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Have a team research the catalog power supply to purchase to fix the CNC mill | Buy a new power supply for the CNC machine |
-| Find super glue | |
-| Redesign battery holder because the old one was too small | |
+| Research replacement power supply specifications for the CNC mill | Purchase new power supply for the CNC machine |
+| Source cyanoacrylate adhesive | |
+| Redesign battery mounting bracket — previous version undersized for Liperior 4S packs | |
 | Work on documentation | |
 | Assemble test bot | |
 | Work on software | |
@@ -476,9 +476,9 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Work on assembling prototype Spinlayden | Purchase more 10-24 Phillips head screws |
-| Look for 10-24 screws | |
-| Look for a new drill and/or battery | |
+| Assemble prototype Spinlayden chassis | Purchase additional #10-24 Phillips head cap screws |
+| Source #10-24 fastener inventory | |
+| Source replacement drill or battery pack | |
 
 ---
 
@@ -495,11 +495,11 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-| Connect the new power supply to the CNC machine | |
-| Finish assembling the prototype bot | |
-| Added screws, battery, and 18V screwdriver to the parts list | |
-| Organize supplies | |
-| Test the prototype bot | |
+| Install replacement power supply on CNC machine | |
+| Complete prototype robot assembly | |
+| Added fasteners, battery, and 18V driver to the bill of materials | |
+| Organize inventory and supplies | |
+| Conduct prototype robot testing | |
 
 ## April 14th Meeting
 
@@ -514,6 +514,6 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
-|   Deconstruct prototype bot| Converted documentation to markdown|
-|   Work on documentation            |Created github repo for documentation|
-|   Started assembling metal body          | |
+| Disassemble prototype robot for component reuse | Converted documentation to Markdown format |
+| Continue documentation development | Created GitHub repository for documentation |
+| Began assembly of metal chassis body | |

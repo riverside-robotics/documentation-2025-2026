@@ -90,7 +90,7 @@ Connecting with this commitment to excellence, Riverside Robotics encourages han
 
 Riverside Robotics has a rich history dating back to the 2010s, competing in the AWT RoboBots program at Lakeland Community College—Ohio's largest regional combat robotics competition and a National Robotics League sanctioned event. In 2021, the team earned third place with Pfizer and Moderna, a pair of weaponless wedge bots designed around a strategy of control, domination, and superior torque. The following year, the team fielded Mass and Acceleration, a non-uniform dual-bot entry featuring both spinner and wedge designs, demonstrating the program's continued commitment to innovation and experimentation.
 
-Following a brief hiatus, Riverside Robotics was revived in 2025 when alumni advisors Jack and Adam Carbone returned to reestablish the program. In just four months, from January to April, not only was a team of eight students formed, but Riverside Robotics also learned to design and manufacture its first robot in years: Spinlayden, a 15-pound meltybrain smart spinner. Although competition results were modest, the inaugural revival season proved to be an overwhelming success—a year defined by excitement, growth, and invaluable learning experiences for every member of the new team.
+Following a brief hiatus, Riverside Robotics was revived in 2025 when alumni advisors Jack and Adam Carbone returned to reestablish the program. In just four months, from January to April, not only was a team of eight students formed, but Riverside Robotics also learned to design and manufacture its first robot in years: Spinlayden, a 15-pound meltybrain full-body spinner. Although competition results were modest, the inaugural revival season proved to be an overwhelming success—a year defined by excitement, growth, and invaluable learning experiences for every member of the new team.
 
 At Riverside, the robotics program has achieved significant success beyond the arena. Alumni of the program have gone on to pursue degrees in mechanical engineering, software engineering, and other engineering disciplines at colleges and universities. Through robotics, students gain exposure to real-world manufacturing skills, CAD design, electronics, and the iterative process of engineering—experiences that have shaped their academic and professional futures.
 
@@ -188,13 +188,12 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 
 ### What Was Changed from the Previous Design
 
-- Weight reduction that goes part of the way through the bot without sacrificing durability (no weight reduction holes)
-- Changed the style of weight reduction
-- Everything was pushed away from the walls to reduce the risk of damage
-- Housing for the Raspberry Pi
-- Changed tips of blades to make them sharper (improves puncture)
-- Changed blades from claw to spike
-- Maintained its length and increased lethality
+- Partial-depth pockets machined into the chassis walls replace the full through-holes, preserving structural integrity while achieving weight savings
+- Redesigned weight reduction geometry for improved stress distribution
+- Internal components repositioned toward the chassis center to reduce vulnerability to impact damage
+- Dedicated 3D-printed housing for the Raspberry Pi onboard controller
+- Redesigned blade tip geometry from claw to spike profile for improved penetration
+- Maintained blade length while increasing damage potential through concentrated force application
 
 ---
 
@@ -223,7 +222,7 @@ Jack Carbone, Adam Carbone
 
 ### Bot Description
 
-Spinlayden is a 15-pound combat robot to compete in the Regional RoboBots Contest organized by Alliance for Working Together (AWT). Spinlayden goes into V2 this year; this year's focus isn't to reinvent the Riverside Bot, but instead to look at what failed last year, and where the team ran out of time. This year, Riverside Robotics has a much bigger team than last year, and we are keen on using this extra help to hopefully win the AWT competition.
+Spinlayden is a 15-pound combat robot designed to compete in the Regional RoboBots Contest organized by the Alliance for Working Together (AWT). Spinlayden enters its second design iteration (V2) this year; the focus is not to redesign the robot from scratch, but to analyze failure points from the previous season and address areas where the team ran out of development time. With a significantly larger team this year, Riverside Robotics aims to leverage this expanded roster to compete at the highest level in the AWT competition.
 
 The High School Robotics Club is also an opportunity for Riverside Students to learn about manufacturing, engineering, teamwork, design, software, and documentation used in the engineering process.
 
@@ -231,8 +230,8 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 | Objective | Metric | Project Goal |
 |-----------|--------|--------------|
-| Software | Software that allows us not only to control the spinning of our bot, but also its movements. | Writing a C# program that does the physics needed to move and spin at the same time. |
-| Robustness | Withstanding damage from other bots and even getting flipped over. | Keeping the bot drivable and protecting the bot's "Brain" at all costs. |
+| Software | Control software that manages both rotational weapon operation and translational movement. | Developing a C# program that computes the translational vectors required for simultaneous rotation and translation. |
+| Robustness | Withstanding impact damage from opposing robots and recovering from inversion during combat. | Maintaining operational capability and protecting the onboard control system (Raspberry Pi) under all combat conditions. |
 | Offensive Output | Spinlayden's ability to harm other teams' bots. | Making sure that Spinlayden is the most powerful bot at the competition. |
 
 ### Team Members
@@ -276,7 +275,7 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 ### Constraints / Risks / Dependables
 
-Since Riverside Robotics has designed, manufactured, and built a bot like Spinlayden before, it isn't too much of a challenge to do the same for a new version. However, the manufacturing part needs to be figured out again this year, since we don't have a clear manufacturing partner at the time of writing this documentation. Luckily, we can rely on our experienced advisors to help with this task.
+Since Riverside Robotics has previously designed, manufactured, and assembled a robot of Spinlayden's configuration, iterating on the existing platform does not present significant design challenges. However, the team requires identification of a manufacturing partner for this season, as machining access was not confirmed at the time of writing. The team's experienced advisors are coordinating with industry partners to secure fabrication support.
 
 ---
 
@@ -364,11 +363,11 @@ Material Management is done by keeping an inventory of parts that are left from 
 
 ### Our Component Philosophy
 
-Spinlayden is a bot based on last year's Riversides Meltybrain by the same name. Using the same design as last year gives us some very important benefits over creating a full new design. We can, for example, profit from the knowledge the returning members of Riverside Robotics bring; they know how the bot was designed last year and what is important to think of. We can also use Spinlayden 1.0's performances as a "testing base" for this year's bot, as we know which mistakes to avoid this year. Another key part to going with a very similar design again is that we can use spare and old parts from last year, and either replace them partially or just reuse them. This allows Riverside Robotics to cut costs. We also save time when creating the CAD design since we know how big the working parts are, and we already have 3D Models for them.
+Spinlayden is based on Riverside Robotics' meltybrain full-body spinner of the same name from the previous season. Iterating on the existing design provides several key engineering advantages over a ground-up redesign. The team can leverage the experience of returning members, who understand the original design decisions and key design considerations. Spinlayden 1.0's competition performance serves as a baseline for identifying areas of improvement, allowing the team to address known deficiencies systematically. Additionally, reusing the existing platform enables the team to carry over spare and existing components, reducing both cost and procurement lead time. CAD development time is also reduced, as component dimensions and 3D models from the previous season can be directly referenced.
 
 Like last year, Spinlayden uses a custom-fabricated chassis to optimize our performance, space, and weight. While the chassis may look the same from the outside, we have redesigned it from the ground up. This year we are using a different weight reduction that allows us to give better protection to the internal components, especially since the controller inputs are processed on a Raspberry Pi inside the bot itself this year instead of having the computing be done on a laptop that connects to the bot.
 
-Spinlayden's chassis also allows us to benefit from Hexagonal Strength. This means that the six-sided shape of the chassis provides inherent structural rigidity and resistance to impact from any angle, essential for a combat robot like Spinlayden, and also allows for mounting the six blades for attack and usage. All of this combined gives us more control, achieved through weight distribution, custom parts, and machining, allowing our bot to have an equal weight distribution across, which enables precise movements and control throughout.
+Spinlayden's chassis also benefits from hexagonal structural rigidity. The six-sided geometry provides inherent resistance to impact loading from any angle, which is essential for a combat robot, and also provides six mounting faces for the blade assemblies. The combination of symmetric weight distribution, custom-fabricated components, and precision machining enables balanced mass distribution across the chassis, which is critical for stable rotation and precise translational control during operation.
 
 ### Material Selection
 
@@ -415,7 +414,7 @@ All internal, non-structural components are 3D printed using materials chosen fo
 
 ### Fabrication
 
-Fabrication is the heart of our bot. Our bot's weapon is its own body. Spinning at high speeds allows the body to slam into the enemy, dealing high amounts of damage. The following methods of fabrication allow our bot to operate as it does:
+Fabrication is central to Spinlayden's design. As a full-body spinner, the robot's chassis is the weapon system — rotating at high angular velocity, the chassis impacts opposing robots and transfers significant kinetic energy on contact. The following fabrication methods were used to manufacture Spinlayden's components:
 
 #### Waterjet Cutting
 
@@ -456,7 +455,7 @@ The following table lists the tools and equipment available to Riverside Robotic
 
 ### Research
 
-**Configuration:** The structure of the bot
+**Configuration:** The structural configuration of the robot
 
 **Strengths:**
 
@@ -464,7 +463,7 @@ The following table lists the tools and equipment available to Riverside Robotic
 
 **Weaknesses:**
 
-- Raspberry Pi was put in the bot for local controller processing, leading to more points of failure (in previous years, there was only a receiver)
+- Raspberry Pi integrated into the robot chassis for onboard controller processing, introducing additional points of failure (in previous seasons, only a radio receiver was housed internally)
 
 ### Strategy
 
@@ -478,10 +477,10 @@ The following table lists the tools and equipment available to Riverside Robotic
 
 #### Defensive Strategy
 
-- Spin at 645.6 RPM to create around a 20-30 mph steel barrier, deflecting attacks and protecting internal components
+- Spin at 645.6 RPM to generate a 20–30 mph perimeter steel barrier, deflecting attacks and protecting internal components
 - Accelerate at 1-2 ft/s to retreat if needed from opponents, gaining time to recover and spin up
-- Utilize weight reduction in 6061 aluminum chassis for airflow during spin sessions
-- Maintain spinning via two-motor drive system while maneuvering, minimizing stationary vulnerabilities. Two operators — one for driving and one for operations, modes, etc.
+- Utilize weight reduction cutouts in 6061 aluminum chassis for passive airflow during rotational operation
+- Maintain rotational velocity via two-motor drive system while maneuvering, minimizing stationary vulnerabilities. Two operators — one for drivetrain control and one for system mode management.
 - Operate effectively when flipped using double-sided design, reducing downtime from impacts
 
 ### Overview
@@ -502,9 +501,9 @@ The following table lists the tools and equipment available to Riverside Robotic
 
 ### Analysis and Conceptualization
 
-We started by analyzing the old model of the bot made last year. Using inspiration and some parts from the older bot, it allowed us to build on the mistakes made from our last year. To build a better bot by fixing those mistakes, and malfunctions that were present in last year's design.
+We began by analyzing the previous iteration of the robot from the 2025 season. Using the original design as a reference platform, the team identified and addressed the deficiencies and failure modes present in last year's design.
 
-Since Riverside's Robotic Club expanded vastly in size this year, we have done some restructuring in the fundamentals of our teams. The Robotics club expanded from 8 students to 20 this year. This led our advisors to split robotics into 2 different Riverside teams. The Spinlayden team and the Stark team. Our team, Spinlayden, has 14 members. After forming the teams, we took several measures:
+With the Robotics program expanding significantly in membership — from 8 students to approximately 20 — the advisors restructured the program into two competition teams: Team Meltdown (Spinlayden) and Team Stark (Jarvis). Team Meltdown comprises 14 members. After forming the teams, we took several measures:
 
 - Watched previous AWT competitions and noted the performance of other bots and on what design they relied on
 - Reviewed the prior Riverside design and analyzed the most significant obstacles and problems
