@@ -62,7 +62,7 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **Richard Rowland:** *Bio not yet submitted.*
 
-**Sultan Kazeem:** *Bio not yet submitted.*
+**Sultan Kazeem:** This bright junior is stepping into the cage for his very first time. Bringing his skills to the mechanical team, Sultan is excited to win at competition. He is actively involved in Model UN, Academic Challenge, choir, and Investment Club. When not building robots, he enjoys bike riding. This hardworking student cannot wait to dominate.
 
 **Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
 
