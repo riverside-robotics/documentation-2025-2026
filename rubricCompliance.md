@@ -9,8 +9,8 @@
 
 ## Overall Progress
 
-**Sections Complete:** 22 / 35
-**Sections Partial:** 7 / 35
+**Sections Complete:** 23 / 35
+**Sections Partial:** 6 / 35
 **Sections Missing:** 6 / 35
 
 ---
@@ -28,7 +28,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 3 | Project Charter / General Info | DONE | General Information table, Bot Description, Objective, Deliverables, Key Milestones, Constraints all present |
 | 4 | About Riverside (School Info) | DONE | Thorough write-up covering school history, robotics program history, and program expansion |
 | 5 | Sponsor / Partner Info | DONE | Monode, Arc Technology, and Show Studio all have detailed write-ups |
-| 6 | Team Biographies | PARTIAL | 3 of 19 bios submitted (Ayden Moore, Daniel George, Tom Kramer). 16 still pending — tracked in aboutStudents.md |
+| 6 | Team Biographies | PARTIAL | 5 of 19 bios submitted (Ayden Moore, Daniel George, Jason Kellhofer, Tom Kramer, Xayden Minch). 14 still pending — tracked in aboutStudents.md |
 | 7 | Mentor / Advisor Biographies | PARTIAL | J.T. Mackey bio complete. Jack Carbone and Adam Carbone bios still missing |
 | 8 | Acknowledgements | DONE | Thanks Monode/J.T. Mackey, Arc Technology, Show Studio, advisors Jack and Adam Carbone, Riverside High School, Case Western think[box], AWT, and families/community |
 
@@ -40,7 +40,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 10 | Strategy (Offensive + Defensive) | DONE | Both offensive and defensive strategies with specific stats |
 | 11 | Influences | DONE | Full intro paragraph, Positive/Negative table (7 rows), and Problems/Solutions table (7 entries) |
 | 12 | What Was Changed from Previous Design | DONE | 6 bullet points covering all major changes |
-| 13 | Previous Bot Write-Up | PARTIAL | "Previous Bot:" label exists but no content, photo, or description. Requested from design team via designTeamRequest.md |
+| 13 | Previous Bot Write-Up | DONE | Spinlayden 1.0 write-up complete with description, specs, strengths, and weaknesses. Team photo still pending from design team |
 | 14 | Design Section Intro Paragraph | MISSING | Requested from design team via designTeamRequest.md |
 | 15 | 2026 Design Description | MISSING | Line 36 is empty after "2026 Design:" label. Requested from design team |
 
@@ -107,7 +107,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 9. **CAD Models** — Get renders from design team (requested in designTeamRequest.md).
 10. **Engineering Drawings** — Get dimensioned drawings from CAD team (requested in designTeamRequest.md).
-11. **Previous Bot write-up** — Get Spinlayden 1.0 photo and description from design team.
+11. ~~**Previous Bot write-up**~~ — DONE. Write-up complete; team photo still pending from design team.
 12. **2026 Design description** — Get 1-3 sentence design summary from design team.
 13. **Design section intro paragraph** — Get from design team or write from existing content.
 14. **Wiring diagram image** — Get from electrical team.
@@ -130,12 +130,12 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 22 |
-| Sections Partial | 7 |
+| Sections Complete | 23 |
+| Sections Partial | 6 |
 | Sections Missing | 6 |
 | Sections Blocked (waiting on team) | 2 |
 | TODO placeholders remaining in main.md | 7 |
 | Empty meeting notes | 5 |
-| Team bios missing | 16 of 19 |
+| Team bios missing | 14 of 19 |
 | Advisor bios missing | 2 of 3 |
 | Days until deadline | 3 |

@@ -134,6 +134,8 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
 
+**Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team's skills combine to ensure a secured win this season.
+
 **Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
 
 **Xayden Minch:** This ambitious freshman is stepping into the arena for his very first competition! Xayden brings a versatile set of skills to the team, where he focuses on maintaining detailed documentation and tackling any miscellaneous tasks needed to keep the project moving forward. A dedicated member of the school band, he stays just as busy outside the classroom. Whether he is playing the flute, building computers from scratch, coding, or diving into video games, he is always exploring the world of technology. This proactive competitor is eager to contribute his technical talents and help the team achieve a successful season.
@@ -172,7 +174,29 @@ Finally, we would like to extend our gratitude to the **parents, families, and c
 
 This is what we have so far:
 
-**Previous Bot:**
+**Previous Bot: Spinlayden 1.0 — 2024 - 2025 Season**
+
+Spinlayden 1.0 was Riverside Robotics' first meltybrain full-body spinner, designed and built by an eight-member team during the 2024–2025 season under advisors Jack Carbone and Adam Carbone, with industry advisor Jeffrey Clarke. The robot featured a 14" × 12" hexagonal chassis machined from 1/8" 6061-T6 aluminum with vent-like weight reduction cutouts. Six A516 Grade 70 carbon steel blades, totaling 38 oz, were mounted around the perimeter. Powered by REV UltraPlanetary gearmotors and controlled by a Raspberry Pi 4B running Python-based meltybrain algorithms, the bot achieved a rotational speed of 645.6 RPM and delivered approximately 78 joules of kinetic energy per rotation within the 15 lb weight class.
+
+The double-sided design allowed the robot to operate when inverted, eliminating the need for a self-righting mechanism. Spinlayden 1.0 proved the viability of the hexagonal meltybrain concept for the AWT competition and provided returning team members with direct experience in full-body spinner design, fabrication, and competition strategy.
+
+![Spinlayden 1.0 — Isometric CAD Render](Images/Screenshot%20From%202026-04-15%2021-28-49.png)
+
+**Strengths:**
+- Hexagonal full-body spinner concept validated for competition
+- Meltybrain drive system enabling simultaneous rotation and translation
+- Double-sided chassis design for invertibility
+- 6061-T6 aluminum chassis providing a strong, lightweight structure
+- A516 Grade 70 carbon steel blades delivering high impact toughness
+
+**Weaknesses:**
+- Through-hole weight reduction cutouts compromised chassis wall integrity
+- Internal components positioned too close to outer walls, vulnerable to impact
+- Claw-style blade tip geometry spread force over too wide an area, reducing penetration
+- No dedicated housing for the Raspberry Pi controller
+- Python control software introduced noticeable input latency
+- Bluetooth Xbox controller caused frequent connection drops with the Pi
+- Central counterweight system added unnecessary complexity and weight
 
 ### Influences
 
