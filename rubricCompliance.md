@@ -121,7 +121,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 19. **Time Management** — Create a Gantt chart or planned-vs-actual timeline.
 20. ~~**Data Management**~~ — DONE. Covers GitHub repos, Fusion 360 shared hub, and shared drive.
 21. **Cover Page** — Create a cover page with team photo, school name, bot name, and member list.
-22. **Build photos** — Add in-progress assembly, waterjet, CNC, and 3D printing photos throughout.
+22. ~~**Build photos**~~ — PARTIAL. Waterjet screen (Fig 2), cut plates (Fig 3), and WT901 IMU (Fig 4) added. Still need: assembly, CNC, and 3D printing photos.
 23. **Fill empty meeting notes** — 5 meetings (Mar 17, Mar 31, Apr 3, Apr 7, Apr 11) have no Notes content.
 
 ---

@@ -184,7 +184,9 @@ Spinlayden 1.0 was Riverside Robotics' first meltybrain full-body spinner, desig
 
 The double-sided design allowed the robot to operate when inverted, eliminating the need for a self-righting mechanism. Spinlayden 1.0 proved the viability of the hexagonal meltybrain concept for the AWT competition and provided returning team members with direct experience in full-body spinner design, fabrication, and competition strategy.
 
-![Spinlayden 1.0 — Isometric CAD Render](Images/Screenshot%20From%202026-04-15%2021-28-49.png)
+*Figure 1: Spinlayden 1.0 — Isometric CAD Render*
+
+<img src="Images/Screenshot From 2026-04-15 21-28-49.png" alt="Spinlayden 1.0 — Isometric CAD Render" width="500">
 
 **Strengths:**
 - Hexagonal full-body spinner concept validated for competition
@@ -482,6 +484,14 @@ The top and bottom hexagonal plates were cut using an **OMAX 5555 Waterjet Cutte
 
 The machine runs at **$1 per minute** of run time. Each nest of two hexagons took approximately 27 minutes, costing roughly **$54 per pair** of plates ($27 × 2 nests).
 
+*Figure 2: OMAX 5555 waterjet controller displaying the hexagonal plate cutting paths*
+
+<img src="Images/Screenshot_20260411_163901_Gallery.jpg" alt="OMAX 5555 waterjet controller screen showing hexagonal plate cutting paths" width="600">
+
+*Figure 3: Waterjet-cut 6061-T6 aluminum chassis plates — hexagonal top and bottom plates with weight reduction cutouts*
+
+<img src="Images/20260411_171456.jpg" alt="Waterjet-cut aluminum chassis plates with hexagonal geometry and weight reduction cutouts" width="600">
+
 #### CNC Milling
 
 CNC milling was provided by our industry sponsor, **Monode Marking Products**. Monode machined our parts using their in-house CNC equipment, with each part typically taking a couple of hours to complete.
@@ -693,6 +703,14 @@ Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the 
 **Wheels and Hubs:**
 - **Wheels:** BaneBots 3-7/8" diameter compliant wheels — provide grip while absorbing impact
 - **Hubs:** BaneBots T81 hubs — connect wheels to gearbox output shafts
+
+**IMU / Gyroscope:**
+- **Type:** WT901 9-axis IMU/gyroscope (USB, 200 Hz sampling rate)
+- **Function:** Provides real-time orientation data to the C# control software, enabling the meltybrain algorithm to determine the bot's rotational position and pulse motors at the correct moment for translational movement
+
+*Figure 4: WT901 9-axis IMU/gyroscope module used for rotational orientation sensing*
+
+<img src="Images/rn_image_picker_lib_temp_7dfe9feb-14aa-4327-b7fd-7c043ff04fee.jpg" alt="WT901 9-axis IMU gyroscope module" width="300">
 
 **Shafts and Bearings:**
 - **Shafts:** 1045 carbon steel — good balance of strength and machinability for rotary applications
