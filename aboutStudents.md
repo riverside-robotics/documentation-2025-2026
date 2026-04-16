@@ -46,7 +46,7 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **Dustin Hance:** *Bio not yet submitted.*
 
-**Jason Kellhofer:** *Bio not yet submitted.*
+**Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team’s skills combine to ensure a secured win this season.
 
 **Jayden Craig:** *Bio not yet submitted.*
 
