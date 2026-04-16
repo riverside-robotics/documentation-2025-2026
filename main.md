@@ -489,6 +489,21 @@ The following table lists the tools and equipment available to Riverside Robotic
 | Polycarbonate Safety Glasses | 12 | Safety | New |
 | ANSI A5 Polyurethane Coated Work Gloves | 12 | Safety | New |
 
+### Data Management
+
+Team Meltdown uses a combination of version-controlled repositories, cloud storage, and collaborative design platforms to manage all project files and ensure that every team member has access to the latest versions of our work.
+
+**Software and Documentation — GitHub**
+All control software for Spinlayden 2.0 is maintained in a dedicated GitHub repository. The codebase is version-controlled using Git, allowing the software team to track changes, revert to previous versions, and collaborate without overwriting each other's work. A separate GitHub repository is used for all competition documentation, including this document, meeting notes, team biographies, and supporting files. Using Git for documentation ensures a complete revision history and makes it easy to identify who contributed what and when.
+
+**CAD Models — Autodesk Fusion 360 Shared Hub**
+All mechanical design work is done in Autodesk Fusion 360. The design team operates within a shared Fusion 360 hub, giving all members access to the latest version of every part, assembly, and drawing. Fusion 360's built-in version history tracks each iteration of every component, making it straightforward to compare revisions or roll back changes if a design modification does not perform as expected.
+
+**General File Sharing — Shared Drive**
+For files that do not fit neatly into a code repository or a CAD platform — such as reference images, sponsor logos, budget spreadsheets, and rubric documents — the team uses a shared drive folder. This central location ensures that non-technical files are accessible to all team members regardless of which subteam they belong to.
+
+This multi-platform approach ensures that each type of project data lives in the tool best suited to manage it, while keeping everything accessible and version-tracked for the full team.
+
 ---
 
 ## Design Process

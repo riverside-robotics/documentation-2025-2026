@@ -9,9 +9,9 @@
 
 ## Overall Progress
 
-**Sections Complete:** 23 / 35
+**Sections Complete:** 24 / 35
 **Sections Partial:** 6 / 35
-**Sections Missing:** 6 / 35
+**Sections Missing:** 5 / 35
 
 ---
 
@@ -56,7 +56,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 21 | Accounting and Budget | DONE | Complete parts list (32 line items) and budget summary table ($3,554.48 total) |
 | 22 | Time Management | MISSING | No Gantt chart or planned-vs-actual timeline. Key Milestones table exists but is not a detailed schedule |
 | 23 | Bill of Materials | DONE | Parts list serves as BOM with part names, quantities, unit prices, totals, and buyer/category |
-| 24 | Data Management | MISSING | No section describing how the team manages files, CAD versions, documentation drafts, or GitHub repo |
+| 24 | Data Management | DONE | Covers GitHub repos (code + docs), Fusion 360 shared hub for CAD, and shared drive for general files |
 | 25 | Inventory | DONE | Tools and equipment table with quantities, types, and conditions |
 
 ### Design Process
@@ -119,7 +119,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 17. **Risk Analysis** — Create a project-level risk matrix (schedule, manufacturing, competition risks).
 18. **Action Plan** — Create a structured task plan with owners and deadlines.
 19. **Time Management** — Create a Gantt chart or planned-vs-actual timeline.
-20. **Data Management** — Write a short section about GitHub, Google Classroom, Fusion 360 file management.
+20. ~~**Data Management**~~ — DONE. Covers GitHub repos, Fusion 360 shared hub, and shared drive.
 21. **Cover Page** — Create a cover page with team photo, school name, bot name, and member list.
 22. **Build photos** — Add in-progress assembly, waterjet, CNC, and 3D printing photos throughout.
 23. **Fill empty meeting notes** — 5 meetings (Mar 17, Mar 31, Apr 3, Apr 7, Apr 11) have no Notes content.
@@ -130,9 +130,9 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 23 |
+| Sections Complete | 24 |
 | Sections Partial | 6 |
-| Sections Missing | 6 |
+| Sections Missing | 5 |
 | Sections Blocked (waiting on team) | 2 |
 | TODO placeholders remaining in main.md | 7 |
 | Empty meeting notes | 5 |
