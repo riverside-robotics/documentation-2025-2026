@@ -100,8 +100,8 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 4. ~~**Write Acknowledgements**~~ — DONE. Thanks Monode, Arc Technology, Show Studio, advisors, Riverside HS, Case Western think[box], AWT, and families.
 5. ~~**Add table captions**~~ — DONE. All 10 tables captioned (Table 1–10).
 6. ~~**Fix team size inconsistency**~~ — DONE. Both lines now say "approximately 30 students."
-7. **Write Closing Remarks** — Currently a TODO.
-8. **Fill in Overview section** — Currently a TODO.
+7. ~~**Write Closing Remarks**~~ — DONE. Four-paragraph wrap-up covering team effort, skills learned, program growth, and competition readiness.
+8. ~~**Fill in Overview section**~~ — DONE. Design overview paragraph summarizing Spinlayden 2.0's specs and key improvements over 1.0.
 
 ### Should Do (Rubric Sections, Need Team Input)
 
@@ -134,7 +134,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | Sections Partial | 5 |
 | Sections Missing | 5 |
 | Sections Blocked (waiting on team) | 2 |
-| TODO placeholders remaining in main.md | 7 |
+| TODO placeholders remaining in main.md | 5 |
 | Empty meeting notes | 5 |
 | Team bios missing | 13 of 19 |
 | Advisor bios missing | 2 of 3 |

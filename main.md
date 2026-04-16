@@ -560,9 +560,7 @@ This multi-platform approach ensures that each type of project data lives in the
 
 ### Overview
 
-> TODO: Add overview content.
-
-**Stats:** It spins fast, probably
+Spinlayden 2.0 is a 15-pound meltybrain full-body spinner designed for the AWT Regional RoboBots Competition. The robot builds on the foundation established by Spinlayden 1.0 during the 2025 season, addressing every major weakness identified during that campaign while retaining the core hexagonal meltybrain concept that proved viable in competition. The chassis is machined from 6061-T6 aluminum and carries six A516 Grade 70 carbon steel blades around its perimeter, delivering approximately 78 joules of kinetic energy per rotation at a spin rate of 645.6 RPM. A Raspberry Pi 4B running custom C# control software processes IMU data from a WT901 gyroscope to enable simultaneous rotation and translation — the defining capability of a meltybrain drive system. Key improvements over the previous design include partial-depth weight reduction pockets replacing through-holes, repositioned internal components for better impact protection, a dedicated 3D-printed Raspberry Pi housing, spike-profile blade tips for improved penetration, and a 2.4 GHz radio link replacing the unreliable Bluetooth connection.
 
 ### Key Stats
 
@@ -756,4 +754,10 @@ Testing for Spinlayden 2.0 has been conducted in phases as components became ava
 
 ### Closing Remarks
 
-> TODO: Add closing remarks.
+The Spinlayden 2.0 project represents the collective effort of 19 students, two alumni advisors, and an industry mentor working together over the course of seven months to design, manufacture, and document a competitive combat robot. What began as a second-year rebuild of an unproven concept has grown into a fully engineered machine backed by detailed analysis, professional manufacturing partnerships, and a team that has more than doubled in size since last season.
+
+This process has taught our team far more than how to build a robot. Students gained hands-on experience with waterjet cutting, CNC milling, 3D printing, soldering, and mechanical assembly. They learned to read engineering drawings, manage a bill of materials, conduct failure analysis, and write technical documentation to a professional standard. Members of the software team rewrote an entire control system from Python to C#, learning about real-time processing, IMU integration, and wireless communication along the way. Every student on Team Meltdown leaves this season with skills and experience that will serve them in college, careers, and beyond.
+
+We are proud of what we have built — not just the robot in the arena, but the program around it. Riverside Robotics is stronger than it has ever been, and we look forward to competing at the AWT Regional RoboBots Competition on April 25, 2026. Win or lose, Spinlayden 2.0 is proof of what a dedicated team can accomplish when given the tools, the mentorship, and the opportunity to build something real.
+
+Thank you for reading our documentation. See you in the arena.
