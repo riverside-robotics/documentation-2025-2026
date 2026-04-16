@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinlayden MeltyBrain Robot - Technical Guide</title>
+
+    <!-- Material Design 3 CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Riverside Local Schools Theme - Black & Gold */
+            --md-sys-color-primary: #1A1A1A;
+            --md-sys-color-on-primary: #F5C842;
+            --md-sys-color-primary-container: #2A2A2A;
+            --md-sys-color-on-primary-container: #FFD54F;
+            --md-sys-color-secondary: #F5C842;
+            --md-sys-color-on-secondary: #1A1A1A;
+            --md-sys-color-secondary-container: #D4A936;
+            --md-sys-color-surface: #121212;
+            --md-sys-color-surface-variant: #1E1E1E;
+            --md-sys-color-on-surface: #E8E8E8;
+            --md-sys-color-on-surface-variant: #C4C4C4;
+            --md-sys-color-outline: #6E6E6E;
+            --md-sys-color-background: #0A0A0A;
+            --md-sys-color-error: #F2B8B5;
+            --md-sys-color-success: #81C784;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--md-sys-color-background);
+            color: var(--md-sys-color-on-surface);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        /* Header - Google Classroom style */
+        header {
+            background: linear-gradient(135deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-primary-container) 100%);
+            padding: 48px 32px;
+            margin-bottom: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: var(--md-sys-color-on-primary);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            color: var(--md-sys-color-on-primary);
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* Tabs */
+        .tabs-container {
+            background-color: var(--md-sys-color-surface);
+            border-radius: 8px 8px 0 0;
+            overflow: hidden;
+            margin-bottom: -8px;
+        }
+
+        .tabs {
+            display: flex;
+            background-color: var(--md-sys-color-surface-variant);
+            overflow-x: auto;
+            scrollbar-width: thin;
+            border-bottom: 2px solid var(--md-sys-color-outline);
+        }
+
+        .tab-button {
+            flex: 1;
+            min-width: 120px;
+            padding: 16px 20px;
+            background: none;
+            border: none;
+            color: var(--md-sys-color-on-surface-variant);
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .tab-button:hover {
+            background-color: rgba(245, 200, 66, 0.1);
+            color: var(--md-sys-color-secondary);
+        }
+
+        .tab-button.active {
+            color: var(--md-sys-color-secondary);
+            background-color: rgba(245, 200, 66, 0.15);
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: var(--md-sys-color-secondary);
+        }
+
+        /* Tab content */
+        .tab-content-container {
+            background-color: var(--md-sys-color-surface);
+            border-radius: 0 0 8px 8px;
+            padding: 8px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Card-based layout like Google Classroom */
+        .card {
+            background-color: var(--md-sys-color-surface-variant);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            transition: box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--md-sys-color-outline);
+        }
+
+        .card-header .material-icons {
+            color: var(--md-sys-color-secondary);
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 400;
+            color: var(--md-sys-color-on-surface);
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--md-sys-color-secondary);
+            margin: 24px 0 12px 0;
+        }
+
+        h4 {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--md-sys-color-on-surface);
+            margin: 16px 0 8px 0;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--md-sys-color-on-surface-variant);
+            font-size: 1rem;
+        }
+
+        /* Step number badge */
+        .step-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background-color: var(--md-sys-color-secondary);
+            color: var(--md-sys-color-on-secondary);
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        /* Code Blocks - Fixed for proper line breaks */
+        .code-block {
+            background-color: #0D1117;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            overflow-x: auto;
+            border: 1px solid var(--md-sys-color-outline);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.875rem;
+            line-height: 1.6;
+            color: #E6EDF3;
+        }
+
+        .code-block code {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.875rem;
+            line-height: 1.6;
+            color: #E6EDF3;
+        }
+
+        .code-header {
+            background-color: var(--md-sys-color-primary-container);
+            color: var(--md-sys-color-on-primary-container);
+            padding: 8px 16px;
+            border-radius: 8px 8px 0 0;
+            font-weight: 500;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: -8px;
+        }
+
+        /* Syntax Highlighting */
+        .keyword { color: #FF7B72; }
+        .type { color: #79C0FF; }
+        .string { color: #A5D6FF; }
+        .comment { color: #8B949E; font-style: italic; }
+        .function { color: #D2A8FF; }
+        .number { color: #79C0FF; }
+        .variable { color: #FFA657; }
+
+        /* Lists */
+        ul, ol {
+            margin: 16px 0;
+            padding-left: 32px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: var(--md-sys-color-on-surface-variant);
+        }
+
+        /* Info boxes */
+        .info-box {
+            background-color: rgba(245, 200, 66, 0.1);
+            border-left: 4px solid var(--md-sys-color-secondary);
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .warning-box {
+            background-color: rgba(242, 184, 181, 0.15);
+            border-left: 4px solid var(--md-sys-color-error);
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .success-box {
+            background-color: rgba(129, 199, 132, 0.15);
+            border-left: 4px solid var(--md-sys-color-success);
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+
+        .badge-primary {
+            background-color: var(--md-sys-color-primary);
+            color: var(--md-sys-color-on-primary);
+            border: 1px solid var(--md-sys-color-secondary);
+        }
+
+        .badge-secondary {
+            background-color: var(--md-sys-color-secondary);
+            color: var(--md-sys-color-on-secondary);
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--md-sys-color-outline);
+        }
+
+        th {
+            background-color: var(--md-sys-color-primary-container);
+            color: var(--md-sys-color-on-primary-container);
+            font-weight: 500;
+        }
+
+        /* Flow diagram */
+        .flow-step {
+            display: flex;
+            align-items: center;
+            margin: 16px 0;
+        }
+
+        .flow-step-content {
+            flex: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .tab-button {
+                min-width: 100px;
+                padding: 12px 16px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Spinlayden MeltyBrain Combat Robot</h1>
+            <p class="subtitle">A dual-mode spinning combat robot with RC control, IMU sensing, and phase-aligned motor control</p>
+        </header>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tab-button active" onclick="openTab(event, 'overview')">
+                    <span class="material-icons">info</span>
+                    <span>Overview</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'step1')">
+                    <span>Step 1: RC Input</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'step2')">
+                    <span>Step 2: Sensors</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'step3')">
+                    <span>Step 3: Heading</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'step4')">
+                    <span>Step 4: Safety</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'step5')">
+                    <span>Step 5: Modes</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'step6')">
+                    <span>Step 6: Motors</span>
+                </button>
+                <button class="tab-button" onclick="openTab(event, 'technical')">
+                    <span class="material-icons">settings</span>
+                    <span>Technical</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="tab-content-container">
+            <!-- Overview Tab -->
+            <div id="overview" class="tab-content active">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="material-icons">rocket_launch</span>
+                        <h2>What is Spinlayden?</h2>
+                    </div>
+                    <p>
+                        Spinlayden is a <strong>combat robot</strong> built for competitions like BattleBots. What makes it special? It can <strong>spin its entire body</strong>
+                        like a top while still moving in any direction you want! This is called a "MeltyBrain" robot.
+                    </p>
+
+                    <p>
+                        Think about it: when something is spinning really fast, how do you make it move left or right? That's the challenge we're solving!
+                        The robot uses a Raspberry Pi computer running at 100 times per second to figure out exactly when to pulse the motors to create movement.
+                    </p>
+
+                    <h3>Two Operating Modes</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0;">
+                        <div class="success-box" style="margin: 0;">
+                            <h4 style="margin-top: 0;"><span class="material-icons" style="vertical-align: middle;">directions_car</span> Drive Mode</h4>
+                            <p style="margin-bottom: 0;">
+                                Simple forward-only driving, like a car. Use the left stick to go forward, right stick to steer left/right.
+                                This is the <strong>safe starting mode</strong> when you first power on.
+                            </p>
+                        </div>
+                        <div class="info-box" style="margin: 0;">
+                            <h4 style="margin-top: 0;"><span class="material-icons" style="vertical-align: middle;">psychology</span> MeltyBrain Mode</h4>
+                            <p style="margin-bottom: 0;">
+                                Full-body spinning! The robot spins like a top, but you can still control which direction it moves using the right stick.
+                                Left stick controls how fast it spins.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3>The Control Loop (100 times per second!)</h3>
+                    <p>
+                        Here's what happens every 0.01 seconds (that's 10 milliseconds, or 1/100th of a second):
+                    </p>
+
+                    <div class="flow-step">
+                        <span class="step-badge">1</span>
+                        <div class="flow-step-content">
+                            <strong>Read RC Controller</strong> — What are the sticks doing? Is the kill switch on?
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <span class="step-badge">2</span>
+                        <div class="flow-step-content">
+                            <strong>Read Sensors</strong> — Which direction is the robot facing? How fast is it spinning?
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <span class="step-badge">3</span>
+                        <div class="flow-step-content">
+                            <strong>Calculate True Heading</strong> — Combine gyroscope (fast) with compass (accurate) to know exactly which way we're pointing
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <span class="step-badge">4</span>
+                        <div class="flow-step-content">
+                            <strong>Check Safety</strong> — Is the kill switch active? Which mode are we in?
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <span class="step-badge">5</span>
+                        <div class="flow-step-content">
+                            <strong>Calculate Motor Powers</strong> — Based on the mode, figure out how much power each wheel needs
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <span class="step-badge">6</span>
+                        <div class="flow-step-content">
+                            <strong>Send to Motors</strong> — Tell the ESCs (motor controllers) what to do
+                        </div>
+                    </div>
+
+                    <div class="success-box" style="margin-top: 24px;">
+                        <h4 style="margin-top: 0;">Key Technologies</h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                            <span class="badge badge-primary">C# Programming</span>
+                            <span class="badge badge-primary">Raspberry Pi</span>
+                            <span class="badge badge-secondary">IMU Sensors</span>
+                            <span class="badge badge-secondary">PWM Signals</span>
+                            <span class="badge badge-secondary">Real-Time Control</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 1: RC Input -->
+            <div id="step1" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="step-badge">1</span>
+                        <h2>Reading the RC Controller</h2>
+                    </div>
+                    <p>
+                        Your RC transmitter (the controller) sends signals to a receiver on the robot. The receiver outputs these as <strong>PWM pulses</strong>
+                        on different channels. Think of PWM like a light switch that turns on and off really fast - the longer it's "on", the higher the value.
+                    </p>
+
+                    <h3>What is PWM?</h3>
+                    <p>
+                        <strong>PWM = Pulse Width Modulation</strong>. Imagine you have a light switch that turns on and off 50 times per second.
+                        If it's on for 1 millisecond (1ms), that's 0%. If it's on for 2ms, that's 100%. If it's on for 1.5ms, that's 50%.
+                    </p>
+                    <p>
+                        RC receivers work the same way: they send pulses between <strong>1000µs (1ms)</strong> and <strong>2000µs (2ms)</strong>.
+                        The Raspberry Pi measures how long each pulse is to figure out where your sticks are.
+                    </p>
+
+                    <h3>The 6 Channels We're Reading</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Channel</th>
+                                <th>GPIO Pin</th>
+                                <th>What It Controls</th>
+                                <th>Output Range</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ch1</td>
+                                <td>GPIO 5</td>
+                                <td>Right Stick Left/Right</td>
+                                <td>-1.0 (left) to +1.0 (right), 0 = center</td>
+                            </tr>
+                            <tr>
+                                <td>Ch2</td>
+                                <td>GPIO 6</td>
+                                <td>Right Stick Up/Down</td>
+                                <td>-1.0 (down) to +1.0 (up), 0 = center</td>
+                            </tr>
+                            <tr>
+                                <td>Ch3</td>
+                                <td>GPIO 16</td>
+                                <td>Left Stick Up/Down (Throttle)</td>
+                                <td>0.0 (bottom) to 1.0 (top)</td>
+                            </tr>
+                            <tr>
+                                <td>Ch5</td>
+                                <td>GPIO 17</td>
+                                <td>(Not Used)</td>
+                                <td>0.0 to 1.0</td>
+                            </tr>
+                            <tr>
+                                <td>Ch6</td>
+                                <td>GPIO 22</td>
+                                <td>Kill Switch (Safety)</td>
+                                <td>0.0 (off) or 1.0 (on)</td>
+                            </tr>
+                            <tr>
+                                <td>Ch7</td>
+                                <td>GPIO 27</td>
+                                <td>Mode Switch</td>
+                                <td>0.0 (MeltyBrain) or 1.0 (Drive)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>How We Measure the Pulses (Edge Detection)</h3>
+                    <p>
+                        The Raspberry Pi can detect when a GPIO pin goes from LOW (0 volts) to HIGH (3.3 volts) and vice versa. These are called <strong>edges</strong>:
+                    </p>
+                    <ul>
+                        <li><strong>Rising Edge:</strong> Signal goes from LOW → HIGH (start of pulse)</li>
+                        <li><strong>Falling Edge:</strong> Signal goes from HIGH → LOW (end of pulse)</li>
+                    </ul>
+                    <p>
+                        We record the time at the rising edge, then calculate the difference at the falling edge. That's the pulse width!
+                    </p>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        GpioRcInputReader.cs - Measuring Pulse Width
+                    </div>
+                    <div class="code-block"><pre><code><span class="comment">// This function is called every time a GPIO pin changes (rises or falls)</span>
+<span class="keyword">private</span> <span class="keyword">void</span> <span class="function">OnPinValueChanged</span>(<span class="type">int</span> channelIndex, <span class="type">PinValueChangedEventArgs</span> args)
+{
+    <span class="comment">// Get the current timestamp</span>
+    <span class="keyword">var</span> now = <span class="type">Stopwatch</span>.GetTimestamp();
+
+    <span class="keyword">if</span> (args.ChangeType == <span class="type">PinEventTypes</span>.Rising)
+    {
+        <span class="comment">// Rising edge: Record when the pulse started</span>
+        _risingTimestamps[channelIndex] = now;
+    }
+    <span class="keyword">else</span>
+    {
+        <span class="comment">// Falling edge: Calculate how long the pulse was</span>
+        <span class="keyword">long</span> risingTime = _risingTimestamps[channelIndex];
+
+        <span class="comment">// Convert from CPU ticks to microseconds (µs)</span>
+        <span class="keyword">float</span> elapsedUs = (<span class="keyword">float</span>)(now - risingTime) * <span class="number">1_000_000f</span> / <span class="type">Stopwatch</span>.Frequency;
+
+        <span class="comment">// Smooth the value using EMA (Exponential Moving Average)</span>
+        <span class="comment">// This removes jitter/noise from the measurements</span>
+        <span class="keyword">float</span> alpha = SmoothingAlpha[channelIndex];
+        _pulseWidthsUs[channelIndex] =
+            _pulseWidthsUs[channelIndex] * (<span class="number">1</span> - alpha) + elapsedUs * alpha;
+
+        <span class="comment">// Track the kill switch to know if RC signal is alive</span>
+        <span class="keyword">if</span> (channelIndex == <span class="number">4</span>) <span class="comment">// Channel 6 (index 4)</span>
+            _lastKillSwitchPulseTimestamp = now;
+    }
+}</code></pre></div>
+
+                    <div class="warning-box">
+                        <h4 style="margin-top: 0;"><span class="material-icons" style="vertical-align: middle;">warning</span> Safety Check: Signal Validity</h4>
+                        <p style="margin-bottom: 0;">
+                            If we don't receive a pulse on the kill switch channel for more than <strong>100 milliseconds</strong>, we assume the RC signal is lost
+                            (maybe you walked too far away, or batteries died). The robot immediately stops all motors for safety!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Sensors -->
+            <div id="step2" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="step-badge">2</span>
+                        <h2>Reading the IMU Sensor (WT901)</h2>
+                    </div>
+                    <p>
+                        <strong>IMU = Inertial Measurement Unit</strong>. It's like the motion sensor in your phone that knows when you tilt or rotate it.
+                        Our WT901 sensor has three types of sensors built in:
+                    </p>
+                    <ul>
+                        <li><strong>Accelerometer:</strong> Measures acceleration (like feeling yourself pushed back in a car)</li>
+                        <li><strong>Gyroscope:</strong> Measures rotation speed (how fast you're spinning)</li>
+                        <li><strong>Magnetometer:</strong> Measures magnetic field (like a compass) - we turn this OFF because motors create magnetic interference</li>
+                    </ul>
+
+                    <h3>Why Do We Need Sensors?</h3>
+                    <p>
+                        For MeltyBrain mode to work, we need to know <strong>exactly which direction the robot is facing</strong> at all times while it's spinning.
+                        If we don't know the heading, we can't time the motor pulses correctly, and the robot just spins in place instead of moving!
+                    </p>
+
+                    <h3>How the Sensor Talks to the Pi (UART Serial)</h3>
+                    <p>
+                        The WT901 sensor sends data over a <strong>serial connection</strong> at 9600 baud (9600 bits per second). It sends small packets of data:
+                    </p>
+                    <ul>
+                        <li><strong>Packet Type 0x51:</strong> Acceleration data (ax, ay, az)</li>
+                        <li><strong>Packet Type 0x52:</strong> Angular velocity data (how fast it's spinning in each direction)</li>
+                        <li><strong>Packet Type 0x53:</strong> Angle data (roll, pitch, yaw - which direction it's facing)</li>
+                    </ul>
+
+                    <h3>Configuring for High-Speed Spinning</h3>
+                    <p>
+                        When we start up, we send special commands to configure the sensor for a spinning robot:
+                    </p>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        Wt901SensorReader.cs - Sensor Configuration
+                    </div>
+                    <div class="code-block"><pre><code><span class="comment">// Configure WT901 for spinning platform</span>
+<span class="keyword">byte</span>[] unlock    = [<span class="number">0xFF</span>, <span class="number">0xAA</span>, <span class="number">0x69</span>, <span class="number">0x88</span>, <span class="number">0xB5</span>]; <span class="comment">// Unlock configuration</span>
+<span class="keyword">byte</span>[] axis6     = [<span class="number">0xFF</span>, <span class="number">0xAA</span>, <span class="number">0x24</span>, <span class="number">0x01</span>, <span class="number">0x00</span>]; <span class="comment">// Use 6-axis mode (no magnetometer)</span>
+<span class="keyword">byte</span>[] filtk     = [<span class="number">0xFF</span>, <span class="number">0xAA</span>, <span class="number">0x25</span>, <span class="number">0x05</span>, <span class="number">0x00</span>]; <span class="comment">// Less smoothing = faster response</span>
+<span class="keyword">byte</span>[] bandwidth = [<span class="number">0xFF</span>, <span class="number">0xAA</span>, <span class="number">0x1F</span>, <span class="number">0x00</span>, <span class="number">0x00</span>]; <span class="comment">// Maximum bandwidth (256 Hz)</span>
+<span class="keyword">byte</span>[] save      = [<span class="number">0xFF</span>, <span class="number">0xAA</span>, <span class="number">0x00</span>, <span class="number">0x00</span>, <span class="number">0x00</span>]; <span class="comment">// Save settings</span>
+
+<span class="comment">// Send each command with a small delay between them</span>
+_serialPort.Write(unlock,    <span class="number">0</span>, <span class="number">5</span>); <span class="type">Thread</span>.Sleep(<span class="number">10</span>);
+_serialPort.Write(axis6,     <span class="number">0</span>, <span class="number">5</span>); <span class="type">Thread</span>.Sleep(<span class="number">10</span>);
+_serialPort.Write(filtk,     <span class="number">0</span>, <span class="number">5</span>); <span class="type">Thread</span>.Sleep(<span class="number">10</span>);
+_serialPort.Write(bandwidth, <span class="number">0</span>, <span class="number">5</span>); <span class="type">Thread</span>.Sleep(<span class="number">10</span>);
+_serialPort.Write(save,      <span class="number">0</span>, <span class="number">5</span>);</code></pre></div>
+
+                    <div class="info-box">
+                        <h4 style="margin-top: 0;">Why 6-Axis Mode?</h4>
+                        <p style="margin-bottom: 0;">
+                            The magnetometer (compass) gets confused by the motors' magnetic fields. In 6-axis mode, the sensor only uses the gyroscope
+                            and accelerometer, which are more accurate for a spinning robot. The tradeoff? It can drift over long periods, so we use a
+                            <strong>complementary filter</strong> in Step 3 to fix that!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: Heading -->
+            <div id="step3" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="step-badge">3</span>
+                        <h2>Calculating True Heading (Complementary Filter)</h2>
+                    </div>
+                    <p>
+                        We have two ways to know which direction the robot is facing, but each has problems:
+                    </p>
+                    <ul>
+                        <li><strong>Gyroscope:</strong> Super fast and accurate for short periods, but slowly "drifts" over time (errors add up)</li>
+                        <li><strong>AHRS (Attitude Heading Reference System):</strong> Slow to respond but doesn't drift over time</li>
+                    </ul>
+                    <p>
+                        A <strong>complementary filter</strong> combines both! It uses the gyroscope for fast response and the AHRS to slowly correct any drift.
+                    </p>
+
+                    <h3>How It Works (Every 10ms)</h3>
+                    <ol>
+                        <li><strong>Integrate the gyroscope:</strong> Add (angular velocity × time) to our heading estimate</li>
+                        <li><strong>Calculate error:</strong> How different is our estimate from what the AHRS says?</li>
+                        <li><strong>Blend in correction:</strong> Add a tiny bit (0.2%) of that error back to slowly fix drift</li>
+                        <li><strong>Wrap angles:</strong> Keep everything between -180° and +180°</li>
+                    </ol>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        BrainControlLoop.cs - Complementary Filter
+                    </div>
+                    <div class="code-block"><pre><code><span class="comment">// Step 1: Integrate gyroscope (fast, responsive)</span>
+<span class="comment">// LoopDt = 0.01 seconds (our loop runs 100 times per second)</span>
+_lastHeading += sensorData.CurrentSpin * LoopDt;
+
+<span class="comment">// Step 2: Calculate error from AHRS</span>
+<span class="keyword">float</span> ahrsError = sensorData.Heading - _lastHeading;
+
+<span class="comment">// Step 3: Handle angle wrap-around</span>
+<span class="comment">// If error is > 180°, we went the "wrong way" around the circle</span>
+<span class="keyword">if</span> (ahrsError >  <span class="number">180f</span>) ahrsError -= <span class="number">360f</span>;
+<span class="keyword">if</span> (ahrsError < <span class="number">-180f</span>) ahrsError += <span class="number">360f</span>;
+
+<span class="comment">// Step 4: Blend 0.2% of AHRS error for drift correction</span>
+<span class="comment">// AhrsCorrAlpha = 0.002 (that's 0.2%)</span>
+_lastHeading += ahrsError * AhrsCorrAlpha;
+
+<span class="comment">// Step 5: Wrap heading to -180° to +180°</span>
+<span class="keyword">if</span> (_lastHeading >  <span class="number">180f</span>) _lastHeading -= <span class="number">360f</span>;
+<span class="keyword">if</span> (_lastHeading < <span class="number">-180f</span>) _lastHeading += <span class="number">360f</span>;</code></pre></div>
+
+                    <div class="success-box">
+                        <h4 style="margin-top: 0;">Example: Why This Works</h4>
+                        <p>
+                            Imagine you're spinning and your gyro says you're at 45°, but AHRS says you're at 47°. There's a 2° error.
+                            Instead of instantly jumping to 47° (which would be jerky), we add 0.2% of that 2° error = 0.004°.
+                        </p>
+                        <p style="margin-bottom: 0;">
+                            Over 500 loops, that 0.004° adds up to fix the full 2° drift, but it's so gradual you don't notice! Meanwhile,
+                            the gyro keeps giving us super fast, smooth updates every 10ms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Safety -->
+            <div id="step4" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="step-badge">4</span>
+                        <h2>Safety Interlock System</h2>
+                    </div>
+                    <p>
+                        Before we do ANYTHING with the motors, we check two critical things:
+                    </p>
+                    <ol>
+                        <li><strong>Is the kill switch ON?</strong> If not, motors stay off no matter what.</li>
+                        <li><strong>Is the RC signal valid?</strong> If we lost connection, motors stay off.</li>
+                    </ol>
+
+                    <p>
+                        We also use this step to determine which <strong>drive mode</strong> we're in based on the mode switch position.
+                    </p>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        SafetyInterlock.cs - Safety Check
+                    </div>
+                    <div class="code-block"><pre><code><span class="keyword">public</span> <span class="type">SafetyState</span> <span class="function">Evaluate</span>(<span class="type">RcInputData</span> rcInput)
+{
+    <span class="comment">// Kill if RC signal is lost OR kill switch is off</span>
+    <span class="comment">// Kill switch must be >= 0.8 (pretty close to 1.0) to be considered "on"</span>
+    <span class="keyword">bool</span> isKilled = !rcInput.IsSignalValid || rcInput.KillSwitch < <span class="number">0.8f</span>;
+
+    <span class="comment">// Mode switch: >= 0.5 = Drive mode, < 0.5 = MeltyBrain mode</span>
+    <span class="keyword">var</span> mode = rcInput.ModeSwitch >= <span class="number">0.5f</span>
+        ? <span class="type">DriveMode</span>.Drive
+        : <span class="type">DriveMode</span>.MeltyBrain;
+
+    <span class="comment">// Log when state changes (for debugging)</span>
+    <span class="keyword">if</span> (isKilled && !_wasKilled)
+        _logger.LogDebug(<span class="string">"Kill switch ON — motors disabled"</span>);
+    <span class="keyword">else if</span> (!isKilled && _wasKilled)
+        _logger.LogDebug(<span class="string">"Kill switch OFF — armed in {Mode} mode"</span>, mode);
+
+    _wasKilled = isKilled;
+    <span class="keyword">return</span> <span class="keyword">new</span> <span class="type">SafetyState</span>(isKilled, mode, <span class="type">DateTimeOffset</span>.UtcNow);
+}</code></pre></div>
+
+                    <div class="warning-box">
+                        <h4 style="margin-top: 0;"><span class="material-icons" style="vertical-align: middle;">warning</span> Multiple Layers of Safety</h4>
+                        <ul style="margin-bottom: 0;">
+                            <li>Robot <strong>always</strong> starts in killed state when powered on</li>
+                            <li>Default mode is Drive (safer than MeltyBrain)</li>
+                            <li>If RC signal is lost for >100ms, immediate emergency stop</li>
+                            <li>Kill switch must be firmly "on" (>0.8) to arm motors</li>
+                            <li>You can switch modes while killed (safe to test before arming)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5: Modes -->
+            <div id="step5" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="step-badge">5</span>
+                        <h2>Calculating Motor Commands</h2>
+                    </div>
+                    <p>
+                        Based on which mode we're in, we calculate how much power to send to the left and right motors. The two modes work <strong>completely differently</strong>!
+                    </p>
+
+                    <h3><span class="material-icons" style="vertical-align: middle; color: var(--md-sys-color-secondary);">directions_car</span> Drive Mode</h3>
+                    <p>
+                        Drive mode is simple: it's like driving a car or tank. Left stick up/down controls speed, right stick left/right controls steering.
+                    </p>
+                    <ul>
+                        <li><strong>Left Stick Y:</strong> Forward throttle (0.0 = stopped, 1.0 = full speed forward)</li>
+                        <li><strong>Right Stick X:</strong> Steering (-1.0 = turn left, +1.0 = turn right)</li>
+                    </ul>
+                    <p>
+                        <strong>How steering works:</strong> When you turn right, the left wheel speeds up and right wheel slows down (differential drive).
+                        This makes the robot turn!
+                    </p>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        BrainControlLoop.cs - Drive Mode
+                    </div>
+                    <div class="code-block"><pre><code><span class="comment">// Map throttle stick (0.0-1.0) to ESC range (0.5-1.0)</span>
+<span class="comment">// ESCs treat 0.5 as "stopped" and 1.0 as "full forward"</span>
+<span class="keyword">float</span> baseThrottle = rcInput.Throttle * <span class="number">0.5f</span> + <span class="number">0.5f</span>;
+<span class="keyword">float</span> steer = rcInput.Aileron;  <span class="comment">// -1.0 to +1.0</span>
+
+<span class="comment">// Differential drive: steer right → left wheel goes faster</span>
+<span class="keyword">float</span> leftPower  = <span class="type">Math</span>.Clamp(baseThrottle + steer * <span class="number">0.5f</span>, <span class="number">0f</span>, <span class="number">1f</span>);
+<span class="keyword">float</span> rightPower = <span class="type">Math</span>.Clamp(baseThrottle - steer * <span class="number">0.5f</span>, <span class="number">0f</span>, <span class="number">1f</span>);</code></pre></div>
+
+                    <div class="success-box">
+                        <h4 style="margin-top: 0;">Example Calculation</h4>
+                        <p>
+                            <strong>Situation:</strong> Throttle at 50%, steering full right<br>
+                            <code>baseThrottle = 0.5 * 0.5 + 0.5 = 0.75</code> (halfway between stopped and full)<br>
+                            <code>steer = +1.0</code> (full right)<br>
+                            <code>leftPower = 0.75 + (1.0 * 0.5) = 1.25 → clamped to 1.0</code> (full speed!)<br>
+                            <code>rightPower = 0.75 - (1.0 * 0.5) = 0.25</code> (slow)<br>
+                            <strong>Result:</strong> Robot turns right while moving forward!
+                        </p>
+                    </div>
+
+                    <h3 style="margin-top: 32px;"><span class="material-icons" style="vertical-align: middle; color: var(--md-sys-color-secondary);">psychology</span> MeltyBrain Mode</h3>
+                    <p>
+                        This is where it gets cool! The entire robot is spinning like a top. To make it move in a direction while spinning, we pulse the motors
+                        at specific moments based on where the robot is pointing.
+                    </p>
+                    <ul>
+                        <li><strong>Right Stick X/Y:</strong> Which direction you want to move</li>
+                        <li><strong>Left Stick Y:</strong> How fast to spin (0.0 = no spin, 1.0 = max spin)</li>
+                    </ul>
+
+                    <h4>The Key Insight: Phase-Aligned Control</h4>
+                    <p>
+                        Imagine the robot is spinning clockwise and you want it to move to the right:
+                    </p>
+                    <ol>
+                        <li>When the robot points <strong>right</strong> (your target), give motors <strong>more power</strong></li>
+                        <li>When the robot points <strong>left</strong> (opposite), give motors <strong>less power</strong></li>
+                        <li>When the robot points <strong>up or down</strong> (90° off), give motors <strong>normal power</strong></li>
+                    </ol>
+                    <p>
+                        Over one full rotation, the robot pushes harder in the right direction than any other direction. The net result? It moves right while spinning!
+                    </p>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        TranslationEngine.cs - MeltyBrain Logic
+                    </div>
+                    <div class="code-block"><pre><code><span class="comment">// Calculate which direction the pilot wants to go from stick position</span>
+<span class="keyword">var</span> stickMagnitude = <span class="keyword">new</span> <span class="type">Vector2</span>(
+    pilotCommand.TranslationX,
+    pilotCommand.TranslationY
+).Length();
+
+<span class="comment">// Calculate target heading from stick direction</span>
+<span class="keyword">if</span> (stickMagnitude > <span class="number">0.01f</span>)
+{
+    targetHeading = <span class="type">MathF</span>.Atan2(
+        pilotCommand.TranslationY,
+        pilotCommand.TranslationX
+    );
+}
+
+<span class="comment">// Convert robot's current heading from degrees to radians</span>
+<span class="keyword">float</span> headingRad = sensorData.Heading * <span class="type">MathF</span>.PI / <span class="number">180f</span>;
+
+<span class="comment">// Calculate heading error (how far off are we from target?)</span>
+<span class="keyword">float</span> headingError = <span class="function">NormalizeAngle</span>(headingRad - targetHeading);
+
+<span class="comment">// Use cosine to create sinusoidal modulation:</span>
+<span class="comment">//   cos(0°) = +1   → max forward when pointing at target</span>
+<span class="comment">//   cos(90°) = 0   → no correction when perpendicular</span>
+<span class="comment">//   cos(180°) = -1 → max reverse when pointing away</span>
+<span class="keyword">float</span> correction = stickMagnitude * <span class="number">0.8f</span> * <span class="type">MathF</span>.Cos(headingError);
+
+<span class="comment">// Add/subtract correction from base spin speed</span>
+<span class="keyword">float</span> leftPower  = spinSpeed + correction;
+<span class="keyword">float</span> rightPower = spinSpeed - correction;</code></pre></div>
+
+                    <div class="info-box">
+                        <h4 style="margin-top: 0;">Why Cosine?</h4>
+                        <p style="margin-bottom: 0;">
+                            The cosine function gives us exactly what we need! When the error is 0° (pointing at target), cos(0°) = 1 (maximum correction).
+                            When error is 90° (perpendicular), cos(90°) = 0 (no correction). When error is 180° (opposite direction), cos(180°) = -1 (reverse correction).
+                            This creates a smooth sine wave of motor power as the robot spins!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6: Motors -->
+            <div id="step6" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="step-badge">6</span>
+                        <h2>Sending Signals to the Motors (ESCs)</h2>
+                    </div>
+                    <p>
+                        <strong>ESC = Electronic Speed Controller</strong>. Think of it like a smart power adapter for the motor. You tell it what speed you want (via a signal),
+                        and it controls the power going to the motor.
+                    </p>
+
+                    <h3>Speaking the ESC's Language: PWM Signals</h3>
+                    <p>
+                        ESCs understand the same RC servo protocol we talked about in Step 1! They expect a 50Hz signal (50 pulses per second) where the pulse width tells them what to do:
+                    </p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pulse Width</th>
+                                <th>Power Value</th>
+                                <th>Motor Response</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1000µs (1ms)</td>
+                                <td>0.0</td>
+                                <td>Full Reverse (or stopped if ESC doesn't support reverse)</td>
+                            </tr>
+                            <tr>
+                                <td>1500µs (1.5ms)</td>
+                                <td>0.5</td>
+                                <td>Neutral (stopped)</td>
+                            </tr>
+                            <tr>
+                                <td>2000µs (2ms)</td>
+                                <td>1.0</td>
+                                <td>Full Forward</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Using Hardware PWM</h3>
+                    <p>
+                        The Raspberry Pi has <strong>hardware PWM</strong>, which means a dedicated chip generates these pulses with perfect timing.
+                        This is much better than software PWM (which can be jerky or inaccurate).
+                    </p>
+                    <p>
+                        We configure two PWM channels in <code>/boot/firmware/config.txt</code>:
+                    </p>
+                    <div class="code-block"><pre><code>dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4</code></pre></div>
+                    <p>This sets up:</p>
+                    <ul>
+                        <li><strong>GPIO 12:</strong> PWM channel 0 (left motor)</li>
+                        <li><strong>GPIO 13:</strong> PWM channel 1 (right motor)</li>
+                    </ul>
+
+                    <h3>Converting Power to PWM Duty Cycle</h3>
+                    <p>
+                        The C# PWM library uses <strong>duty cycle</strong> (0.0 to 1.0) instead of pulse widths. Duty cycle is "what percentage of the time is the signal HIGH?"
+                    </p>
+                    <p>
+                        Our PWM period is 20ms (50Hz). So:
+                    </p>
+                    <ul>
+                        <li>1000µs out of 20000µs = 0.05 (5% duty cycle)</li>
+                        <li>1500µs out of 20000µs = 0.075 (7.5% duty cycle)</li>
+                        <li>2000µs out of 20000µs = 0.10 (10% duty cycle)</li>
+                    </ul>
+
+                    <div class="code-header">
+                        <span class="material-icons">code</span>
+                        MotorController.cs - Converting to PWM
+                    </div>
+                    <div class="code-block"><pre><code><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="function">PowerToDutyCycle</span>(<span class="keyword">float</span> power)
+{
+    <span class="comment">// Clamp power to 0.0-1.0 range (our ESCs can't go reverse)</span>
+    <span class="keyword">var</span> clamped = <span class="type">Math</span>.Clamp(power, <span class="number">0f</span>, <span class="number">1f</span>);
+
+    <span class="comment">// Map 0.0-1.0 power to 0.05-0.10 duty cycle</span>
+    <span class="comment">// Formula: minDuty + (power * (maxDuty - minDuty))</span>
+    <span class="keyword">return</span> <span class="number">0.05</span> + (clamped * <span class="number">0.05</span>);
+}
+
+<span class="keyword">public</span> <span class="type">Task</span> <span class="function">SendCommandAsync</span>(<span class="type">MotorCommand</span> command, <span class="type">CancellationToken</span> ct)
+{
+    <span class="comment">// Convert both motor powers to duty cycles</span>
+    <span class="keyword">var</span> leftDuty = <span class="function">PowerToDutyCycle</span>(command.LeftWheelPower);
+    <span class="keyword">var</span> rightDuty = <span class="function">PowerToDutyCycle</span>(command.RightWheelPower);
+
+    <span class="comment">// Set the hardware PWM duty cycles - happens instantly!</span>
+    _leftEsc!.DutyCycle = leftDuty;
+    _rightEsc!.DutyCycle = rightDuty;
+
+    <span class="keyword">return</span> <span class="type">Task</span>.CompletedTask;
+}</code></pre></div>
+
+                    <div class="success-box">
+                        <h4 style="margin-top: 0;">Why Hardware PWM is Amazing</h4>
+                        <p style="margin-bottom: 0;">
+                            Once we set the duty cycle, the hardware chip keeps generating perfect pulses in the background. Even if our program gets busy
+                            doing calculations, the PWM signals stay perfectly timed at 50Hz. ESCs are very picky about timing, so this is crucial for
+                            smooth, reliable motor control!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Tab -->
+            <div id="technical" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="material-icons">terminal</span>
+                        <h2>Technical Details & Setup</h2>
+                    </div>
+
+                    <h3>Software Stack</h3>
+                    <ul>
+                        <li><strong>.NET 10</strong> - Microsoft's latest cross-platform framework</li>
+                        <li><strong>C# 13</strong> - Modern programming language with advanced features</li>
+                        <li><strong>System.Device.Gpio</strong> - Library for GPIO and PWM hardware access</li>
+                        <li><strong>System.IO.Ports</strong> - Library for serial communication with sensors</li>
+                        <li><strong>Dependency Injection</strong> - Clean architecture pattern for organizing code</li>
+                    </ul>
+
+                    <h3>Project Structure</h3>
+                    <div class="code-block"><pre><code>Spinlayden.Brain/
+├── Program.cs                          <span class="comment">// Starting point of the program</span>
+├── Infrastructure/
+│   ├── BrainControlLoop.cs             <span class="comment">// The 100Hz control loop</span>
+│   └── ServiceCollectionExtensions.cs  <span class="comment">// Dependency injection setup</span>
+└── Features/
+    ├── RcInput/
+    │   └── GpioRcInputReader.cs        <span class="comment">// Reads RC controller signals</span>
+    ├── SafetyInterlock/
+    │   └── SafetyInterlock.cs          <span class="comment">// Kill switch & mode logic</span>
+    ├── SensorReading/
+    │   └── Wt901SensorReader.cs        <span class="comment">// Reads IMU sensor data</span>
+    ├── Translation/
+    │   └── TranslationEngine.cs        <span class="comment">// MeltyBrain phase control math</span>
+    └── MotorControl/
+        └── MotorController.cs          <span class="comment">// Sends PWM to ESCs</span></code></pre></div>
+
+                    <h3>Deploying to the Raspberry Pi</h3>
+                    <p>
+                        To run this on the robot, you need to compile it for the Raspberry Pi's processor (ARM64) and copy it over:
+                    </p>
+                    <div class="code-block"><pre><code><span class="comment"># On your computer (Windows/Mac/Linux)</span>
+dotnet publish -c Release -r linux-arm64 --self-contained
+
+<span class="comment"># Copy to Raspberry Pi using SSH</span>
+scp -r bin/Release/net10.0/linux-arm64/publish/* pi@raspberrypi:~/spinlayden/
+
+<span class="comment"># On the Raspberry Pi, run with sudo (needed for GPIO access)</span>
+cd ~/spinlayden
+sudo ./Spinlayden.Brain</code></pre></div>
+
+                    <h3>Tuning Parameters</h3>
+                    <p>
+                        These are constants in the code you can adjust to change the robot's behavior. Be careful - test small changes one at a time!
+                    </p>
+
+                    <h4>BrainControlLoop.cs</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Value</th>
+                                <th>What It Does</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>LoopFrequencyHz</td>
+                                <td>100</td>
+                                <td>How many times per second the control loop runs</td>
+                            </tr>
+                            <tr>
+                                <td>SpinQuantizeStep</td>
+                                <td>0.05</td>
+                                <td>Snap spin speed to 5% increments (prevents jitter)</td>
+                            </tr>
+                            <tr>
+                                <td>SpinRampPerTick</td>
+                                <td>0.01</td>
+                                <td>How fast spin speed changes (1%/tick = 1 second to full)</td>
+                            </tr>
+                            <tr>
+                                <td>AhrsCorrAlpha</td>
+                                <td>0.002</td>
+                                <td>How much AHRS correction to blend in (0.2% per tick)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h4>TranslationEngine.cs</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Value</th>
+                                <th>What It Does</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>TranslationGain</td>
+                                <td>0.8</td>
+                                <td>How aggressive translation is (higher = more responsive)</td>
+                            </tr>
+                            <tr>
+                                <td>MaxWheelPower</td>
+                                <td>1.0</td>
+                                <td>Maximum motor power limit (safety)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h4>GpioRcInputReader.cs</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Value</th>
+                                <th>What It Does</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>StickAlpha</td>
+                                <td>0.3</td>
+                                <td>Smoothing for stick inputs (lower = smoother but slower)</td>
+                            </tr>
+                            <tr>
+                                <td>PotAlpha</td>
+                                <td>0.05</td>
+                                <td>Heavy smoothing for throttle stick</td>
+                            </tr>
+                            <tr>
+                                <td>SignalTimeoutTicks</td>
+                                <td>100ms</td>
+                                <td>How long before declaring RC signal lost</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="card" style="background: linear-gradient(135deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-primary-container) 100%); color: var(--md-sys-color-on-primary);">
+                    <div style="text-align: center;">
+                        <span class="material-icons" style="font-size: 48px; margin-bottom: 16px;">school</span>
+                        <h2 style="color: var(--md-sys-color-on-primary); margin-bottom: 12px;">Want to Learn More?</h2>
+                        <p style="color: var(--md-sys-color-on-primary); opacity: 0.9; margin-bottom: 0;">
+                            This robot combines control systems, sensor fusion, real-time programming, and physics!
+                            Great topics to explore: PID controllers, Kalman filters, embedded systems, and robotics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            // Hide all tab contents
+            const tabContents = document.getElementsByClassName('tab-content');
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove('active');
+            }
+
+            // Remove active class from all tab buttons
+            const tabButtons = document.getElementsByClassName('tab-button');
+            for (let i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove('active');
+            }
+
+            // Show the selected tab and mark button as active
+            document.getElementById(tabName).classList.add('active');
+            evt.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
