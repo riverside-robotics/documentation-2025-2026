@@ -34,7 +34,7 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **If a Student turens in there Biography it will be pasted here.** 
 
-**Adam Pakeltis:** *Bio not yet submitted.*
+**Adam Pakeltis:** This hardworking senior is thrilled to join Team Meltdown for his very first year. Alongside robotics, Adam has played football and is an active member of the National Honor Society. Outside of the cage, this first-time competitor stays incredibly busy. He volunteers for both NHS and the Lake Metroparks, works weekends at Hellriegel’s Inn, lifts weights, fishes, and enjoys working outside. When he isn't building plastic model kits or designing projects in Fusion 360, he loves hanging out with his girlfriend and watching “Deal or No Deal” with his family. This well-rounded student is more than ready to bring his diverse skills to the team and experience his first competition.
 
 **Alexander Danger Holmes:** Returning for his second year, this sharp junior is ready to take the competition by storm. Bringing his strategic mindset to the team, Alexander takes charge of marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. When he isn't busy promoting the team, he enjoys reading, following F1 racing, and competing in fencing. With a middle name like Danger, this experienced student is definitely prepared to help his team stand out and succeed.
 
