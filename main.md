@@ -206,6 +206,8 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 
 #### Positive and Negative Aspects of Spinlayden 1.0
 
+**Table 1:** Positive and Negative Aspects of Spinlayden 1.0
+
 | Positive | Negative |
 |----------|----------|
 | Hexagonal full-body spinner concept | Weight reduction holes weakened structural integrity |
@@ -217,6 +219,8 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 | Compact hexagonal shape fits well in the arena | Counterweight system added unnecessary complexity and weight |
 
 #### Negative Aspects — Problems and Solutions
+
+**Table 2:** Problems Identified in Spinlayden 1.0 and Solutions Implemented in 2.0
 
 | # | Negative | Problem | Solution |
 |---|----------|---------|----------|
@@ -242,6 +246,8 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 ## Project Overview
 
 ### General Information
+
+**Table 3:** General Project Information
 
 | Field | Detail |
 |-------|--------|
@@ -269,6 +275,8 @@ Spinlayden is a 15-pound combat robot designed to compete in the Regional RoboBo
 The High School Robotics Club is also an opportunity for Riverside Students to learn about manufacturing, engineering, teamwork, design, software, and documentation used in the engineering process.
 
 ### Objective
+
+**Table 4:** Project Objectives, Metrics, and Goals
 
 | Objective | Metric | Project Goal |
 |-----------|--------|--------------|
@@ -306,6 +314,8 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 ### Key Milestones
 
+**Table 5:** Key Project Milestones and Target Dates
+
 | Milestone | Target Date |
 |-----------|-------------|
 | Introduction | Sep 24 - Oct 8 |
@@ -324,6 +334,8 @@ Since Riverside Robotics has previously designed, manufactured, and assembled a 
 ## Team Meltdown - Tasks Distribution
 
 ### Project Assignments
+
+**Table 6:** Team Member Roles and Assignments
 
 | Name | Role | Grade |
 |------|------|-------|
@@ -358,6 +370,8 @@ Since Riverside Robotics has previously designed, manufactured, and assembled a 
 Material Management is done by keeping an inventory of parts that are left from previous years. We try to reuse as many unused and old parts as possible to save money and time when designing the bot. Some parts need replacement or are new this year compared to what we already have. Listed below is our parts list for Riverside Robotics Team Spinlayden this year, and the Budget.
 
 #### Parts List
+
+**Table 7:** Bill of Materials — Parts List
 
 | Buyer | Category | Part | Unit Price | Qty | Total Cost |
 |-------|----------|------|------------|-----|------------|
@@ -394,6 +408,8 @@ Material Management is done by keeping an inventory of parts that are left from 
 | Advisors | Drive | P6S Gearbox: Standard Duty, 20:1 (2 new + 2 owned) | $63.65 | 4 | $254.60 |
 
 #### Budget Summary
+
+**Table 8:** Budget Summary by Funding Source
 
 | Funding Source | Total Value | New Expenditures (2025-2026) |
 |----------------|-------------|------------------------------|
@@ -475,6 +491,8 @@ All internal components were 3D printed using **standard PLA filament**. Prototy
 ### Inventory
 
 The following table lists the tools and equipment available to Riverside Robotics for fabrication, assembly, and maintenance of Spinlayden. Keeping an accurate inventory ensures the team can plan work sessions effectively and identify when replacements or additional tools are needed.
+
+**Table 9:** Tools and Equipment Inventory
 
 | Item | Quantity | Type | Condition |
 |------|----------|------|-----------|
@@ -602,6 +620,8 @@ Throughout the design process, Spinlayden 2.0 underwent several key refinements 
 ### Structural Analysis
 
 To evaluate the durability and reliability of Spinlayden 2.0, the team conducted a Failure Modes and Effects Analysis (FMEA). This systematic approach identifies potential failure points, assesses their severity and likelihood, and documents the mitigations designed into the bot.
+
+**Table 10:** Failure Modes and Effects Analysis (FMEA)
 
 | Component | Failure Mode | Cause | Effect | Severity (1-10) | Likelihood (1-10) | Mitigation |
 |-----------|-------------|-------|--------|-----------------|-------------------|------------|

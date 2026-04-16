@@ -9,8 +9,8 @@
 
 ## Overall Progress
 
-**Sections Complete:** 24 / 35
-**Sections Partial:** 6 / 35
+**Sections Complete:** 25 / 35
+**Sections Partial:** 5 / 35
 **Sections Missing:** 5 / 35
 
 ---
@@ -84,7 +84,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 39 | Rubric compliance | PARTIAL | See sections above — 7 sections still missing |
 | 40 | Supporting documents | PARTIAL | Budget spreadsheet data included. Missing: CAD renders, engineering drawings, wiring diagram, photos |
 | 41 | Technical terminology | DONE | Full terminology pass completed on both main.md and meetingNotes.md |
-| 42 | Clear labeling | PARTIAL | 11 tables lack formal "Table X:" captions. No figures exist yet to label |
+| 42 | Clear labeling | DONE | All 10 tables captioned (Table 1–10). Figure 1 (Spinlayden 1.0 CAD render) labeled |
 | 43 | Original writing | DONE | All content is original to the team |
 | 44 | Team member attribution | PARTIAL | Project Assignments table shows roles. Individual contributions not called out consistently throughout the document |
 
@@ -98,7 +98,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 2. **Get remaining team bios submitted** — 16 of 19 are still missing. Even short bios are better than none.
 3. **Get advisor bios** — Jack and Adam Carbone bios are missing.
 4. ~~**Write Acknowledgements**~~ — DONE. Thanks Monode, Arc Technology, Show Studio, advisors, Riverside HS, Case Western think[box], AWT, and families.
-5. **Add table captions** — All 11 tables need "Table X:" labels for rubric compliance.
+5. ~~**Add table captions**~~ — DONE. All 10 tables captioned (Table 1–10).
 6. ~~**Fix team size inconsistency**~~ — DONE. Both lines now say "approximately 30 students."
 7. **Write Closing Remarks** — Currently a TODO.
 8. **Fill in Overview section** — Currently a TODO.
@@ -130,8 +130,8 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 24 |
-| Sections Partial | 6 |
+| Sections Complete | 25 |
+| Sections Partial | 5 |
 | Sections Missing | 5 |
 | Sections Blocked (waiting on team) | 2 |
 | TODO placeholders remaining in main.md | 7 |
