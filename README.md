@@ -49,3 +49,4 @@ If you are on the design or CAD team, check `designTeamRequest.md` for the speci
 - **TODO List:** [todo.md](todo.md)
 - **Interview Prep:** [interviewPrep.md](interviewPrep.md)
 - **Design Team Request:** [designTeamRequest.md](designTeamRequest.md)
+- **Rubric Compliance:** [rubricCompliance.md](rubricCompliance.md)
