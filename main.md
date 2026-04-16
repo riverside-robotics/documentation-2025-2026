@@ -148,7 +148,21 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 ## Acknowledgements
 
-> TODO: Add acknowledgements section thanking sponsors, mentors, and school administration.
+Team Meltdown would like to thank everyone who has contributed to making the Spinlayden 2.0 project possible this season. The success of our team is built on the generosity, expertise, and encouragement of the people and organizations around us.
+
+First and foremost, we would like to thank our industry sponsor, **Monode Marking Products, Inc.**, and its President, **J.T. Mackey**, for providing Riverside Robotics with shop access for machining, mentorship from professional engineers, and funding for materials. Monode's willingness to open their facility to our team and share their manufacturing expertise has been instrumental in bringing Spinlayden from a CAD model to a competition-ready robot. J.T.'s guidance as our Industry Advisor has given our students invaluable exposure to real-world engineering practices.
+
+We would also like to thank **Arc Technology LLC**, founded by our advisor **Adam Carbone**, and **Show Studio LLC**, founded by our advisor **Jack Carbone**, for their financial support and material contributions to the program. Show Studio's donation of 3D printers, portable CNC mills, and other fabrication equipment has given our team access to manufacturing capabilities that would otherwise be out of reach for a high school program. Arc Technology's funding has helped sustain and grow the robotics program during this critical expansion year.
+
+A special thank you to our advisors, **Jack Carbone** and **Adam Carbone**, both Class of 2023 alumni who returned to Riverside to rebuild the robotics program from the ground up. Their dedication to this team goes far beyond what is expected — from organizing meetings and coordinating with sponsors to mentoring students through every stage of the design, manufacturing, and documentation process. Without their leadership, Riverside Robotics would not exist in its current form.
+
+We are grateful to **Riverside High School** for purchasing parts and materials for our robot and for providing the space, time, and institutional support needed to run a competitive robotics program. The school's commitment to hands-on STEM education has made it possible for our students to gain skills in engineering, manufacturing, and project management that will serve them well beyond the arena.
+
+We would like to thank **Case Western Reserve University's think[box]** makerspace for providing access to their OMAX 5555 waterjet cutter. The precision and capability of their equipment allowed us to fabricate our hexagonal chassis plates to exact specifications — a critical step in our manufacturing process that would not have been possible without their facility.
+
+Thank you to the **Alliance for Working Together (AWT)** for organizing the Regional RoboBots Competition and for their grant funding, which helped offset the cost of raw materials for our chassis and blades. AWT's commitment to fostering the next generation of skilled manufacturing professionals gives programs like ours a platform to learn, compete, and grow.
+
+Finally, we would like to extend our gratitude to the **parents, families, and community members** of Riverside Robotics. Your support — whether through transportation, encouragement, patience during late build sessions, or simply believing in what your students are building — makes all of this possible. Robotics is a team effort that extends well beyond the students in the room, and we are thankful for every person who has cheered us on this season.
 
 ---
 
