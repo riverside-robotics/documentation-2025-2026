@@ -68,6 +68,6 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **Vincent Riha:** *Bio not yet submitted.*
 
-**Xayden Minch:** *Bio not yet submitted.*
+**Xayden Minch:** This ambitious freshman is stepping into the arena for his very first competition! Xayden brings a versatile set of skills to the team, where he focuses on maintaining detailed documentation and tackling any miscellaneous tasks needed to keep the project moving forward. A dedicated member of the school band, he stays just as busy outside the classroom. Whether he is playing the flute, building computers from scratch, coding, or diving into video games, he is always exploring the world of technology. This proactive competitor is eager to contribute his technical talents and help the team achieve a successful season.
 
 **Yash Jain:** *Bio not yet submitted.*
