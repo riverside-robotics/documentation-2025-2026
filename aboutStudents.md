@@ -58,7 +58,7 @@ J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on de
 
 **Mher Pogosan:** *Bio not yet submitted.*
 
-**Robert Rateno:** *Bio not yet submitted.*
+**Robert Rateno:** This returning sophomore is ready to hit the cage for their second competition. As the team's driver, they are prepared to take the wheel and steer the robot to victory. Alongside robotics, this student keeps the beat in the school's marching band. Outside of school, they enjoy playing the drums, 3D printing, and tinkering with RC vehicles. This experienced competitor is excited to show off their driving skills and dominate the competition.
 
 **Richard Rowland:** *Bio not yet submitted.*
 
