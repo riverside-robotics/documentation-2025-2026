@@ -9,8 +9,8 @@
 
 ## Overall Progress
 
-**Sections Complete:** 26 / 35
-**Sections Partial:** 5 / 35
+**Sections Complete:** 27 / 35
+**Sections Partial:** 4 / 35
 **Sections Missing:** 4 / 35
 
 ---
@@ -28,8 +28,8 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 3 | Project Charter / General Info | DONE | General Information table, Bot Description, Objective, Deliverables, Key Milestones, Constraints all present |
 | 4 | About Riverside (School Info) | DONE | Thorough write-up covering school history, robotics program history, and program expansion |
 | 5 | Sponsor / Partner Info | DONE | Monode, Arc Technology, and Show Studio all have detailed write-ups |
-| 6 | Team Biographies | PARTIAL | 9 of 19 bios submitted (Adam Pakeltis, Alexander Holmes, Ayden Moore, Daniel George, Jason Kellhofer, Robert Rateno, Sultan Kazeem, Tom Kramer, Xayden Minch). 10 still pending — tracked in aboutStudents.md |
-| 7 | Mentor / Advisor Biographies | PARTIAL | J.T. Mackey and Jack Carbone bios complete. Adam Carbone bio still missing |
+| 6 | Team Biographies | PARTIAL | 11 of 19 bios submitted (Adam Pakeltis, Alexander Holmes, Ayden Moore, Benjamin Mackey, Daniel George, Jason Kellhofer, Robert Rateno, Sultan Kazeem, Tom Kramer, Xayden Minch, Yash Jain). 8 still pending — tracked in aboutStudents.md |
+| 7 | Mentor / Advisor Biographies | DONE | J.T. Mackey, Jack Carbone, and Adam Carbone bios all complete |
 | 8 | Acknowledgements | DONE | Thanks Monode/J.T. Mackey, Arc Technology, Show Studio, advisors Jack and Adam Carbone, Riverside High School, Case Western think[box], AWT, and families/community |
 
 ### Design Motivation / Strategy
@@ -95,8 +95,8 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 ### Must Do (High Impact, Team Can Complete)
 
 1. **Remove all TODO placeholders and joke text** — "It spins fast, probably", all `> TODO:` lines. Judges will see these.
-2. **Get remaining team bios submitted** — 16 of 19 are still missing. Even short bios are better than none.
-3. **Get advisor bios** — Jack and Adam Carbone bios are missing.
+2. **Get remaining team bios submitted** — 8 of 19 still pending (Dustin Hance, Jayden Craig, Kasey Kurzinger, Kaydan Kerr, Lukas Dauksa, Mher Pogosan, Richard Rowland, Vincent Riha). Even short bios are better than none.
+3. ~~**Get advisor bios**~~ — DONE. Jack Carbone and Adam Carbone bios both in place.
 4. ~~**Write Acknowledgements**~~ — DONE. Thanks Monode, Arc Technology, Show Studio, advisors, Riverside HS, Case Western think[box], AWT, and families.
 5. ~~**Add table captions**~~ — DONE. All 10 tables captioned (Table 1–10).
 6. ~~**Fix team size inconsistency**~~ — DONE. Both lines now say "approximately 30 students."
@@ -130,12 +130,12 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 26 |
-| Sections Partial | 5 |
+| Sections Complete | 27 |
+| Sections Partial | 4 |
 | Sections Missing | 4 |
 | Sections Blocked (waiting on team) | 2 |
 | TODO placeholders remaining in main.md | 5 |
 | Empty meeting notes | 5 |
-| Team bios missing | 10 of 19 |
-| Advisor bios missing | 1 of 3 |
+| Team bios missing | 8 of 19 |
+| Advisor bios missing | 0 of 3 |
 | Days until deadline | 2 |
