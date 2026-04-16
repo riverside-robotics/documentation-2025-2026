@@ -9,9 +9,9 @@
 
 ## Overall Progress
 
-**Sections Complete:** 25 / 35
+**Sections Complete:** 26 / 35
 **Sections Partial:** 5 / 35
-**Sections Missing:** 5 / 35
+**Sections Missing:** 4 / 35
 
 ---
 
@@ -66,7 +66,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 26 | Research Methods | DONE | Describes analysis of previous AWT competitions and other streams |
 | 27 | CAD Models | BLOCKED | No CAD renders or screenshots in the doc. Requested from design team (isometric, top-down, side, exploded views) via designTeamRequest.md |
 | 28 | Refinements | DONE | 8 specific refinements from 1.0 to 2.0 documented |
-| 29 | Risk Analysis | MISSING | No formal risk matrix. FMEA table exists under Structural Analysis but does not cover project-level risks (schedule, manufacturing, competition) |
+| 29 | Risk Analysis | DONE | Project-level risk matrix (Table 11) with 8 risks across schedule, manufacturing, and competition categories. FMEA covers component-level risks separately |
 | 30 | Structural Analysis | DONE | Full FMEA table with 8 failure modes, severity/likelihood ratings, and mitigations |
 | 31 | Engineering Drawing Sets | BLOCKED | TODO — awaiting dimensioned drawings from CAD team (Fusion 360 exports) |
 | 32 | Manufacturing Plan | PARTIAL | Fabrication section covers Waterjet, CNC Milling, and 3D Printing methods. Manufacturing under Project Overview is still a TODO placeholder. Missing step-by-step procedures with photos |
@@ -116,7 +116,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 ### Nice to Have (Would Strengthen Submission)
 
-17. **Risk Analysis** — Create a project-level risk matrix (schedule, manufacturing, competition risks).
+17. ~~**Risk Analysis**~~ — DONE. Project-level risk matrix with 8 risks across schedule, manufacturing, and competition.
 18. **Action Plan** — Create a structured task plan with owners and deadlines.
 19. **Time Management** — Create a Gantt chart or planned-vs-actual timeline.
 20. ~~**Data Management**~~ — DONE. Covers GitHub repos, Fusion 360 shared hub, and shared drive.
@@ -130,12 +130,12 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 25 |
+| Sections Complete | 26 |
 | Sections Partial | 5 |
-| Sections Missing | 5 |
+| Sections Missing | 4 |
 | Sections Blocked (waiting on team) | 2 |
 | TODO placeholders remaining in main.md | 5 |
 | Empty meeting notes | 5 |
 | Team bios missing | 13 of 19 |
 | Advisor bios missing | 2 of 3 |
-| Days until deadline | 3 |
+| Days until deadline | 2 |

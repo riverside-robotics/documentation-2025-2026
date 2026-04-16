@@ -73,6 +73,8 @@
   - [Analysis and Conceptualization](#analysis-and-conceptualization)
   - [Design Motivation](#design-motivation)
   - [Research Methods](#research-methods)
+  - [Risk Analysis](#risk-analysis)
+  - [Structural Analysis](#structural-analysis)
   - [Weapon System Details](#weapon-system-details)
   - [Drive System Details](#drive-system-details)
   - [Power System Details](#power-system-details)
@@ -614,6 +616,23 @@ Throughout the design process, Spinlayden 2.0 underwent several key refinements 
 **Counterweight Removal:** The 1.0 design used counterweights to balance the spinning chassis, adding complexity and weight. The 2.0 design achieves balance through symmetric component placement, eliminating the need for dedicated counterweights.
 
 **3D Printed Prototyping:** Before cutting metal, we 3D printed prototype wall sections and assemblies to verify fit, test the interlocking blade system, and catch design issues early.
+
+### Risk Analysis
+
+In addition to the component-level failure analysis (FMEA) below, the team identified project-level risks that could affect the schedule, manufacturing process, or competition outcome. The following risk matrix assesses each risk by severity and likelihood on a 1–10 scale and documents the mitigation strategy in place.
+
+**Table 11:** Project-Level Risk Matrix
+
+| Risk Category | Risk | Cause | Impact | Severity (1-10) | Likelihood (1-10) | Mitigation |
+|---------------|------|-------|--------|-----------------|-------------------|------------|
+| Schedule | Documentation not completed by deadline | Large scope (35 rubric sections), limited time, 14 bios still pending | Incomplete submission reduces rubric score | 7 | 5 | Rubric compliance tracker created to prioritize high-impact sections; documentation work began early in the season; TODO items assigned to specific team members |
+| Schedule | Testing not completed before competition | Robot assembly delays push testing window past April 24 | Bot enters competition without full-speed validation | 8 | 4 | Four-phase testing plan started April 14; critical tests (spin-up, drive, weapon) prioritized first; low-speed validation already complete |
+| Manufacturing | Loss of machining access | External manufacturing partners (Monode, Case Western think[box]) become unavailable | Cannot fabricate precision chassis or blade components | 9 | 3 | Relationships established early in season; backup CNC available (Lunyee 3018 Pro Ultra) for smaller parts; waterjet cutting completed ahead of schedule |
+| Manufacturing | 3D-printed components fail under combat loads | PLA/PETG parts crack or deform from vibration or impact | Internal mounts or Pi housing break during match | 5 | 5 | 3D-printed parts used only for non-structural internal mounts; critical structural components machined from aluminum or steel; spare printed parts prepared in advance |
+| Manufacturing | Parts arrive late or incorrect | Vendor shipping delays or ordering errors | Build schedule slips; team cannot assemble on time | 7 | 4 | Parts ordered early in the season; owned inventory from Spinlayden 1.0 covers critical drive and power components; budget includes margin for expedited replacements |
+| Competition | Opponent exploits exposed wheels | Wheels extend slightly beyond chassis perimeter | Wheel damage disables drivetrain; bot cannot translate | 7 | 6 | BaneBots wheels are inexpensive and quick to replace between matches; spare wheels and gearboxes on hand; bot can still spin as a weapon even without drive |
+| Competition | Match loss due to control errors | Operator inexperience with meltybrain driving or mode switching | Bot drives into walls, fails to engage, or wastes match time | 6 | 5 | Two-operator system splits driving and mode management; practice sessions scheduled during April testing window; operators trained on Spinlayden 1.0 last season |
+| Competition | Battery depletion mid-match | High current draw from four motors at full spin | Bot loses power before 3-minute match ends | 8 | 3 | Six Liperior 2700 mAh 4S LiPo batteries available; battery endurance testing planned to confirm runtime exceeds match duration; fresh battery loaded before each match |
 
 ### Structural Analysis
 
