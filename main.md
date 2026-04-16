@@ -132,6 +132,8 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 ## Team Biographies
 
+**Adam Pakeltis:** This hardworking senior is thrilled to join Team Meltdown for his very first year. Alongside robotics, Adam has played football and is an active member of the National Honor Society. Outside of the cage, this first-time competitor stays incredibly busy. He volunteers for both NHS and the Lake Metroparks, works weekends at Hellriegel's Inn, lifts weights, fishes, and enjoys working outside. When he isn't building plastic model kits or designing projects in Fusion 360, he loves hanging out with his girlfriend and watching "Deal or No Deal" with his family. This well-rounded student is more than ready to bring his diverse skills to the team and experience his first competition.
+
 **Alexander Holmes:** Returning for his second year, this sharp junior is ready to take the competition by storm. Bringing his strategic mindset to the team, Alexander takes charge of marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. When he isn't busy promoting the team, he enjoys reading, following F1 racing, and competing in fencing. With a middle name like Danger, this experienced student is definitely prepared to help his team stand out and succeed.
 
 **Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
@@ -139,6 +141,10 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
 
 **Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team's skills combine to ensure a secured win this season.
+
+**Robert Rateno:** This returning sophomore is ready to hit the cage for their second competition. As the team's driver, they are prepared to take the wheel and steer the robot to victory. Alongside robotics, this student keeps the beat in the school's marching band. Outside of school, they enjoy playing the drums, 3D printing, and tinkering with RC vehicles. This experienced competitor is excited to show off their driving skills and dominate the competition.
+
+**Sultan Kazeem:** This bright junior is stepping into the cage for his very first time. Bringing his skills to the mechanical team, Sultan is excited to win at competition. He is actively involved in Model UN, Academic Challenge, choir, and Investment Club. When not building robots, he enjoys bike riding. This hardworking student cannot wait to dominate.
 
 **Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
 
@@ -148,9 +154,11 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 ## Mentor / Advisor Biographies
 
+**Jack Carbone — Lead Advisor:** Jack Carbone is a software developer and the founder and CEO of Show Studio LLC. As Lead Advisor of Riverside Robotics, Jack oversees all club operations and contributes across software development in C# and .NET, CAD design, and hands-on bot manufacturing. Alongside his brother and co-advisor, Adam Carbone, he revived the Riverside Robotics program in 2025 after a multi-year hiatus, growing it from a small group of students into a thriving organization spanning both high school and middle school teams. For Jack, Riverside Robotics is an investment in the future of engineering in software and hardware and, by extension, the future of humanity. He is committed to giving students the hands-on experience, financial backing, and guidance he never had access to, preparing the next generation of engineers to lead, innovate, and shape the world across every discipline the field has to offer.
+
 **J.T. Mackey — Industry Advisor:** J.T. Mackey is a leader at Monode Marking Products, Inc., where he focuses on delivering practical, real-world solutions for industrial marking and traceability. A recognized subject matter expert, he has co-authored ANSI, ISO and military standards and currently serves as Chair of MH10.8.2, helping guide industry standards across multiple sectors. J.T. is also a patent holder and works closely with customers to ensure marking systems integrate effectively into production environments with a focus on reliability and long-term performance. Outside of work, he is deeply committed to his family—his wife Jenn and their children, Ben and Abby—and to his community. He is proud to support Monode's partnership with the Riverside robotics program, where his son Ben is a team member, helping inspire the next generation of engineers.
 
-> Awaiting bios from advisors Jack Carbone and Adam Carbone.
+> Awaiting bio from advisor Adam Carbone.
 
 ## Acknowledgements
 
