@@ -64,7 +64,7 @@
 
 **Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the high school roster has grown to 19 students on Team Meltdown, with two additional JuniorBots middle-school teams also running under advisors Jack and Adam Carbone.
 
-**2026 Design:** Spinlayden 2.0 is the team's second-generation 15-pound hexagonal meltybrain full-body spinner, built around a 6061 aluminum chassis with six A516 carbon-steel impact blades and driven by dual BaneBots P61 gearboxes at 645.6 RPM (≈26.9 mph tip speed, ~78 J per rotation). This season's redesign focuses on the failure points identified from Spinlayden 1.0 — reinforcing the chassis walls, redesigning the gearbox and bearing mounts for easier serviceability and better belt tension, and moving the meltybrain control software from Python to C# on a Raspberry Pi for tighter simultaneous-rotation-and-translation drive control.
+**2026 Design:** Spinlayden 2.0 is the team's second-generation 15-pound hexagonal meltybrain full-body spinner, built around a 6061 aluminum chassis with six 1/2" carbon steel hex bolts as impact weapons and driven by dual BaneBots P61 gearboxes at 645.6 RPM (≈26.9 mph tip speed, ~78 J per rotation). This season's redesign focuses on the failure points identified from Spinlayden 1.0 — reinforcing the chassis walls, redesigning the gearbox and bearing mounts for easier serviceability and better belt tension, and moving the meltybrain control software from Python to C# on a Raspberry Pi for tighter simultaneous-rotation-and-translation drive control.
 
 ---
 
@@ -172,7 +172,21 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
 
+**Dustin Hance:** This dedicated junior returns for his second year with Team Meltdown, bringing essential software and systems expertise to the competition. Dustin has been one of the core contributors to getting Spinlayden 2.0's brain ready — setting up the Raspberry Pi 4B's operating system, configuring it for headless operation, managing software dependencies, and keeping the team's control software current by pulling the latest changes from the GitHub repository. His technical depth in Linux systems and software configuration has been critical to keeping the Pi running reliably all season. This returning programmer is ready to put two years of experience to work in the arena.
+
 **Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team's skills combine to ensure a secured win this season.
+
+**Jayden Craig:** This experienced sophomore returns to the arena for his second year with Team Meltdown. Coming in with a year of firsthand experience on the Spinlayden project, Jayden hits the ground running with a working knowledge of the design, and has contributed across mechanical design, CAD modeling, marketing, manufacturing, and assembly. His versatility makes him a reliable presence anywhere on the team. This returning competitor is eager to put his experience to work and help bring Spinlayden 2.0 across the finish line.
+
+**Kasey Kurzinger:** This enthusiastic eighth grader steps into the arena for his very first competition! Kasey has jumped in headfirst as a first-year member, contributing to CAD design, documentation, manufacturing, and assembly alongside his teammates. His quick learning and willingness to take on any task have made him a valuable addition to the team. This eager rookie is ready to see how his hard work comes together in the arena.
+
+**Kaydan Kerr:** This eager eighth grader steps into the cage for his very first competition! Kaydan came to Team Meltdown with a genuine interest in robotics and battle bots, and has channeled that enthusiasm into real contributions — overseeing design and specification decisions and jumping in wherever needed during assembly. With a sharp eye for how the robot should come together, he brings both curiosity and commitment to the team. This first-year competitor can't wait to see Spinlayden 2.0 in action.
+
+**Lukas Dauksa:** This hardworking junior steps into the arena for his very first competition! Lukas brings hands-on energy to the team's electrical work, contributing to the spec and design process and pitching in during assembly to help keep the build moving forward. His willingness to get involved and learn on the fly has made him a reliable team member throughout the season. This first-year competitor is ready to see what the team has built take the stage.
+
+**Mher Poghosyan:** This dedicated junior steps into the cage for his very first competition! Mher has contributed to both the documentation and mechanical sides of the team, bringing careful attention to detail to spec and design discussions while pitching in during assembly to move the build forward. His ability to bridge the gap between documentation and hands-on work has made him a versatile and dependable presence on the team. This first-year competitor is excited to see everything come together in the arena.
+
+**Richard Rowland:** This energetic eighth grader steps into the arena for his very first competition! Richard has been fully hands-on all season, contributing to spec and design discussions and jumping in during assembly to help bring Spinlayden 2.0 to life. His willingness to learn, adapt, and take on whatever is needed has made him a dependable part of the team. This first-year competitor is ready to see what he and his teammates have worked so hard to build.
 
 **Robert Rateno:** This returning sophomore is ready to hit the cage for their second competition. As the team's driver, they are prepared to take the wheel and steer the robot to victory. Alongside robotics, this student keeps the beat in the school's marching band. Outside of school, they enjoy playing the drums, 3D printing, and tinkering with RC vehicles. This experienced competitor is excited to show off their driving skills and dominate the competition.
 
@@ -180,11 +194,11 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Tom Kramer:** This brilliant junior has traveled all the way from Germany to show the competition what he is made of! As a foreign exchange student at Riverside, Tom is more than ready to make his mark in robotics. On the team, he is the mastermind behind the screen, specializing in software and keeping the team's documentation in perfect order. Outside of prepping the robot for battle, this tech-savvy student spends his free time coding and learning everything he can about computers. This dedicated programmer is excited to show off his skills and help lead the team to victory.
 
+**Vincent Riha:** This talented sophomore steps into the arena for his very first competition! Vincent brings software skills to the team, contributing to the spec and design process and pitching in during assembly to support the build. His technical background and hands-on approach have made him a valuable first-year addition to Team Meltdown. This newcomer is ready to put the team's work to the test in the arena.
+
 **Xayden Minch:** This ambitious freshman is stepping into the arena for his very first competition! Xayden brings a versatile set of skills to the team, where he focuses on maintaining detailed documentation and tackling any miscellaneous tasks needed to keep the project moving forward. A dedicated member of the school band, he stays just as busy outside the classroom. Whether he is playing the flute, building computers from scratch, coding, or diving into video games, he is always exploring the world of technology. This proactive competitor is eager to contribute his technical talents and help the team achieve a successful season.
 
 **Yash Jain:** This 15-year-old freshman brings his Python programming skills and a love for electrical work to the team. Though he jokingly describes himself as "tired and extremely idiotic," Yash is a great sport who keeps everyone laughing. Whether he is wiring the robot or writing code, he is a dedicated member — even if the team's running joke is that whenever something goes wrong, "it's always Yash's fault!"
-
-> Remaining team member bios will be added as they are submitted.
 
 ## Mentor / Advisor Biographies
 
@@ -208,7 +222,7 @@ We are grateful to **Riverside High School** for purchasing parts and materials 
 
 We would like to thank **Case Western Reserve University's think[box]** makerspace for providing access to their OMAX 5555 waterjet cutter. The precision and capability of their equipment allowed us to fabricate our hexagonal chassis plates to exact specifications — a critical step in our manufacturing process that would not have been possible without their facility.
 
-Thank you to the **Alliance for Working Together (AWT)** for organizing the Regional RoboBots Competition and for their grant funding, which helped offset the cost of raw materials for our chassis and blades. AWT's commitment to fostering the next generation of skilled manufacturing professionals gives programs like ours a platform to learn, compete, and grow.
+Thank you to the **Alliance for Working Together (AWT)** for organizing the Regional RoboBots Competition. AWT's commitment to fostering the next generation of skilled manufacturing professionals gives programs like ours a platform to learn, compete, and grow.
 
 Finally, we would like to extend our gratitude to the **parents, families, and community members** of Riverside Robotics. Your support — whether through transportation, encouragement, patience during late build sessions, or simply believing in what your students are building — makes all of this possible. Robotics is a team effort that extends well beyond the students in the room, and we are thankful for every person who has cheered us on this season.
 
@@ -220,7 +234,9 @@ Finally, we would like to extend our gratitude to the **parents, families, and c
 
 ## Design
 
-> TODO: Something big coming here. Talk to Adam and the design team about the table from the example doc on pages 14-15.
+The Spinlayden 2.0 design is built around a core combat strategy: maintain distance from opponents while the chassis ramps up to full weapon speed, then engage once the full kinetic energy of the spin is available. Because Spinlayden is a full-body spinner, the chassis itself is the weapon — every impact bolt around the perimeter becomes a strike surface once the robot reaches operational RPM. This strategy places significant demand on the driver, who must fluidly transition between **wheel mode** (pure translational driving for positioning and evasion) and **melty mode** (simultaneous rotation and translation for engagement), and maintain awareness of the robot's readiness at all times. The design decisions throughout this section are driven by this strategy: structural rigidity for a chassis that has to survive its own rotational loads, repeatable impact hardware that can be re-seated between matches, and a control system responsive enough for the driver to commit to or disengage from a fight on a moment's notice.
+
+Primary design decisions for Spinlayden 2.0 were led by students **Adam Pakeltis** and **Robert "Robby" Rateno**, with advisor **Adam Carbone** reviewing and approving each major design choice. This arrangement allowed the student designers to drive the creative and technical direction of the project while ensuring every decision was validated against engineering best practices and competition requirements before being committed to manufacturing.
 
 This is what we have so far:
 
@@ -284,7 +300,7 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 |---|----------|---------|----------|
 | 1 | Weight reduction holes | The through-holes used for weight reduction in Spinlayden 1.0 compromised the structural integrity of the chassis walls, creating weak points that could fail under repeated impacts. | Redesigned weight reduction to go only part of the way through the walls, preserving structural strength without sacrificing weight savings. No more through-holes. |
 | 2 | Components too close to walls | Internal electronics and drive components were mounted near the outer walls, making them vulnerable to damage when the chassis absorbed hits during combat. | Pushed all components away from the walls toward the center of the bot, creating a buffer zone between the impact surface and sensitive internals. |
-| 3 | Claw-style blades | The original claw-shaped blade tips spread impact force across a wider area, reducing penetration and damage output against armored opponents. | Changed blade tips from claw to spike geometry, concentrating force on a smaller contact point to improve puncture capability while maintaining blade length. |
+| 3 | Claw-style blades | The original claw-shaped blade weapons spread impact force across a wider area, reducing penetration and damage output against armored opponents. | Replaced the machined blade system entirely with 1/2" carbon steel hex bolts threaded through the chassis walls, concentrating force through the bolt tip and shank for improved impact performance. |
 | 4 | No Raspberry Pi housing | The Pi was mounted without a dedicated enclosure, leaving it exposed to vibration, debris, and potential impact damage — especially critical since the Pi now handles all onboard processing. | Designed and manufactured a dedicated housing for the Raspberry Pi, protecting the brain of the bot from physical damage during combat. |
 | 5 | Python software lag | The original Python control script introduced noticeable latency in processing controller inputs and gyroscope data, reducing responsiveness during matches. | Rewrote the entire software stack in C#, significantly reducing input lag and improving real-time responsiveness of the meltybrain control system. |
 | 6 | Bluetooth controller issues | The first-party Xbox controller connected via Bluetooth frequently dropped connection with the Raspberry Pi, causing loss of control during critical moments. | Switched to a controller using a 2.4 GHz USB-A adapter, eliminating Bluetooth reliability issues entirely. |
@@ -296,8 +312,7 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 - Redesigned weight reduction geometry for improved stress distribution
 - Internal components repositioned toward the chassis center to reduce vulnerability to impact damage
 - Dedicated 3D-printed housing for the Raspberry Pi onboard controller
-- Redesigned blade tip geometry from claw to spike profile for improved penetration
-- Maintained blade length while increasing damage potential through concentrated force application
+- Replaced machined blade-style weapons with 1/2" carbon steel hex bolts threaded through the chassis walls, concentrating impact force through the bolt tip and shank
 
 ---
 
@@ -324,7 +339,9 @@ Jack Carbone, Adam Carbone
 
 ### Manufacturing
 
-> TODO: Placeholder
+Spinlayden 2.0 was fabricated across two primary facilities. **Monode Marking Products**, in Mentor, Ohio, handled CNC milling of the 3/8" 6061-T6 aluminum chassis walls and related aluminum hardware. **Case Western Reserve University's think[box]** makerspace, in Cleveland, provided waterjet access on their OMAX 5555 for cutting the 1/8" 6061-T6 hexagonal top and bottom chassis plates. Supporting components — including the Raspberry Pi bracket, WT901 IMU mount, and battery brackets — were 3D printed in-house using PLA on printers donated by Show Studio LLC.
+
+The waterjet session at think[box] ran approximately four hours total. The first hour was spent converting the DXF part files exported from Fusion 360 into the OMAX-compatible ORD format and setting up the job; the remaining three hours were used for cutting and loading, with other makerspace users slotted in between our runs. The OMAX itself ran for roughly one hour of machine time across two nests of two hexagonal plates each, yielding four plates total. No parts needed to be remade. One post-processing adjustment was required: the team manually enlarged several bolt holes after cutting to compensate for the cut face direction selected during waterjet setup. With all major parts fabricated in a single session and no rework required, the team moved efficiently from raw stock to assembled chassis.
 
 ### Bot Description
 
@@ -437,9 +454,9 @@ Material Management is done by keeping an inventory of parts that are left from 
 
 | Buyer | Category | Part | Unit Price | Qty | Total Cost |
 |-------|----------|------|------------|-----|------------|
-| AWT | Chassis | Multipurpose 6061 Aluminum Bar, 3/8" Thick × 8" Wide, 2 ft (Wall Metal) | $78.19 | 2 | $156.38 |
-| AWT | Chassis | Multipurpose 6061 Aluminum Sheet, 1/8" Thick, 29" × 25" (Plate Metal) | $232.00 | 1 | $232.00 |
-| AWT | Weapon | Impact-Resistant A516 Carbon Steel, 6" × 6" × 1" (Blade Metal) | $208.35 | 1 | $208.35 |
+| Monode (Donated) | Chassis | 6061-T6 Aluminum Bar, 3/8" Thick × 8" Wide — Wall Stock (donated by Monode Marking Products) | $0.00 | — | $0.00 |
+| Monode (Donated) | Chassis | 6061-T6 Aluminum Sheet, 1/8" Thick — Plate Stock (donated by Monode Marking Products) | $0.00 | — | $0.00 |
+| Riverside | Weapon | Everbilt 1/2 in.-13 × 2 in. Zinc Plated Hex Bolt (50-Pack), SKU 800980 | $39.32 | 1 | $39.32 |
 | Riverside | Drive | R8-2RS Sealed Ball Bearings, 1/2" × 1-1/8" × 5/16" (20-pack) | $12.99 | 1 | $12.99 |
 | Riverside | Brain | Raspberry Pi 4B, 8 GB RAM | $97.99 | 2 | $195.98 |
 | Riverside | Power | XT60 Connector & Wire Covers (8-pack) | $12.99 | 1 | $12.99 |
@@ -463,7 +480,7 @@ Material Management is done by keeping an inventory of parts that are left from 
 | Team (Owned) | Power | Liperior 2700 mAh 4S 30C 14.8V LiPo Battery (XT60) | $28.99 | 6 | $173.94 |
 | Team (Owned) | Power | MS-05 Kill Switch | $75.00 | 2 | $150.00 |
 | Advisors | Chassis, Weapon | Lunyee 3018 Pro Ultra CNC Machine, 500W | $499.00 | 1 | $499.00 |
-| Advisors | Club | Vistaprint Custom Team Shirts | $23.91 | 10 | $239.09 |
+| Advisors (students reimbursed $15 each) | Club | Custom Ink Gildan Softstyle T-shirts, Black — 60 shirts, Receipt #87094381 | $965.25 | 1 | $965.25 |
 | Advisors | Drive | WT901 9-axis IMU / Gyro (USB, 200 Hz) | $32.65 | 2 | $65.30 |
 | Advisors | Drive | Milwaukee Hex Drill Bit Packs | $8.55 | 4 | $34.20 |
 | Advisors | Chassis | PLA Filament (student-sourced) | $20.00 | 1 | $20.00 |
@@ -475,11 +492,12 @@ Material Management is done by keeping an inventory of parts that are left from 
 
 | Funding Source | Total Value | New Expenditures (2025-2026) |
 |----------------|-------------|------------------------------|
-| Riverside (Club funds) | $617.63 | $617.63 |
-| Advisors (Carbones) | $1,112.19 | $984.89 |
-| Team (Previously owned) | $1,227.93 | $0.00 |
-| AWT (Grant/Sponsor) | $596.73 | $596.73 |
-| **Total** | **$3,554.48** | **$2,199.25** |
+| Riverside High School (PO 219831) | $745.00 | $745.00 |
+| Advisors — Jack Carbone (net after student shirt reimbursement) | $938.35 | $811.05 |
+| Students (60 × $15 shirt reimbursement to Jack) | $900.00 | $900.00 |
+| Team (Previously Owned) | $1,227.93 | $0.00 |
+| Monode Marking Products (In-Kind — chassis metal + machining) | $388.38 | $0.00 |
+| **Total** | **$4,199.66** | **$2,456.05** |
 
 ### Our Component Philosophy
 
@@ -487,7 +505,7 @@ Spinlayden is based on Riverside Robotics' meltybrain full-body spinner of the s
 
 Like last year, Spinlayden uses a custom-fabricated chassis to optimize our performance, space, and weight. While the chassis may look the same from the outside, we have redesigned it from the ground up. This year we are using a different weight reduction that allows us to give better protection to the internal components, especially since the controller inputs are processed on a Raspberry Pi inside the bot itself this year instead of having the computing be done on a laptop that connects to the bot.
 
-Spinlayden's chassis also benefits from hexagonal structural rigidity. The six-sided geometry provides inherent resistance to impact loading from any angle, which is essential for a combat robot, and also provides six mounting faces for the blade assemblies. The combination of symmetric weight distribution, custom-fabricated components, and precision machining enables balanced mass distribution across the chassis, which is critical for stable rotation and precise translational control during operation.
+Spinlayden's chassis also benefits from hexagonal structural rigidity. The six-sided geometry provides inherent resistance to impact loading from any angle, which is essential for a combat robot, and also provides six mounting faces for the impact bolt assemblies. The combination of symmetric weight distribution, custom-fabricated components, and precision machining enables balanced mass distribution across the chassis, which is critical for stable rotation and precise translational control during operation.
 
 ### Material Selection
 
@@ -497,7 +515,7 @@ Choosing the right materials is critical for a 15 lb combat robot where every ou
 
 The chassis is fabricated from **6061-T6 aluminum** in two thicknesses: 3/8" bar stock for the walls and 1/8" sheet for the top and bottom plates. 6061 was selected for several reasons:
 
-- **Strength-to-weight ratio:** At a density of 0.098 lb/in³ and a tensile strength of ~45 ksi, 6061 provides excellent structural performance without consuming our weight budget. The full chassis comes in at approximately 12.6 lbs, leaving room for electronics and blades.
+- **Strength-to-weight ratio:** At a density of 0.098 lb/in³ and a tensile strength of ~45 ksi, 6061 provides excellent structural performance without consuming our weight budget. The full chassis comes in at approximately 12.6 lbs, leaving room for electronics and impact hardware.
 - **Machinability:** 6061 is one of the most machinable aluminum alloys, which was essential given our fabrication methods. It cuts cleanly on both the OMAX 5555 waterjet and Monode's CNC mills, reducing fabrication time and cost.
 - **Cost-effectiveness:** 6061 is widely available and affordable compared to aerospace-grade alternatives, keeping us within our budget.
 - **Corrosion resistance:** The T6 temper provides good corrosion resistance without additional surface treatment, reducing post-processing steps.
@@ -507,18 +525,16 @@ The chassis is fabricated from **6061-T6 aluminum** in two thicknesses: 3/8" bar
 - **Carbon Fiber** — Discussed early in the season as a potential option. While carbon fiber offers a superior strength-to-weight ratio, it is brittle under point-impact loading (a certainty in combat), difficult to machine into complex shapes, and substantially more expensive. A shattered carbon fiber panel mid-match would be catastrophic.
 - **Titanium** — Excellent strength and low weight, but roughly 5–10× the cost of aluminum and much harder to machine. Our sponsors' equipment is optimized for aluminum and steel, making titanium impractical.
 
-#### Blades — A516 Carbon Steel
+#### Impact Bolts — Carbon Steel
 
-Spinlayden's six blades are machined from **A516 Grade 70 carbon steel** at 1" thickness. A516 is a pressure-vessel-grade steel originally designed to withstand repeated high-energy impacts — exactly the loading condition our blades experience at 645.6 RPM (~26.9 mph tip speed, ~78J per rotation).
+Spinlayden 2.0's six impact weapons are **1/2" carbon steel hex bolts** threaded through the perimeter chassis walls — one per face. When the chassis spins at 645.6 RPM, the protruding bolt shank and head become the primary striking surface, delivering impact force concentrated through a small contact area.
 
-- **Impact toughness:** A516 has exceptional Charpy impact values, meaning it absorbs energy through deformation rather than fracturing. In a combat robot, a blade that bends is recoverable; a blade that shatters is a safety hazard.
-- **Hardness and wear resistance:** With a tensile strength of ~70 ksi, A516 holds up well against repeated collisions without excessive deformation.
-- **Machinability:** While harder to cut than aluminum, A516 is far more machinable than hardened or tool steels, keeping our fabrication timeline realistic.
+- **Strength:** Carbon steel hex bolts provide good tensile and shear strength, resisting deformation under repeated high-energy impacts at combat speeds.
+- **Simplicity:** Off-the-shelf hex bolts eliminate custom machining for the weapon system, reducing fabrication time and cost while making field replacement between matches fast and straightforward.
+- **Replaceability:** A bent or damaged bolt can be swapped in seconds with a standard wrench — no machined spare parts required.
 
-**Alternatives considered:**
-- **AR500 Steel** — An abrasion-resistant steel commonly used in combat robots. AR500 is significantly harder than A516, but its high hardness makes it more brittle under point impacts. For a full-body spinner where the blades are the primary point of contact, toughness matters more than hardness.
-- **Tool Steel (e.g., S7, D2)** — Extremely hard and wear-resistant, but expensive, difficult to machine, and requires heat treatment. Overkill for our weight class and budget.
-- **Hardened Stainless Steel** — Heavier than carbon steel with less impact toughness per dollar. The added corrosion resistance is unnecessary for a combat robot.
+**Why hex bolts over machined blades:**
+The previous design used custom-machined A516 carbon steel blade pieces, which required precision fabrication and were difficult to replace under time pressure. Switching to standard hex bolts reduces the weapon to a commodity part available at any hardware store, while the blunt bolt-head geometry delivers brute-force impact rather than relying on blade geometry for damage.
 
 #### Rotary Shaft — 1045 Carbon Steel
 
@@ -639,8 +655,8 @@ This multi-platform approach ensures that each type of project data lives in the
 #### Offensive Strategies
 
 - Rush opponents at 1-2 ft/s using ~0.75 hp motors to seize control and force reactive defenses
-- Spin at 645.6 RPM to deflect attacks with a ~26.9 mph blade barrier, priming for counterstrikes
-- Strike with 15-lb spinning mass and six blades (~78 J/rotation) to exploit opponent vulnerabilities
+- Spin at 645.6 RPM to deflect attacks with a ~26.9 mph bolt barrier, priming for counterstrikes
+- Strike with 15-lb spinning mass and six impact bolts (~78 J/rotation) to exploit opponent vulnerabilities
 - Sustain 645.6 RPM spins and agile steering to keep opponents defensive and disoriented
 - Recover from flips in ~2 seconds using double-sided design to resume aggressive maneuvers
 
@@ -654,16 +670,16 @@ This multi-platform approach ensures that each type of project data lives in the
 
 ### Overview
 
-Spinlayden 2.0 is a 15-pound meltybrain full-body spinner designed for the AWT Regional RoboBots Competition. The robot builds on the foundation established by Spinlayden 1.0 during the 2025 season, addressing every major weakness identified during that campaign while retaining the core hexagonal meltybrain concept that proved viable in competition. The chassis is machined from 6061-T6 aluminum and carries six A516 Grade 70 carbon steel blades around its perimeter, delivering approximately 78 joules of kinetic energy per rotation at a spin rate of 645.6 RPM. A Raspberry Pi 4B running custom C# control software processes IMU data from a WT901 gyroscope to enable simultaneous rotation and translation — the defining capability of a meltybrain drive system. Key improvements over the previous design include partial-depth weight reduction pockets replacing through-holes, repositioned internal components for better impact protection, a dedicated 3D-printed Raspberry Pi housing, spike-profile blade tips for improved penetration, and a 2.4 GHz radio link replacing the unreliable Bluetooth connection.
+Spinlayden 2.0 is a 15-pound meltybrain full-body spinner designed for the AWT Regional RoboBots Competition. The robot builds on the foundation established by Spinlayden 1.0 during the 2025 season, addressing every major weakness identified during that campaign while retaining the core hexagonal meltybrain concept that proved viable in competition. The chassis is machined from 6061-T6 aluminum and carries six 1/2" carbon steel hex bolts threaded through its perimeter walls as impact weapons, delivering approximately 78 joules of kinetic energy per rotation at a spin rate of 645.6 RPM. A Raspberry Pi 4B running custom C# control software processes IMU data from a WT901 gyroscope to enable simultaneous rotation and translation — the defining capability of a meltybrain drive system. Key improvements over the previous design include partial-depth weight reduction pockets replacing through-holes, repositioned internal components for better impact protection, a dedicated 3D-printed Raspberry Pi housing, 1/2" carbon steel hex bolt weapons replacing the previous blade system, and a 2.4 GHz radio link replacing the unreliable Bluetooth connection.
 
 ### Key Stats
 
-- **Weight:** 15 lbs (chassis: ~12.6 lbs; weapon: 38 oz)
+- **Weight:** 15 lbs
 - **Weapon Speed:** 645.6 RPM (~26.9 mph tip speed)
 - **Motor Power:** ~0.75 hp (drive and weapon combined)
 - **Translational Speed:** 1-2 ft/s while spinning
-- **Material:** 6061 aluminum chassis, A516 carbon steel blades
-- **Blade Count:** 6 blades, 6.33 oz each, ~4" long (estimated)
+- **Material:** 6061 aluminum chassis, 1/2" carbon steel hex bolts (impact weapons)
+- **Impact Bolts:** 6 × 1/2" carbon steel hex bolts, one per chassis face
 - **Torque:** ~5 Nm per drive motor (estimated, 21:1 reduction)
 
 ### Analysis and Conceptualization
@@ -687,7 +703,7 @@ Spinlayden's design is driven by the goal of delivering maximum damage while mai
 
 The Melty-Brain system, powered by two EZRUN 3660 SL G2 motors, combines high torque with precise control via Raspberry Pi 4B, running a C# program that utilizes the physics from the OpenMelt project on GitHub, allowing Spinlayden to spin as both a weapon and a shield, while still being able to move at the same time.
 
-Six A516 carbon steel blades, totaling 38 oz, are attached to the outer walls of the chassis to maximize damage output (estimated 78J per rotation) without compromising the 15-lb weight limit.
+Six 1/2" carbon steel hex bolts are threaded through the outer walls of the chassis — one per face — to deliver impact damage (estimated 78J per rotation from the full spinning mass) without compromising the 15-lb weight limit.
 
 ### Research Methods
 
@@ -701,7 +717,7 @@ Throughout the design process, Spinlayden 2.0 underwent several key refinements 
 
 **Component Repositioning:** In 1.0, internal components (batteries, ESCs, Pi) were mounted too close to the outer walls, making them vulnerable to hits that deformed the chassis inward. The 2.0 layout moves components closer to the center of the bot.
 
-**Blade Geometry Change:** The original claw-style blade tips failed to puncture opponents effectively. We switched to spike-style tips that concentrate force on a smaller contact area for better penetration.
+**Weapon Redesign:** The original machined blade-style weapons were replaced entirely. Spinlayden 2.0 uses 1/2" carbon steel hex bolts threaded through the chassis walls — a simpler, more robust approach that delivers brute-force impact through the bolt tip and shank and allows for fast field replacement with standard hardware.
 
 **Dedicated Raspberry Pi Housing:** The Pi was unprotected in 1.0, leaving the control system exposed. A dedicated 3D-printed housing now shields the Pi from impacts and vibration.
 
@@ -711,7 +727,7 @@ Throughout the design process, Spinlayden 2.0 underwent several key refinements 
 
 **Counterweight Removal:** The 1.0 design used counterweights to balance the spinning chassis, adding complexity and weight. The 2.0 design achieves balance through symmetric component placement, eliminating the need for dedicated counterweights.
 
-**3D Printed Prototyping:** Before cutting metal, we 3D printed prototype wall sections and assemblies to verify fit, test the interlocking blade system, and catch design issues early.
+**3D Printed Prototyping:** Before cutting metal, we 3D printed prototype wall sections and assemblies to verify fit, test component clearances, and catch design issues early.
 
 ### Risk Analysis
 
@@ -723,7 +739,7 @@ In addition to the component-level failure analysis (FMEA) below, the team ident
 |---------------|------|-------|--------|-----------------|-------------------|------------|
 | Schedule | Documentation not completed by deadline | Large scope (35 rubric sections), limited time, 14 bios still pending | Incomplete submission reduces rubric score | 7 | 5 | Rubric compliance tracker created to prioritize high-impact sections; documentation work began early in the season; TODO items assigned to specific team members |
 | Schedule | Testing not completed before competition | Robot assembly delays push testing window past April 24 | Bot enters competition without full-speed validation | 8 | 4 | Four-phase testing plan started April 14; critical tests (spin-up, drive, weapon) prioritized first; low-speed validation already complete |
-| Manufacturing | Loss of machining access | External manufacturing partners (Monode, Case Western think[box]) become unavailable | Cannot fabricate precision chassis or blade components | 9 | 3 | Relationships established early in season; backup CNC available (Lunyee 3018 Pro Ultra) for smaller parts; waterjet cutting completed ahead of schedule |
+| Manufacturing | Loss of machining access | External manufacturing partners (Monode, Case Western think[box]) become unavailable | Cannot fabricate precision chassis components | 9 | 3 | Relationships established early in season; backup CNC available (Lunyee 3018 Pro Ultra) for smaller parts; waterjet cutting completed ahead of schedule |
 | Manufacturing | 3D-printed components fail under combat loads | PLA/PETG parts crack or deform from vibration or impact | Internal mounts or Pi housing break during match | 5 | 5 | 3D-printed parts used only for non-structural internal mounts; critical structural components machined from aluminum or steel; spare printed parts prepared in advance |
 | Manufacturing | Parts arrive late or incorrect | Vendor shipping delays or ordering errors | Build schedule slips; team cannot assemble on time | 7 | 4 | Parts ordered early in the season; owned inventory from Spinlayden 1.0 covers critical drive and power components; budget includes margin for expedited replacements |
 | Competition | Opponent exploits exposed wheels | Wheels extend slightly beyond chassis perimeter | Wheel damage disables drivetrain; bot cannot translate | 7 | 6 | BaneBots wheels are inexpensive and quick to replace between matches; spare wheels and gearboxes on hand; bot can still spin as a weapon even without drive |
@@ -738,8 +754,8 @@ To evaluate the durability and reliability of Spinlayden 2.0, the team conducted
 
 | Component | Failure Mode | Cause | Effect | Severity (1-10) | Likelihood (1-10) | Mitigation |
 |-----------|-------------|-------|--------|-----------------|-------------------|------------|
-| Blades | Detachment during spin | Bolt loosening from vibration | Blade becomes projectile; bot loses weapon mass | 9 | 4 | Loc-Tite thread locker on all blade bolts; interlocking tab system provides mechanical retention beyond bolts alone |
-| Blades | Dulling or fracture | Repeated high-energy impacts | Reduced damage output; potential imbalance | 6 | 5 | A516 Grade 70 carbon steel selected for impact toughness; spike geometry distributes force; spare blades available |
+| Impact Bolts | Loosening during spin | Vibration at 645.6 RPM | Bolt becomes projectile; bot loses weapon mass | 9 | 4 | Loc-Tite thread locker applied to all impact bolt threads; jam-nut configuration to prevent back-off under vibration |
+| Impact Bolts | Bending or deformation | Repeated high-energy impacts | Reduced damage output; potential rotational imbalance | 5 | 4 | 1/2" carbon steel selected for strength under impact; spare bolts available for quick swap between matches |
 | Side Walls | Deformation inward | Direct hit from opponent weapon | Internal components damaged; spin impeded | 8 | 6 | 3/8" 6061-T6 aluminum walls; weight reduction cutouts only on inner half to preserve edge strength; components repositioned away from walls |
 | Side Walls | Interlocking joint failure | Repeated impacts at joint seams | Wall separation; structural integrity loss | 7 | 4 | Bolt-reinforced interlocking joints; hexagonal geometry distributes loads across all six panels |
 | Control System | Software crash | Unhandled exception or memory issue | Loss of bot control during match | 9 | 3 | C# rewrite provides compiled stability over interpreted Python; dedicated Pi housing reduces vibration-induced errors |
@@ -751,11 +767,11 @@ To evaluate the durability and reliability of Spinlayden 2.0, the team conducted
 
 The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the shared team hub, allowing multiple students to contribute to individual components in parallel. The complete assembly includes the hexagonal chassis (top, bottom, and six perimeter walls), four EZRUN brushless drive motors with BaneBots P61 gearboxes, two BaneBots drive wheels with shafts and bearings, six Liperior 4S LiPo batteries, two EZRUN MAX10 SCT ESCs, the Raspberry Pi 4B in its dedicated 3D-printed housing, the WT901 IMU, and the six carbon steel blades at the perimeter.
 
-*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six perimeter blades, green BaneBots drive wheels, four motors, batteries, and central Raspberry Pi housing*
+*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six 1/2" carbon steel hex bolt impact weapons, green BaneBots drive wheels, four motors, batteries, and central Raspberry Pi housing*
 
 <img src="Images/Spinlayden_2.0_Assembly_Isometric.png" alt="Spinlayden 2.0 isometric CAD render — full assembly with blue top plate" width="600">
 
-*Figure 8: Spinlayden 2.0 — Alternate isometric view with standard aluminum finish, showing chassis bolt heads, external mounting studs for the perimeter blades, and wheel clearance at the chassis corners*
+*Figure 8: Spinlayden 2.0 — Alternate isometric view with standard aluminum finish, showing chassis bolt heads, 1/2" carbon steel hex bolt impact weapons threaded through the perimeter walls, and wheel clearance at the chassis corners*
 
 <img src="Images/Spinlayden_2.0_Assembly_Silver.png" alt="Spinlayden 2.0 isometric CAD render — silver finish view" width="600">
 
@@ -801,19 +817,17 @@ Dimensioned mechanical drawings for the three primary machined parts of Spinlayd
 
 Spinlayden 2.0 is a full-body spinner — the entire robot is the weapon. The hexagonal chassis spins at 645.6 RPM, creating a steel barrier with a tip speed of approximately 26.9 mph.
 
-**Blades:**
-- **Quantity:** 6 blades mounted on the outer walls of the hexagonal chassis
-- **Material:** A516 Grade 70 Carbon Steel — a pressure vessel grade steel chosen for its exceptional impact toughness
-- **Weight:** 6.33 oz per blade, 38 oz (2.375 lbs) total blade weight
-- **Geometry:** Spike-style tips (redesigned from the claw-style tips used in 1.0) concentrate force on a smaller contact area for improved penetration
-- **Mounting:** Each blade interlocks into machined slots on the chassis walls and is secured with bolts treated with Loc-Tite thread locker to prevent loosening from vibration
+**Impact Bolts:**
+- **Quantity:** 6 × 1/2" carbon steel hex bolts, one threaded through each face of the hexagonal chassis
+- **Material:** 1/2" carbon steel — selected for strength and impact resistance, with fast field replaceability using standard hardware
+- **Mounting:** Each bolt threads through a hole in the chassis wall with Loc-Tite thread locker and a jam-nut configuration to prevent loosening from vibration during spin
 
 **Energy Output:**
 - **Kinetic Energy:** Approximately 78 joules per rotation at full RPM
 - **RPM:** 645.6 RPM at full speed
-- **Tip Speed:** ~26.9 mph at the blade tips
+- **Tip Speed:** ~26.9 mph at the bolt tips
 
-The full-body spinner design means there is no safe angle to approach Spinlayden. Every side of the hexagon carries a blade, and the spinning mass acts as both weapon and shield simultaneously.
+The full-body spinner design means there is no safe angle to approach Spinlayden. Every face of the hexagon carries an impact bolt, and the spinning mass acts as both weapon and shield simultaneously.
 
 ### Drive System Details
 
@@ -914,7 +928,7 @@ The electrical system follows this signal and power flow:
 Testing for Spinlayden 2.0 has been conducted in phases as components became available:
 
 **3D Printed Prototype Testing (February–March 2026):**
-- Printed prototype wall sections and assemblies to verify fit and interlocking blade geometry before committing to metal fabrication
+- Printed prototype wall sections and assemblies to verify fit and impact bolt clearances before committing to metal fabrication
 - Identified and corrected dimensional issues in the CAD model before waterjet cutting
 
 **Low-Power Spin Testing (March 17, 2026):**
@@ -923,14 +937,14 @@ Testing for Spinlayden 2.0 has been conducted in phases as components became ava
 - Confirmed translational movement works while spinning
 
 **Assembly and Integration Testing (April 3–11, 2026):**
-- Assembled metal chassis walls with interlocking blade system
+- Assembled metal chassis walls with impact bolt weapon system
 - Verified bolt patterns and component fitment in the final metal assembly
 - Tested kill switch accessibility and power cutoff functionality
 
 **Planned Testing Before Competition (April 14–24, 2026):**
-- Full-speed spin tests with all six A516 carbon steel blades mounted
+- Full-speed spin tests with all six impact bolts mounted
 - Driving and maneuverability tests in a controlled environment
-- Impact testing against test targets to validate blade penetration with spike-style tips
+- Impact testing against test targets to validate bolt impact performance
 - Battery endurance test to confirm runtime exceeds 3-minute match requirement
 
 > TODO: Update this section with results from full-speed testing once completed.
