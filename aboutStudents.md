@@ -48,7 +48,7 @@ Adam and Jack revived the AWT Robobots program in 2025 after a multi-year hiatus
 
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
 
-**Dustin Hance:** *Bio not yet submitted.*
+**Dustin Hance:** Returning for his second year on the Riverside robotics team, this junior brings a strong passion for computers, networking, cybersecurity, and programming. In his free time, Dustin enjoys playing video games and tinkering with his personal homelab. This tech-savvy competitor is ready for the season and is mostly just hoping the software he "vibecoded" actually works!
 
 **Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team’s skills combine to ensure a secured win this season.
 
@@ -60,7 +60,7 @@ Adam and Jack revived the AWT Robobots program in 2025 after a multi-year hiatus
 
 **Lukas Dauksa:** *Bio not yet submitted.*
 
-**Mher Pogosan:** *Bio not yet submitted.*
+**Mher Poghosyan:** *Bio not yet submitted.*
 
 **Robert Rateno:** This returning sophomore is ready to hit the cage for their second competition. As the team's driver, they are prepared to take the wheel and steer the robot to victory. Alongside robotics, this student keeps the beat in the school's marching band. Outside of school, they enjoy playing the drums, 3D printing, and tinkering with RC vehicles. This experienced competitor is excited to show off their driving skills and dominate the competition.
 

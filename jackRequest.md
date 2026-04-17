@@ -82,7 +82,7 @@ Can Jack nudge the following students to submit their bios to aboutStudents.md? 
 - Kasey Kurzinger
 - Kaydan Kerr
 - Lukas Dauksa
-- Mher Pogosan
+- Mher Poghosyan
 - Richard Rowland
 - Vincent Riha
 - Yash Jain
