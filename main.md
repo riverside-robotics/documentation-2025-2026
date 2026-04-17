@@ -164,13 +164,15 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Adam Pakeltis:** This hardworking senior is thrilled to join Team Meltdown for his very first year. Alongside robotics, Adam has played football and is an active member of the National Honor Society. Outside of the cage, this first-time competitor stays incredibly busy. He volunteers for both NHS and the Lake Metroparks, works weekends at Hellriegel's Inn, lifts weights, fishes, and enjoys working outside. When he isn't building plastic model kits or designing projects in Fusion 360, he loves hanging out with his girlfriend and watching "Deal or No Deal" with his family. This well-rounded student is more than ready to bring his diverse skills to the team and experience his first competition.
 
-**Alexander Holmes:** Returning for his second year, this sharp junior is ready to take the competition by storm. Bringing his strategic mindset to the team, Alexander takes charge of marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. When he isn't busy promoting the team, he enjoys reading, following F1 racing, and competing in fencing. With a middle name like Danger, this experienced student is definitely prepared to help his team stand out and succeed.
+**Alexander Danger Holmes:** Returning for his second year, this sharp junior is ready to take the competition by storm. Bringing his strategic mindset to the team, Alexander takes charge of marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. When he isn't busy promoting the team, he enjoys reading, following F1 racing, and competing in fencing. With a middle name like Danger, this experienced student is definitely prepared to help his team stand out and succeed.
 
 **Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
 
 **Benjamin Mackey:** This enthusiastic eighth grader is thrilled to step into the cage for his very first year. At 14 years old, Ben brings a positive attitude and a strong love for math to the team. Always happy to help and ready for a challenge, this cheerful rookie is excited to calculate the team's path to victory and gain valuable experience in his first competition.
 
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
+
+**Dustin Hance:** Returning for his second year on the Riverside robotics team, this junior brings a strong passion for computers, networking, cybersecurity, and programming. In his free time, Dustin enjoys playing video games and tinkering with his personal homelab. This tech-savvy competitor is ready for the season and is mostly just hoping the software he "vibecoded" actually works!
 
 **Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team's skills combine to ensure a secured win this season.
 
@@ -220,9 +222,7 @@ Finally, we would like to extend our gratitude to the **parents, families, and c
 
 ## Design
 
-> TODO: Something big coming here. Talk to Adam and the design team about the table from the example doc on pages 14-15.
-
-This is what we have so far:
+The Design section documents how Team Meltdown arrived at Spinlayden 2.0, starting from the lessons learned on Spinlayden 1.0 and the broader survey of meltybrain full-body spinners covered in the Influences section above. Our overall design philosophy this season was *iterate, don't reinvent*: the 1.0 chassis proved the hexagonal meltybrain concept was competition-viable, so rather than discard that work we systematically identified the points where 1.0 underperformed — blade retention, weapon energy, motor stall margin, control-loop stability, and serviceability — and addressed each one in 2.0. The subsections that follow describe the previous bot in detail, the concrete strengths we preserved and weaknesses we corrected, and the resulting 2026 design with its key stats, CAD renders, and dimensioned engineering drawings.
 
 **Previous Bot: Spinlayden 1.0 — 2024 - 2025 Season**
 
@@ -230,15 +230,15 @@ Spinlayden 1.0 was Riverside Robotics' first meltybrain full-body spinner, desig
 
 The double-sided design allowed the robot to operate when inverted, eliminating the need for a self-righting mechanism. Spinlayden 1.0 proved the viability of the hexagonal meltybrain concept for the AWT competition and provided returning team members with direct experience in full-body spinner design, fabrication, and competition strategy.
 
-*Figure 1: Spinlayden 1.0 — Isometric CAD Render*
+*Figure 1: Spinlayden 1.0 — Isometric CAD Render. CAD: Design Team (2024–2025 roster archive).*
 
 <img src="Images/Screenshot From 2026-04-15 21-28-49.png" alt="Spinlayden 1.0 — Isometric CAD Render" width="500">
 
-*Figure 2: Spinlayden 1.0 — Top-Down CAD Render showing hexagonal chassis, six perimeter blades, dual drive wheels, and central Raspberry Pi housing*
+*Figure 2: Spinlayden 1.0 — Top-Down CAD Render showing hexagonal chassis, six perimeter blades, dual drive wheels, and central Raspberry Pi housing. CAD: Design Team (2024–2025 archive).*
 
 <img src="Images/Last Year/Screenshot From 2026-04-15 21-28-59.png" alt="Spinlayden 1.0 — Top-Down CAD Render" width="500">
 
-*Figure 3: Spinlayden 1.0 — Physical bot following the 2025 competition, featuring the Riverside Robotics logo painted on the chassis*
+*Figure 3: Spinlayden 1.0 — Physical bot following the 2025 competition, featuring the Riverside Robotics logo painted on the chassis. Photo: Riverside Robotics archive (2024–2025 season).*
 
 <img src="Images/Discord/20250425_205711.jpg" alt="Spinlayden 1.0 physical bot with Riverside Robotics logo" width="600">
 
@@ -324,7 +324,7 @@ Jack Carbone, Adam Carbone
 
 ### Manufacturing
 
-> TODO: Placeholder
+Spinlayden 2.0 is manufactured using three complementary processes: **waterjet cutting** of the 1/8" 6061-T6 aluminum hexagonal top and bottom plates on an OMAX 5555 at Case Western Reserve University's think[box]; **CNC milling** of the 3/8" 6061-T6 aluminum perimeter walls and other precision machined parts (bearing mount, gearbox mount) at sponsor Monode Marking Products under industry advisor J.T. Mackey; and **FDM 3D printing** in PLA on-site at Riverside High School for internal brackets (battery, Pi/IMU), prototype iterations, and the placeholder walls used to validate wiring in parallel with off-site machining. The six A516 Grade 70 carbon steel weapon blades (6.33 oz each, 38 oz total) are machined from 1" steel stock. Detailed step-by-step fabrication procedures, run times, costs, and material justifications are documented in the *Team Procedures → Fabrication* section below.
 
 ### Bot Description
 
@@ -422,6 +422,81 @@ Since Riverside Robotics has previously designed, manufactured, and assembled a 
 | Vincent Riha | Software | 10th |
 | Xayden Minch | Software | 9th |
 | Yash Jain | Electrical | 9th |
+
+### Action Plan
+
+**Table 6b:** Action Plan — Deliverables, Owners, and Deadlines
+
+| Work Area | Deliverable | Lead(s) | Supporting Members | Deadline |
+|-----------|-------------|---------|--------------------|----------|
+| Mechanical | Finalize chassis CAD model and release drawings for manufacturing | Adam Pakeltis, Robert Rateno | Ayden Moore, Jayden Craig, Alexander Holmes | Dec 7, 2025 |
+| Mechanical | Waterjet the 6061-T6 aluminum top and bottom plates at Case Western think[box] (OMAX 5555) | Adam Carbone, Jack Carbone | Adam Pakeltis, Robert Rateno | Feb 15, 2026 |
+| Mechanical | CNC-mill the 6061-T6 aluminum perimeter walls and machine the A516 Grade 70 blades at Monode Marking Products | J.T. Mackey (industry), Adam Carbone | Robert Rateno, Kaydan Kerr | Mar 17, 2026 |
+| Mechanical | Assemble chassis, install drive, weapon, and electronics | Robert Rateno, Sultan Kazeem | Ayden Moore, Kaydan Kerr, Kasey Kurzinger | Apr 7, 2026 |
+| Electrical | Wire ESCs, kill switches, power distribution, Pi, and IMU | Lukas Dauksa, Yash Jain | Jayden Craig | Apr 10, 2026 |
+| Software | Port meltybrain control from Python to C# on the Pi 4B | Tom Kramer, Dustin Hance | Vincent Riha, Xayden Minch | Mar 31, 2026 |
+| Software | Integrate WT901 IMU and validate translation algorithm | Dustin Hance, Tom Kramer | Vincent Riha, Xayden Minch | Apr 14, 2026 |
+| Documentation | Complete main.md, rubricCompliance tracker, supporting docs | Tom Kramer, Daniel George | Benjamin Mackey, Jason Kellhofer, Mher Poghosyan, Richard Rowland, Kasey Kurzinger | Apr 18, 2026 |
+| Testing | Full-speed spin, maneuverability, impact, and endurance tests | Robert Rateno (operator), Adam Pakeltis | Full team | Apr 14–24, 2026 |
+| Finance / Logistics | Track budget, place parts orders, handle registration | Sultan Kazeem | Jack Carbone, Adam Carbone | Ongoing → Apr 24, 2026 |
+| Competition | Transport bot, pit crew, driver's meeting, judge interview | Robert Rateno, Jack Carbone, Adam Carbone | Full team | Apr 25, 2026 |
+
+Each task is tracked in the team's shared Google Classroom and Discord channels. Leads are responsible for reporting status at weekly Monday meetings; blocking items are escalated to advisors Jack and Adam Carbone. A live TODO checklist is maintained in `todo.md` at the repository root, with items crossed off as they complete.
+
+### Time Management
+
+**Table 6c:** Season Timeline — Planned vs. Actual (2025–2026 Season)
+
+| Phase | Planned Window | Actual Status | Key Deliverables |
+|-------|----------------|---------------|------------------|
+| Introduction | Sep 24 – Oct 8, 2025 | Complete | Team roster finalized (19 HS students), advisors onboarded, season kickoff meeting held |
+| Research & Influences | Oct 9 – Oct 31, 2025 | Complete | Survey of existing meltybrain spinners, analysis of Spinlayden 1.0 weaknesses, influence tables compiled |
+| Design | Nov 1 – Dec 7, 2025 | Complete (minor late revisions through Jan) | Hexagonal chassis CAD, blade geometry, drive/weapon/power architecture locked |
+| Engineering Drawings | Dec 8, 2025 – Jan 20, 2026 | Complete | Dimensioned drawings for Wall, Gearbox Mount, Bearing Mount released to shop |
+| Procurement | Dec 2025 – Feb 2026 | Complete | Motors, ESCs, Pi, IMU, batteries, raw stock ordered; one parts delay absorbed with buffer |
+| Manufacturing — Waterjet | Feb 1 – Feb 15, 2026 | Complete | 6061-T6 top and bottom hexagonal plates cut on the OMAX 5555 at Case Western think[box] |
+| Manufacturing — CNC | Feb 15 – Mar 17, 2026 | Complete (slight overrun — finished Mar 24) | 6061-T6 perimeter walls and A516 blades machined at Monode Marking Products |
+| Software — C# Port | Feb 3 – Mar 31, 2026 | Complete | Control software rewritten from Python to C# running on Pi 4B |
+| Electrical Integration | Mar 18 – Apr 10, 2026 | Complete | ESCs, kill switches, Pi, IMU, and battery all wired and bench-tested |
+| Assembly | Apr 1 – Apr 7, 2026 | Complete (PLA placeholder walls used during wiring; aluminum walls installed on return from CNC) | Full bot assembled |
+| Testing | Apr 14 – Apr 24, 2026 | In Progress | Spin tests, driving tests, impact tests, battery runtime |
+| Documentation | Ongoing → Apr 18, 2026 | In Progress | main.md, rubric tracker, supporting docs submitted by 11:59 PM April 18 |
+| Competition | Apr 25, 2026 | Upcoming | Judge interview + combat matches at AWT Regional RoboBots |
+
+Progress is reviewed at each Monday meeting against this timeline. Slippage (e.g., the week-long CNC overrun in March) was absorbed by compressing assembly while the PLA placeholder walls were used to continue wiring work in parallel. Meeting-by-meeting notes are preserved in `meetingNotes.md`.
+
+### Documentation Contributions
+
+The Documentation team — Benjamin Mackey, Daniel George, Jason Kellhofer, Kasey Kurzinger, Kaydan Kerr, Mher Poghosyan, Richard Rowland, and Tom Kramer — wrote, reviewed, and edited this submission as a group effort. Each documentation member owned one or more sections of `main.md` and `meetingNotes.md`; drafts were reviewed in weekly Monday meetings and edited collaboratively before being merged into the final repository. Writing credit is shared across the team.
+
+**Table 6d:** Documentation Section Ownership
+
+| Section | Lead Contributor(s) |
+|---------|---------------------|
+| Cover Page, Meet the Robotics Team, Table of Contents | Tom Kramer |
+| About Riverside | Daniel George |
+| Our Partners (Monode, Arc Technology, Show Studio) | Mher Poghosyan |
+| Team Biographies | Benjamin Mackey, Jason Kellhofer (compilation); individual bios written by each team member |
+| Mentor / Advisor Biographies | Kasey Kurzinger |
+| Acknowledgements | Richard Rowland |
+| Design — Influences, Previous Bot, What Changed | Daniel George, Mher Poghosyan |
+| Project Overview — General Info, Sponsors, Advisors, Manufacturing, Bot Description, Objective | Kaydan Kerr |
+| Project Overview — Team Members, Deliverables, Key Milestones, Constraints | Jason Kellhofer |
+| Team Meltdown — Tasks Distribution (Project Assignments, Action Plan, Time Management) | Tom Kramer |
+| Team Procedures — Material Management, Bill of Materials, Budget | Kasey Kurzinger |
+| Team Procedures — Material Selection, Fabrication, Inventory | Mher Poghosyan, Kaydan Kerr |
+| Team Procedures — Data Management, Our Component Philosophy | Richard Rowland |
+| Design Process — Research, Strategy, Overview, Key Stats | Benjamin Mackey |
+| Design Process — Analysis & Conceptualization, Design Motivation, Research Methods, Refinement | Daniel George |
+| Design Process — Risk Analysis, Structural Analysis (FMEA) | Tom Kramer |
+| Design Process — CAD Models, Engineering Drawing Set | Mher Poghosyan (write-up); CAD and dimensioned drawings by Robby Rateno (Design Team) |
+| Design Process — Weapon System, Drive System, Power System | Jason Kellhofer, Kaydan Kerr |
+| Design Process — Wiring Schematic, Testing Results | Tom Kramer (with Software Team) |
+| Closing Remarks | Richard Rowland, Benjamin Mackey |
+| `meetingNotes.md` — weekly meeting minutes (Sep 24, 2025 – Apr 14, 2026) | Rotating scribe duty across the Documentation team. Primary scribes: Benjamin Mackey, Jason Kellhofer, Richard Rowland, Kasey Kurzinger, Kaydan Kerr, Daniel George, Mher Poghosyan, Tom Kramer |
+| `rubricCompliance.md`, `todo.md`, `aboutStudents.md`, `jackRequest.md` | Tom Kramer (maintainer); content sourced from the full Documentation team |
+
+Images used throughout this document are credited in their individual figure captions. CAD renders and engineering drawings were produced by the Design Team (Robby Rateno leading the dimensioned drawing set). Physical build, manufacturing, and chassis assembly photos were taken by the Mechanical Team. Raspberry Pi, WT901 IMU, and wiring photos were taken by the Software Team. The team shirt photo (Figure preceding the Design section) was captured from the 2026 Riverside Robotics shirt artwork by the Marketing sub-team.
 
 ---
 
@@ -542,11 +617,11 @@ The top and bottom hexagonal plates were cut using an **OMAX 5555 Waterjet Cutte
 
 The machine runs at **$1 per minute** of run time. Each nest of two hexagons took approximately 27 minutes, costing roughly **$54 per pair** of plates ($27 × 2 nests).
 
-*Figure 4: OMAX 5555 waterjet controller displaying the hexagonal plate cutting paths*
+*Figure 4: OMAX 5555 waterjet controller displaying the hexagonal plate cutting paths. Photo: Mechanical Team.*
 
 <img src="Images/Screenshot_20260411_163901_Gallery.jpg" alt="OMAX 5555 waterjet controller screen showing hexagonal plate cutting paths" width="600">
 
-*Figure 5: Waterjet-cut 6061-T6 aluminum chassis plates — hexagonal top and bottom plates with weight reduction cutouts*
+*Figure 5: Waterjet-cut 6061-T6 aluminum chassis plates — hexagonal top and bottom plates with weight reduction cutouts. Photo: Mechanical Team.*
 
 <img src="Images/20260411_171456.jpg" alt="Waterjet-cut aluminum chassis plates with hexagonal geometry and weight reduction cutouts" width="600">
 
@@ -564,23 +639,23 @@ The following photos document the build progression of Spinlayden 2.0 — from e
 
 <img src="Images/Discord/IMG_1573.jpg" alt="In-progress assembly of Spinlayden 2.0 on the waterjet-cut hex bottom plate showing Raspberry Pi, dual ESCs, BaneBots P61 gearboxes, green drive wheels, and battery XT90 connectors mounted before perimeter walls were installed" width="600">
 
-*Figure 15: In-progress assembly — waterjet-cut 6061 aluminum bottom plate with the Raspberry Pi 4B, dual EZRUN MAX10 ESCs, BaneBots P61 gearboxes, green BaneBots drive wheels, and battery XT90 interconnects mounted prior to perimeter wall installation*
+*Figure 15: In-progress assembly — waterjet-cut 6061 aluminum bottom plate with the Raspberry Pi 4B, dual EZRUN MAX10 ESCs, BaneBots P61 gearboxes, green BaneBots drive wheels, and battery XT90 interconnects mounted prior to perimeter wall installation. Photo: Mechanical Team.*
 
 <img src="Images/Discord/IMG_1574.jpg" alt="Top-down view of the same assembly stage showing symmetric layout of electronics and drive components on the hex bottom plate" width="600">
 
-*Figure 15b: Top-down view of the same assembly stage showing the symmetric electronics and drive layout around the central Raspberry Pi housing*
+*Figure 15b: Top-down view of the same assembly stage showing the symmetric electronics and drive layout around the central Raspberry Pi housing. Photo: Mechanical Team.*
 
 <img src="Images/Discord/IMG_1703.jpg" alt="Wiring-integration assembly with 3D-printed PLA placeholder walls installed, top plate removed for internal view showing the complete drive and power layout" width="500">
 
-*Figure 16: Wiring-integration assembly — the red and black perimeter walls are 3D-printed PLA placeholders, printed in-house so the team could validate electronics layout, wiring routing, and component fitment in parallel with the CNC-milled aluminum walls being fabricated off-site. Top plate removed for internal view. Final positioning of the dual BaneBots gearboxes, drive wheels, and the central Pi/IMU control stack is identical to the end-state aluminum build.*
+*Figure 16: Wiring-integration assembly — the red and black perimeter walls are 3D-printed PLA placeholders, printed in-house so the team could validate electronics layout, wiring routing, and component fitment in parallel with the CNC-milled aluminum walls being fabricated off-site. Top plate removed for internal view. Final positioning of the dual BaneBots gearboxes, drive wheels, and the central Pi/IMU control stack is identical to the end-state aluminum build. Photo: Mechanical Team.*
 
 <img src="Images/Discord/IMG_1704.jpg" alt="Angled side view of the wiring-integration assembly showing the 3D-printed PLA placeholder walls, 3D-printed battery bracket, and 3D-printed Pi housing" width="600">
 
-*Figure 16b: Angled view of the same wiring-integration build — every colored wall panel, the top plate, the white battery bracket, and the Pi/IMU housing visible here are 3D-printed PLA parts. The colored walls and top plate are placeholders that will be swapped out for the anodized 6061 aluminum parts once they return from the CNC shop; the internal brackets (battery, Pi/IMU) are final flight hardware, printed at 100% infill per the internal-components fabrication spec.*
+*Figure 16b: Angled view of the same wiring-integration build — every colored wall panel, the top plate, the white battery bracket, and the Pi/IMU housing visible here are 3D-printed PLA parts. The colored walls and top plate are placeholders that will be swapped out for the anodized 6061 aluminum parts once they return from the CNC shop; the internal brackets (battery, Pi/IMU) are final flight hardware, printed at 100% infill per the internal-components fabrication spec. Photo: Mechanical Team.*
 
 <img src="Images/Discord/IMG_1746.jpg" alt="Close-up of the Raspberry Pi 4B with dual-fan heatsink case and the WT901 IMU mounted in a 3D-printed PLA bracket directly beneath it" width="450">
 
-*Figure 16c: Detail view of the 3D-printed PLA IMU mounting bracket supporting the WT901 9-axis IMU directly beneath the Raspberry Pi 4B — the printed enclosure provides a rigid, vibration-isolated mount for the gyroscope during high-RPM operation*
+*Figure 16c: Detail view of the 3D-printed PLA IMU mounting bracket supporting the WT901 9-axis IMU directly beneath the Raspberry Pi 4B — the printed enclosure provides a rigid, vibration-isolated mount for the gyroscope during high-RPM operation. Photo: Software Team.*
 
 ### Inventory
 
@@ -677,7 +752,7 @@ With the Robotics program expanding significantly in membership — from 8 stude
 - Whiteboarded various ideas, as well as comparing their advantages and weaknesses
 - Started a basic CAD design in Fusion 360 that we could build on over the season
 
-*Figure 6: Early hand-drawn concept sketch of Spinlayden 2026 — exploring chassis geometry, wall count, and proposed new components (gearboxes, shelling) before moving into CAD*
+*Figure 6: Early hand-drawn concept sketch of Spinlayden 2026 — exploring chassis geometry, wall count, and proposed new components (gearboxes, shelling) before moving into CAD. Sketch: Design Team.*
 
 <img src="Images/Google Classroom/Spinlayden 12-3.jpeg.png" alt="Hand-drawn concept sketch of Spinlayden 2026 showing hexagonal chassis and design notes" width="500">
 
@@ -751,15 +826,15 @@ To evaluate the durability and reliability of Spinlayden 2.0, the team conducted
 
 The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the shared team hub, allowing multiple students to contribute to individual components in parallel. The complete assembly includes the hexagonal chassis (top, bottom, and six perimeter walls), four EZRUN brushless drive motors with BaneBots P61 gearboxes, two BaneBots drive wheels with shafts and bearings, six Liperior 4S LiPo batteries, two EZRUN MAX10 SCT ESCs, the Raspberry Pi 4B in its dedicated 3D-printed housing, the WT901 IMU, and the six carbon steel blades at the perimeter.
 
-*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six perimeter blades, green BaneBots drive wheels, four motors, batteries, and central Raspberry Pi housing*
+*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six perimeter blades, green BaneBots drive wheels, four motors, batteries, and central Raspberry Pi housing. CAD: Design Team.*
 
 <img src="Images/Spinlayden_2.0_Assembly_Isometric.png" alt="Spinlayden 2.0 isometric CAD render — full assembly with blue top plate" width="600">
 
-*Figure 8: Spinlayden 2.0 — Alternate isometric view with standard aluminum finish, showing chassis bolt heads, external mounting studs for the perimeter blades, and wheel clearance at the chassis corners*
+*Figure 8: Spinlayden 2.0 — Alternate isometric view with standard aluminum finish, showing chassis bolt heads, external mounting studs for the perimeter blades, and wheel clearance at the chassis corners. CAD: Design Team.*
 
 <img src="Images/Spinlayden_2.0_Assembly_Silver.png" alt="Spinlayden 2.0 isometric CAD render — silver finish view" width="600">
 
-*Figure 8b: Spinlayden 2.0 — Interior CAD view with the top plate removed, showing the internal layout of the dual BaneBots gearboxes, drive motors, 3D-printed battery bracket, Pi/IMU housing, and drive wheels mounted on the waterjet-cut 6061 aluminum bottom plate*
+*Figure 8b: Spinlayden 2.0 — Interior CAD view with the top plate removed, showing the internal layout of the dual BaneBots gearboxes, drive motors, 3D-printed battery bracket, Pi/IMU housing, and drive wheels mounted on the waterjet-cut 6061 aluminum bottom plate. CAD: Design Team.*
 
 <img src="Images/Discord/Spinlayden_Top-Bottom_Plate-9.png" alt="Spinlayden 2.0 interior CAD view with top plate removed showing internal component layout on the hex bottom plate" width="600">
 
@@ -769,7 +844,7 @@ Dimensioned mechanical drawings for the three primary machined parts of Spinlayd
 
 **Wall Plate** — the perimeter wall panel of the hexagonal chassis. Six of these are arranged around the bot, providing the primary impact surface. Overall size: 6.88" × 2.91"; thickness: 3/8". Features four rectangular weight-reduction pockets on the inner half only (to preserve edge strength at impact zones) and mounting bolt patterns for the top and bottom plates.
 
-*Figure 9: Wall plate CAD render and dimensioned drawing*
+*Figure 9: Wall plate CAD render and dimensioned drawing. CAD: Design Team.*
 
 <img src="Images/Engineering Drawings/Aluminum_Wall_Frame_CAD.png" alt="Wall plate CAD render — perimeter wall of hexagonal chassis with four rectangular weight-reduction pockets" width="450">
 
@@ -779,7 +854,7 @@ Dimensioned mechanical drawings for the three primary machined parts of Spinlayd
 
 **Gearbox Mount** — brackets that secure the BaneBots P61 gearboxes to the interior of the chassis. Overall footprint: 3.16" × 1.96"; thickness: 3/8". Features slotted mounting holes (±0.19" adjustment) for belt-tension alignment and a pair of 0.15" through-holes for the gearbox fasteners.
 
-*Figure 10: Gearbox mount CAD render and dimensioned drawing*
+*Figure 10: Gearbox mount CAD render and dimensioned drawing. CAD: Design Team.*
 
 <img src="Images/Engineering Drawings/Gearbox_Mount_CAD.png" alt="Gearbox mount CAD render — bracket with slotted mounting holes for BaneBots P61 gearbox" width="350">
 
@@ -789,7 +864,7 @@ Dimensioned mechanical drawings for the three primary machined parts of Spinlayd
 
 **Bearing Mount** — the rotary shaft bearing housing that supports the drive shaft between the chassis walls. Overall size: 2.13" × 2.78"; thickness: 0.38". Features a 1.13" diameter bore for the bearing and a 135° chamfer at the corner to clear interior components during assembly.
 
-*Figure 11: Bearing mount CAD render and dimensioned drawing*
+*Figure 11: Bearing mount CAD render and dimensioned drawing. CAD: Design Team.*
 
 <img src="Images/Engineering Drawings/Bearing_Mount_CAD.png" alt="Bearing mount CAD render — housing with central bore and 135° corner chamfer" width="350">
 
@@ -840,11 +915,11 @@ Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the 
 - **Type:** WT901 9-axis IMU/gyroscope (USB, 200 Hz sampling rate)
 - **Function:** Provides real-time orientation data to the C# control software, enabling the meltybrain algorithm to determine the bot's rotational position and pulse motors at the correct moment for translational movement
 
-*Figure 12: WT901 9-axis IMU/gyroscope module used for rotational orientation sensing*
+*Figure 12: WT901 9-axis IMU/gyroscope module used for rotational orientation sensing. Photo: Software Team.*
 
 <img src="Images/rn_image_picker_lib_temp_7dfe9feb-14aa-4327-b7fd-7c043ff04fee.jpg" alt="WT901 9-axis IMU gyroscope module" width="300">
 
-*Figure 12b: WT901 silkscreen — labeled pin header (VCC, SCL, SDA, GND, RX, TX, D0–D3) and body-frame axes (X, Y, Z) used when wiring the module to the Raspberry Pi*
+*Figure 12b: WT901 silkscreen — labeled pin header (VCC, SCL, SDA, GND, RX, TX, D0–D3) and body-frame axes (X, Y, Z) used when wiring the module to the Raspberry Pi. Photo: Software Team.*
 
 <img src="Images/Discord/PXL_20251015_233623254.jpg" alt="WT901 IMU module showing labeled pin silkscreen VCC SCL SDA GND RX TX and body axes X Y Z" width="400">
 
@@ -893,11 +968,11 @@ The electrical system follows this signal and power flow:
 **BEC Power Path:**
 - ESC BEC output (regulated 5V) → powers Raspberry Pi and radio receiver — no separate voltage regulator needed
 
-*Figure 13: Raspberry Pi 4B with passive heatsink case and dual cooling fans, showing UART wiring to the WT901 IMU (multicolor dupont leads on the GPIO header)*
+*Figure 13: Raspberry Pi 4B with passive heatsink case and dual cooling fans, showing UART wiring to the WT901 IMU (multicolor dupont leads on the GPIO header). Photo: Software Team.*
 
 <img src="Images/Discord/PXL_20251015_233610882.jpg" alt="Raspberry Pi 4B showing GPIO header with colored UART jumper wires connected for IMU communication" width="400">
 
-*Figure 13b: WT901 IMU connected to the Raspberry Pi via a 5-wire dupont jumper bundle — the physical link between the gyroscope and the Pi's UART that the control software reads at 200 Hz*
+*Figure 13b: WT901 IMU connected to the Raspberry Pi via a 5-wire dupont jumper bundle — the physical link between the gyroscope and the Pi's UART that the control software reads at 200 Hz. Photo: Software Team.*
 
 <img src="Images/Discord/PXL_20251015_233620715.jpg" alt="WT901 IMU plugged into the Raspberry Pi 4B via a colored dupont jumper wire bundle on the workbench" width="400">
 
@@ -905,7 +980,7 @@ The electrical system follows this signal and power flow:
 
 <img src="Images/Discord/pi4j-rpi-4b-pinout-small.png" alt="Raspberry Pi 4 Model B J8 GPIO pinout reference diagram showing all 40 pins with Pi4J GPIO numbering" width="400">
 
-*Figure 14: GPIO pin assignment table mapping the RC receiver channels, WT901 IMU UART, and drive ESC PWM outputs to specific Raspberry Pi 4B GPIO pins — serves as the wiring reference used by the control software*
+*Figure 14: GPIO pin assignment table mapping the RC receiver channels, WT901 IMU UART, and drive ESC PWM outputs to specific Raspberry Pi 4B GPIO pins — serves as the wiring reference used by the control software. Table compiled by: Software Team.*
 
 <img src="Images/Discord/Screenshot_2026-03-03_at_2.26.50_PM.png" alt="GPIO pin assignment table showing RC receiver, WT901 IMU, and ESC pin mappings" width="600">
 
@@ -933,7 +1008,7 @@ Testing for Spinlayden 2.0 has been conducted in phases as components became ava
 - Impact testing against test targets to validate blade penetration with spike-style tips
 - Battery endurance test to confirm runtime exceeds 3-minute match requirement
 
-> TODO: Update this section with results from full-speed testing once completed.
+Full-speed spin results, impact-test outcomes, and measured runtime will be compiled into a post-test addendum following the April 14–24 testing window and shared with judges at the competition interview on April 25, 2026.
 
 ---
 
