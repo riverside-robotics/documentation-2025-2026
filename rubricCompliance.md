@@ -1,7 +1,7 @@
 # AWT Documentation Rubric Compliance Tracker
 
 **Team Meltdown — Spinlayden 2.0**
-**Last Updated:** April 15, 2026
+**Last Updated:** April 16, 2026
 **Documentation Due:** April 18, 2026 (11:59 PM)
 **Competition:** April 25, 2026
 
@@ -9,8 +9,8 @@
 
 ## Overall Progress
 
-**Sections Complete:** 27 / 35
-**Sections Partial:** 4 / 35
+**Sections Complete:** 30 / 35
+**Sections Partial:** 3 / 35
 **Sections Missing:** 4 / 35
 
 ---
@@ -64,16 +64,16 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | # | Section (from Example Doc) | Status | Notes |
 |---|---------------------------|--------|-------|
 | 26 | Research Methods | DONE | Describes analysis of previous AWT competitions and other streams |
-| 27 | CAD Models | BLOCKED | No CAD renders or screenshots in the doc. Requested from design team (isometric, top-down, side, exploded views) via designTeamRequest.md |
+| 27 | CAD Models | DONE | Full Spinlayden 2.0 isometric assembly renders (Fig 7, 8) included in new CAD Models subsection. Spinlayden 1.0 CAD renders (Fig 1, 2) in Previous Bot section. Part-level CAD renders accompany each engineering drawing (Fig 9-11) |
 | 28 | Refinements | DONE | 8 specific refinements from 1.0 to 2.0 documented |
 | 29 | Risk Analysis | DONE | Project-level risk matrix (Table 11) with 8 risks across schedule, manufacturing, and competition categories. FMEA covers component-level risks separately |
 | 30 | Structural Analysis | DONE | Full FMEA table with 8 failure modes, severity/likelihood ratings, and mitigations |
-| 31 | Engineering Drawing Sets | BLOCKED | TODO — awaiting dimensioned drawings from CAD team (Fusion 360 exports) |
+| 31 | Engineering Drawing Sets | DONE | Three dimensioned Fusion 360 drawings (Wall, Gearbox Mount, Bearing Mount) produced by Robby Rateno on 3/3/26. Included as Fig 9-11 with CAD renders + clickable full-resolution PDF links |
 | 32 | Manufacturing Plan | PARTIAL | Fabrication section covers Waterjet, CNC Milling, and 3D Printing methods. Manufacturing under Project Overview is still a TODO placeholder. Missing step-by-step procedures with photos |
 | 33 | Weapon System Details | DONE | Blade specs, energy output, full-body spinner design explained |
 | 34 | Drive System Details | DONE | Motors, ESCs, gearboxes, wheels, hubs, shafts, bearings, belts, steering |
 | 35 | Power System Details | DONE | Batteries, kill switches, power distribution, solder specs |
-| 36 | Wiring Schematics | PARTIAL | Power path, control path, and BEC path documented in text. Missing a wiring diagram image |
+| 36 | Wiring Schematics | DONE | Power path, control path, and BEC path documented in text. GPIO pin assignment table (Fig 14) and Pi/IMU wiring photo (Fig 13) now included |
 | 37 | Testing Results | PARTIAL | 4 testing phases documented. Full-speed test results still pending (testing ongoing Apr 14-24) |
 
 ### Presentation Quality (from Documentation Details rubric)
@@ -82,7 +82,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 |---|----------|--------|-------|
 | 38 | Professional presentation | PARTIAL | Clean Markdown formatting. Still contains TODO placeholders and one joke ("It spins fast, probably") that must be removed before submission |
 | 39 | Rubric compliance | PARTIAL | See sections above — 7 sections still missing |
-| 40 | Supporting documents | PARTIAL | Budget spreadsheet data included. Missing: CAD renders, engineering drawings, wiring diagram, photos |
+| 40 | Supporting documents | PARTIAL | Budget data, Spinlayden 1.0 CAD renders (isometric + top-down), 1.0 physical bot photo, hand-drawn 2026 concept sketch, Spinlayden 2.0 assembly CAD renders, three dimensioned engineering drawings (PDF + CAD render for wall, gearbox mount, bearing mount), wiring GPIO table, and Pi/IMU photos all included. Still missing: physical assembly photos, CNC/3D print photos |
 | 41 | Technical terminology | DONE | Full terminology pass completed on both main.md and meetingNotes.md |
 | 42 | Clear labeling | DONE | All 10 tables captioned (Table 1–10). Figure 1 (Spinlayden 1.0 CAD render) labeled |
 | 43 | Original writing | DONE | All content is original to the team |
@@ -110,7 +110,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 11. ~~**Previous Bot write-up**~~ — DONE. Write-up complete; team photo still pending from design team.
 12. **2026 Design description** — Get 1-3 sentence design summary from design team.
 13. **Design section intro paragraph** — Get from design team or write from existing content.
-14. **Wiring diagram image** — Get from electrical team.
+14. ~~**Wiring diagram image**~~ — DONE. GPIO pin assignment table (Fig 14) plus Pi/IMU wiring photo (Fig 13) now in Wiring Schematic section.
 15. **Manufacturing Plan** — Expand the placeholder with step-by-step procedures.
 16. **Update Testing Results** — Add full-speed test data once testing is complete (Apr 14-24).
 
@@ -121,7 +121,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 19. **Time Management** — Create a Gantt chart or planned-vs-actual timeline.
 20. ~~**Data Management**~~ — DONE. Covers GitHub repos, Fusion 360 shared hub, and shared drive.
 21. **Cover Page** — Create a cover page with team photo, school name, bot name, and member list.
-22. ~~**Build photos**~~ — PARTIAL. Waterjet screen (Fig 2), cut plates (Fig 3), and WT901 IMU (Fig 4) added. Still need: assembly, CNC, and 3D printing photos.
+22. **Build photos** — PARTIAL. Added: Spinlayden 1.0 CAD (Fig 1 iso, Fig 2 top-down), 1.0 physical bot (Fig 3), waterjet screen (Fig 4), cut plates (Fig 5), 2026 concept sketch (Fig 6), 2.0 assembly CAD renders (Fig 7, 8), dimensioned drawings for wall / gearbox mount / bearing mount (Fig 9-11), WT901 IMU (Fig 12), Pi/IMU wiring (Fig 13), GPIO table (Fig 14), roster shirt. Still need: physical assembly, CNC, and 3D printing photos.
 23. **Fill empty meeting notes** — 5 meetings (Mar 17, Mar 31, Apr 3, Apr 7, Apr 11) have no Notes content.
 
 ---
@@ -130,11 +130,11 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 27 |
-| Sections Partial | 4 |
+| Sections Complete | 30 |
+| Sections Partial | 3 |
 | Sections Missing | 4 |
-| Sections Blocked (waiting on team) | 2 |
-| TODO placeholders remaining in main.md | 5 |
+| Sections Blocked (waiting on team) | 0 |
+| TODO placeholders remaining in main.md | 4 |
 | Empty meeting notes | 5 |
 | Team bios missing | 8 of 19 |
 | Advisor bios missing | 0 of 3 |

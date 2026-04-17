@@ -9,24 +9,15 @@ These are the remaining items that Jack can directly provide or help get done be
 
 ## High Priority — Directly Needed for Rubric Compliance
 
-### 1. CAD Renders / Screenshots from Fusion 360
-We need renders of **Spinlayden 2.0** exported from the shared Fusion 360 hub. The rubric expects CAD models in the documentation. We need at minimum:
-- Isometric view (like the 1.0 render we already have)
-- Top-down view
-- Side/profile view
-- Exploded view (if possible)
+### 1. ~~CAD Renders / Screenshots from Fusion 360~~ — DONE (16 Apr 2026)
+Two Spinlayden 2.0 isometric assembly renders (Fig 7 blue top plate, Fig 8 silver finish) pulled from the Google Drive export and placed in a new CAD Models subsection under Design Process.
 
-**Where it goes:** New CAD Models section in main.md under Design Process. Currently a BLOCKED rubric item.
+Still nice-to-have if Jack can export: a top-down view and an exploded view of the 2.0 assembly.
 
-### 2. Engineering Drawings from Fusion 360
-Dimensioned engineering drawings exported from Fusion 360:
-- Overall assembly dimensions
-- Individual part drawings (chassis plates, walls, blade mounts)
-- Bolt hole patterns
-- Weight reduction geometry dimensions
-- Blade dimensions
+### 2. ~~Engineering Drawings from Fusion 360~~ — DONE (16 Apr 2026)
+Three dimensioned drawings (Wall, Gearbox Mount, Bearing Mount) produced by Robby Rateno on 3/3/26 were found in the Google Drive export. Each is embedded as Fig 9-11 with a CAD render plus a clickable link to the 1:1 scale PDF.
 
-**Where it goes:** Engineering Drawing Set section in main.md (currently a TODO placeholder).
+Still nice-to-have if available: overall assembly dimensions, blade geometry drawing, and the top/bottom chassis plate drawing.
 
 ### 3. 2026 Design Description
 A 1-3 sentence summary of the Spinlayden 2.0 design for the "Meet the Robotics Team" section at the top of the document. The "2026 Design:" label currently has nothing after it.

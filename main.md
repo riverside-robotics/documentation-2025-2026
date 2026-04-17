@@ -182,6 +182,10 @@ Thank you to the **Alliance for Working Together (AWT)** for organizing the Regi
 
 Finally, we would like to extend our gratitude to the **parents, families, and community members** of Riverside Robotics. Your support — whether through transportation, encouragement, patience during late build sessions, or simply believing in what your students are building — makes all of this possible. Robotics is a team effort that extends well beyond the students in the room, and we are thankful for every person who has cheered us on this season.
 
+<img src="Images/Google Classroom/03e7bd28-3d7a-490e-be3a-968e8eec8727.png" alt="2026 Riverside Robotics team shirt listing every member of Team Meltdown (Spinlayden), Team Pickle Pirates (The Pickler), and Team Tornadoes (Tempest)" width="400">
+
+*The 2026 Riverside Robotics team shirt — listing every member across Team Meltdown (Spinlayden), Team Pickle Pirates (The Pickler), and Team Tornadoes (Tempest).*
+
 ---
 
 ## Design
@@ -199,6 +203,14 @@ The double-sided design allowed the robot to operate when inverted, eliminating 
 *Figure 1: Spinlayden 1.0 — Isometric CAD Render*
 
 <img src="Images/Screenshot From 2026-04-15 21-28-49.png" alt="Spinlayden 1.0 — Isometric CAD Render" width="500">
+
+*Figure 2: Spinlayden 1.0 — Top-Down CAD Render showing hexagonal chassis, six perimeter blades, dual drive wheels, and central Raspberry Pi housing*
+
+<img src="Images/Last Year/Screenshot From 2026-04-15 21-28-59.png" alt="Spinlayden 1.0 — Top-Down CAD Render" width="500">
+
+*Figure 3: Spinlayden 1.0 — Physical bot following the 2025 competition, featuring the Riverside Robotics logo painted on the chassis*
+
+<img src="Images/Discord/20250425_205711.jpg" alt="Spinlayden 1.0 physical bot with Riverside Robotics logo" width="600">
 
 **Strengths:**
 - Hexagonal full-body spinner concept validated for competition
@@ -496,11 +508,11 @@ The top and bottom hexagonal plates were cut using an **OMAX 5555 Waterjet Cutte
 
 The machine runs at **$1 per minute** of run time. Each nest of two hexagons took approximately 27 minutes, costing roughly **$54 per pair** of plates ($27 × 2 nests).
 
-*Figure 2: OMAX 5555 waterjet controller displaying the hexagonal plate cutting paths*
+*Figure 4: OMAX 5555 waterjet controller displaying the hexagonal plate cutting paths*
 
 <img src="Images/Screenshot_20260411_163901_Gallery.jpg" alt="OMAX 5555 waterjet controller screen showing hexagonal plate cutting paths" width="600">
 
-*Figure 3: Waterjet-cut 6061-T6 aluminum chassis plates — hexagonal top and bottom plates with weight reduction cutouts*
+*Figure 5: Waterjet-cut 6061-T6 aluminum chassis plates — hexagonal top and bottom plates with weight reduction cutouts*
 
 <img src="Images/20260411_171456.jpg" alt="Waterjet-cut aluminum chassis plates with hexagonal geometry and weight reduction cutouts" width="600">
 
@@ -607,6 +619,10 @@ With the Robotics program expanding significantly in membership — from 8 stude
 - Whiteboarded various ideas, as well as comparing their advantages and weaknesses
 - Started a basic CAD design in Fusion 360 that we could build on over the season
 
+*Figure 6: Early hand-drawn concept sketch of Spinlayden 2026 — exploring chassis geometry, wall count, and proposed new components (gearboxes, shelling) before moving into CAD*
+
+<img src="Images/Google Classroom/Spinlayden 12-3.jpeg.png" alt="Hand-drawn concept sketch of Spinlayden 2026 showing hexagonal chassis and design notes" width="500">
+
 ### Design Motivation
 
 Spinlayden's design is driven by the goal of delivering maximum damage while maintaining mobility and resilience. The 14" x 12" hexagonal chassis, crafted from 1/8" 6061 aluminum with cutouts on the inner half of the walls to reduce weight, allows us to spin at 645.6 RPM.
@@ -673,9 +689,57 @@ To evaluate the durability and reliability of Spinlayden 2.0, the team conducted
 | Drivetrain | Motor burnout | Sustained high-current draw or stall | Loss of drive on one side; bot cannot translate | 7 | 3 | EZRUN MAX10 SCT ESCs rated for 120A continuous / 830A peak; heat dissipation through chassis ventilation |
 | Drivetrain | Gearbox failure | Impact shock transmitted through wheels | Loss of drive; wheel free-spins | 6 | 4 | BaneBots P61 20:1 planetary gearboxes rated for combat loads; 1045 carbon steel output shafts |
 
+### CAD Models
+
+The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the shared team hub, allowing multiple students to contribute to individual components in parallel. The complete assembly includes the hexagonal chassis (top, bottom, and six perimeter walls), four EZRUN brushless drive motors with BaneBots P61 gearboxes, two BaneBots drive wheels with shafts and bearings, six Liperior 4S LiPo batteries, two EZRUN MAX10 SCT ESCs, the Raspberry Pi 4B in its dedicated 3D-printed housing, the WT901 IMU, and the six carbon steel blades at the perimeter.
+
+*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six perimeter blades, green BaneBots drive wheels, four motors, batteries, and central Raspberry Pi housing*
+
+<img src="Images/Spinlayden_2.0_Assembly_Isometric.png" alt="Spinlayden 2.0 isometric CAD render — full assembly with blue top plate" width="600">
+
+*Figure 8: Spinlayden 2.0 — Alternate isometric view with standard aluminum finish, showing chassis bolt heads, external mounting studs for the perimeter blades, and wheel clearance at the chassis corners*
+
+<img src="Images/Spinlayden_2.0_Assembly_Silver.png" alt="Spinlayden 2.0 isometric CAD render — silver finish view" width="600">
+
 ### Engineering Drawing Set
 
-> TODO: Awaiting dimensioned engineering drawings from the CAD team (Ayden, Adam P., Jayden). Requested via designTeamRequest.md — need overall assembly dimensions, individual part drawings, bolt hole patterns, weight reduction geometry, and blade dimensions exported from Fusion 360.
+Dimensioned mechanical drawings for the three primary machined parts of Spinlayden 2.0 were produced in Autodesk Fusion 360 by team member Robby Rateno on March 3, 2026. Each drawing is provided at 1:1 scale, Size B, and includes top, side, and edge views with tolerances suitable for CNC milling and waterjet cutting. Click any drawing below to open the full-resolution PDF.
+
+**Wall Plate** — the perimeter wall panel of the hexagonal chassis. Six of these are arranged around the bot, providing the primary impact surface. Overall size: 6.88" × 2.91"; thickness: 3/8". Features four rectangular weight-reduction pockets on the inner half only (to preserve edge strength at impact zones) and mounting bolt patterns for the top and bottom plates.
+
+*Figure 9: Wall plate CAD render and dimensioned drawing ([full PDF](Images/Engineering%20Drawings/Wall.pdf))*
+
+<img src="Images/Engineering Drawings/Aluminum_Wall_Frame_CAD.png" alt="Wall plate CAD render — perimeter wall of hexagonal chassis with four rectangular weight-reduction pockets" width="450">
+
+*Figure 9a: Wall plate — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
+
+<img src="Images/Engineering Drawings/Wall_Drawing-1.png" alt="Wall plate dimensioned engineering drawing showing top, side, and edge views with tolerances" width="600">
+
+[Open Wall.pdf — dimensioned drawing (1:1 scale, Size B)](Images/Engineering%20Drawings/Wall.pdf)
+
+**Gearbox Mount** — brackets that secure the BaneBots P61 gearboxes to the interior of the chassis. Overall footprint: 3.16" × 1.96"; thickness: 3/8". Features slotted mounting holes (±0.19" adjustment) for belt-tension alignment and a pair of 0.15" through-holes for the gearbox fasteners.
+
+*Figure 10: Gearbox mount CAD render and dimensioned drawing ([full PDF](Images/Engineering%20Drawings/Gearbox_Mount.pdf))*
+
+<img src="Images/Engineering Drawings/Gearbox_Mount_CAD.png" alt="Gearbox mount CAD render — bracket with slotted mounting holes for BaneBots P61 gearbox" width="350">
+
+*Figure 10a: Gearbox mount — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
+
+<img src="Images/Engineering Drawings/Gearbox_Mount_Drawing-1.png" alt="Gearbox mount dimensioned engineering drawing showing slotted mounting holes and fastener through-holes" width="600">
+
+[Open Gearbox_Mount.pdf — dimensioned drawing (1:1 scale, Size B)](Images/Engineering%20Drawings/Gearbox_Mount.pdf)
+
+**Bearing Mount** — the rotary shaft bearing housing that supports the drive shaft between the chassis walls. Overall size: 2.13" × 2.78"; thickness: 0.38". Features a 1.13" diameter bore for the bearing and a 135° chamfer at the corner to clear interior components during assembly.
+
+*Figure 11: Bearing mount CAD render and dimensioned drawing ([full PDF](Images/Engineering%20Drawings/Bearing_Mount.pdf))*
+
+<img src="Images/Engineering Drawings/Bearing_Mount_CAD.png" alt="Bearing mount CAD render — housing with central bore and 135° corner chamfer" width="350">
+
+*Figure 11a: Bearing mount — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
+
+<img src="Images/Engineering Drawings/Bearing_Mount_Drawing-1.png" alt="Bearing mount dimensioned engineering drawing showing bore diameter and 135 degree corner chamfer" width="600">
+
+[Open Bearing_Mount.pdf — dimensioned drawing (1:1 scale, Size B)](Images/Engineering%20Drawings/Bearing_Mount.pdf)
 
 ### Weapon System Details
 
@@ -720,9 +784,13 @@ Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the 
 - **Type:** WT901 9-axis IMU/gyroscope (USB, 200 Hz sampling rate)
 - **Function:** Provides real-time orientation data to the C# control software, enabling the meltybrain algorithm to determine the bot's rotational position and pulse motors at the correct moment for translational movement
 
-*Figure 4: WT901 9-axis IMU/gyroscope module used for rotational orientation sensing*
+*Figure 12: WT901 9-axis IMU/gyroscope module used for rotational orientation sensing*
 
 <img src="Images/rn_image_picker_lib_temp_7dfe9feb-14aa-4327-b7fd-7c043ff04fee.jpg" alt="WT901 9-axis IMU gyroscope module" width="300">
+
+*Figure 12b: WT901 silkscreen — labeled pin header (VCC, SCL, SDA, GND, RX, TX, D0–D3) and body-frame axes (X, Y, Z) used when wiring the module to the Raspberry Pi*
+
+<img src="Images/Discord/PXL_20251015_233623254.jpg" alt="WT901 IMU module showing labeled pin silkscreen VCC SCL SDA GND RX TX and body axes X Y Z" width="400">
 
 **Shafts and Bearings:**
 - **Shafts:** 1045 carbon steel — good balance of strength and machinability for rotary applications
@@ -769,7 +837,21 @@ The electrical system follows this signal and power flow:
 **BEC Power Path:**
 - ESC BEC output (regulated 5V) → powers Raspberry Pi and radio receiver — no separate voltage regulator needed
 
-> TODO: Add a wiring diagram image once the electrical team provides one.
+*Figure 13: Raspberry Pi 4B with passive heatsink case and dual cooling fans, showing UART wiring to the WT901 IMU (multicolor dupont leads on the GPIO header)*
+
+<img src="Images/Discord/PXL_20251015_233610882.jpg" alt="Raspberry Pi 4B showing GPIO header with colored UART jumper wires connected for IMU communication" width="400">
+
+*Figure 13b: WT901 IMU connected to the Raspberry Pi via a 5-wire dupont jumper bundle — the physical link between the gyroscope and the Pi's UART that the control software reads at 200 Hz*
+
+<img src="Images/Discord/PXL_20251015_233620715.jpg" alt="WT901 IMU plugged into the Raspberry Pi 4B via a colored dupont jumper wire bundle on the workbench" width="400">
+
+*Figure 13c: Raspberry Pi 4B J8 GPIO pinout reference (Pi4J numbering) — used as the physical pin map when cross-referencing the project-specific GPIO assignments in Figure 14 below. Source: pi4j.com*
+
+<img src="Images/Discord/pi4j-rpi-4b-pinout-small.png" alt="Raspberry Pi 4 Model B J8 GPIO pinout reference diagram showing all 40 pins with Pi4J GPIO numbering" width="400">
+
+*Figure 14: GPIO pin assignment table mapping the RC receiver channels, WT901 IMU UART, and drive ESC PWM outputs to specific Raspberry Pi 4B GPIO pins — serves as the wiring reference used by the control software*
+
+<img src="Images/Discord/Screenshot_2026-03-03_at_2.26.50_PM.png" alt="GPIO pin assignment table showing RC receiver, WT901 IMU, and ESC pin mappings" width="600">
 
 ### Testing Results
 
