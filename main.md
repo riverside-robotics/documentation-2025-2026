@@ -17,7 +17,7 @@
 | Adam Pakeltis | Alexander Holmes | Ayden Moore |
 | Benjamin Mackey | Daniel George | Dustin Hance |
 | Jason Kellhofer | Jayden Craig | Kasey Kurzinger |
-| Kaydan Kerr | Lukas Dauksa | Mher Pogosan |
+| Kaydan Kerr | Lukas Dauksa | Mher Poghosyan |
 | Robert Rateno | Richard Rowland | Sultan Kazeem |
 | Tom Kramer | Vincent Riha | Xayden Minch |
 | Yash Jain | | |
@@ -49,7 +49,7 @@
 - Kasey Kurzinger
 - Kaydan Kerr
 - Lukas Dauksa
-- Mher Pogosan
+- Mher Poghosyan
 - Robert Rateno
 - Richard Rowland
 - Sultan Kazeem
@@ -721,7 +721,7 @@ In addition to the component-level failure analysis (FMEA) below, the team ident
 
 | Risk Category | Risk | Cause | Impact | Severity (1-10) | Likelihood (1-10) | Mitigation |
 |---------------|------|-------|--------|-----------------|-------------------|------------|
-| Schedule | Documentation not completed by deadline | Large scope (35 rubric sections), limited time, 14 bios still pending | Incomplete submission reduces rubric score | 7 | 5 | Rubric compliance tracker created to prioritize high-impact sections; documentation work began early in the season; TODO items assigned to specific team members |
+| Schedule | Documentation not completed by deadline | Large scope (35 rubric sections), limited time, 8 bios still pending | Incomplete submission reduces rubric score | 7 | 5 | Rubric compliance tracker created to prioritize high-impact sections; documentation work began early in the season; TODO items assigned to specific team members |
 | Schedule | Testing not completed before competition | Robot assembly delays push testing window past April 24 | Bot enters competition without full-speed validation | 8 | 4 | Four-phase testing plan started April 14; critical tests (spin-up, drive, weapon) prioritized first; low-speed validation already complete |
 | Manufacturing | Loss of machining access | External manufacturing partners (Monode, Case Western think[box]) become unavailable | Cannot fabricate precision chassis or blade components | 9 | 3 | Relationships established early in season; backup CNC available (Lunyee 3018 Pro Ultra) for smaller parts; waterjet cutting completed ahead of schedule |
 | Manufacturing | 3D-printed components fail under combat loads | PLA/PETG parts crack or deform from vibration or impact | Internal mounts or Pi housing break during match | 5 | 5 | 3D-printed parts used only for non-structural internal mounts; critical structural components machined from aluminum or steel; spare printed parts prepared in advance |

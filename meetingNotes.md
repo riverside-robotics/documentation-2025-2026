@@ -11,7 +11,7 @@
 **Notes:** Discussed the season overview, competition timeline, and program expectations. This orientation was particularly important given the significant number of new members joining compared to last year.
 
 **Attendees:**
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -32,7 +32,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason
 **Notes:** In this meeting, we continued where we left off at the last meeting. With all of the ideas for bot designs, names, etc. flowing, it was time to start analyzing and comparing designs of the past to determine what form factor the teams would lock on to this year. Every team has a maximum of 10 meetings left to design their bot and get the parts list to our sponsors for ordering.
 
 **Attendees:**
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -52,7 +52,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason
 **Notes:** Today's meeting focused on planning and beginning bot modeling. Teams began modeling in Fusion 360 or set up accounts as needed. We also drive-tested old bots if the setup was complete, and included some team-building activities to help everyone connect and have fun.
 
 **Attendees:**
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -73,7 +73,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason
 **Notes:** Today we drilled mounting holes in the chassis. We replaced the Raspberry Pi unit, which resolved our Bluetooth connectivity issue. We began calibrating and integrating the WT901 IMU/gyroscope and received cabling donated by an Engineering Teacher.
 
 **Attendees:**
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -113,7 +113,7 @@ Lukas Dauksa, Dustin Hance, Alexander Holmes, Sultan Kazeem, Jason Kellhofer, To
 **Notes:** Today, we continued working on split tasks; both the design and coding teams made progress.
 
 **Attendees:**
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -131,7 +131,7 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Ka
 **Notes:** Today, we took part in AWT's documentation Zoom Call. We spent the rest of the meeting splitting again into a CAD design team, a Coding team, and a documentation team that was newly formed today.
 
 **Attendees:**
-Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno, Vincent Riha
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno, Vincent Riha
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -188,7 +188,7 @@ Lukas Dauksa, Alexander Holmes, Yash Jain, Sultan Kazeem, Jason Kellhofer, Tom K
 **Notes:** Today, we reviewed the game plan. Following this, we split into groups again, and worked in parallel. One group worked on the CAD design in Fusion 360, focusing and learning about its use and tools. Another group sourced and located necessary electronics and put them into the parts list. A third group worked on the software for the bot using our Raspberry Pi. Finally, we concluded the meeting with a wrap-up, clean-up, and final reminders for the upcoming deadlines.
 
 **Attendees:**
-Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
+Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -207,7 +207,7 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore,
 **Notes:** Today, we split into groups again. The Coding group implemented code-server (github.com). Got the code running wirelessly on code-server. We can now remote into the Pi and don't need a display anymore. The design team modeled weapons for Spinlayden.
 
 **Attendees:**
-Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
+Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -226,7 +226,7 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore,
 **Notes:** Today, we integrated a portable power supply for the Raspberry Pi, troubleshot controller input via Xbox controller, updated code-server, continued CAD modeling of the main chassis body, and configured GitHub Copilot in code-server.
 
 **Attendees:**
-Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Pogosan, Robert Rateno
+Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Adam Pakeltis, Mher Poghosyan, Robert Rateno
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|
@@ -247,7 +247,7 @@ Dustin Hance, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore,
 **Notes:** Today, the software team encountered a significant setback. The Raspberry Pi with the pre-configured development environment and control software appeared to be corrupted and would not boot. We also identified that the first-party Xbox controller's Bluetooth connection was unreliable, causing frequent disconnections with the Pi. We ordered a replacement Pi and a controller utilizing a 2.4 GHz USB-A radio adapter to eliminate Bluetooth-related issues. The design team continued CAD modeling and developing weight reduction strategies.
 
 **Attendees:**
-Alexander Holmes, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Pogosan, Robert Rateno
+Alexander Holmes, Yash Jain, Jason Kellhofer, Tom Kramer, Xayden Minch, Ayden Moore, Mher Poghosyan, Robert Rateno
 
 | Tasks and Goals | Decisions |
 |-----------------|-----------|

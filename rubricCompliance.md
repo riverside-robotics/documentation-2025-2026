@@ -95,7 +95,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 ### Must Do (High Impact, Team Can Complete)
 
 1. **Remove all TODO placeholders and joke text** — "It spins fast, probably", all `> TODO:` lines. Judges will see these.
-2. **Get remaining team bios submitted** — 8 of 19 still pending (Dustin Hance, Jayden Craig, Kasey Kurzinger, Kaydan Kerr, Lukas Dauksa, Mher Pogosan, Richard Rowland, Vincent Riha). Even short bios are better than none.
+2. **Get remaining team bios submitted** — 8 of 19 still pending (Dustin Hance, Jayden Craig, Kasey Kurzinger, Kaydan Kerr, Lukas Dauksa, Mher Poghosyan, Richard Rowland, Vincent Riha). Even short bios are better than none.
 3. ~~**Get advisor bios**~~ — DONE. Jack Carbone and Adam Carbone bios both in place.
 4. ~~**Write Acknowledgements**~~ — DONE. Thanks Monode, Arc Technology, Show Studio, advisors, Riverside HS, Case Western think[box], AWT, and families.
 5. ~~**Add table captions**~~ — DONE. All 10 tables captioned (Table 1–10).

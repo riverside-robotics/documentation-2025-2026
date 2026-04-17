@@ -60,7 +60,7 @@ Adam and Jack revived the AWT Robobots program in 2025 after a multi-year hiatus
 
 **Lukas Dauksa:** *Bio not yet submitted.*
 
-**Mher Pogosan:** *Bio not yet submitted.*
+**Mher Poghosyan:** *Bio not yet submitted.*
 
 **Robert Rateno:** This returning sophomore is ready to hit the cage for their second competition. As the team's driver, they are prepared to take the wheel and steer the robot to victory. Alongside robotics, this student keeps the beat in the school's marching band. Outside of school, they enjoy playing the drums, 3D printing, and tinkering with RC vehicles. This experienced competitor is excited to show off their driving skills and dominate the competition.
 
