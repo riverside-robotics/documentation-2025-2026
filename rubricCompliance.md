@@ -99,7 +99,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 3. ~~**Get advisor bios**~~ — DONE. Jack Carbone and Adam Carbone bios both in place.
 4. ~~**Write Acknowledgements**~~ — DONE. Thanks Monode, Arc Technology, Show Studio, advisors, Riverside HS, Case Western think[box], AWT, and families.
 5. ~~**Add table captions**~~ — DONE. All 10 tables captioned (Table 1–10).
-6. ~~**Fix team size inconsistency**~~ — DONE. Both lines now say "approximately 30 students."
+6. ~~**Fix team size inconsistency**~~ — DONE. Team Meltdown roster normalized to 19 students across all mentions in main.md (cover page, Meet the Robotics Team overview, About Riverside, Project Overview → Team Members, Project Assignments table, Analysis and Conceptualization, Closing Remarks). Removed stale references to a second high school team ("Team Stark"/"Jarvis").
 7. ~~**Write Closing Remarks**~~ — DONE. Four-paragraph wrap-up covering team effort, skills learned, program growth, and competition readiness.
 8. ~~**Fill in Overview section**~~ — DONE. Design overview paragraph summarizing Spinlayden 2.0's specs and key improvements over 1.0.
 

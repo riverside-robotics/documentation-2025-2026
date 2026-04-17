@@ -48,7 +48,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 30. ~~**Line 261** - Kaydan Kerr has **no role listed** (blank cell)~~ Added Documentation and Mechanical because of missing info 
 31. ~~**Line 265** - Kasey Kurzinger is listed as "Advisor" but is in **8th grade**~~ — is that right? Removed Advisor and added Documentation and Mechanical to becuause of missing information
 32. ~~**Lines 345-353** - Key Stats in the Design Process section is a **duplicate** of the Key Stats table already in the Design section (lines 142-152) — same exact data in two places~~
-33. **Line 37** - Says team "expanded to 26 students" but line 96 says "approximately 30 students" — inconsistent count
+33. ~~**Line 37** - Says team "expanded to 26 students" but line 96 says "approximately 30 students" — inconsistent count~~ — Fixed. All mentions of Team Meltdown headcount now read 19 students (the actual HS roster). Removed references to a second HS team (Team Stark / Jarvis); middle school JuniorBots teams retained.
 34. ~~**Line 187** - Objective table says "Writing a robust Python script" but the Feb 3rd meeting note says the software was **rerolled in C#** — contradicts~~ — Fixed, now says "Writing a C# program"
 35. ~~**Lines 383, 387** - Fabrication methods only lists CNC Milling and 3D Printing with no details~~ — Expanded with Waterjet Cutting, CNC Milling, and 3D Printing details
 

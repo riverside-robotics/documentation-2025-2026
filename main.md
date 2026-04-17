@@ -1,3 +1,33 @@
+# Spinlayden 2.0
+
+## Team Meltdown — Riverside Robotics
+
+**Riverside High School** · 585 Riverside Dr, Painesville, OH 44077
+
+**AWT Regional RoboBots Competition — 2025–2026 Season**
+
+<img src="Images/team_photo_placeholder.svg" alt="Team Meltdown 2025-2026 team photo (placeholder)" width="800">
+
+*Team Meltdown — 2025-2026 roster (photo pending).*
+
+### Team Members
+
+| | | |
+|---|---|---|
+| Adam Pakeltis | Alexander Holmes | Ayden Moore |
+| Benjamin Mackey | Daniel George | Dustin Hance |
+| Jason Kellhofer | Jayden Craig | Kasey Kurzinger |
+| Kaydan Kerr | Lukas Dauksa | Mher Pogosan |
+| Robert Rateno | Richard Rowland | Sultan Kazeem |
+| Tom Kramer | Vincent Riha | Xayden Minch |
+| Yash Jain | | |
+
+**Advisors:** Jack Carbone, Adam Carbone &nbsp;·&nbsp; **Industry Advisor:** J.T. Mackey (Monode Marking Products, Inc.)
+
+**Sponsors:** Monode Marking Products, Inc. &nbsp;·&nbsp; Show Studio LLC &nbsp;·&nbsp; Arc Technology LLC
+
+---
+
 # Spinlayden Riverside Robotics
 
 **School:** Riverside High School
@@ -32,7 +62,7 @@
 
 ## Meet the Robotics Team
 
-**Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the robotics team has greatly expanded to approximately 30 students.
+**Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the high school roster has grown to 19 students on Team Meltdown, with two additional JuniorBots middle-school teams also running under advisors Jack and Adam Carbone.
 
 **2026 Design:**
 
@@ -96,7 +126,7 @@ Following a brief hiatus, Riverside Robotics was revived in 2025 when alumni adv
 
 At Riverside, the robotics program has achieved significant success beyond the arena. Alumni of the program have gone on to pursue degrees in mechanical engineering, software engineering, and other engineering disciplines at colleges and universities. Through robotics, students gain exposure to real-world manufacturing skills, CAD design, electronics, and the iterative process of engineering—experiences that have shaped their academic and professional futures.
 
-The 2025-2026 season marks a historic expansion for Riverside Robotics. The high school program has grown to approximately 30 students across two competition teams: Team Meltdown, fielding Spinlayden 2.0, an evolved iteration of the meltybrain spinner; and Team Stark, debuting Jarvis, a hammer bot. Additionally, the JuniorBots program was revived from scratch this year, with two middle school teams—Team Pickle Pirates competing with The Pickler, a horizontal spinner, and Team Tornados bringing The Tempest to the arena. Each JuniorBots team boasts 15 to 20 students, a testament to the growing enthusiasm for robotics throughout the district.
+The 2025-2026 season marks a historic expansion for Riverside Robotics. The high school competition team, Team Meltdown, has grown to 19 students fielding Spinlayden 2.0, an evolved iteration of the meltybrain spinner. Alongside the high school team, the JuniorBots program was revived from scratch this year, with two middle school teams—Team Pickle Pirates competing with The Pickler, a horizontal spinner, and Team Tornadoes bringing The Tempest to the arena. Each JuniorBots team boasts 15 to 20 students, a testament to the growing enthusiasm for robotics throughout the district.
 
 The goal of Riverside Robotics is not only to compete at the highest level, but also to spread the joy of engineering and instill valuable skills applicable in the real world. Through teamwork and collaboration, students learn how to support each other, solve complex problems under pressure, and transform ideas into reality. This aligns closely with Riverside's mission of providing a pathway to excellence, and embodies a spirit of innovation, leadership, and perseverance.
 
@@ -317,13 +347,17 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 - Adam Pakeltis
 - Alexander Holmes
 - Ayden Moore
+- Benjamin Mackey
 - Daniel George
 - Dustin Hance
 - Jason Kellhofer
 - Jayden Craig
+- Kasey Kurzinger
+- Kaydan Kerr
 - Lukas Dauksa
 - Mher Poghosyan
 - Robert Rateno
+- Richard Rowland
 - Sultan Kazeem
 - Tom Kramer
 - Vincent Riha
@@ -612,7 +646,7 @@ Spinlayden 2.0 is a 15-pound meltybrain full-body spinner designed for the AWT R
 
 We began by analyzing the previous iteration of the robot from the 2025 season. Using the original design as a reference platform, the team identified and addressed the deficiencies and failure modes present in last year's design.
 
-With the Robotics program expanding significantly in membership — from 8 students to approximately 20 — the advisors restructured the program into two competition teams: Team Meltdown (Spinlayden) and Team Stark (Jarvis). Team Meltdown comprises 14 members. After forming the teams, we took several measures:
+With the Robotics program expanding significantly in membership — from 8 students last season to a 19-student high school roster this year plus two middle school JuniorBots teams — Team Meltdown set out to build on the previous design. After forming the team, we took several measures:
 
 - Watched previous AWT competitions and noted the performance of other bots and on what design they relied on
 - Reviewed the prior Riverside design and analyzed the most significant obstacles and problems
