@@ -737,43 +737,37 @@ The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the sh
 
 ### Engineering Drawing Set
 
-Dimensioned mechanical drawings for the three primary machined parts of Spinlayden 2.0 were produced in Autodesk Fusion 360 by team member Robby Rateno on March 3, 2026. Each drawing is provided at 1:1 scale, Size B, and includes top, side, and edge views with tolerances suitable for CNC milling and waterjet cutting. Click any drawing below to open the full-resolution PDF.
+Dimensioned mechanical drawings for the three primary machined parts of Spinlayden 2.0 were produced in Autodesk Fusion 360 by team member Robby Rateno on March 3, 2026. Each drawing is provided at 1:1 scale, Size B, and includes top, side, and edge views with tolerances suitable for CNC milling and waterjet cutting.
 
 **Wall Plate** — the perimeter wall panel of the hexagonal chassis. Six of these are arranged around the bot, providing the primary impact surface. Overall size: 6.88" × 2.91"; thickness: 3/8". Features four rectangular weight-reduction pockets on the inner half only (to preserve edge strength at impact zones) and mounting bolt patterns for the top and bottom plates.
 
-*Figure 9: Wall plate CAD render and dimensioned drawing ([full PDF](Images/Engineering%20Drawings/Wall.pdf))*
+*Figure 9: Wall plate CAD render and dimensioned drawing*
 
 <img src="Images/Engineering Drawings/Aluminum_Wall_Frame_CAD.png" alt="Wall plate CAD render — perimeter wall of hexagonal chassis with four rectangular weight-reduction pockets" width="450">
 
 *Figure 9a: Wall plate — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
 
-<img src="Images/Engineering Drawings/Wall_Drawing-1.png" alt="Wall plate dimensioned engineering drawing showing top, side, and edge views with tolerances" width="600">
-
-[Open Wall.pdf — dimensioned drawing (1:1 scale, Size B)](Images/Engineering%20Drawings/Wall.pdf)
+<img src="Images/Engineering Drawings/Wall_Drawing-2.png" alt="Wall plate drawing" width="600">
 
 **Gearbox Mount** — brackets that secure the BaneBots P61 gearboxes to the interior of the chassis. Overall footprint: 3.16" × 1.96"; thickness: 3/8". Features slotted mounting holes (±0.19" adjustment) for belt-tension alignment and a pair of 0.15" through-holes for the gearbox fasteners.
 
-*Figure 10: Gearbox mount CAD render and dimensioned drawing ([full PDF](Images/Engineering%20Drawings/Gearbox_Mount.pdf))*
+*Figure 10: Gearbox mount CAD render and dimensioned drawing*
 
 <img src="Images/Engineering Drawings/Gearbox_Mount_CAD.png" alt="Gearbox mount CAD render — bracket with slotted mounting holes for BaneBots P61 gearbox" width="350">
 
 *Figure 10a: Gearbox mount — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
 
-<img src="Images/Engineering Drawings/Gearbox_Mount_Drawing-1.png" alt="Gearbox mount dimensioned engineering drawing showing slotted mounting holes and fastener through-holes" width="600">
-
-[Open Gearbox_Mount.pdf — dimensioned drawing (1:1 scale, Size B)](Images/Engineering%20Drawings/Gearbox_Mount.pdf)
+<img src="Images/Engineering Drawings/Gearbox_Mount_Drawing-2.png" alt="Gearbox mount dimensioned drawing" width="600">
 
 **Bearing Mount** — the rotary shaft bearing housing that supports the drive shaft between the chassis walls. Overall size: 2.13" × 2.78"; thickness: 0.38". Features a 1.13" diameter bore for the bearing and a 135° chamfer at the corner to clear interior components during assembly.
 
-*Figure 11: Bearing mount CAD render and dimensioned drawing ([full PDF](Images/Engineering%20Drawings/Bearing_Mount.pdf))*
+*Figure 11: Bearing mount CAD render and dimensioned drawing*
 
 <img src="Images/Engineering Drawings/Bearing_Mount_CAD.png" alt="Bearing mount CAD render — housing with central bore and 135° corner chamfer" width="350">
 
 *Figure 11a: Bearing mount — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
 
-<img src="Images/Engineering Drawings/Bearing_Mount_Drawing-1.png" alt="Bearing mount dimensioned engineering drawing showing bore diameter and 135 degree corner chamfer" width="600">
-
-[Open Bearing_Mount.pdf — dimensioned drawing (1:1 scale, Size B)](Images/Engineering%20Drawings/Bearing_Mount.pdf)
+<img src="Images/Engineering Drawings/Bearing_Mount_Drawing-2.png" alt="Bearing mount dimensioned drawing" width="600">
 
 ### Weapon System Details
 
