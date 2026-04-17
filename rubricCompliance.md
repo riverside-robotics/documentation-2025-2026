@@ -9,9 +9,9 @@
 
 ## Overall Progress
 
-**Sections Complete:** 30 / 35
-**Sections Partial:** 3 / 35
-**Sections Missing:** 4 / 35
+**Sections Complete:** 32 / 35
+**Sections Partial:** 2 / 35
+**Sections Missing:** 3 / 35
 
 ---
 
@@ -23,7 +23,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | # | Section (from Example Doc) | Status | Notes |
 |---|---------------------------|--------|-------|
-| 1 | Cover Page | MISSING | Need a cover page with team name, school, bot name, team photo, and member names |
+| 1 | Cover Page | PARTIAL | Need a cover page with team name, school, bot name, team photo, and member names |
 | 2 | Table of Contents | DONE | Present in main.md (lines 41-81) |
 | 3 | Project Charter / General Info | DONE | General Information table, Bot Description, Objective, Deliverables, Key Milestones, Constraints all present |
 | 4 | About Riverside (School Info) | DONE | Thorough write-up covering school history, robotics program history, and program expansion |
@@ -42,7 +42,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 12 | What Was Changed from Previous Design | DONE | 6 bullet points covering all major changes |
 | 13 | Previous Bot Write-Up | DONE | Spinlayden 1.0 write-up complete with description, specs, strengths, and weaknesses. Team photo still pending from design team |
 | 14 | Design Section Intro Paragraph | MISSING | Requested from design team via designTeamRequest.md |
-| 15 | 2026 Design Description | MISSING | Line 36 is empty after "2026 Design:" label. Requested from design team |
+| 15 | 2026 Design Description | DONE | Two-sentence design summary added at main.md line 67 (under "Meet the Robotics Team"), synthesized from existing Bot Description, Key Stats, and Material Selection content. Design team can replace with their own wording if desired |
 
 ### Team Procedures
 
@@ -82,7 +82,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 |---|----------|--------|-------|
 | 38 | Professional presentation | PARTIAL | Clean Markdown formatting. Still contains TODO placeholders and one joke ("It spins fast, probably") that must be removed before submission |
 | 39 | Rubric compliance | PARTIAL | See sections above — 7 sections still missing |
-| 40 | Supporting documents | PARTIAL | Budget data, Spinlayden 1.0 CAD renders (isometric + top-down), 1.0 physical bot photo, hand-drawn 2026 concept sketch, Spinlayden 2.0 assembly CAD renders, three dimensioned engineering drawings (PDF + CAD render for wall, gearbox mount, bearing mount), wiring GPIO table, and Pi/IMU photos all included. Still missing: physical assembly photos, CNC/3D print photos |
+| 40 | Supporting documents | DONE | Budget data, Spinlayden 1.0 CAD renders (isometric + top-down), 1.0 physical bot photo, hand-drawn 2026 concept sketch, Spinlayden 2.0 assembly CAD renders (Fig 7, 8), interior-view CAD with top plate removed (Fig 8b), three dimensioned engineering drawings (Wall / Gearbox Mount / Bearing Mount, Fig 9–11 with CAD renders + dimensioned PDFs rendered as PNGs), wiring GPIO table (Fig 14), Pi/IMU photos (Fig 13), and a new Physical Assembly subsection in Fabrication with Figures 15, 15b, 16, 16b, 16c covering in-progress build on the waterjet-cut aluminum bottom plate, wiring-integration assembly with 3D-printed PLA placeholder walls (used while waiting on the CNC-milled aluminum walls), and the 3D-printed battery and Pi/IMU brackets. Optional follow-up: re-photograph the chassis once the aluminum walls are installed |
 | 41 | Technical terminology | DONE | Full terminology pass completed on both main.md and meetingNotes.md |
 | 42 | Clear labeling | DONE | All 10 tables captioned (Table 1–10). Figure 1 (Spinlayden 1.0 CAD render) labeled |
 | 43 | Original writing | DONE | All content is original to the team |
@@ -108,7 +108,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 9. **CAD Models** — Get renders from design team (requested in designTeamRequest.md).
 10. **Engineering Drawings** — Get dimensioned drawings from CAD team (requested in designTeamRequest.md).
 11. ~~**Previous Bot write-up**~~ — DONE. Write-up complete; team photo still pending from design team.
-12. **2026 Design description** — Get 1-3 sentence design summary from design team.
+12. ~~**2026 Design description**~~ — DONE. Two-sentence summary added at main.md line 67, synthesized from existing doc content. Design team can revise if they want their own wording.
 13. **Design section intro paragraph** — Get from design team or write from existing content.
 14. ~~**Wiring diagram image**~~ — DONE. GPIO pin assignment table (Fig 14) plus Pi/IMU wiring photo (Fig 13) now in Wiring Schematic section.
 15. **Manufacturing Plan** — Expand the placeholder with step-by-step procedures.
@@ -121,7 +121,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 19. **Time Management** — Create a Gantt chart or planned-vs-actual timeline.
 20. ~~**Data Management**~~ — DONE. Covers GitHub repos, Fusion 360 shared hub, and shared drive.
 21. **Cover Page** — Create a cover page with team photo, school name, bot name, and member list.
-22. **Build photos** — PARTIAL. Added: Spinlayden 1.0 CAD (Fig 1 iso, Fig 2 top-down), 1.0 physical bot (Fig 3), waterjet screen (Fig 4), cut plates (Fig 5), 2026 concept sketch (Fig 6), 2.0 assembly CAD renders (Fig 7, 8), dimensioned drawings for wall / gearbox mount / bearing mount (Fig 9-11), WT901 IMU (Fig 12), Pi/IMU wiring (Fig 13), GPIO table (Fig 14), roster shirt. Still need: physical assembly, CNC, and 3D printing photos.
+22. ~~**Build photos**~~ — DONE. Physical assembly photos added from Adam Carbone (Fig 15, 15b: in-progress build on the waterjet-cut aluminum bottom plate; Fig 16, 16b: wiring-integration assembly with 3D-printed PLA placeholder walls — printed in-house while waiting on the CNC-milled aluminum walls; Fig 16c: 3D-printed PLA IMU bracket beneath the Pi). Nice-to-have follow-up: re-shoot the assembled chassis once the aluminum walls are installed. Full figure inventory: 1.0 CAD (Fig 1 iso, Fig 2 top-down), 1.0 physical bot (Fig 3), waterjet screen (Fig 4), cut plates (Fig 5), 2026 concept sketch (Fig 6), 2.0 assembly CAD (Fig 7, 8), interior CAD (Fig 8b), dimensioned drawings (Fig 9–11), WT901 IMU (Fig 12), Pi/IMU wiring (Fig 13), GPIO table (Fig 14), physical assembly (Fig 15–16c).
 23. **Fill empty meeting notes** — 5 meetings (Mar 17, Mar 31, Apr 3, Apr 7, Apr 11) have no Notes content.
 
 ---
@@ -130,9 +130,9 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 
 | Category | Count |
 |----------|-------|
-| Sections Complete | 30 |
-| Sections Partial | 3 |
-| Sections Missing | 4 |
+| Sections Complete | 32 |
+| Sections Partial | 2 |
+| Sections Missing | 3 |
 | Sections Blocked (waiting on team) | 0 |
 | TODO placeholders remaining in main.md | 4 |
 | Empty meeting notes | 5 |

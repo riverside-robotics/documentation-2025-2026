@@ -64,7 +64,7 @@
 
 **Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the high school roster has grown to 19 students on Team Meltdown, with two additional JuniorBots middle-school teams also running under advisors Jack and Adam Carbone.
 
-**2026 Design:**
+**2026 Design:** Spinlayden 2.0 is the team's second-generation 15-pound hexagonal meltybrain full-body spinner, built around a 6061 aluminum chassis with six A516 carbon-steel impact blades and driven by dual BaneBots P61 gearboxes at 645.6 RPM (≈26.9 mph tip speed, ~78 J per rotation). This season's redesign focuses on the failure points identified from Spinlayden 1.0 — reinforcing the chassis walls, redesigning the gearbox and bearing mounts for easier serviceability and better belt tension, and moving the meltybrain control software from Python to C# on a Raspberry Pi for tighter simultaneous-rotation-and-translation drive control.
 
 ---
 
@@ -558,6 +558,30 @@ CNC milling was provided by our industry sponsor, **Monode Marking Products**. M
 
 All internal components were 3D printed using **standard PLA filament**. Prototypes were printed at **15% infill** for rapid iteration, while final internal parts and backup/replacement components were printed at **solid (100%) infill** for maximum strength and durability.
 
+#### Physical Assembly
+
+The following photos document the build progression of Spinlayden 2.0 — from electronics mounting on the waterjet-cut 6061 aluminum bottom plate through full-chassis wiring integration. To avoid losing schedule time while waiting on the CNC shop, the team 3D-printed a full set of placeholder perimeter walls and a top plate in PLA so that wiring, component fitment, and layout could be validated in parallel with external machining. The images also show the 3D-printed PLA internal components (battery bracket, Pi/IMU housing) in their final mounted positions.
+
+<img src="Images/Discord/IMG_1573.jpg" alt="In-progress assembly of Spinlayden 2.0 on the waterjet-cut hex bottom plate showing Raspberry Pi, dual ESCs, BaneBots P61 gearboxes, green drive wheels, and battery XT90 connectors mounted before perimeter walls were installed" width="600">
+
+*Figure 15: In-progress assembly — waterjet-cut 6061 aluminum bottom plate with the Raspberry Pi 4B, dual EZRUN MAX10 ESCs, BaneBots P61 gearboxes, green BaneBots drive wheels, and battery XT90 interconnects mounted prior to perimeter wall installation*
+
+<img src="Images/Discord/IMG_1574.jpg" alt="Top-down view of the same assembly stage showing symmetric layout of electronics and drive components on the hex bottom plate" width="600">
+
+*Figure 15b: Top-down view of the same assembly stage showing the symmetric electronics and drive layout around the central Raspberry Pi housing*
+
+<img src="Images/Discord/IMG_1703.jpg" alt="Wiring-integration assembly with 3D-printed PLA placeholder walls installed, top plate removed for internal view showing the complete drive and power layout" width="500">
+
+*Figure 16: Wiring-integration assembly — the red and black perimeter walls are 3D-printed PLA placeholders, printed in-house so the team could validate electronics layout, wiring routing, and component fitment in parallel with the CNC-milled aluminum walls being fabricated off-site. Top plate removed for internal view. Final positioning of the dual BaneBots gearboxes, drive wheels, and the central Pi/IMU control stack is identical to the end-state aluminum build.*
+
+<img src="Images/Discord/IMG_1704.jpg" alt="Angled side view of the wiring-integration assembly showing the 3D-printed PLA placeholder walls, 3D-printed battery bracket, and 3D-printed Pi housing" width="600">
+
+*Figure 16b: Angled view of the same wiring-integration build — every colored wall panel, the top plate, the white battery bracket, and the Pi/IMU housing visible here are 3D-printed PLA parts. The colored walls and top plate are placeholders that will be swapped out for the anodized 6061 aluminum parts once they return from the CNC shop; the internal brackets (battery, Pi/IMU) are final flight hardware, printed at 100% infill per the internal-components fabrication spec.*
+
+<img src="Images/Discord/IMG_1746.jpg" alt="Close-up of the Raspberry Pi 4B with dual-fan heatsink case and the WT901 IMU mounted in a 3D-printed PLA bracket directly beneath it" width="450">
+
+*Figure 16c: Detail view of the 3D-printed PLA IMU mounting bracket supporting the WT901 9-axis IMU directly beneath the Raspberry Pi 4B — the printed enclosure provides a rigid, vibration-isolated mount for the gyroscope during high-RPM operation*
+
 ### Inventory
 
 The following table lists the tools and equipment available to Riverside Robotics for fabrication, assembly, and maintenance of Spinlayden. Keeping an accurate inventory ensures the team can plan work sessions effectively and identify when replacements or additional tools are needed.
@@ -734,6 +758,10 @@ The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the sh
 *Figure 8: Spinlayden 2.0 — Alternate isometric view with standard aluminum finish, showing chassis bolt heads, external mounting studs for the perimeter blades, and wheel clearance at the chassis corners*
 
 <img src="Images/Spinlayden_2.0_Assembly_Silver.png" alt="Spinlayden 2.0 isometric CAD render — silver finish view" width="600">
+
+*Figure 8b: Spinlayden 2.0 — Interior CAD view with the top plate removed, showing the internal layout of the dual BaneBots gearboxes, drive motors, 3D-printed battery bracket, Pi/IMU housing, and drive wheels mounted on the waterjet-cut 6061 aluminum bottom plate*
+
+<img src="Images/Discord/Spinlayden_Top-Bottom_Plate-9.png" alt="Spinlayden 2.0 interior CAD view with top plate removed showing internal component layout on the hex bottom plate" width="600">
 
 ### Engineering Drawing Set
 

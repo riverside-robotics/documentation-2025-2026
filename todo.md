@@ -28,7 +28,7 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 
 ## main.md - Placeholders / TODOs
 
-18. **Line 39** - `**2026 Design:**` — Empty, no content after it
+18. ~~**Line 39** - `**2026 Design:**` — Empty, no content after it~~ — Filled in at main.md line 67 with a two-sentence design summary (15-lb hexagonal meltybrain full-body spinner, 6061 aluminum chassis + A516 blades, dual BaneBots P61 gearboxes @ 645.6 RPM, plus the 1.0→2.0 improvements). Synthesized from existing Bot Description / Key Stats / Material Selection content; design team can revise with their own wording if desired.
 19. ~~**Line 122-124** - `## WEIIII - Riverside Robotics` — Entire section is just "TODO: Placeholder for formatting reasons." What is WEIIII?~~ — Replaced with Team Biographies, Mentor / Advisor Biographies, and Acknowledgements sections
 20. **Line 130** - Design section TODO about talking to Adam about the table from example doc pages 14-15 — The tables (Positive/Negative + Problem/Solution) have been added. Remaining Design section content (intro paragraph, Previous Bot write-up, 2026 Design description, CAD renders, engineering drawings) requested from design team via `designTeamRequest.md`
 21. **Line 134** - `**Previous Bot:**` — Label with nothing after it (no image or description)
@@ -71,6 +71,12 @@ These sections are present in the AWT example documentation (Blue Streak of Deat
 43. ~~**Lines 403-404** - March 10th: A full paragraph explanation is crammed into a Tasks and Goals table cell — reads more like a note than a task~~ — Moved explanation into Notes field, cleaned up table rows
 44. ~~**Line 313** - Feb 3rd: "Rerolled Software in C#" — significant pivot from Python with no explanation in the notes (notes are blank)~~ — Notes now filled with explanation of the C# pivot
 45. ~~**Line 377** - March 3rd: "All productivity went out the window once Dominos arrived" — funny but might want to rephrase for a formal doc~~ — Dominos reference removed
+
+---
+
+## Nice-to-Have Follow-ups
+
+46. **Re-photograph assembled chassis with aluminum walls** — Figures 16 and 16b currently show the wiring-integration build with 3D-printed PLA placeholder walls (used while waiting on the CNC-milled aluminum walls). Once the aluminum walls return from the CNC shop and are installed, take a matching set of photos and swap them into the Physical Assembly subsection. Not required for the April 18 submission — the current photos are correctly captioned as a placeholder-wall wiring mockup.
 
 ---
 
