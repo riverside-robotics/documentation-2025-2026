@@ -536,4 +536,3 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 |-----------------|-----------|
 | Finish up documentation | |
 | Building and testing the bot| |
-|              |            |
