@@ -28,38 +28,6 @@
 
 ---
 
-# Spinlayden Riverside Robotics
-
-**School:** Riverside High School
-**Address:** 585 Riverside Dr, Painesville, OH 44077
-
-**Advisors:** Jack Carbone, Adam Carbone
-**Industry Advisor:** JT Mackey
-
-**Team Members:**
-
-- Adam Pakeltis
-- Alexander Holmes
-- Ayden Moore
-- Benjamin Mackey
-- Daniel George
-- Dustin Hance
-- Jason Kellhofer
-- Jayden Craig
-- Kasey Kurzinger
-- Kaydan Kerr
-- Lukas Dauksa
-- Mher Poghosyan
-- Robert Rateno
-- Richard Rowland
-- Sultan Kazeem
-- Tom Kramer
-- Vincent Riha
-- Xayden Minch
-- Yash Jain
-
----
-
 ## Meet the Robotics Team
 
 **Overview:** Since 2022, Riverside High School had been without a robotics team. Former Class of 2023 students, Adam and Jack Carbone, took the opportunity to establish one. In just four months, from January to April, not only was a team formed, but Riverside Robotics also learned to design and manufacture its first robot in years, Spinlayden. This year, the high school roster has grown to 19 students on Team Meltdown, with two additional JuniorBots middle-school teams also running under advisors Jack and Adam Carbone.
@@ -250,7 +218,7 @@ The double-sided design allowed the robot to operate when inverted, eliminating 
 
 *Figure 1: Spinlayden 1.0 — Isometric CAD Render. CAD: Design Team (2024–2025 roster archive).*
 
-<img src="Images/Screenshot From 2026-04-15 21-28-49.png" alt="Spinlayden 1.0 — Isometric CAD Render" width="500">
+<img src="Images/Last Year/Screenshot From 2026-04-15 21-28-49.png" alt="Spinlayden 1.0 — Isometric CAD Render" width="500">
 
 *Figure 2: Spinlayden 1.0 — Top-Down CAD Render showing hexagonal chassis, six perimeter blades, dual drive wheels, and central Raspberry Pi housing. CAD: Design Team (2024–2025 archive).*
 
@@ -675,11 +643,11 @@ The machine runs at **$1 per minute** of run time. Each nest of two hexagons too
 
 *Figure 4: OMAX 5555 waterjet controller displaying the hexagonal plate cutting paths. Photo: Mechanical Team.*
 
-<img src="Images/Screenshot_20260411_163901_Gallery.jpg" alt="OMAX 5555 waterjet controller screen showing hexagonal plate cutting paths" width="600">
+<img src="Images/Discord/Screenshot_20260411_163901_Gallery.jpg" alt="OMAX 5555 waterjet controller screen showing hexagonal plate cutting paths" width="600">
 
 *Figure 5: Waterjet-cut 6061-T6 aluminum chassis plates — hexagonal top and bottom plates with weight reduction cutouts. Photo: Mechanical Team.*
 
-<img src="Images/20260411_171456.jpg" alt="Waterjet-cut aluminum chassis plates with hexagonal geometry and weight reduction cutouts" width="600">
+<img src="Images/Discord/20260411_171456.jpg" alt="Waterjet-cut aluminum chassis plates with hexagonal geometry and weight reduction cutouts" width="600">
 
 #### CNC Milling
 
@@ -1000,7 +968,7 @@ Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the 
 
 *Figure 12: WT901 9-axis IMU/gyroscope module used for rotational orientation sensing. Photo: Software Team.*
 
-<img src="Images/rn_image_picker_lib_temp_7dfe9feb-14aa-4327-b7fd-7c043ff04fee.jpg" alt="WT901 9-axis IMU gyroscope module" width="300">
+<img src="Images/Discord/rn_image_picker_lib_temp_7dfe9feb-14aa-4327-b7fd-7c043ff04fee.jpg" alt="WT901 9-axis IMU gyroscope module" width="300">
 
 *Figure 12b: WT901 silkscreen — labeled pin header (VCC, SCL, SDA, GND, RX, TX, D0–D3) and body-frame axes (X, Y, Z) used when wiring the module to the Raspberry Pi. Photo: Software Team.*
 
