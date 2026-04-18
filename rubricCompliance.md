@@ -68,7 +68,7 @@ Status key: DONE = complete, PARTIAL = started but needs more content, MISSING =
 | 28 | Refinements | DONE | 8 specific refinements from 1.0 to 2.0 documented |
 | 29 | Risk Analysis | DONE | Project-level risk matrix (Table 11) with 8 risks across schedule, manufacturing, and competition categories. FMEA covers component-level risks separately |
 | 30 | Structural Analysis | DONE | Full FMEA table with 8 failure modes, severity/likelihood ratings, and mitigations |
-| 31 | Engineering Drawing Sets | DONE | Three dimensioned Fusion 360 drawings (Wall, Gearbox Mount, Bearing Mount) produced by Robby Rateno on 3/3/26. Included as Fig 9-11 with CAD renders + clickable full-resolution PDF links |
+| 31 | Engineering Drawing Sets | DONE | Four dimensioned Fusion 360 drawings: Wall / Gearbox Mount / Bearing Mount (Robby Rateno, 3/3/26) and Top-Bottom Plate (Adam Pakeltis, 4/18/26). Included as Fig 9–11b with CAD renders + clickable full-resolution PDF links. Only the A516 blade drawing still pending (grade report Fix I) |
 | 32 | Manufacturing Plan | DONE | Manufacturing overview under Project Overview rewritten to summarize the three-process plan (CNC mill, waterjet, FDM 3D print) and point to the detailed Fabrication section. Fabrication section already contains step-by-step procedures and Physical Assembly photos |
 | 33 | Weapon System Details | DONE | Blade specs, energy output, full-body spinner design explained |
 | 34 | Drive System Details | DONE | Motors, ESCs, gearboxes, wheels, hubs, shafts, bearings, belts, steering |

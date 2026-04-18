@@ -858,7 +858,7 @@ The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the sh
 
 ### Engineering Drawing Set
 
-Dimensioned mechanical drawings for the three primary machined parts of Spinlayden 2.0 were produced in Autodesk Fusion 360 by team member Robby Rateno on March 3, 2026. Each drawing is provided at 1:1 scale, Size B, and includes top, side, and edge views with tolerances suitable for CNC milling and waterjet cutting.
+Dimensioned mechanical drawings for the primary fabricated parts of Spinlayden 2.0 were produced in Autodesk Fusion 360 by Robby Rateno (Wall, Gearbox Mount, Bearing Mount — 3/3/2026) and Adam Pakeltis (Top-Bottom Plate — 4/18/2026). Each drawing is provided at 1:1 scale with tolerances suitable for CNC milling and waterjet cutting.
 
 **Wall Plate** — the perimeter wall panel of the hexagonal chassis. Six of these are arranged around the bot, providing the primary impact surface. Overall size: 6.88" × 2.91"; thickness: 3/8". Features four rectangular weight-reduction pockets on the inner half only (to preserve edge strength at impact zones) and mounting bolt patterns for the top and bottom plates.
 
@@ -889,6 +889,14 @@ Dimensioned mechanical drawings for the three primary machined parts of Spinlayd
 *Figure 11a: Bearing mount — dimensioned drawing (1:1 scale, Size B) by Robby Rateno, 3/3/2026*
 
 <img src="Images/Engineering Drawings/Bearing_Mount_Drawing-2.png" alt="Bearing mount dimensioned drawing" width="600">
+
+**Top-Bottom Plate** — the hexagonal chassis plate used for both the top and bottom of the bot (identical geometry, so a single drawing covers both parts). Waterjet-cut from 1/8" 6061-T6 aluminum on the OMAX 5555 at Case Western think[box]. Overall length: 13.86" across flats; thickness: 0.13". Features a dense pattern of weight-reduction slots (all interior-radius 0.15"), wheel-well cutouts with an end-to-end length of 3.464", mounting bolt holes, and component pass-throughs for the drive and electronics stack. See the full dimensioned drawing for slot spacing, mounting hole locations (Ø.16), and corner radii (R.25 / R.5 / R.15).
+
+*Figure 11b: Top-Bottom Plate — dimensioned drawing (1:1 scale, Size A) by Adam Pakeltis, 4/18/2026. Covers both the top and bottom hex plates (identical geometry).*
+
+<img src="Images/Engineering Drawings/Finalized_Spinlayden_Top-Bottom_Plate_Drawing-1.png" alt="Spinlayden Top-Bottom Plate dimensioned drawing — two hex views with weight-reduction slot dimensions, wheel wells, and edge profile showing 0.13-inch plate thickness" width="600">
+
+[Full-resolution PDF for 1:1 print: `Images/Engineering Drawings/Finalized Spinlayden Top-Bottom Plate Drawing.pdf`](Images/Engineering%20Drawings/Finalized%20Spinlayden%20Top-Bottom%20Plate%20Drawing.pdf)
 
 ### Weapon System Details
 
