@@ -51,9 +51,9 @@ Add a step-by-step assembly procedure section. Cover:
 
 Currently only in `meetingNotes.md`. Judges want them in the main document.
 
-- [ ] Copy a summarized minutes table (date, attendees, topics, decisions) into `main.md` under Team Procedures or Time Management
-- [ ] Keep it tight — table format, not transcripts
-- [ ] Cross-reference `meetingNotes.md` for the long form
+- [x] Copy a summarized minutes table (date, attendees, topics, decisions) into `main.md` under Team Procedures or Time Management
+- [x] Keep it tight — table format, not transcripts
+- [x] Cross-reference `meetingNotes.md` for the long form
 
 ---
 
