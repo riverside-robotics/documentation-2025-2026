@@ -892,7 +892,11 @@ Dimensioned mechanical drawings for the primary fabricated parts of Spinlayden 2
 
 **Top-Bottom Plate** — the hexagonal chassis plate used for both the top and bottom of the bot (identical geometry, so a single drawing covers both parts). Waterjet-cut from 1/8" 6061-T6 aluminum on the OMAX 5555 at Case Western think[box]. Overall length: 13.86" across flats; thickness: 0.13". Features a dense pattern of weight-reduction slots (all interior-radius 0.15"), wheel-well cutouts with an end-to-end length of 3.464", mounting bolt holes, and component pass-throughs for the drive and electronics stack. See the full dimensioned drawing for slot spacing, mounting hole locations (Ø.16), and corner radii (R.25 / R.5 / R.15).
 
-*Figure 11b: Top-Bottom Plate — dimensioned drawing (1:1 scale, Size A) by Adam Pakeltis, 4/18/2026. Covers both the top and bottom hex plates (identical geometry).*
+*Figure 11b: Top-Bottom Plate — top-down CAD render showing the full slot pattern, wheel-well cutouts, perimeter bolt holes, and central access windows. CAD: Design Team.*
+
+<img src="Images/Engineering Drawings/Screenshot 2026-03-10 174514.png" alt="Top-down CAD render of the Spinlayden 2.0 hex top/bottom plate showing weight-reduction slots, wheel-well cutouts, and mounting hole pattern" width="450">
+
+*Figure 11c: Top-Bottom Plate — dimensioned drawing (1:1 scale, Size A) by Adam Pakeltis, 4/18/2026. Covers both the top and bottom hex plates (identical geometry).*
 
 <img src="Images/Engineering Drawings/Finalized_Spinlayden_Top-Bottom_Plate_Drawing-1.png" alt="Spinlayden Top-Bottom Plate dimensioned drawing — two hex views with weight-reduction slot dimensions, wheel wells, and edge profile showing 0.13-inch plate thickness" width="600">
 
