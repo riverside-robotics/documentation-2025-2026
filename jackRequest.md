@@ -5,7 +5,7 @@
 
 These are the remaining items that Jack can directly provide or help get done before the documentation deadline. Items are ordered by priority.
 
----ddd
+--
 
 ## High Priority — Directly Needed for Rubric Compliance
 
