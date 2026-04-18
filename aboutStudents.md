@@ -64,7 +64,7 @@ Adam and Jack revived the AWT Robobots program in 2025 after a multi-year hiatus
 
 **Robert Rateno:** This returning sophomore is ready to hit the cage for their second competition. As the team's driver, they are prepared to take the wheel and steer the robot to victory. Alongside robotics, this student keeps the beat in the school's marching band. Outside of school, they enjoy playing the drums, 3D printing, and tinkering with RC vehicles. This experienced competitor is excited to show off their driving skills and dominate the competition.
 
-**Richard Rowland:** *Bio not yet submitted.*
+**Richard Rowland:** This 13-year-old eighth grader brings a laid-back attitude to his first year on the team. When he isn't claiming to be "bored," he is proudly cheering on his favorite baseball team as the undisputed #1 Cleveland Guardians fan. Richard is ready to shake off the boredom and step up to the plate for an exciting season of robotics!
 
 **Sultan Kazeem:** This bright junior is stepping into the cage for his very first time. Bringing his skills to the mechanical team, Sultan is excited to win at competition. He is actively involved in Model UN, Academic Challenge, choir, and Investment Club. When not building robots, he enjoys bike riding. This hardworking student cannot wait to dominate.
 
