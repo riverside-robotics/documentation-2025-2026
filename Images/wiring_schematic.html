@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Spinlayden 2.0 — Wiring Schematic</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
+
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  body { font-family: 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #111827; }
+
+  .sheet {
+    position: relative;
+    width: 1500px;
+    height: 1280px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+
+  .title {
+    position: absolute;
+    top: 18px; left: 0; right: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .subtitle {
+    position: absolute;
+    top: 52px; left: 0; right: 0;
+    text-align: center;
+    font-size: 13px;
+    color: #4b5563;
+    font-weight: 300;
+    padding: 0 60px;
+  }
+
+  .section-label {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .power-label   { color: #b91c1c; }
+  .signal-label  { color: #1d4ed8; }
+
+  .rule {
+    position: absolute;
+    height: 0;
+    border-top: 1px dashed #9ca3af;
+    left: 40px; right: 40px;
+  }
+
+  .bank-tag {
+    position: absolute;
+    font-size: 11px;
+    font-weight: 700;
+    color: #6b7280;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .node {
+    position: absolute;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.35;
+  }
+  .node b     { display: block; font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+  .node small { display: block; font-size: 11px; color: #4b5563; font-weight: 300; }
+  .node em    { font-style: normal; font-weight: 500; }
+
+  .batt  { background: #fef3c7; border: 1.5px solid #92400e; }
+  .batt .terminals {
+    position: absolute;
+    left: 10px; right: 10px; bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .batt .pos { color: #b91c1c; }
+  .batt .neg { color: #111827; }
+
+  .kill  {
+    background: #fee2e2;
+    border: 3px solid #b91c1c;
+    box-shadow: 0 0 0 4px #fef2f2;
+  }
+  .kill b     { font-size: 20px; color: #991b1b; letter-spacing: 0.5px; }
+  .kill small { color: #7f1d1d; font-size: 12px; font-weight: 500; }
+  .esc   { background: #f9fafb; border: 1.5px solid #111827; }
+  .motor { background: #ecfccb; border: 1.5px solid #4d7c0f; }
+  .rx    { background: #ecfeff; border: 1.5px solid #0e7490; }
+  .pi    { background: #eef2ff; border: 1.5px solid #1e3a8a; text-align: left; padding: 12px 16px; }
+  .pi b  { text-align: center; }
+  .pi small { text-align: left; font-size: 11px; color: #374151; font-family: 'JetBrains Mono', 'Menlo', monospace; font-weight: 400; }
+  .pi .pi-sub { text-align: center; display: block; margin-bottom: 8px; color: #4b5563; }
+  .imu   { background: #f3e8ff; border: 1.5px solid #6d28d9; }
+  .tx    { background: #f9fafb; border: 1.5px solid #111827; }
+
+  .wire-label {
+    position: absolute;
+    font-size: 10px;
+    color: #374151;
+    background: #ffffff;
+    padding: 1px 4px;
+    font-weight: 500;
+  }
+  .wire-label.red   { color: #b91c1c; }
+  .wire-label.black { color: #111827; }
+  .wire-label.blue  { color: #1d4ed8; }
+  .wire-label.green { color: #15803d; }
+  .wire-label.pwm   { color: #c2410c; }
+  .wire-label.uart  { color: #6d28d9; }
+
+  .legend {
+    position: absolute;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 11px;
+    line-height: 1.8;
+  }
+  .legend h4 {
+    margin: 0 0 6px 0;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .legend .sw {
+    display: inline-block;
+    width: 36px;
+    height: 3px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .legend .sw.pwr   { background: #b91c1c; height: 5px; }
+  .legend .sw.gnd   { background: #111827; height: 4px; }
+  .legend .sw.bec   { background: repeating-linear-gradient(90deg, #15803d 0 6px, transparent 6px 10px); }
+  .legend .sw.rxsig { background: #1d4ed8; }
+  .legend .sw.pwm   { background: #c2410c; }
+  .legend .sw.uart  { background: #6d28d9; }
+
+  svg.wires {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="title">Spinlayden 2.0 — Wiring Schematic</div>
+  <div class="subtitle">Single MS-05 kill switch on the +V main trunk cuts power to every bot subsystem — both motors, Pi, receiver, IMU. GND is a continuous common return that bypasses the switch. FS-iA6B receiver connects to the Pi on 3 wires. Dual EZRUN MAX10 ESCs drive EZRUN 3660 SL G2 motors.</div>
+
+  <div class="section-label power-label" style="top: 98px; left: 40px;">Power Path · high current · 11.1 V main bus (+V red / GND black)</div>
+  <div class="rule" style="top: 118px;"></div>
+
+  <div class="bank-tag" style="top: 138px; left: 444px;">Bank A (left packaging)</div>
+  <div class="bank-tag" style="top: 138px; left: 934px;">Bank B (right packaging)</div>
+
+  <div class="node batt" style="top: 158px; left: 390px; width: 150px; height: 72px;">
+    <b>Battery 1</b><small>Liperior 3S LiPo</small><small>3200 mAh</small>
+    <div class="terminals"><span class="pos">+</span><span class="neg">−</span></div>
+  </div>
+  <div class="node batt" style="top: 158px; left: 550px; width: 150px; height: 72px;">
+    <b>Battery 2</b><small>Liperior 3S LiPo</small><small>3200 mAh</small>
+    <div class="terminals"><span class="pos">+</span><span class="neg">−</span></div>
+  </div>
+  <div class="node batt" style="top: 158px; left: 800px; width: 150px; height: 72px;">
+    <b>Battery 3</b><small>Liperior 3S LiPo</small><small>3200 mAh</small>
+    <div class="terminals"><span class="pos">+</span><span class="neg">−</span></div>
+  </div>
+  <div class="node batt" style="top: 158px; left: 960px; width: 150px; height: 72px;">
+    <b>Battery 4</b><small>Liperior 3S LiPo</small><small>3200 mAh</small>
+    <div class="terminals"><span class="pos">+</span><span class="neg">−</span></div>
+  </div>
+
+  <div class="wire-label red"   style="top: 268px; left: 40px;">+V bus · 11.1 V trunk (~12,800 mAh)</div>
+  <div class="wire-label black" style="top: 288px; left: 40px;">GND bus · common return (bypasses kill switch)</div>
+
+  <div class="node kill" style="top: 315px; left: 520px; width: 460px; height: 96px;">
+    <b>MS-05 KILL SWITCH</b>
+    <small>single · on +V trunk · cuts ALL bot power when thrown</small>
+    <small><em>both ESCs, Pi, receiver, IMU all go dark in one action</em></small>
+  </div>
+
+  <div class="wire-label red"   style="top: 460px; left: 680px;">+V splits to both ESCs →</div>
+  <div class="wire-label black" style="top: 425px; left: 695px;">GND splits to both ESCs →</div>
+
+  <div class="node esc" style="top: 490px; left: 250px; width: 300px; height: 120px;">
+    <b>Left ESC</b>
+    <small>EZRUN MAX10 SCT · 120 A continuous</small>
+    <small>3-phase output → Left motor</small>
+    <small style="color: #15803d; font-weight: 500;">BEC +5 V → Pi Pin 4 (powers Pi)</small>
+  </div>
+  <div class="node esc" style="top: 490px; left: 950px; width: 300px; height: 120px;">
+    <b>Right ESC</b>
+    <small>EZRUN MAX10 SCT · 120 A continuous</small>
+    <small>3-phase output → Right motor</small>
+    <small style="color: #6b7280;">BEC +V: NOT CONNECTED</small>
+  </div>
+
+  <div class="node motor" style="top: 660px; left: 280px; width: 240px; height: 92px;">
+    <b>Left Motor</b>
+    <small>Hobbywing EZRUN 3660 SL G2</small>
+    <small>brushless · 20:1 gearbox</small>
+  </div>
+  <div class="node motor" style="top: 660px; left: 980px; width: 240px; height: 92px;">
+    <b>Right Motor</b>
+    <small>Hobbywing EZRUN 3660 SL G2</small>
+    <small>brushless · 20:1 gearbox</small>
+  </div>
+
+  <div class="section-label signal-label" style="top: 805px; left: 40px;">Signal Path · low current · 2.4 GHz radio · GPIO · UART</div>
+  <div class="rule" style="top: 825px;"></div>
+
+  <div class="node tx" style="top: 855px; left: 40px; width: 200px; height: 98px;">
+    <b>FlySky FS-i6X</b>
+    <small>2.4 GHz transmitter</small>
+    <small>(operator, outside bot)</small>
+  </div>
+
+  <div class="wire-label blue" style="top: 888px; left: 250px;">2.4 GHz air link →</div>
+
+  <div class="node rx" style="top: 855px; left: 360px; width: 240px; height: 128px;">
+    <b>FS-iA6B receiver</b>
+    <small>iBUS out — 3 wires total</small>
+    <small>V+ · GND · S (signal)</small>
+    <small>115200 baud → UART3 RX on Pi</small>
+  </div>
+
+  <div class="node pi" style="top: 855px; left: 640px; width: 560px; height: 260px;">
+    <b>Raspberry Pi 4B (8 GB)</b>
+    <span class="pi-sub">C# meltybrain control · GPIO header (J8)</span>
+    <small>Pin 2  (5V)    ◄ FS-iA6B V+</small>
+    <small>Pin 6  (GND)   ◄ FS-iA6B G</small>
+    <small>Pin 29 (GPIO 5, UART3 RX) ◄ FS-iA6B iBUS S</small>
+    <small>Pin 4  (5V)    ◄ Left ESC BEC +5 V (powers Pi)</small>
+    <small>Pin 32 (GPIO 12, PWM0)    ► Left ESC signal in</small>
+    <small>Pin 33 (GPIO 13, PWM1)    ► Right ESC signal in</small>
+    <small>Pin 1  (3V3)   ► IMU VCC</small>
+    <small>Pin 8  (GPIO 14, UART0 TX) ► IMU RX</small>
+    <small>Pin 10 (GPIO 15, UART0 RX) ◄ IMU TX</small>
+    <small>Pin 9 / 14 / 20 (GND) ► IMU, Left ESC, Right ESC GND</small>
+  </div>
+
+  <div class="node imu" style="top: 855px; left: 1240px; width: 230px; height: 128px;">
+    <b>WT901 / WT61P IMU</b>
+    <small>9-axis gyroscope · 200 Hz</small>
+    <small>4-wire tie — VCC · TX · RX · GND</small>
+    <small>UART0 · 9600 baud</small>
+    <small>3.3 V rail from Pi Pin 1</small>
+  </div>
+
+  <div class="legend" style="top: 1030px; left: 40px; width: 560px;">
+    <h4>Legend</h4>
+    <div><span class="sw pwr"></span>+V high-current power (batteries → kill switch → ESCs → motors)</div>
+    <div><span class="sw gnd"></span>GND common return (batteries → around kill switch → ESCs)</div>
+    <div><span class="sw bec"></span>BEC +5 V (Left ESC → Pi Pin 4; regulated, dashed)</div>
+    <div><span class="sw rxsig"></span>Receiver iBUS signal (UART3, 115200 baud)</div>
+    <div><span class="sw pwm"></span>PWM (50 Hz, 1–2 ms) — Pi → ESCs</div>
+    <div><span class="sw uart"></span>IMU UART (TX/RX) — Pi ↔ WT901 at 9600 baud</div>
+  </div>
+
+  <div class="legend" style="top: 1130px; left: 640px; width: 560px; font-size: 11px;">
+    <h4>Kill-switch behavior</h4>
+    <div>The MS-05 sits on the +V rail of the 11.1 V main trunk upstream of the ESC split. GND is a common return that bypasses the switch entirely. Throwing the switch cuts current to both ESCs, which also cuts the Left-ESC BEC that powers the Pi — every active subsystem (motors, Pi, receiver, IMU) drops in one action. Satisfies AWT 2.4 (full deactivation within 60 s via manual disconnect).</div>
+  </div>
+
+  <svg class="wires" viewBox="0 0 1500 1280" preserveAspectRatio="none">
+    <defs>
+      <marker id="arRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#b91c1c"/>
+      </marker>
+      <marker id="arBlack" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+      </marker>
+      <marker id="arBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d4ed8"/>
+      </marker>
+      <marker id="arGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#15803d"/>
+      </marker>
+      <marker id="arOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#c2410c"/>
+      </marker>
+      <marker id="arPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#6d28d9"/>
+      </marker>
+    </defs>
+
+    <!-- Battery +V stubs (red) dropping into +V bus at y=275 -->
+    <path d="M 400 230 L 400 275" stroke="#b91c1c" stroke-width="3" fill="none"/>
+    <path d="M 560 230 L 560 275" stroke="#b91c1c" stroke-width="3" fill="none"/>
+    <path d="M 810 230 L 810 275" stroke="#b91c1c" stroke-width="3" fill="none"/>
+    <path d="M 970 230 L 970 275" stroke="#b91c1c" stroke-width="3" fill="none"/>
+    <!-- +V bus -->
+    <path d="M 400 275 L 970 275" stroke="#b91c1c" stroke-width="3.5" fill="none"/>
+
+    <!-- Battery GND stubs (black) dropping into GND bus at y=295 -->
+    <path d="M 530 230 L 530 295" stroke="#111827" stroke-width="2.5" fill="none"/>
+    <path d="M 690 230 L 690 295" stroke="#111827" stroke-width="2.5" fill="none"/>
+    <path d="M 940 230 L 940 295" stroke="#111827" stroke-width="2.5" fill="none"/>
+    <path d="M 1100 230 L 1100 295" stroke="#111827" stroke-width="2.5" fill="none"/>
+    <!-- GND bus -->
+    <path d="M 530 295 L 1100 295" stroke="#111827" stroke-width="3" fill="none"/>
+
+    <!-- +V trunk: bus center down into kill switch top -->
+    <path d="M 685 275 L 685 312" stroke="#b91c1c" stroke-width="5" fill="none" marker-end="url(#arRed)"/>
+    <!-- +V trunk: out of kill switch bottom down to +V split bus -->
+    <path d="M 685 411 L 685 448" stroke="#b91c1c" stroke-width="5" fill="none"/>
+    <!-- +V split bus -->
+    <path d="M 400 448 L 1100 448" stroke="#b91c1c" stroke-width="4" fill="none"/>
+    <!-- +V drops to ESCs -->
+    <path d="M 400 448 L 400 487" stroke="#b91c1c" stroke-width="4" fill="none" marker-end="url(#arRed)"/>
+    <path d="M 1100 448 L 1100 487" stroke="#b91c1c" stroke-width="4" fill="none" marker-end="url(#arRed)"/>
+
+    <!-- GND trunk: skirts around right side of kill switch -->
+    <path d="M 1100 295 L 1100 413" stroke="#111827" stroke-width="3" fill="none"/>
+    <!-- GND split bus (below kill switch, above +V split) -->
+    <path d="M 380 413 L 1120 413" stroke="#111827" stroke-width="3" fill="none"/>
+    <!-- GND drops to ESCs -->
+    <path d="M 380 413 L 380 487" stroke="#111827" stroke-width="3" fill="none" marker-end="url(#arBlack)"/>
+    <path d="M 1120 413 L 1120 487" stroke="#111827" stroke-width="3" fill="none" marker-end="url(#arBlack)"/>
+
+    <!-- ESC → Motor (3-phase, thick red) -->
+    <path d="M 400 610 L 400 657" stroke="#b91c1c" stroke-width="4" fill="none" marker-end="url(#arRed)"/>
+    <path d="M 1100 610 L 1100 657" stroke="#b91c1c" stroke-width="4" fill="none" marker-end="url(#arRed)"/>
+
+    <!-- 2.4 GHz air link arrow -->
+    <path d="M 242 904 L 356 904" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="6 4" fill="none" marker-end="url(#arBlue)"/>
+
+    <!-- Receiver → Pi: 3 explicit wires (V+, GND, iBUS) in the 40 px gap -->
+    <path d="M 600 880 L 638 880" stroke="#b91c1c" stroke-width="2.5" fill="none" marker-end="url(#arRed)"/>
+    <path d="M 600 912 L 638 912" stroke="#111827" stroke-width="2"   fill="none" marker-end="url(#arBlack)"/>
+    <path d="M 600 945 L 638 945" stroke="#1d4ed8" stroke-width="2"   fill="none" marker-end="url(#arBlue)"/>
+    <text x="619" y="874" font-family="Lexend, sans-serif" font-size="9" fill="#b91c1c" text-anchor="middle">V+</text>
+    <text x="619" y="906" font-family="Lexend, sans-serif" font-size="9" fill="#111827" text-anchor="middle">GND</text>
+    <text x="619" y="939" font-family="Lexend, sans-serif" font-size="9" fill="#1d4ed8" text-anchor="middle">iBUS</text>
+
+    <!-- Pi → Left ESC PWM — routed at x=260 corridor to bypass Left Motor (x=280..520) -->
+    <path d="M 680 855 L 680 790 L 260 790 L 260 610" stroke="#c2410c" stroke-width="1.8" fill="none" marker-end="url(#arOrange)"/>
+    <text x="470" y="782" font-family="Lexend, sans-serif" font-size="11" fill="#c2410c" text-anchor="middle">PWM0 (GPIO 12) → Left ESC signal</text>
+
+    <!-- Pi → Right ESC PWM — routed at x=1240 corridor to bypass Right Motor (x=980..1220) -->
+    <path d="M 1000 855 L 1000 790 L 1240 790 L 1240 610" stroke="#c2410c" stroke-width="1.8" fill="none" marker-end="url(#arOrange)"/>
+    <text x="1120" y="782" font-family="Lexend, sans-serif" font-size="11" fill="#c2410c" text-anchor="middle">PWM1 (GPIO 13) → Right ESC signal</text>
+
+    <!-- Pi ↔ IMU: 4 wires — VCC (red), TX (purple), RX (purple), GND (black) -->
+    <path d="M 1200 895 L 1238 895" stroke="#b91c1c" stroke-width="1.8" fill="none" marker-end="url(#arRed)"/>
+    <path d="M 1200 920 L 1238 920" stroke="#6d28d9" stroke-width="1.8" fill="none" marker-end="url(#arPurple)"/>
+    <path d="M 1238 945 L 1200 945" stroke="#6d28d9" stroke-width="1.8" fill="none" marker-end="url(#arPurple)"/>
+    <path d="M 1200 970 L 1238 970" stroke="#111827" stroke-width="1.8" fill="none" marker-end="url(#arBlack)"/>
+    <text x="1219" y="889" font-family="Lexend, sans-serif" font-size="9" fill="#b91c1c" text-anchor="middle">VCC</text>
+    <text x="1219" y="914" font-family="Lexend, sans-serif" font-size="9" fill="#6d28d9" text-anchor="middle">TX</text>
+    <text x="1219" y="939" font-family="Lexend, sans-serif" font-size="9" fill="#6d28d9" text-anchor="middle">RX</text>
+    <text x="1219" y="964" font-family="Lexend, sans-serif" font-size="9" fill="#111827" text-anchor="middle">GND</text>
+
+    <!-- Left ESC BEC +5V → Pi Pin 4 (green dashed, upper lane y=770) -->
+    <path d="M 530 610 L 530 770 L 700 770 L 700 855" stroke="#15803d" stroke-width="2" stroke-dasharray="6 4" fill="none" marker-end="url(#arGreen)"/>
+    <text x="620" y="762" font-family="Lexend, sans-serif" font-size="11" fill="#15803d" text-anchor="middle">BEC +5 V → Pi Pin 4 (powers Pi)</text>
+  </svg>
+
+</div>
+</body>
+</html>

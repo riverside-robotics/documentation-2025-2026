@@ -6,10 +6,6 @@
 
 **AWT Regional RoboBots Competition — 2025–2026 Season**
 
-<img src="Images/team_photo_placeholder.svg" alt="Team Meltdown 2025-2026 team photo (placeholder)" width="800">
-
-*Team Meltdown — 2025-2026 roster (photo pending).*
-
 ### Team Members
 
 | | | |
@@ -132,7 +128,7 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Adam Pakeltis:** This hardworking senior is thrilled to join Team Meltdown for his very first year. Alongside robotics, Adam has played football and is an active member of the National Honor Society. Outside of the cage, this first-time competitor stays incredibly busy. He volunteers for both NHS and the Lake Metroparks, works weekends at Hellriegel's Inn, lifts weights, fishes, and enjoys working outside. When he isn't building plastic model kits or designing projects in Fusion 360, he loves hanging out with his girlfriend and watching "Deal or No Deal" with his family. This well-rounded student is more than ready to bring his diverse skills to the team and experience his first competition.
 
-**Alexander Danger Holmes:** Returning for his second year, this sharp junior is ready to take the competition by storm. Bringing his strategic mindset to the team, Alexander takes charge of marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. When he isn't busy promoting the team, he enjoys reading, following F1 racing, and competing in fencing. With a middle name like Danger, this experienced student is definitely prepared to help his team stand out and succeed.
+**Alexander Holmes:** Returning for his second year, this sharp junior brings a strategic mindset to Team Meltdown and leads the team's marketing operations. Along with robotics, he is actively involved in Accounting and Model UN. Outside of school, he enjoys reading, following Formula 1, and competing in fencing. With a full season of experience behind him, Alexander is well positioned to represent the team at competition.
 
 **Ayden Moore:** This returning junior is back and ready to conquer the cage for his second competition. As the team's all-around helper, Ayden is actively involved in Robotics, Esports, and NTHS. Outside of school, he enjoys programming, exercising, watching TV, and playing video games. This versatile competitor is eager to take the wheel to drive a bot and watch it win.
 
@@ -140,7 +136,7 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Daniel George:** This talented junior is stepping into the cage for his very first time. Daniel brings his skills to both the mechanical and documentation sides of the team. He is actively involved in robotics, Model UN, and marching band. Outside of school, he enjoys skiing and teaching others on the slopes, playing the saxophone, drawing, and conquering *Dark Souls*. This dedicated student is eager to dive into the competition and gain valuable experience this season.
 
-**Dustin Hance:** Returning for his second year on the Riverside robotics team, this junior brings a strong passion for computers, networking, cybersecurity, and programming. On the software team, Dustin has been central to keeping Spinlayden 2.0's Raspberry Pi running — setting up the headless OS, managing dependencies, and pulling the team's latest code from GitHub throughout the season. In his free time, he enjoys playing video games and tinkering with his personal homelab. This tech-savvy competitor is ready for the season and is mostly just hoping the software he "vibecoded" actually works!
+**Dustin Hance:** Returning for his second year on the Riverside robotics team, this junior brings a strong passion for computers, networking, cybersecurity, and programming. On the software team, Dustin has been central to keeping Spinlayden 2.0's Raspberry Pi running — setting up the headless OS, managing dependencies, and pulling the team's latest code from GitHub throughout the season. In his free time, he enjoys playing video games and tinkering with his personal homelab. This tech-savvy competitor is ready for the season and committed to delivering reliable control software for Spinlayden 2.0.
 
 **Jason Kellhofer:** This aspiring freshman steps into the arena for his first ever competition! Jason Kellhofer brings a dedicated mindset to the team, focusing on maintaining precise documentation and completing any tasks assigned to him. He consistently pushes himself academically by tackling a full schedule of honors classes, showcasing his drive for excellence. Outside the classroom, Jason likes to play wiffleball and diving into computer systems to expand his knowledge. This proactive competitor is eager to see how his and his team's skills combine to ensure a secured win this season.
 
@@ -166,7 +162,7 @@ Through the combined support of our partners, Riverside Robotics is able to offe
 
 **Xayden Minch:** This ambitious freshman is stepping into the arena for his very first competition! Xayden brings a versatile set of skills to the team, where he focuses on maintaining detailed documentation and tackling any miscellaneous tasks needed to keep the project moving forward. A dedicated member of the school band, he stays just as busy outside the classroom. Whether he is playing the flute, building computers from scratch, coding, or diving into video games, he is always exploring the world of technology. This proactive competitor is eager to contribute his technical talents and help the team achieve a successful season.
 
-**Yash Jain:** This 15-year-old freshman brings his Python programming skills and a love for electrical work to the team. Though he jokingly describes himself as "tired and extremely idiotic," Yash is a great sport who keeps everyone laughing. Whether he is wiring the robot or writing code, he is a dedicated member — even if the team's running joke is that whenever something goes wrong, "it's always Yash's fault!"
+**Yash Jain:** This 15-year-old freshman brings Python programming skills and a strong interest in electrical work to the team, contributing across both the software and electrical subteams. Whether he is wiring the robot or pitching in on the codebase, Yash has been a consistent and enthusiastic presence throughout the season. This first-year competitor is excited to put his technical skills to work on Spinlayden 2.0.
 
 ## Mentor / Advisor Biographies
 
@@ -327,7 +323,7 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 |-----------|--------|--------------|
 | Software | Control software that manages both rotational weapon operation and translational movement. | Developing a C# program that computes the translational vectors required for simultaneous rotation and translation. |
 | Robustness | Withstanding impact damage from opposing robots and recovering from inversion during combat. | Maintaining operational capability and protecting the onboard control system (Raspberry Pi) under all combat conditions. |
-| Offensive Output | Spinlayden's ability to harm other teams' bots. | Making sure that Spinlayden is the most powerful bot at the competition. |
+| Offensive Output | Kinetic energy delivered per impact and tip speed at full operational RPM. | Delivering approximately 78 J of impact energy per rotation at 645.6 RPM (~26.9 mph tip speed) through the six 1/2" carbon steel hex-bolt impact weapons. |
 
 ### Team Members
 
@@ -353,13 +349,13 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 ### Deliverables
 
-- [ ] Company sponsor information
-- [ ] Statement of robot design intent
-- [ ] Robot design specification and assembly
-- [ ] Research and robot design ideas
-- [ ] Manufacturing procedure of robot design
-- [ ] Quality control specifications and testing
-- [ ] Possible robot design changes
+- [x] Company sponsor information *(see Our Partners)*
+- [x] Statement of robot design intent *(see Design and Bot Description)*
+- [x] Robot design specification and assembly *(see CAD Models, Engineering Drawing Set, and Fabrication → Assembly Process)*
+- [x] Research and robot design ideas *(see Influences and Design Process → Research, Analysis and Conceptualization)*
+- [x] Manufacturing procedure of robot design *(see Team Procedures → Fabrication)*
+- [x] Quality control specifications and testing *(see Design Process → Testing Results)*
+- [x] Possible robot design changes *(see Influences → What Was Changed and Design Process → Refinement)*
 
 ### Key Milestones
 
@@ -376,7 +372,7 @@ The High School Robotics Club is also an opportunity for Riverside Students to l
 
 ### Constraints / Risks / Dependables
 
-Since Riverside Robotics has previously designed, manufactured, and assembled a robot of Spinlayden's configuration, iterating on the existing platform does not present significant design challenges. However, the team requires identification of a manufacturing partner for this season, as machining access was not confirmed at the time of writing. The team's experienced advisors are coordinating with industry partners to secure fabrication support.
+Since Riverside Robotics has previously designed, manufactured, and assembled a robot of Spinlayden's configuration, iterating on the existing platform does not present significant design challenges. Manufacturing access for the 2025–2026 season is secured through two primary partners: **Monode Marking Products** for CNC milling of the 6061-T6 aluminum perimeter walls, bearing mount, and gearbox mount, and **Case Western Reserve University's think[box]** for waterjet cutting of the hexagonal top and bottom plates on an OMAX 5555. Internal components are 3D printed in-house on printers donated by Show Studio LLC. The remaining project dependencies are the final integration and full-speed testing window (April 14–24) prior to the competition on April 25, and on-time completion of this documentation by the April 18 deadline — both tracked against the schedule in Table 6c.
 
 ---
 
@@ -391,15 +387,15 @@ Since Riverside Robotics has previously designed, manufactured, and assembled a 
 | Adam Carbone | Advisor | Advisor |
 | Jack Carbone | Advisor | Advisor |
 | Adam Pakeltis | Mechanical | 12th |
-| Alexander Holmes | Mechanical | Marketing | 11th |
+| Alexander Holmes | Mechanical, Marketing | 11th |
 | Ayden Moore | Mechanical | 11th |
 | Benjamin Mackey | Documentation | 8th |
 | Daniel George | Documentation | 11th |
 | Dustin Hance | Software | 11th |
 | Jason Kellhofer | Documentation | 9th |
 | Jayden Craig | Mechanical, Marketing, Electrical | 10th |
-| Kasey Kurzinger | Documentation | Mechanical | 8th |
-| Kaydan Kerr | Documentation | Mechanical | 8th |
+| Kasey Kurzinger | Documentation, Mechanical | 8th |
+| Kaydan Kerr | Documentation, Mechanical | 8th |
 | Lukas Dauksa | Electrical | 11th |
 | Mher Poghosyan | Documentation, Mechanical | 11th |
 | Robert Rateno | Operator, Mechanical, Assembler | 10th |
@@ -420,7 +416,7 @@ Since Riverside Robotics has previously designed, manufactured, and assembled a 
 | Mechanical | Waterjet the 6061-T6 aluminum top and bottom plates at Case Western think[box] (OMAX 5555) | Adam Carbone, Jack Carbone | Adam Pakeltis, Robert Rateno | Feb 15, 2026 |
 | Mechanical | CNC-mill the 6061-T6 aluminum perimeter walls, bearing mount, and gearbox mount at Monode Marking Products | J.T. Mackey (industry), Adam Carbone | Robert Rateno, Kaydan Kerr | Mar 17, 2026 |
 | Mechanical | Assemble chassis, install drive, weapon, and electronics | Robert Rateno, Sultan Kazeem | Ayden Moore, Kaydan Kerr, Kasey Kurzinger | Apr 7, 2026 |
-| Electrical | Wire ESCs, kill switches, power distribution, Pi, and IMU | Lukas Dauksa, Yash Jain | Jayden Craig | Apr 10, 2026 |
+| Electrical | Wire ESCs, kill switch, power distribution, Pi, and IMU | Lukas Dauksa, Yash Jain | Jayden Craig | Apr 10, 2026 |
 | Software | Port meltybrain control from Python to C# on the Pi 4B | Tom Kramer, Dustin Hance | Vincent Riha, Xayden Minch | Mar 31, 2026 |
 | Software | Integrate WT901 IMU and validate translation algorithm | Dustin Hance, Tom Kramer | Vincent Riha, Xayden Minch | Apr 14, 2026 |
 | Documentation | Complete main.md, rubricCompliance tracker, supporting docs | Tom Kramer, Daniel George | Benjamin Mackey, Jason Kellhofer, Mher Poghosyan, Richard Rowland, Kasey Kurzinger | Apr 18, 2026 |
@@ -444,7 +440,7 @@ Each task is tracked in the team's shared Google Classroom and Discord channels.
 | Manufacturing — Waterjet | Feb 1 – Feb 15, 2026 | Complete | 6061-T6 top and bottom hexagonal plates cut on the OMAX 5555 at Case Western think[box] |
 | Manufacturing — CNC | Feb 15 – Mar 17, 2026 | Complete (slight overrun — finished Mar 24) | 6061-T6 perimeter walls, bearing mount, and gearbox mount machined at Monode Marking Products |
 | Software — C# Port | Feb 3 – Mar 31, 2026 | Complete | Control software rewritten from Python to C# running on Pi 4B |
-| Electrical Integration | Mar 18 – Apr 10, 2026 | Complete | ESCs, kill switches, Pi, IMU, and battery all wired and bench-tested |
+| Electrical Integration | Mar 18 – Apr 10, 2026 | Complete | ESCs, kill switch, Pi, IMU, and battery all wired and bench-tested |
 | Assembly | Apr 1 – Apr 7, 2026 | Complete (PLA placeholder walls used during wiring; aluminum walls installed on return from CNC) | Full bot assembled |
 | Testing | Apr 14 – Apr 24, 2026 | In Progress | Spin tests, driving tests, impact tests, battery runtime |
 | Documentation | Ongoing → Apr 18, 2026 | In Progress | main.md, rubric tracker, supporting docs submitted by 11:59 PM April 18 |
@@ -478,12 +474,12 @@ Team Meltdown met weekly on Mondays from 5:30–7:30 PM throughout the 2025–20
 | 16 | Feb 3, 2026 | Build | S. Kazeem, D. Hance, T. Kramer, M. Poghosyan, R. Rateno, A. Pakeltis, Y. Jain, X. Minch, J. Kellhofer | Input-latency analysis on Python control loop | **Rewrite control software in C#** and deploy to Pi 4B |
 | 17 | Feb 10, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Pi connected to shared monitor for team-wide development | N/A |
 | 18 | Feb 17, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | SD-card / equipment shortage; team building and coordination | Bring SD cards next meeting |
-| 19 | Feb 24, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George, J. Barrow, B. Mackey, R. Rowland, L. Rico-Palamino, K. Kerr | Analyzed prior-year competition footage; onboarded 8th graders to codebase | **Merged** JuniorBots and HS teams into one unified Team Meltdown |
+| 19 | Feb 24, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George, B. Mackey, R. Rowland, K. Kerr | Analyzed prior-year competition footage; onboarded 8th graders to codebase | **Merged** JuniorBots and HS teams into one unified Team Meltdown |
 | 20 | Mar 3, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Resolved electrical wiring issues; continued design and software docs | N/A |
 | 21 | Mar 10, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Pi 4B receives radio packets directly — no Pico translator needed | **Dropped Raspberry Pi Pico** from architecture |
 | 22 | Mar 17, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Initial low-power spin test; 3D-printed fitment prototypes; software perf. data | **Apply Loc-Tite** to all fasteners |
 | 23 | Mar 31, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer | Installed 3D-printed prototype components onto chassis | N/A |
-| 24 | Apr 3, 2026 | Build (optional) | D. Hance, X. Minch, R. Rateno, D. George, J. Kellhofer, B. Mackey, T. Kramer | Redesigned battery mount (Liperior 4S); CNC power-supply research | Purchase new CNC power supply |
+| 24 | Apr 3, 2026 | Build (optional) | D. Hance, X. Minch, R. Rateno, D. George, J. Kellhofer, B. Mackey, T. Kramer | Redesigned battery mount (Liperior 3S); CNC power-supply research | Purchase new CNC power supply |
 | 25 | Apr 7, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer, Y. Jain | Prototype chassis assembly; fastener inventory | Purchase additional #10-24 Phillips cap screws |
 | 26 | Apr 11, 2026 | Build (optional, Sat) | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, Y. Jain | CNC power-supply installed; prototype assembly complete; prototype testing | N/A |
 | 27 | Apr 14, 2026 | Build / Docs | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer, Y. Jain, B. Mackey | Disassembled prototype for reuse; metal-chassis assembly begun | **Converted docs to Markdown** and created GitHub repo |
@@ -541,7 +537,7 @@ Material Management is done by keeping an inventory of parts that are left from 
 | Monode (Donated) | Chassis | 6061-T6 Aluminum Sheet, 1/8" Thick — Plate Stock (donated by Monode Marking Products) | $0.00 | — | $0.00 |
 | Riverside | Weapon | Everbilt 1/2 in.-13 × 2 in. Zinc Plated Hex Bolt (50-Pack), SKU 800980 | $39.32 | 1 | $39.32 |
 | Riverside | Drive | R8-2RS Sealed Ball Bearings, 1/2" × 1-1/8" × 5/16" (20-pack) | $12.99 | 1 | $12.99 |
-| Riverside | Brain | Raspberry Pi 4B, 8 GB RAM | $97.99 | 2 | $195.98 |
+| Riverside | Brain | Raspberry Pi 4B, 8 GB RAM (1 primary + 1 spare — Pi identified as a high-failure point on Spinlayden 1.0) | $97.99 | 2 | $195.98 |
 | Riverside | Power | XT60 Connector & Wire Covers (8-pack) | $12.99 | 1 | $12.99 |
 | Riverside | Chassis | Kraken Bond KH 62 Red Threadlocker | $9.99 | 1 | $9.99 |
 | Riverside | Power, Brain | 63-37 Tin Lead Rosin Core Solder Wire (0.8 mm, 100 g) | $11.99 | 1 | $11.99 |
@@ -557,11 +553,13 @@ Material Management is done by keeping an inventory of parts that are left from 
 | Riverside | Safety | ANSI A5 Polyurethane Coated Work Gloves, Medium (12-pack) | $81.43 | 1 | $81.43 |
 | Team (Owned) | Drive | T81 Hub, 1/2" Hex Shaft | $4.50 | 8 | $36.00 |
 | Team (Owned) | Drive | BaneBots Wheel, 3-7/8" × 0.8" | $4.25 | 12 | $51.00 |
-| Team (Owned) | Drive | EZRUN 3660 SL G2 Motor | $81.00 | 4 | $324.00 |
-| Team (Owned) | Drive | EZRUN MAX10 SCT ESC | $119.00 | 4 | $476.00 |
+| Team (Owned) | Drive | EZRUN 3660 SL G2 Motor | $81.00 | 2 | $162.00 |
+| Team (Owned) | Drive | EZRUN MAX10 SCT ESC | $119.00 | 2 | $238.00 |
 | Team (Owned) | Drive | LANIAKEA Ball Bearing, 5/8" (16-pack) | $16.99 | 1 | $16.99 |
-| Team (Owned) | Power | Liperior 2700 mAh 4S 30C 14.8V LiPo Battery (XT60) | $28.99 | 6 | $173.94 |
-| Team (Owned) | Power | MS-05 Kill Switch | $75.00 | 2 | $150.00 |
+| Team (Owned) | Power | Liperior 3S 3200 mAh 11.1V LiPo Battery (XT60) — included with the AWT RoboBots kit provided by Riverside High School | $0.00 | 4 | $0.00 |
+| Team (Owned) | Control | 2.4 GHz USB radio transmitter (white) — included with the AWT RoboBots kit | $0.00 | 1 | $0.00 |
+| Team (Owned) | Control | FS-iA6B 2.4 GHz receiver — included with the AWT RoboBots kit | $0.00 | 1 | $0.00 |
+| Team (Owned) | Power | MS-05 Kill Switch | $75.00 | 1 | $75.00 |
 | Advisors | Chassis, Weapon | Lunyee 3018 Pro Ultra CNC Machine, 500W | $499.00 | 1 | $499.00 |
 | Advisors (students reimbursed $15 each) | Club | Custom Ink Gildan Softstyle T-shirts, Black — 60 shirts, Receipt #87094381 | $965.25 | 1 | $965.25 |
 | Advisors | Drive | WT901 9-axis IMU / Gyro (USB, 200 Hz) | $32.65 | 2 | $65.30 |
@@ -578,9 +576,9 @@ Material Management is done by keeping an inventory of parts that are left from 
 | Riverside High School (PO 219831) | $745.00 | $745.00 |
 | Advisors — Jack Carbone (net after student shirt reimbursement) | $938.35 | $811.05 |
 | Students (60 × $15 shirt reimbursement to Jack) | $900.00 | $900.00 |
-| Team (Previously Owned) | $1,227.93 | $0.00 |
+| Team (Previously Owned, incl. AWT RoboBots kit) | $578.99 | $0.00 |
 | Monode Marking Products (In-Kind — chassis metal + machining) | $388.38 | $0.00 |
-| **Total** | **$4,199.66** | **$2,456.05** |
+| **Total** | **$3,550.72** | **$2,456.05** |
 
 ### Our Component Philosophy
 
@@ -740,15 +738,20 @@ This multi-platform approach ensures that each type of project data lives in the
 
 ### Research
 
-**Configuration:** The structural configuration of the robot
+Research for Spinlayden 2.0 was driven by two questions: *what did Spinlayden 1.0 teach us?* and *what does the rest of the meltybrain field look like?* The team drew on three primary sources.
 
-**Strengths:**
+**Spinlayden 1.0 (in-house baseline):** The team's own 2024–2025 competition robot served as the primary reference platform. Returning members walked newer members through the original design decisions, competition footage was reviewed, and every failure point from the 2025 season was catalogued — see the Influences section for the full list and the Problem/Solution table (Table 2) for how each weakness was addressed in 2.0.
 
-- The bot can still move when flipped over
+**Prior AWT RoboBots competition footage:** The team studied footage of past AWT Regional RoboBots matches at Lakeland Community College, focusing on how full-body spinners performed against the variety of bots typically fielded (wedges, vertical spinners, control bots). Key observations fed directly into our combat strategy (see *Design Process → Strategy*) — notably the importance of spin-up time management and the need to maintain translational mobility even while spinning.
 
-**Weaknesses:**
+**Public meltybrain references:** The open-source **OpenMelt** project on GitHub was reviewed as a reference for the physics of meltybrain control (gyroscope integration, translation pulse timing, and RPM-to-tip-velocity relationships). The C# rewrite of Spinlayden's control software borrows its overall control-loop structure from OpenMelt while reimplementing it natively on the Raspberry Pi 4B; see *Design Process → Drive System Details* for the implementation.
 
-- Raspberry Pi integrated into the robot chassis for onboard controller processing, introducing additional points of failure (in previous seasons, only a radio receiver was housed internally)
+**Findings that shaped the 2.0 design:**
+
+- Full-body spinners that maintain spin throughout the match outperform bots that repeatedly spin-up and spin-down — motivating the emphasis on battery runtime, motor headroom, and a single always-spinning combat mode in our strategy.
+- Exposed internal components are the most common failure mode for full-body spinners under repeated impact — motivating the 2.0 layout change that pushes all electronics inward away from the walls.
+- Blade-geometry weapons (custom-machined tips) are harder to field-service than standard hardware — motivating the switch from machined blades to 1/2" carbon steel hex bolts that can be swapped with a wrench between matches.
+- Python-based meltybrain control loops exhibit measurable timing jitter on a Pi 4B compared to compiled alternatives — motivating the rewrite to C# for Spinlayden 2.0.
 
 ### Strategy
 
@@ -774,13 +777,17 @@ Spinlayden 2.0 is a 15-pound meltybrain full-body spinner designed for the AWT R
 
 ### Key Stats
 
-- **Weight:** 15 lbs
+- **Weight (base build):** 13.5 lbs — measured current configuration, no Speaker or RGB lighting installed
+- **Weight (competition target):** 15 lbs — AWT weight cap. The remaining 1.5 lbs of budget is allocated to the planned onboard Speaker, RGB chassis lighting, and any ballast needed to bring the bot up to the class limit for final competition tuning.
 - **Weapon Speed:** 645.6 RPM (~26.9 mph tip speed)
+- **Kinetic Energy:** ~78 J per rotation at the 15 lb competition target (~70 J in the 13.5 lb base configuration — KE scales linearly with total spinning mass at fixed RPM, so the final ballast/accessory mass directly increases weapon energy)
 - **Motor Power:** ~0.75 hp (drive and weapon combined)
-- **Translational Speed:** 1-2 ft/s while spinning
+- **Translational Speed:** 1-2 ft/s while spinning (unchanged between 13.5 lb and 15 lb configurations — top translational speed is set by wheel RPM and circumference, not by robot mass)
+- **Translational Acceleration:** roughly 10% higher in the 13.5 lb base build than at the 15 lb target (a ∝ 1/m in the torque-limited regime); Robby is tuned against the heavier competition configuration, so in-match handling is specified against the 15 lb number
+- **Spin-up Time to Weapon Speed:** approximately 10% faster in the 13.5 lb base build than at 15 lb, since spin-up time scales with moment of inertia — the extra mass at competition weight trades a slightly slower ramp for higher delivered kinetic energy
 - **Material:** 6061 aluminum chassis, 1/2" carbon steel hex bolts (impact weapons)
 - **Impact Bolts:** 6 × 1/2" carbon steel hex bolts, one per chassis face
-- **Torque:** ~5 Nm per drive motor (estimated, 21:1 reduction)
+- **Torque:** ~5 Nm per drive motor (estimated, 20:1 reduction)
 
 ### Analysis and Conceptualization
 
@@ -844,7 +851,7 @@ In addition to the component-level failure analysis (FMEA) below, the team ident
 | Manufacturing | Parts arrive late or incorrect | Vendor shipping delays or ordering errors | Build schedule slips; team cannot assemble on time | 7 | 4 | Parts ordered early in the season; owned inventory from Spinlayden 1.0 covers critical drive and power components; budget includes margin for expedited replacements |
 | Competition | Opponent exploits exposed wheels | Wheels extend slightly beyond chassis perimeter | Wheel damage disables drivetrain; bot cannot translate | 7 | 6 | BaneBots wheels are inexpensive and quick to replace between matches; spare wheels and gearboxes on hand; bot can still spin as a weapon even without drive |
 | Competition | Match loss due to control errors | Operator inexperience with meltybrain driving or mode switching | Bot drives into walls, fails to engage, or wastes match time | 6 | 5 | Two-operator system splits driving and mode management; practice sessions scheduled during April testing window; operators trained on Spinlayden 1.0 last season |
-| Competition | Battery depletion mid-match | High current draw from four motors at full spin | Bot loses power before 3-minute match ends | 8 | 3 | Six Liperior 2700 mAh 4S LiPo batteries available; battery endurance testing planned to confirm runtime exceeds match duration; fresh battery loaded before each match |
+| Competition | Battery depletion mid-match | High current draw from both drive motors at full spin | Bot loses power before 3-minute match ends | 8 | 3 | Four Liperior 3S 3200 mAh LiPo batteries available (included with the AWT RoboBots kit); battery endurance testing planned to confirm runtime exceeds match duration; fresh packs loaded before each match |
 
 ### Structural Analysis
 
@@ -865,9 +872,9 @@ To evaluate the durability and reliability of Spinlayden 2.0, the team conducted
 
 ### CAD Models
 
-The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the shared team hub, allowing multiple students to contribute to individual components in parallel. The complete assembly includes the hexagonal chassis (top, bottom, and six perimeter walls), four EZRUN brushless drive motors with BaneBots P61 gearboxes, two BaneBots drive wheels with shafts and bearings, six Liperior 4S LiPo batteries, two EZRUN MAX10 SCT ESCs, the Raspberry Pi 4B in its dedicated 3D-printed housing, the WT901 IMU, and the six 1/2" carbon steel hex bolt impact weapons threaded through the perimeter walls.
+The full Spinlayden 2.0 assembly was modeled in Autodesk Fusion 360 using the shared team hub, allowing multiple students to contribute to individual components in parallel. The complete assembly includes the hexagonal chassis (top, bottom, and six perimeter walls), two EZRUN brushless drive motors with BaneBots P61 gearboxes, two BaneBots drive wheels with shafts and bearings, four Liperior 3S LiPo batteries, two EZRUN MAX10 SCT ESCs, the Raspberry Pi 4B in its dedicated 3D-printed housing, the WT901 IMU, and the six 1/2" carbon steel hex bolt impact weapons threaded through the perimeter walls.
 
-*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six 1/2" carbon steel hex bolt impact weapons, green BaneBots drive wheels, four motors, batteries, and central Raspberry Pi housing. CAD: Design Team.*
+*Figure 7: Spinlayden 2.0 — Full isometric CAD render showing hexagonal chassis with blue top plate, six 1/2" carbon steel hex bolt impact weapons, green BaneBots drive wheels, two drive motors, batteries, and central Raspberry Pi housing. CAD: Design Team.*
 
 <img src="Images/Spinlayden_2.0_Assembly_Isometric.png" alt="Spinlayden 2.0 isometric CAD render — full assembly with blue top plate" width="600">
 
@@ -985,75 +992,43 @@ Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the 
 ### Power System Details
 
 **Batteries:**
-- **Type:** 4× 3S lithium-ion battery packs
+- **Type:** 4× Liperior 3S lithium polymer (LiPo) battery packs (included with the AWT RoboBots kit)
 - **Voltage:** 11.1 V nominal per pack (3S configuration; ≈12.6 V fully charged)
 - **Capacity:** 3200 mAh per pack
 - **Configuration:** 2 packs wired in **parallel** per motor — the pack pairs are spliced together at the power trunk, so each ESC/motor sees 11.1 V with ≈6400 mAh of combined capacity
 - **Balance:** Pack pairs are mounted symmetrically on opposite sides of the chassis to preserve rotational balance, which is critical for a full-body spinner
 
 **Safety Systems:**
-- **Kill Switches:** 2x MS-05 kill switches mounted on the bot exterior, accessible without reaching into the spinning chassis — required by AWT safety rules for immediate power cutoff
+- **Kill Switch:** 1x MS-05 kill switch mounted on the bot exterior, sitting on the main 11.1 V battery trunk upstream of the split to the two ESCs. Throwing it cuts power to everything — both motors, the Pi, the receiver, and the IMU all go dark in one action. Accessible without reaching into the spinning chassis and required by AWT safety rules (AWT 2.4) for immediate power cutoff.
 - **Wiring:** All electrical connections soldered with 63-37 tin-lead solder for reliable joints under vibration
 
 **Power Distribution:**
-- Each spliced 2-pack bank feeds one EZRUN MAX10 SCT ESC
+- All four Liperior 3S packs are wired in parallel into a single 11.1 V main trunk (~12,800 mAh combined) that passes through the MS-05 kill switch
+- Downstream of the kill switch, the main trunk splits into two feeds — one per EZRUN MAX10 SCT ESC
 - Each ESC powers one EZRUN 3660 SL G2 brushless drive motor
 - The Left ESC's BEC (Battery Eliminator Circuit) regulates 5 V out on its servo-lead +V pin and powers the Raspberry Pi through its GPIO 5 V rail — no separate voltage regulator needed
 - The Right ESC's BEC stays disconnected to avoid paralleling two regulators onto the Pi's 5 V rail
 
 ### Wiring Schematic
 
-Spinlayden's electrical system has two distinct paths: a high-current **power path** (batteries → kill switches → ESCs → motors) and a low-power **signal path** (FlySky FS-iA6B receiver → Raspberry Pi → ESC signal inputs, with the WT901/WT61P IMU feeding orientation data back to the Pi over UART). Both share a common ground at the Pi's GND rail.
+Spinlayden's electrical system has two distinct paths: a high-current **power path** (batteries → main trunk → MS-05 kill switch → ESCs → motors) and a low-power **signal path** (FlySky FS-iA6B receiver → Raspberry Pi → ESC signal inputs, with the WT901/WT61P IMU feeding orientation data back to the Pi over UART). Both share a common ground at the Pi's GND rail.
 
 #### System Block Diagram
 
-```
-  POWER PATH (high current)                              SIGNAL PATH (low current)
-  ─────────────────────────                              ─────────────────────────
+*Figure 14b: Spinlayden 2.0 — Wiring Schematic. Shows the high-current power path (four Liperior 3S packs paralleled into a single 11.1 V main trunk, single MS-05 kill switch gating that trunk, dual EZRUN MAX10 ESCs driving EZRUN 3660 SL G2 motors) and the low-current signal path (FS-iA6B receiver on 3 wires to the Pi, PWM out to both ESCs, UART0 ↔ WT901/WT61P IMU, Left-ESC BEC powering the Pi). Diagram: Software Team.*
 
-  ┌────────────┐  ┌────────────┐
-  │ Battery 1  │  │ Battery 2  │    parallel splice       2.4 GHz transmitter (operator)
-  │ 3S 3200mAh │  │ 3S 3200mAh │    ───────────────┐                    │  radio link
-  └─────┬──────┘  └──────┬─────┘                   │                    ▼
-        └────────┬───────┘                         │          ┌──────────────────┐
-                 ▼                                 │          │  FS-iA6B         │
-          ┌─────────────┐        ┌─────────────┐   │          │  receiver        │
-          │ Kill Sw 1   ├───────►│  Left ESC   ├───┼──► LEFT  │                  │
-          │  (MS-05)    │        │ EZRUN MAX10 │   │    MOTOR │ iBUS V+ G S      │
-          └─────────────┘        └──────┬──────┘   │          └──┬──┬──┬─────────┘
-                                        │ 5V BEC   │           5V│ G│ S│
-                                        │ (+V pin) │             │  │  │
-                                        ▼          │             ▼  ▼  ▼ UART3 RX
-                                 ┌─────────────────┴────────────────────────────┐
-                                 │                                              │
-  ┌────────────┐  ┌────────────┐ │            Raspberry Pi 4B                   │
-  │ Battery 3  │  │ Battery 4  │ │   C# meltybrain brain · GPIO header · UART0  │
-  │ 3S 3200mAh │  │ 3S 3200mAh │ │                                              │
-  └─────┬──────┘  └──────┬─────┘ └──┬─────────┬─────────┬─────────┬─────────────┘
-        └────────┬───────┘          │ PWM0    │ PWM1    │ UART0   │ GND rail
-                 ▼                  │ GPIO12  │ GPIO13  │ GPIO14/15
-          ┌─────────────┐           │         │         │
-          │ Kill Sw 2   │           │         │         ▼
-          │  (MS-05)    │           │         │   ┌──────────────┐
-          └──────┬──────┘           │         │   │   WT901 /    │
-                 ▼                  │         │   │   WT61P IMU  │
-          ┌─────────────┐           │         │   │  (9600 baud) │
-          │  Right ESC  ├───────────┘         │   └──────────────┘
-          │ EZRUN MAX10 ├─────────────────────┴───► RIGHT MOTOR
-          │ (+V DISC.)  │
-          └─────────────┘
-```
+<img src="Images/wiring_schematic.png" alt="Spinlayden 2.0 wiring schematic showing a single MS-05 kill switch on the main 11.1 V battery trunk upstream of both EZRUN MAX10 ESCs (which drive the EZRUN 3660 SL G2 motors), plus the FS-iA6B receiver connected to the Raspberry Pi 4B via three wires and the WT901/WT61P IMU on UART0" width="900">
 
 #### Power Path — Battery Splicing and ESC Feed
 
-Each 2-pack bank is wired in parallel — positive leads joined to positive, negative to negative — forming a single 11.1 V / ≈6400 mAh trunk that feeds one MS-05 kill switch and then the downstream ESC. Paralleled 3S Li-ion packs share load evenly as long as the packs are matched in voltage at connection time; this is the standard convention for this class of drive system.
+All four Liperior 3S packs are wired in parallel — positive leads joined to positive, negative to negative — forming a single 11.1 V / ≈12,800 mAh main trunk. The MS-05 kill switch sits on that trunk, and the trunk splits into two feeds downstream of the switch, one for each ESC. The two "banks" (Batteries 1–2 and Batteries 3–4) are a packaging distinction — the packs are mounted symmetrically on opposite sides of the chassis for rotational balance — not an electrical one. Paralleled 3S LiPo packs share load evenly as long as the packs are matched in voltage at connection time; this is the standard convention for this class of drive system.
 
-| Leg   | Battery A   | Battery B   | Splice Node (parallel) | Kill Switch | ESC                 | Motor                       |
-|-------|-------------|-------------|------------------------|-------------|---------------------|-----------------------------|
-| Left  | 3S 3200 mAh | 3S 3200 mAh | 11.1 V / ≈6400 mAh     | MS-05 (L)   | EZRUN MAX10 (Left)  | EZRUN 3660 SL G2 (Left)     |
-| Right | 3S 3200 mAh | 3S 3200 mAh | 11.1 V / ≈6400 mAh     | MS-05 (R)   | EZRUN MAX10 (Right) | EZRUN 3660 SL G2 (Right)    |
+| Bank | Battery A   | Battery B   | Splice Node (parallel) | Main Trunk (after parallel join) | Kill Switch          | Feeds                                 |
+|------|-------------|-------------|------------------------|----------------------------------|----------------------|---------------------------------------|
+| A    | 3S 3200 mAh | 3S 3200 mAh | 11.1 V / ≈6400 mAh     | joins Bank B → 11.1 V / ≈12,800 mAh | MS-05 (single, shared) | splits to Left ESC + Right ESC        |
+| B    | 3S 3200 mAh | 3S 3200 mAh | 11.1 V / ≈6400 mAh     | joins Bank A → 11.1 V / ≈12,800 mAh | MS-05 (single, shared) | splits to Left ESC + Right ESC        |
 
-**Kill switches** are mounted on opposite faces of the chassis so that either can be reached without putting a hand into the spin path — satisfies AWT 2.4 (full deactivation within 60 s via manual disconnect).
+**Single kill-switch topology.** The MS-05 gates the main trunk upstream of the ESC split, mounted on the chassis exterior face opposite the operator-side impact bolts so it can be reached without putting a hand into the spin path. Throwing it cuts current to both ESCs simultaneously, which also drops the Left-ESC BEC that powers the Pi — every active subsystem (motors, Pi, receiver, IMU) loses power in one manual action. This satisfies AWT 2.4 (full deactivation within 60 s via manual disconnect).
 
 **BEC (5 V) split:** only the Left ESC's BEC +V is landed on the Pi's 5 V rail (pin 4). The Right ESC's BEC +V stays disconnected — paralleling two BECs onto the same rail without diode-OR'ing lets one sink current into the other.
 
