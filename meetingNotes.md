@@ -476,8 +476,8 @@
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | **Attendees:**      | Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Daniel George, Tom Kramer, Yash Jain, Ben Mackey |
 | **Date of Meeting:** | April 18, 2026 \| 10:00 AM - 1:00 PM                                                                                               |
-| **Decisions made:** |                                                                                                                                     |
-| **Topics Covered:** |                                                                                                                                     |
+| **Decisions made:** | Finalize documentation for submission and continue the build/test cycle ahead of the April 25 AWT 2026 RoboBots Competition.        |
+| **Topics Covered:** | Final optional team meeting before the AWT 2026 RoboBots Competition on April 25. Focused on wrapping up documentation (Markdown content in the GitHub repository, meeting notes, design and software sections) and continuing assembly and testing of the bot. |
 
 | Action                          | Responsibility | Estimated Completion Date | Status      |
 | ------------------------------- | -------------- | ------------------------- | ----------- |
