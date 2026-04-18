@@ -689,6 +689,23 @@ CNC milling was provided by our industry sponsor, **Monode Marking Products**. M
 
 All internal components were 3D printed using **standard PLA filament**. Prototypes were printed at **15% infill** for rapid iteration, while final internal parts and backup/replacement components were printed at **solid (100%) infill** for maximum strength and durability.
 
+#### Assembly Process
+
+The step-by-step procedure used to assemble Spinlayden 2.0 from its fabricated parts. Two sub-assemblies run in parallel to the main chassis build:
+
+- **Wall prep (parallel):** Any bolts or fasteners that need to be pre-installed into the perimeter walls are threaded in *before* the walls are mounted to the bottom plate. This is done first because access is easier with the walls off the chassis.
+- **Gearbox sub-assembly (parallel):** Each BaneBots P61 gearbox is attached to its machined gearbox mount separately from the main chassis.
+
+Once both sub-assemblies are ready, the main build proceeds in the following order:
+
+1. **Start with the bottom plate.** The waterjet-cut 6061-T6 aluminum bottom plate is the foundation of the assembly — every other component mounts to it.
+2. **Mount the walls.** Attach the (pre-fastened) perimeter walls to the bottom plate.
+3. **Attach the gearbox mounts to the bottom plate.** Mount the completed gearbox sub-assemblies onto the bottom plate.
+4. **Attach the belt and tensioner.** Mount the drive belt and tensioner to the bottom plate at the same stage as the gearbox mounts.
+5. **Install the Pi mount.** With the gearboxes in place, install the Pi mount onto the assembly.
+6. **Install the electronics.** Install the Raspberry Pi first, then the ESCs.
+7. **Attach the top plate.** Close out the build by attaching the top plate.
+
 #### Physical Assembly
 
 The following photos document the build progression of Spinlayden 2.0 — from electronics mounting on the waterjet-cut 6061 aluminum bottom plate through full-chassis wiring integration. To avoid losing schedule time while waiting on the CNC shop, the team 3D-printed a full set of placeholder perimeter walls and a top plate in PLA so that wiring, component fitment, and layout could be validated in parallel with external machining. The images also show the 3D-printed PLA internal components (battery bracket, Pi/IMU housing) in their final mounted positions.
