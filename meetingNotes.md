@@ -517,3 +517,23 @@ Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden 
 | Disassemble prototype robot for component reuse | Converted documentation to Markdown format |
 | Continue documentation development | Created GitHub repository for documentation |
 | Began assembly of metal chassis body | |
+
+
+
+
+## April 18th Meeting (Optional)
+
+**April 18, 2026** | **10 AM - 1 PM**
+
+---
+
+**Notes:**
+
+**Attendees:**
+Jayden Craig, Lukas Dauksa, Dustin Hance, Alexander Holmes, Xayden Minch, Ayden Moore, Adam Pakeltis, Robert Rateno, Daniel George, Tom Kramer, Yash Jain, Ben Mackey
+
+| Tasks and Goals | Decisions |
+|-----------------|-----------|
+| Finish up documentation | |
+| Building and testing the bot| |
+|              |            |
