@@ -482,11 +482,50 @@ Each task is tracked in the team's shared Google Classroom and Discord channels.
 | Documentation | Ongoing → Apr 18, 2026 | In Progress | main.md, rubric tracker, supporting docs submitted by 11:59 PM April 18 |
 | Competition | Apr 25, 2026 | Upcoming | Judge interview + combat matches at AWT Regional RoboBots |
 
-Progress is reviewed at each Monday meeting against this timeline. Slippage (e.g., the week-long CNC overrun in March) was absorbed by compressing assembly while the PLA placeholder walls were used to continue wiring work in parallel. Meeting-by-meeting notes are preserved in `meetingNotes.md`.
+Progress is reviewed at each Monday meeting against this timeline. Slippage (e.g., the week-long CNC overrun in March) was absorbed by compressing assembly while the PLA placeholder walls were used to continue wiring work in parallel. A meeting-by-meeting summary is provided in the following subsection.
+
+### Meeting Minutes Summary
+
+Team Meltdown met weekly on Mondays from 5:30–7:30 PM throughout the 2025–2026 season, with optional Saturday work sessions added in April. The following table records every meeting held this season: date, attendees, key topics, and decisions.
+
+**Table 6e:** Meeting Minutes Summary (2025–2026 Season)
+
+| # | Date | Phase | Attendees | Key Topics | Decisions / Outcomes |
+|---|------|-------|-----------|------------|----------------------|
+| 1 | Sep 24, 2025 | Introduction | J. Craig, L. Dauksa, D. Hance, A. Holmes, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno, V. Riha | Season overview, competition timeline, program expectations for new members | Started documentation; generated multiple bot design concepts |
+| 2 | Oct 1, 2025 | Introduction | J. Craig, L. Dauksa, D. Hance, A. Holmes, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno, V. Riha | Compared and analyzed proposed bot designs and names | Locked on **meltybrain "Spinlayden"** form factor |
+| 3 | Oct 8, 2025 | Introduction | J. Craig, L. Dauksa, D. Hance, A. Holmes, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno, V. Riha | Fusion 360 account setup, drive-testing old bots, team building | Began CAD modeling in Fusion 360 |
+| 4 | Oct 15, 2025 | Design | J. Craig, L. Dauksa, D. Hance, A. Holmes, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno, V. Riha | Chassis mounting holes, Pi replacement, WT901 IMU integration | Split into **two teams** (HS and JuniorBots) |
+| 5 | Oct 22, 2025 | Design | L. Dauksa, D. Hance, A. Holmes, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, R. Rateno | Split into CAD/BOM group and Pi/software group | N/A |
+| 6 | Oct 29, 2025 | Design | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno, V. Riha | Continued parallel CAD and coding work | N/A |
+| 7 | Nov 5, 2025 | Design / Docs | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno, V. Riha | AWT documentation Zoom call; formed a Documentation sub-team | Assigned documentation responsibilities |
+| 8 | Nov 12, 2025 | Design / Docs | J. Craig, L. Dauksa, D. Hance, A. Holmes, S. Kazeem, T. Kramer, X. Minch, A. Moore, R. Rateno, V. Riha | Reinforcing Spinlayden 1.0 weak points; CNC mill repair; ESC electrical test | N/A |
+| 9 | Nov 19, 2025 | Design | L. Dauksa, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, R. Rateno, V. Riha | Mechanical engineering, software integration, electrical components | N/A |
+| 10 | Dec 3, 2025 | Design | D. Hance, Y. Jain, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno | CAD learning session, electronics sourcing, Pi software work | N/A |
+| 11 | Dec 10, 2025 | Design | D. Hance, Y. Jain, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno | Wireless code-server setup on Pi; weapon modeling | N/A |
+| 12 | Dec 17, 2025 | Design | D. Hance, Y. Jain, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno | Portable power for Pi, Xbox-controller input, GitHub Copilot in code-server | N/A |
+| 13 | Jan 7, 2026 | Build | A. Holmes, Y. Jain, J. Kellhofer, T. Kramer, X. Minch, A. Moore, M. Poghosyan, R. Rateno | Pi corruption; Xbox Bluetooth disconnects; CAD + weight reduction | Switch to **2.4 GHz USB radio controller**; order replacement Pi |
+| 14 | Jan 14, 2026 | Build | D. Hance, A. Holmes, J. Kellhofer, X. Minch, A. Moore, A. Pakeltis, R. Rateno, V. Riha | Chassis material tradeoff (carbon fiber vs. titanium); BOM pricing | Selected carbon fiber as chassis material (later revised to 6061-T6 aluminum) |
+| 15 | Jan 27, 2026 | Build | D. Hance, Y. Jain, J. Kellhofer, T. Kramer, A. Pakeltis, R. Rateno | Remote meeting (weather); component layout; software simplification | Switch to **SSH + Tailscale** (drop code-server) |
+| 16 | Feb 3, 2026 | Build | S. Kazeem, D. Hance, T. Kramer, M. Poghosyan, R. Rateno, A. Pakeltis, Y. Jain, X. Minch, J. Kellhofer | Input-latency analysis on Python control loop | **Rewrite control software in C#** and deploy to Pi 4B |
+| 17 | Feb 10, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Pi connected to shared monitor for team-wide development | N/A |
+| 18 | Feb 17, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | SD-card / equipment shortage; team building and coordination | Bring SD cards next meeting |
+| 19 | Feb 24, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, S. Kazeem, J. Kellhofer, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George, J. Barrow, B. Mackey, R. Rowland, L. Rico-Palamino, K. Kerr | Analyzed prior-year competition footage; onboarded 8th graders to codebase | **Merged** JuniorBots and HS teams into one unified Team Meltdown |
+| 20 | Mar 3, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Resolved electrical wiring issues; continued design and software docs | N/A |
+| 21 | Mar 10, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, T. Kramer, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Pi 4B receives radio packets directly — no Pico translator needed | **Dropped Raspberry Pi Pico** from architecture |
+| 22 | Mar 17, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, Y. Jain, X. Minch, A. Moore, A. Pakeltis, M. Poghosyan, R. Rateno, V. Riha, D. George | Initial low-power spin test; 3D-printed fitment prototypes; software perf. data | **Apply Loc-Tite** to all fasteners |
+| 23 | Mar 31, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer | Installed 3D-printed prototype components onto chassis | N/A |
+| 24 | Apr 3, 2026 | Build (optional) | D. Hance, X. Minch, R. Rateno, D. George, J. Kellhofer, B. Mackey, T. Kramer | Redesigned battery mount (Liperior 4S); CNC power-supply research | Purchase new CNC power supply |
+| 25 | Apr 7, 2026 | Build | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer, Y. Jain | Prototype chassis assembly; fastener inventory | Purchase additional #10-24 Phillips cap screws |
+| 26 | Apr 11, 2026 | Build (optional, Sat) | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, Y. Jain | CNC power-supply installed; prototype assembly complete; prototype testing | N/A |
+| 27 | Apr 14, 2026 | Build / Docs | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer, Y. Jain, B. Mackey | Disassembled prototype for reuse; metal-chassis assembly begun | **Converted docs to Markdown** and created GitHub repo |
+| 28 | Apr 18, 2026 | Docs / Testing (optional, Sat) | J. Craig, L. Dauksa, D. Hance, A. Holmes, X. Minch, A. Moore, A. Pakeltis, R. Rateno, D. George, T. Kramer, Y. Jain, B. Mackey | Final session before AWT 2026 — wrapping documentation, continuing build/test | Finalize documentation for 11:59 PM submission |
+
+All meetings ran 5:30–7:30 PM unless noted (Apr 11 and Apr 18 Saturday sessions ran 10:00 AM – 1:00 PM). Attendee initials match the full team roster in the *Team Members* table above.
 
 ### Documentation Contributions
 
-The Documentation team — Benjamin Mackey, Daniel George, Jason Kellhofer, Kasey Kurzinger, Kaydan Kerr, Mher Poghosyan, Richard Rowland, and Tom Kramer — wrote, reviewed, and edited this submission as a group effort. Each documentation member owned one or more sections of `main.md` and `meetingNotes.md`; drafts were reviewed in weekly Monday meetings and edited collaboratively before being merged into the final repository. Writing credit is shared across the team.
+The Documentation team — Benjamin Mackey, Daniel George, Jason Kellhofer, Kasey Kurzinger, Kaydan Kerr, Mher Poghosyan, Richard Rowland, and Tom Kramer — wrote, reviewed, and edited this submission as a group effort. Each documentation member owned one or more sections of this document; drafts were reviewed in weekly Monday meetings and edited collaboratively before being merged into the final submission. Writing credit is shared across the team.
 
 **Table 6d:** Documentation Section Ownership
 
@@ -512,8 +551,7 @@ The Documentation team — Benjamin Mackey, Daniel George, Jason Kellhofer, Kase
 | Design Process — Weapon System, Drive System, Power System | Jason Kellhofer, Kaydan Kerr |
 | Design Process — Wiring Schematic, Testing Results | Tom Kramer (with Software Team) |
 | Closing Remarks | Richard Rowland, Benjamin Mackey |
-| `meetingNotes.md` — weekly meeting minutes (Sep 24, 2025 – Apr 14, 2026) | Rotating scribe duty across the Documentation team. Primary scribes: Benjamin Mackey, Jason Kellhofer, Richard Rowland, Kasey Kurzinger, Kaydan Kerr, Daniel George, Mher Poghosyan, Tom Kramer |
-| `rubricCompliance.md`, `todo.md`, `aboutStudents.md`, `jackRequest.md` | Tom Kramer (maintainer); content sourced from the full Documentation team |
+| Meeting Minutes Summary (Table 6e) — weekly minutes Sep 24, 2025 – Apr 18, 2026 | Rotating scribe duty across the Documentation team. Primary scribes: Benjamin Mackey, Jason Kellhofer, Richard Rowland, Kasey Kurzinger, Kaydan Kerr, Daniel George, Mher Poghosyan, Tom Kramer |
 
 Images used throughout this document are credited in their individual figure captions. CAD renders and engineering drawings were produced by the Design Team (Robby Rateno leading the dimensioned drawing set). Physical build, manufacturing, and chassis assembly photos were taken by the Mechanical Team. Raspberry Pi, WT901 IMU, and wiring photos were taken by the Software Team. The team shirt photo (Figure preceding the Design section) was captured from the 2026 Riverside Robotics shirt artwork by the Marketing sub-team.
 
