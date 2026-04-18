@@ -985,39 +985,118 @@ Spinlayden 2.0 uses a meltybrain drive system — the bot translates across the 
 ### Power System Details
 
 **Batteries:**
-- **Type:** 6x Liperior 2700mAh 4S 30C LiPo batteries
-- **Voltage:** 14.8V per pack (4S configuration)
-- **Connector:** XT60 connectors
-- **Configuration:** Batteries are distributed symmetrically within the chassis to maintain rotational balance — critical for a full-body spinner
-- **Capacity:** 2700mAh per pack provides sufficient runtime for the 3-minute match format with safety margin
+- **Type:** 4× 3S lithium-ion battery packs
+- **Voltage:** 11.1 V nominal per pack (3S configuration; ≈12.6 V fully charged)
+- **Capacity:** 3200 mAh per pack
+- **Configuration:** 2 packs wired in **parallel** per motor — the pack pairs are spliced together at the power trunk, so each ESC/motor sees 11.1 V with ≈6400 mAh of combined capacity
+- **Balance:** Pack pairs are mounted symmetrically on opposite sides of the chassis to preserve rotational balance, which is critical for a full-body spinner
 
 **Safety Systems:**
 - **Kill Switches:** 2x MS-05 kill switches mounted on the bot exterior, accessible without reaching into the spinning chassis — required by AWT safety rules for immediate power cutoff
 - **Wiring:** All electrical connections soldered with 63-37 tin-lead solder for reliable joints under vibration
 
 **Power Distribution:**
-- Batteries feed into the two EZRUN MAX10 SCT ESCs
-- Each ESC powers one EZRUN 3660 SL G2 drive motor
-- ESC BEC (Battery Eliminator Circuit) output provides regulated 5V power to the radio receiver and Raspberry Pi 4B
-- Total system draws approximately 0.75 hp combined motor power
+- Each spliced 2-pack bank feeds one EZRUN MAX10 SCT ESC
+- Each ESC powers one EZRUN 3660 SL G2 brushless drive motor
+- The Left ESC's BEC (Battery Eliminator Circuit) regulates 5 V out on its servo-lead +V pin and powers the Raspberry Pi through its GPIO 5 V rail — no separate voltage regulator needed
+- The Right ESC's BEC stays disconnected to avoid paralleling two regulators onto the Pi's 5 V rail
 
 ### Wiring Schematic
 
-The electrical system follows this signal and power flow:
+Spinlayden's electrical system has two distinct paths: a high-current **power path** (batteries → kill switches → ESCs → motors) and a low-power **signal path** (FlySky FS-iA6B receiver → Raspberry Pi → ESC signal inputs, with the WT901/WT61P IMU feeding orientation data back to the Pi over UART). Both share a common ground at the Pi's GND rail.
 
-**Power Path:**
-1. 6x Liperior 4S LiPo batteries (14.8V) → MS-05 kill switches (external cutoff)
-2. Kill switches → 2x EZRUN MAX10 SCT ESCs (motor control + power regulation)
-3. ESCs → 2x EZRUN 3660 SL G2 brushless drive motors
+#### System Block Diagram
 
-**Control Path:**
-1. 2.4 GHz radio controller (operator) → USB radio receiver mounted on the bot
-2. USB receiver → Raspberry Pi 4B (8 GB RAM) — processes controller input
-3. Raspberry Pi runs C# meltybrain control software — reads WT901 IMU/gyroscope data to determine bot orientation during spin
-4. Pi sends motor speed commands → ESCs → motors pulse in sync with rotation to achieve translational movement
+```
+  POWER PATH (high current)                              SIGNAL PATH (low current)
+  ─────────────────────────                              ─────────────────────────
 
-**BEC Power Path:**
-- ESC BEC output (regulated 5V) → powers Raspberry Pi and radio receiver — no separate voltage regulator needed
+  ┌────────────┐  ┌────────────┐
+  │ Battery 1  │  │ Battery 2  │    parallel splice       2.4 GHz transmitter (operator)
+  │ 3S 3200mAh │  │ 3S 3200mAh │    ───────────────┐                    │  radio link
+  └─────┬──────┘  └──────┬─────┘                   │                    ▼
+        └────────┬───────┘                         │          ┌──────────────────┐
+                 ▼                                 │          │  FS-iA6B         │
+          ┌─────────────┐        ┌─────────────┐   │          │  receiver        │
+          │ Kill Sw 1   ├───────►│  Left ESC   ├───┼──► LEFT  │                  │
+          │  (MS-05)    │        │ EZRUN MAX10 │   │    MOTOR │ iBUS V+ G S      │
+          └─────────────┘        └──────┬──────┘   │          └──┬──┬──┬─────────┘
+                                        │ 5V BEC   │           5V│ G│ S│
+                                        │ (+V pin) │             │  │  │
+                                        ▼          │             ▼  ▼  ▼ UART3 RX
+                                 ┌─────────────────┴────────────────────────────┐
+                                 │                                              │
+  ┌────────────┐  ┌────────────┐ │            Raspberry Pi 4B                   │
+  │ Battery 3  │  │ Battery 4  │ │   C# meltybrain brain · GPIO header · UART0  │
+  │ 3S 3200mAh │  │ 3S 3200mAh │ │                                              │
+  └─────┬──────┘  └──────┬─────┘ └──┬─────────┬─────────┬─────────┬─────────────┘
+        └────────┬───────┘          │ PWM0    │ PWM1    │ UART0   │ GND rail
+                 ▼                  │ GPIO12  │ GPIO13  │ GPIO14/15
+          ┌─────────────┐           │         │         │
+          │ Kill Sw 2   │           │         │         ▼
+          │  (MS-05)    │           │         │   ┌──────────────┐
+          └──────┬──────┘           │         │   │   WT901 /    │
+                 ▼                  │         │   │   WT61P IMU  │
+          ┌─────────────┐           │         │   │  (9600 baud) │
+          │  Right ESC  ├───────────┘         │   └──────────────┘
+          │ EZRUN MAX10 ├─────────────────────┴───► RIGHT MOTOR
+          │ (+V DISC.)  │
+          └─────────────┘
+```
+
+#### Power Path — Battery Splicing and ESC Feed
+
+Each 2-pack bank is wired in parallel — positive leads joined to positive, negative to negative — forming a single 11.1 V / ≈6400 mAh trunk that feeds one MS-05 kill switch and then the downstream ESC. Paralleled 3S Li-ion packs share load evenly as long as the packs are matched in voltage at connection time; this is the standard convention for this class of drive system.
+
+| Leg   | Battery A   | Battery B   | Splice Node (parallel) | Kill Switch | ESC                 | Motor                       |
+|-------|-------------|-------------|------------------------|-------------|---------------------|-----------------------------|
+| Left  | 3S 3200 mAh | 3S 3200 mAh | 11.1 V / ≈6400 mAh     | MS-05 (L)   | EZRUN MAX10 (Left)  | EZRUN 3660 SL G2 (Left)     |
+| Right | 3S 3200 mAh | 3S 3200 mAh | 11.1 V / ≈6400 mAh     | MS-05 (R)   | EZRUN MAX10 (Right) | EZRUN 3660 SL G2 (Right)    |
+
+**Kill switches** are mounted on opposite faces of the chassis so that either can be reached without putting a hand into the spin path — satisfies AWT 2.4 (full deactivation within 60 s via manual disconnect).
+
+**BEC (5 V) split:** only the Left ESC's BEC +V is landed on the Pi's 5 V rail (pin 4). The Right ESC's BEC +V stays disconnected — paralleling two BECs onto the same rail without diode-OR'ing lets one sink current into the other.
+
+#### Signal Path — Pi GPIO Header Pin-by-Pin
+
+Every wire that lands on the Raspberry Pi 4B GPIO header, sourced from the `spinlayden/docs/wiring.md` in the Spinlayden control-software repo:
+
+| # | Color  | Role                                        | Pi Pin | BCM     | Function         | Endpoint                |
+|:-:|--------|---------------------------------------------|:------:|---------|------------------|-------------------------|
+| 1 | Orange | +3.3 V → IMU VCC                            | 1      | 3V3     | 3.3 V power out  | WT901/WT61P VCC         |
+| 2 | Red    | +5 V → FS-iA6B V+                           | 2      | 5V      | 5 V power out    | FS-iA6B iBUS V+         |
+| 3 | Red    | Left ESC BEC +V → Pi 5 V rail (powers Pi)   | 4      | 5V      | 5 V rail (IN)    | Left ESC +V             |
+| 4 | Black  | GND — FS-iA6B                               | 6      | GND     | Ground           | FS-iA6B iBUS G          |
+| 5 | Black  | GND — IMU                                   | 9      | GND     | Ground           | WT901/WT61P GND         |
+| 6 | Gray   | GND — Left ESC                              | 14     | GND     | Ground           | Left ESC GND            |
+| 7 | Gray   | GND — Right ESC                             | 20     | GND     | Ground           | Right ESC GND           |
+| 8 | Purple | Pi RX ← IMU TX (gyro data, 9600 baud)       | 10     | GPIO 15 | UART0 RX         | WT901/WT61P TX          |
+| 9 | White  | Pi TX → IMU RX *(optional — config only)*   | 8      | GPIO 14 | UART0 TX         | WT901/WT61P RX          |
+| 10| Blue   | Pi RX ← FS-iA6B iBUS signal (115200 baud)   | 29     | GPIO 5  | UART3 RX         | FS-iA6B iBUS S          |
+| 11| Yellow | Pi PWM → Left ESC signal (50 Hz, 1–2 ms)    | 32     | GPIO 12 | PWM0 (hardware)  | Left ESC signal         |
+| 12| Green  | Pi PWM → Right ESC signal (50 Hz, 1–2 ms)   | 33     | GPIO 13 | PWM1 (hardware)  | Right ESC signal        |
+
+**Why two power voltages into the Pi:** the FS-iA6B needs 4.0–6.5 V (5 V ideal); the WT901/WT61P IMU accepts 3.3–5 V, and 3.3 V matches the Pi's UART logic level cleanly so no level-shifting is required on the data lines.
+
+**Why four separate grounds:** every peripheral gets its own return path back to the Pi's GND rail. A single shared GND pin works electrically but makes wiring harder to trace and creates a noisy star point under the ESC's high-current ground bounce.
+
+#### Pi Boot Configuration
+
+The Pi 4B requires three device-tree overlays in `/boot/firmware/config.txt` for the wiring above to work — Bluetooth has to be released from UART0 so the IMU can own it, UART3 has to be enabled for the receiver, and hardware PWM has to be turned on for GPIO 12/13:
+
+```ini
+# Free /dev/serial0 (UART0) from Bluetooth for the WT901/WT61P IMU
+dtoverlay=disable-bt
+enable_uart=1
+
+# Enable UART3 on GPIO 4 (TX, pin 7) / GPIO 5 (RX, pin 29) → /dev/ttyAMA3 for FS-iA6B iBUS
+dtoverlay=uart3
+
+# Hardware PWM on GPIO 12 (PWM0) and GPIO 13 (PWM1) for the two ESCs
+dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4
+```
+
+A reboot is required after editing `config.txt`. Pi 5 is **not supported** — on Pi 5 the PWM hardware moved onto the RP1 chip and `pwm-2chan` is silently ignored, so the signal path for the ESCs would not work.
 
 *Figure 13: Raspberry Pi 4B with passive heatsink case and dual cooling fans, showing UART wiring to the WT901 IMU (multicolor dupont leads on the GPIO header). Photo: Software Team.*
 
