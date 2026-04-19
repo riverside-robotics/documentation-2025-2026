@@ -424,7 +424,7 @@ Since Riverside Robotics has previously designed, manufactured, and assembled a 
 | Finance / Logistics | Track budget, place parts orders, handle registration | Sultan Kazeem | Jack Carbone, Adam Carbone | Ongoing → Apr 24, 2026 |
 | Competition | Transport bot, pit crew, driver's meeting, judge interview | Robert Rateno, Jack Carbone, Adam Carbone | Full team | Apr 25, 2026 |
 
-Each task is tracked in the team's shared Google Classroom. Leads are responsible for reporting status at weekly Monday meetings; blocking items are escalated to advisors Jack and Adam Carbone. A live TODO checklist is maintained in `todo.md` at the repository root, with items crossed off as they complete.
+Each task is tracked in the team's shared Google Classroom. Leads are responsible for reporting status at weekly Tuesday meetings; blocking items are escalated to advisors Jack and Adam Carbone. A live TODO checklist is maintained in `todo.md` at the repository root, with items crossed off as they complete.
 
 ### Time Management
 
