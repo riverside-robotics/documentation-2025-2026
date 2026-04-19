@@ -505,6 +505,7 @@ The Documentation team — Benjamin Mackey, Daniel George, Jason Kellhofer, Kase
 | Project Overview — General Info, Sponsors, Advisors, Manufacturing, Bot Description, Objective | Kaydan Kerr |
 | Project Overview — Team Members, Deliverables, Key Milestones, Constraints | Jason Kellhofer |
 | Team Meltdown — Tasks Distribution (Project Assignments, Action Plan, Time Management) | Tom Kramer |
+| Team Meltdown — Documentation Contributions (Section Ownership, Table 6d) | Tom Kramer (compilation on behalf of the Documentation team) |
 | Team Procedures — Material Management, Bill of Materials, Budget | Kasey Kurzinger |
 | Team Procedures — Material Selection, Fabrication, Inventory | Mher Poghosyan, Kaydan Kerr |
 | Team Procedures — Data Management, Our Component Philosophy | Richard Rowland |
