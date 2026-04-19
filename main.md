@@ -255,7 +255,7 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 | Double-sided design (operates when flipped) | Claw-style blades lacked puncture effectiveness |
 | 6061 aluminum chassis (strong, lightweight) | No dedicated housing for the Raspberry Pi |
 | A516 carbon steel blades (impact-tough) | Software written in Python introduced noticeable input lag |
-| Reusable parts and design knowledge from returning members | Bluetooth controller caused frequent connectivity issues with the Pi |
+| Reusable parts and design knowledge for returning members | Bluetooth controller caused frequent connectivity issues with the Pi |
 | Compact hexagonal shape fits well in the arena | Counterweight system added unnecessary complexity and weight |
 
 #### Negative Aspects — Problems and Solutions
@@ -269,7 +269,7 @@ This year's Spinlayden 2.0 is directly inspired by last year's Spinlayden, River
 | 3 | Claw-style blades | The original claw-shaped blade weapons spread impact force across a wider area, reducing penetration and damage output against armored opponents. | Replaced the machined blade system entirely with 1/2" carbon steel hex bolts threaded through the chassis walls, concentrating force through the bolt tip and shank for improved impact performance. |
 | 4 | No Raspberry Pi housing | The Pi was mounted without a dedicated enclosure, leaving it exposed to vibration, debris, and potential impact damage — especially critical since the Pi now handles all onboard processing. | Designed and manufactured a dedicated housing for the Raspberry Pi, protecting the brain of the bot from physical damage during combat. |
 | 5 | Python software lag | The original Python control script introduced noticeable latency in processing controller inputs and gyroscope data, reducing responsiveness during matches. | Rewrote the entire software stack in C#, significantly reducing input lag and improving real-time responsiveness of the meltybrain control system. |
-| 6 | Bluetooth controller issues | The first-party Xbox controller connected via Bluetooth frequently dropped connection with the Raspberry Pi, causing loss of control during critical moments. | Switched to a controller using a 2.4 GHz USB-A adapter, eliminating Bluetooth reliability issues entirely. |
+| 6 | Bluetooth controller issues | The first-party Xbox controller connected via Bluetooth frequently dropped connection with the Raspberry Pi, causing loss of control during critical moments. | Switched to a traditional analog RC car controller with a dedicated receiver, eliminating Bluetooth reliability issues entirely. |
 | 7 | Counterweight complexity | The central counterweight system from the original design added moving parts, weight, and manufacturing complexity without proportional performance benefit. | Removed the counterweight system entirely, reclaiming weight budget for other components and reducing points of failure. |
 
 ### What Was Changed from the Previous Design
@@ -830,7 +830,7 @@ Throughout the design process, Spinlayden 2.0 underwent several key refinements 
 
 **Software Rewrite (Python → C#):** The original Python meltybrain software suffered from input lag due to Python's interpreted execution. The team rewrote the control system in C# for compiled performance and reduced latency.
 
-**Controller Upgrade (Bluetooth → 2.4 GHz):** The Bluetooth controller used in 1.0 experienced frequent connection drops during matches. We switched to a 2.4 GHz radio controller with a USB receiver for more reliable communication.
+**Controller Upgrade (Bluetooth → Analog RC):** The Bluetooth Xbox controller used in 1.0 experienced frequent connection drops during matches. We switched to a traditional analog RC car controller with a dedicated receiver for more reliable communication.
 
 **Counterweight Removal:** The 1.0 design used counterweights to balance the spinning chassis, adding complexity and weight. The 2.0 design achieves balance through symmetric component placement, eliminating the need for dedicated counterweights.
 
